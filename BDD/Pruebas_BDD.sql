@@ -21,6 +21,7 @@ CREATE TABLE `Alumno` (
 CREATE TABLE `Profesor` (
 	`userName`	VARCHAR ( 20 ) NOT NULL UNIQUE,
 	`password`	BLOB NOT NULL,
+	`correo`	VARHAR ( 40 ),
 	`idUsuario`	INT NOT NULL UNIQUE,
 	PRIMARY KEY(`userName`),
 	FOREIGN KEY(`idUsuario`) REFERENCES `Usuario`(`idUsuario`) ON DELETE CASCADE ON UPDATE CASCADE
