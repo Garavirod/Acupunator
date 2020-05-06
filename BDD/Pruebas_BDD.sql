@@ -243,3 +243,9 @@ R1.idUsuario in (
 select R3.nombre ||' ' || R3.apellidoPa || ' ' || R3.apellidoMa, R1.nombreGrupo, R1.numBoleta
 from Grupo_Alumno as R1, Alumno as R2, Usuario as R3 
 where R3.idUsuario = R2.idUsuario and R2.numBoleta = R1.numBoleta;
+
+/*
+    Elimanr todos los usuario alumnos de un grupo en especifico
+*/
+
+delete from Grupo_Alumno where nombreGrupo = '3CM3';
