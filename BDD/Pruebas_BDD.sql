@@ -71,6 +71,7 @@ INSERT INTO Usuario VALUES(3,'Samger','Linares','Risco');
 INSERT INTO Usuario VALUES(4,'Arely','Osauna','Banda');
 INSERT INTO Usuario VALUES(5,'Arturo','Ramos','Carlin');
 
+insert into Usuario (nombre,apellidoPa,apellidoMa) values('Been','Amanda','Ger');
 
 /*
     Inserción de datos en tabla Alumno
@@ -273,4 +274,19 @@ delete from Grupo_Alumno where nombreGrupo = '3CM3';
     Realizar inserciones de relacion.
     Que no haya inserciones simultaneas 
     mientras se este realizando una accion podria modificar el útimo ID
+
+
+    Antes de insertar cualquier usuario verificar desde el front primero
+     lo siguiente:
+
+        Si se desea insertar un alumno:
+        Revisar en la base de datos para verificar si no hay un N°Bolta igual
+
+        Si se desea insertar un profesor:
+        Revisar en la base de datos si no hay un profesor con el mismo userName
+
+        De ser vacia la consulta proceder al registrar
+        Nombre de suaurio
+        Datos de rol de usuario.
+
 */
