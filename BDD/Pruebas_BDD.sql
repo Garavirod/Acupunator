@@ -81,11 +81,26 @@ INSERT INTO Alumno VALUES('2015350275',2);
 INSERT INTO Alumno VALUES('2015350274',3);
 INSERT INTO Alumno VALUES('2015350273',4);
 
+
+/*
+    Insertar a un usuario que es alumno con sus datos de usuario
+    y ademas su número de boleta
+*/
+
+INSERT INTO Usuario VALUES(6,'Amanda','Ramos','Linares');
+INSERT INTO Alumno VALUES('2015350270',last_insert_rowid());
+
 /*
     Inserción de datos en tabla Profesor
 */
-INSERT INTO Profesor VALUES('@gara',1010101,5);
+INSERT INTO Profesor VALUES('@gara',1010101,'correo123@correo.com',5);
 
+/*
+    Insertar a un usuario que es profesor con sus datos de usuario
+    y ademas su correo, contraseña, y nombre de usuairo
+*/
+INSERT INTO Usuario VALUES(7,'Carlin','Ramos','Linares');
+INSERT INTO Profesor VALUES('@gara',1010101,5,'correo123@correo.com',last_insert_rowid());
 
 /*
     Inserción de datos en tabla Grupo
@@ -245,7 +260,17 @@ from Grupo_Alumno as R1, Alumno as R2, Usuario as R3
 where R3.idUsuario = R2.idUsuario and R2.numBoleta = R1.numBoleta;
 
 /*
-    Elimanr todos los usuario alumnos de un grupo en especifico
+    Eliminar todos los usuario alumnos de un grupo en especifico
 */
 
 delete from Grupo_Alumno where nombreGrupo = '3CM3';
+
+
+
+/*
+    TODO
+
+    Realizar inserciones de relacion.
+    Que no haya inserciones simultaneas 
+    mientras se este realizando una accion podria modificar el útimo ID
+*/
