@@ -266,6 +266,17 @@ where R3.idUsuario = R2.idUsuario and R2.numBoleta = R1.numBoleta;
 
 delete from Grupo_Alumno where nombreGrupo = '3CM3';
 
+/*
+
+    Acutalizar datos del admisntrador, como:
+        userName
+        password
+        correo
+*/
+
+update Profesor set userName = '@nuevoUser' where userName = '@actualUser';
+update Profesor set password = 'nuevoPassword' where userName = '@actualUser';
+update Profesor set correo = '@nuevoCorreo' where userName = '@actualUser';
 
 
 /*
