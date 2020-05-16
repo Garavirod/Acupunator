@@ -99,6 +99,8 @@ INSERT INTO Profesor VALUES('@gara',1010101,'correo123@correo.com',5);
 /*
     Insertar a un usuario que es profesor con sus datos de usuario
     y ademas su correo, contraseña, y nombre de usuairo
+
+    last_insert_rowid : devuelve el id del ultimo registro realizado
 */
 INSERT INTO Usuario VALUES(7,'Carlin','Ramos','Linares');
 INSERT INTO Profesor VALUES('@gara',1010101,5,'correo123@correo.com',last_insert_rowid());
@@ -299,5 +301,7 @@ update Profesor set correo = '@nuevoCorreo' where userName = '@actualUser';
         De ser vacia la consulta proceder al registrar
         Nombre de suaurio
         Datos de rol de usuario.
+
+        
 
 */
