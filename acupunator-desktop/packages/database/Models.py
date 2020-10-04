@@ -1,11 +1,11 @@
 
 # Modelo Usuario
 class ModelUsuario:    
-    def __init__(self):
+    def __init__(self,nombre,apellidoP,apellidoM):
         self.__id=None
-        self.__nombreUsuario=None
-        self.__apelldioPa=None
-        self.__apelldioMa=None    
+        self.__nombreUsuario=nombre
+        self.__apelldioPa=apellidoP
+        self.__apelldioMa=apellidoM
     #Getters
     def getId(self):
         return self.__id
@@ -29,9 +29,9 @@ class ModelUsuario:
 
 
 class ModelAlumno(ModelUsuario):
-    def __init__(self):
-        ModelUsuario.__init__(self)
-        self.__boleta = None
+    def __init__(self,nombre,apellidoP,apellidoM,boleta):
+        ModelUsuario.__init__(self,nombre,apellidoP,apellidoM)
+        self.__boleta = boleta
     
     # Getters
     def getBoleta(self):
@@ -43,11 +43,11 @@ class ModelAlumno(ModelUsuario):
 
 
 class ModelProfesor(ModelUsuario):
-    def __init__(self):
-        ModelUsuario.__init__(self)
-        self.__username = None
-        self.__password = None
-        self.__correo = None
+    def __init__(self,nombre,apellidoP,apellidoM,username,password,correo):
+        ModelUsuario.__init__(self,nombre,apellidoP,apellidoM)
+        self.__username = username
+        self.__password = password
+        self.__correo = correo
 
     # Getters
 
@@ -73,8 +73,8 @@ class ModelProfesor(ModelUsuario):
 
 
 class ModelGrupos():
-    def __init__(self):
-        self.__nombreGrupo=None
+    def __init__(self,nombreGrupo):
+        self.__nombreGrupo=nombreGrupo
     
     # Getter
     def setGrupo(self,grupo):
@@ -85,11 +85,11 @@ class ModelGrupos():
 
 
 class ModelEvaluaciones():
-    def __init__(self):
+    def __init__(self,puntaje,fecha,modulo):
         self.__idEvaluacion=None
-        self.__puntaje=None
-        self.__fecha=None
-        self.__modulo=None
+        self.__puntaje=puntaje
+        self.__fecha=fecha
+        self.__modulo=modulo
 
     # Getters
     def getIdEvaluacion(self):

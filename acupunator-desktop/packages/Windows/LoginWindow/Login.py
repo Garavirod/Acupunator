@@ -7,8 +7,8 @@ from packages.Windows.PanelControlWindow.PanelControl import PanelControlWindow
 
 
 class LoginWindow(QMainWindow):
-    __user__="1234"
-    __password__="1234"
+    __user__="1"
+    __password__="1"
     def __init__(self):
         super(LoginWindow,self).__init__()
         # Cargamos template
