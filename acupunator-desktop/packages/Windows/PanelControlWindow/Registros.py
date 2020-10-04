@@ -2,7 +2,6 @@ import os
 # Third party apps
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.uic import loadUi
-# Ventanas
 
 
 class RegistrosWindow(QMainWindow):

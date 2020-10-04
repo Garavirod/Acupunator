@@ -3,22 +3,27 @@ import os
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.uic import loadUi
 # Ventanas
-from .Registros import RegistrosWindow
+from . import (
+    Registros,
+    Historiales,
+)
 
 class PanelControlWindow(QMainWindow):
     def __init__(self,parent=None):
         super(PanelControlWindow,self).__init__(parent)
         # Cargamos template del panel de control
         loadUi('templates/Home.ui',self)
-        # obtenemos botones del template Pnale de control
+        # cargamos elementos del template
         self.logout.clicked.connect(lambda:self.cerrarSesion())
         self.registro_btn.clicked.connect(lambda:self.openSectionPanel("Registro"))
-    
+        self.historial_btn.clicked.connect(lambda: self.openSectionPanel("Historiales"))
+    # Abre la ventana e una sección dependiendo cual se eligó
     def openSectionPanel(self,sectionName):
         _sectionWindow = None
         if sectionName == "Registro":
-            _sectionWindow = RegistrosWindow(self)                        
+            _sectionWindow = Registros.RegistrosWindow(self)                        
         elif sectionName == "Historiales":
+            _sectionWindow = Historiales.HistorialesWindow(self)
             pass
         elif sectionName == "Simulador":
             pass
