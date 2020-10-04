@@ -1,13 +1,16 @@
 import os
+# Third party apps
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.uic import loadUi
+# Ventanas
+from packages.Windows.PanelControlWindow.PanelControl import PanelControlWindow
 
 
-class Login(QMainWindow):
+class LoginWindow(QMainWindow):
     __user__="1234"
     __password__="1234"
     def __init__(self):
-        super(Login,self).__init__()
+        super(LoginWindow,self).__init__()
         # Cargamos template
         loadUi('templates/Login.ui',self)
         # Componentes del template
@@ -21,10 +24,9 @@ class Login(QMainWindow):
         if (user == "" or password=="" ):            
             self.label_alert.setText("¡Hay campos vacios!")
         elif (user==self.__user__) and (password==self.__password__):
-            # parametros = ParametrosWindow(self)
-            # parametros.show()
-            # self.hide()
-            self.label_alert.setStyleSheet('color: rgb(78,154,6);')
-            self.label_alert.setText("¡Credenciales correctas!")
+            # Se da acceso a la ventana del panel de control
+            _panelcontrol = PanelControlWindow(self)
+            _panelcontrol.show()
+            self.hide() #Ocultamos la ventana principal            
         else:
             self.label_alert.setText("¡Credenciales incorrectas!")

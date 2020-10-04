@@ -283,13 +283,13 @@ color: rgb(255, 255, 255);</string>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="salir_btn">
+       <widget class="QPushButton" name="regresar_btn">
         <property name="styleSheet">
          <string notr="true">background-color: rgb(164, 0, 0);
 color: rgb(255, 255, 255);</string>
         </property>
         <property name="text">
-         <string>salir</string>
+         <string>Regresar</string>
         </property>
        </widget>
       </item>

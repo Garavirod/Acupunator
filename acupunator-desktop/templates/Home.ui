@@ -404,7 +404,7 @@ border-radius:10px;
               <string>Registros</string>
              </property>
             </widget>
-            <widget class="QPushButton" name="regitro_btn">
+            <widget class="QPushButton" name="registro_btn">
              <property name="geometry">
               <rect>
                <x>50</x>
@@ -595,7 +595,7 @@ background-color:none;</string>
       <string>@username</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="login_btn_2">
+    <widget class="QPushButton" name="logout">
      <property name="geometry">
       <rect>
        <x>690</x>
