@@ -2,6 +2,7 @@ import os
 # Third party apps
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.uic import loadUi
+from PyQt5.QtWidgets import QMessageBox
 # Models
 from packages.database.Models import (
     ModelAlumno,
@@ -10,6 +11,10 @@ from packages.database.Models import (
 # Managers
 from packages.database.Manager import (
     registraGrupoAlumnoManager,
+    ERROR_ON_SAVE,
+    SUCCESS,
+    EXISTENCE,
+    ERROR_CON
 )
 
 class RegistrosWindow(QMainWindow):
@@ -44,7 +49,19 @@ class RegistrosWindow(QMainWindow):
                 self.apma_input.text(),
                 self.boleta_input.text()
             )
-            print(registraGrupoAlumnoManager(grupo,alumno))
+            response = registraGrupoAlumnoManager(grupo,alumno)
+            if response == SUCCESS:
+                self.nombre_input.clear(),
+                self.appa_input.clear(),
+                self.apma_input.clear(),
+                self.boleta_input.clear()
+                QMessageBox.information(self, 'Estado de la petición', 'Registro exitoso', QMessageBox.Ok)
+            elif response == EXISTENCE:
+                QMessageBox.warning(self, 'Estado de la petición', 'El número de boleta ya existe', QMessageBox.Ok)                
+            elif response == ERROR_CON:
+                QMessageBox.critical (self, 'Estado de la petición', 'Hubo un error al conectar con la BDD', QMessageBox.Ok)
+            else:
+                QMessageBox.critical (self, 'Estado de la petición', 'Hubo un error al guardar la informacion', QMessageBox.Ok)                            
         else:
             self.alert_alumno.setStyleSheet('color: rgb(164,0,0);')
             self.alert_alumno.setText("¡Hay campos vacios!")
