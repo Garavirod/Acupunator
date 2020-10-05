@@ -24,8 +24,10 @@ class RegistrosWindow(QMainWindow):
         # Cargamos template del panel de control
         loadUi('templates/Registros.ui',self)        
         # cagrgamos elementos del template
-        self.regresar_btn.clicked.connect(lambda:self.backToHome(parent))
-        self.guardar_btn.clicked.connect(self.guardaRegistro)        
+        self.regresar_alu_btn.clicked.connect(lambda:self.backToHome(parent))
+        self.guardar_alu_btn.clicked.connect(self.guardaRegistroAlumno)
+        self.regresar_gru_btn.clicked.connect(lambda:self.backToHome(parent))
+        self.guardar_gru_btn.clicked.connect(self.guardaRegistroGrupo)       
     #Regresa a la venta de Panel de control
     def backToHome(self,parent):
         parent.showWindowHome()
@@ -38,7 +40,7 @@ class RegistrosWindow(QMainWindow):
             return True
 
     # LLama al proeso qeus e encarga de registrar un alumno y asignarlo aun grupo
-    def guardaRegistro(self):
+    def guardaRegistroAlumno(self):
         if self.validaCampos():
             # Creamos una instancia de grupo
             grupo = ModelGrupos(self.grupos_box.currentText())
@@ -65,3 +67,6 @@ class RegistrosWindow(QMainWindow):
         else:
             self.alert_alumno.setStyleSheet('color: rgb(164,0,0);')
             self.alert_alumno.setText("¡Hay campos vacios!")
+
+    def guardaRegistroGrupo(self):
+        pass

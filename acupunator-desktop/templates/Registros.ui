@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>807</width>
+    <width>810</width>
     <height>600</height>
    </rect>
   </property>
@@ -66,7 +66,7 @@ background-color:none;</string>
       <rect>
        <x>20</x>
        <y>90</y>
-       <width>751</width>
+       <width>761</width>
        <height>461</height>
       </rect>
      </property>
@@ -96,201 +96,342 @@ border-radius:10px;
       <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="tab">
          <attribute name="title">
           <string>Alumnos</string>
          </attribute>
-         <layout class="QGridLayout" name="gridLayout">
-          <item row="5" column="1">
-           <widget class="QLineEdit" name="boleta_input">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
+         <widget class="QLineEdit" name="boleta_input">
+          <property name="geometry">
+           <rect>
+            <x>350</x>
+            <y>139</y>
+            <width>142</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="maxLength">
+           <number>10</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>46</y>
+            <width>110</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Nombre alumno</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>170</y>
+            <width>107</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Asignar a grupo</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="grupos_box">
+          <property name="geometry">
+           <rect>
+            <x>350</x>
+            <y>170</y>
+            <width>68</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="maxVisibleItems">
+           <number>100</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>3CM4</string>
+           </property>
           </item>
-          <item row="1" column="0">
-           <widget class="QLabel" name="label">
-            <property name="text">
-             <string>Nombre alumno</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
+          <item>
+           <property name="text">
+            <string>5CM6</string>
+           </property>
           </item>
-          <item row="6" column="0">
-           <widget class="QLabel" name="label_6">
-            <property name="text">
-             <string>Asignar a grupo</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
+          <item>
+           <property name="text">
+            <string>2CM1</string>
+           </property>
           </item>
-          <item row="6" column="1">
-           <widget class="QComboBox" name="grupos_box">
-            <property name="maxVisibleItems">
-             <number>100</number>
-            </property>
-            <item>
-             <property name="text">
-              <string>3CM4</string>
+          <item>
+           <property name="text">
+            <string>4CM6</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>139</y>
+            <width>124</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Número de boleta</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>108</y>
+            <width>119</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Apellido materno</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="nombre_input">
+          <property name="geometry">
+           <rect>
+            <x>350</x>
+            <y>46</y>
+            <width>142</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>77</y>
+            <width>115</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Apellido paterno</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="appa_input">
+          <property name="geometry">
+           <rect>
+            <x>350</x>
+            <y>77</y>
+            <width>142</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="apma_input">
+          <property name="geometry">
+           <rect>
+            <x>350</x>
+            <y>108</y>
+            <width>142</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QFrame" name="frame_2">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>320</y>
+            <width>184</width>
+            <height>43</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="regresar_alu_btn">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(164, 0, 0);
+color: rgb(255, 255, 255);</string>
              </property>
-            </item>
-            <item>
              <property name="text">
-              <string>5CM6</string>
+              <string>Regresar</string>
              </property>
-            </item>
-            <item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="guardar_alu_btn">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(78, 154, 6);
+color: rgb(255, 255, 255);</string>
+             </property>
              <property name="text">
-              <string>2CM1</string>
+              <string>Guardar</string>
              </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>4CM6</string>
-             </property>
-            </item>
-           </widget>
-          </item>
-          <item row="7" column="1">
-           <widget class="QLabel" name="alert_alumno">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="5" column="0">
-           <widget class="QLabel" name="label_4">
-            <property name="text">
-             <string>Número de boleta</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="0">
-           <widget class="QLabel" name="label_3">
-            <property name="text">
-             <string>Apellido materno</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
-           <widget class="QLineEdit" name="nombre_input">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="0">
-           <widget class="QLabel" name="label_2">
-            <property name="text">
-             <string>Apellido paterno</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="1">
-           <widget class="QLineEdit" name="appa_input">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="1">
-           <widget class="QLineEdit" name="apma_input">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-         </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QLabel" name="alert_alumno">
+          <property name="geometry">
+           <rect>
+            <x>205</x>
+            <y>260</y>
+            <width>321</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
         </widget>
         <widget class="QWidget" name="tab_2">
          <attribute name="title">
           <string>Grupos</string>
          </attribute>
-         <layout class="QGridLayout" name="gridLayout_2">
-          <item row="1" column="3">
-           <widget class="QLabel" name="label_7">
-            <property name="text">
-             <string>Escriba el nombre del grupo.</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="4">
-           <widget class="QLineEdit" name="grupo_input">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="4">
-           <widget class="QLabel" name="alert_grupo">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-         </layout>
+         <widget class="QLabel" name="alert_grupo">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>220</y>
+            <width>291</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="grupo_input">
+          <property name="geometry">
+           <rect>
+            <x>221</x>
+            <y>160</y>
+            <width>291</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>100</y>
+            <width>194</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Escriba el nombre del grupo.</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QFrame" name="frame_3">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>290</y>
+            <width>184</width>
+            <height>43</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QPushButton" name="regresar_gru_btn">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(164, 0, 0);
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="text">
+              <string>Regresar</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="guardar_gru_btn">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(78, 154, 6);
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="text">
+              <string>Guardar</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
         </widget>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="guardar_btn">
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(78, 154, 6);
-color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="text">
-         <string>Guardar</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="regresar_btn">
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(164, 0, 0);
-color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="text">
-         <string>Regresar</string>
-        </property>
        </widget>
       </item>
      </layout>
