@@ -1,18 +1,14 @@
 import os.path
 import sqlite3
 from sqlite3 import Error
-
+# Path de la BDD
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# Responses 
-SUCCESS = 1
-EXISTENCE = 2
-ERROR_CON = 3
-ERROR_ON_SAVE = 4
-
+# Respuestas a peticiones de la BDD
+from packages.utils.MessagesResponse import RespBDD;
 
 # Crea una conexión con la base de datos y la retorna
 def connectionDBManager():
-    conn = ERROR_CON
+    conn = RespBDD.ERROR_CON
     db_path = os.path.join(BASE_DIR, "AcupunatorDB.db")
     try:
         conn = sqlite3.connect(db_path)        
@@ -22,7 +18,7 @@ def connectionDBManager():
 
 
 # Verifia la existencia de un alumno dado el numero de boleta
-def verifyEsistenceAlumno(boleta):
+def verifyExistenceAlumno(boleta):
     conn = connectionDBManager()    
     if not conn == None:
         try:
@@ -35,13 +31,28 @@ def verifyEsistenceAlumno(boleta):
             else:
                 return False
         except Error:
-            print("Error alverificar la existencia del usuario")            
+            print("Error alverificar la existencia del usuario")
+
+def verfyExistenceGrupo(grupo):
+    conn = connectionDBManager()    
+    if not conn == None:
+        try:
+            cursor=conn.cursor()
+            query = 'SELECT * FROM "Grupo" WHERE nombreGrupo = "{}"'.format(grupo)
+            cursor.execute(query)
+            rows = cursor.fetchone()
+            if rows:
+                return True
+            else:
+                return False
+        except Error:
+            print("Error al verificar la existencia del usuario")
 
 # Registrar un alumno en el sistema
 def registraAlumnoManager(alumno):    
     conn = connectionDBManager()         
-    if not conn == ERROR_CON:
-            exist = verifyEsistenceAlumno(alumno.getBoleta())
+    if not conn == RespBDD.ERROR_CON:
+            exist = verifyExistenceAlumno(alumno.getBoleta())
             if not exist:
                 try:
                     cursor = conn.cursor()
@@ -61,48 +72,73 @@ def registraAlumnoManager(alumno):
                     conn.commit()
                     # Cerramos la conexión con la BDD
                     conn.close()
-                    return SUCCESS
+                    return RespBDD.SUCCESS
                 except Error:
                     print("Error al registrar al usuario alumno ",Error)
-                    return ERROR_ON_SAVE                    
+                    return RespBDD.ERROR_ON_SAVE                    
             else:                
-                return EXISTENCE
+                return RespBDD.EXISTENCE
     else:
-        return ERROR_CON
+        return RespBDD.ERROR_CON
         
 
 # Registra un grupo en el sistema
 def registraGrupoManager(grupo):
     conn = connectionDBManager()
-    if not conn == ERROR_CON:
-        cursor = conn.cursor()
-        # Consulta para registar un grupo en el sistema
-        query= 'INSERT INTO "Grupo" VALUES ("{}")'.format(grupo)                       
-        cursor.execute(query)
-        # Confirmamos cambios en la BDD
-        conn.commit()
-        # Cerramos la conexión con la BDD
-        conn.close()
-        return True
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            exist = verfyExistenceGrupo(grupo.getGrupo())
+            if not exist:
+                cursor = conn.cursor()
+                # Consulta para registar un grupo en el sistema
+                query= 'INSERT INTO "Grupo" VALUES("{}")'.format(grupo.getGrupo())                       
+                cursor.execute(query)
+                # Confirmamos cambios en la BDD
+                conn.commit()
+                # Cerramos la conexión con la BDD
+                conn.close()
+                return RespBDD.SUCCESS
+            else:
+                return RespBDD.EXISTENCE            
+        except Error as err:
+            print("Error al insertar el grupo",str(err))
+            return RespBDD.ERROR_ON_SAVE
     else:
-        return False
+        return RespBDD.ERROR_CON
 
     
 # Registra un alumno en un grupo
-
 def registraGrupoAlumnoManager(grupo,alumno):
     responseAlumno = registraAlumnoManager(alumno)    
     conn = connectionDBManager()
-    if not (conn == ERROR_CON) and (responseAlumno == SUCCESS):
+    if not (conn == RespBDD.ERROR_CON) and (responseAlumno == RespBDD.SUCCESS):
         try:
             cursor = conn.cursor()
             query = 'INSERT INTO "Grupo_Alumno" VALUES ("{}","{}")'.format(grupo.getGrupo(),alumno.getBoleta())        
             cursor.execute(query)
             conn.commit()
             conn.close()
-            return SUCCESS           
+            return RespBDD.SUCCESS           
         except expression as identifier:
-            return ERROR_ON_SAVE
+            return RespBDD.ERROR_ON_SAVE
     else:
         return responseAlumno
 
+
+# Traeer todos los grupos regisrados
+
+
+def getAllGrupos():
+    conn = connectionDBManager()
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            cursor=conn.cursor()
+            query = 'SELECT * FROM "Grupo"'
+            cursor.execute(query)
+            rows = cursor.fetchall()
+            return rows
+        except Error as err:
+            print("Error al verificar los grupos",str(err))
+            return RespBDD.ERROR_GET
+    else:
+        return RespBDD.ERROR_CON

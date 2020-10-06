@@ -96,7 +96,7 @@ border-radius:10px;
       <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="currentIndex">
-         <number>1</number>
+         <number>0</number>
         </property>
         <widget class="QWidget" name="tab">
          <attribute name="title">
@@ -158,31 +158,203 @@ border-radius:10px;
            <rect>
             <x>350</x>
             <y>170</y>
-            <width>68</width>
+            <width>141</width>
             <height>25</height>
            </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
           </property>
           <property name="maxVisibleItems">
            <number>100</number>
           </property>
           <item>
            <property name="text">
-            <string>3CM4</string>
+            <string>das</string>
            </property>
           </item>
           <item>
            <property name="text">
-            <string>5CM6</string>
+            <string>Nuevo elemento</string>
            </property>
           </item>
           <item>
            <property name="text">
-            <string>2CM1</string>
+            <string>Nuevo elemento</string>
            </property>
           </item>
           <item>
            <property name="text">
-            <string>4CM6</string>
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nuevo elemento</string>
            </property>
           </item>
          </widget>
