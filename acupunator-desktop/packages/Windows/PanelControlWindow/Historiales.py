@@ -17,6 +17,10 @@ from packages.utils.MessagesResponse import RespBDD
 # Models
 from packages.database.Models import ModelGrupos
 
+
+# Windows
+from .Evaluaciones import EvaluacionesWindow
+
 class HistorialesWindow(QMainWindow):
     def __init__(self,parent=None):
         super(HistorialesWindow,self).__init__(parent)
@@ -28,6 +32,7 @@ class HistorialesWindow(QMainWindow):
         self.table_historial.clicked.connect(self.showHistorial)
         self.getGrupos() #LLena el combo box
         self.filtrarAlumnos() # filtra alumnos y despliega en tabla
+        self.__current_group = self.grupos_box.currentText()
 
     #Regresa a la venta de Panel de control
     def backToHome(self,parent):
@@ -61,8 +66,8 @@ class HistorialesWindow(QMainWindow):
     def filtrarAlumnos(self):
         for i in reversed(range(self.table_historial.rowCount())):
             self.table_historial.removeRow(i)
-
-        grupo = ModelGrupos(self.grupos_box.currentText())
+        self.__current_group = self.grupos_box.currentText()
+        grupo = ModelGrupos(self.__current_group)
         response = getAlumnosByGrupo(grupo)        
         if not response == RespBDD.ERROR_GET:
             row = 0 
@@ -77,4 +82,14 @@ class HistorialesWindow(QMainWindow):
     # Abre una venta con el historial de un alumno especifico
     def showHistorial(self):
         row = self.table_historial.currentRow()
-        print(self.table_historial.item(row, 0).text())
+        boleta = self.table_historial.item(row, 0).text()  
+        nombre = self.table_historial.item(row, 1).text()
+        grupo = self.__current_group
+        _evaluacionesWin = EvaluacionesWindow(nombre,boleta.grupo)
+        print("{} {} {}".format(nombre,boleta,grupo))
+        self.hide()
+        _evaluacionesWin.show()        
+
+    # Esta función se llama desde otra ventana para volverla a mostrar
+    def showWindowHome(self):
+        self.show()

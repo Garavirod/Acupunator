@@ -136,6 +136,7 @@ def getAllGrupos():
             query = 'SELECT * FROM "Grupo"'
             cursor.execute(query)
             rows = cursor.fetchall()
+            conn.close()
             return rows
         except Error as err:
             print("Error al verificar los grupos",str(err))
@@ -158,9 +159,33 @@ def getAlumnosByGrupo(grupo):
             """.format(grupo.getGrupo())
             cursor.execute(query)
             rows = cursor.fetchall()
+            conn.close()
             return rows
         except expression as err:
             print("Error al cargar loa alumnos pro grupo ",str(err))
+            return RespBDD.ERROR_GET
+    else:
+        return RespBDD.ERROR_CON
+
+# Traer todas las evaluaciones de un alumno egun su numero de boleta
+def getEvaluaciones(boleta):
+    conn = connectionDBManager()
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            cursor = conn.cursor()
+            query = """
+                SELECT fechaAplicacion, puntaje, moduloAprendizaje 
+                FROM 'Evaluaciones' WHERE idEvaluacion in (
+                    select idEvaluacion FROM 'Alumno_Evaluacion' 
+                    WHERE numBoleta = '{}'
+                )
+            """.format(boleta)
+            cursor.execute(query)
+            rows = cursor.fetchall()
+            conn.close()
+            return rows
+        except Error as err:
+            print("Error al cargar las evaluaciones ", str(err))
             return RespBDD.ERROR_GET
     else:
         return RespBDD.ERROR_CON
