@@ -85,11 +85,11 @@ class HistorialesWindow(QMainWindow):
         boleta = self.table_historial.item(row, 0).text()  
         nombre = self.table_historial.item(row, 1).text()
         grupo = self.__current_group
-        _evaluacionesWin = EvaluacionesWindow(nombre,boleta.grupo)
+        _evaluacionesWin = EvaluacionesWindow(nombre=nombre,boleta=boleta,grupo=grupo,parent=self)
         print("{} {} {}".format(nombre,boleta,grupo))
         self.hide()
         _evaluacionesWin.show()        
 
     # Esta función se llama desde otra ventana para volverla a mostrar
-    def showWindowHome(self):
+    def showWindow(self):
         self.show()

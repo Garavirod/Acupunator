@@ -17,7 +17,7 @@ from packages.utils.MessagesResponse import RespBDD
 from packages.database.Models import ModelGrupos
 
 class EvaluacionesWindow(QMainWindow):
-    def __init__(self,parent=None,nombre,boleta,grupo):
+    def __init__(self,nombre,boleta,grupo,parent=None):
         super(EvaluacionesWindow,self).__init__(parent)
         # Cargamos los datos del alumno
         self.__nombre_alumno = nombre
@@ -35,7 +35,7 @@ class EvaluacionesWindow(QMainWindow):
 
     #Regresa a la venta de Panel de control
     def backTo(self,parent):
-        parent.showWindowHome()
+        parent.showWindow()
         self.hide()
 
      # LLama al prooeso para conseguir tods los grupos en la BDD
@@ -65,8 +65,7 @@ class EvaluacionesWindow(QMainWindow):
     def showEvaluaciones(self):
         # Vaciamos la tabla previamente
         for i in reversed(range(self.table_evaluaciones.rowCount())):
-            self.table_evaluaciones.removeRow(i)
-        self.__current_group = self.grupos_box.currentText()
+            self.table_evaluaciones.removeRow(i)        
         # Hacemos la petcion  a la BDD
         response = getEvaluaciones(self.__boleta)
         # si la peticion fue exitosa se proce a llenar tabla
