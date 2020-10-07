@@ -91,7 +91,7 @@ def registraGrupoManager(grupo):
             if not exist:
                 cursor = conn.cursor()
                 # Consulta para registar un grupo en el sistema
-                query= 'INSERT INTO "Grupo" VALUES("{}")'.format(grupo.getGrupo())                       
+                query= 'INSERT INTO "Grupo" VALUES("{}","{}")'.format(grupo.getGrupo(),grupo.getFechaCreacion())                       
                 cursor.execute(query)
                 # Confirmamos cambios en la BDD
                 conn.commit()

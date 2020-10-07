@@ -1,3 +1,4 @@
+from datetime import datetime
 
 # Modelo Usuario
 class ModelUsuario:    
@@ -74,12 +75,16 @@ class ModelProfesor(ModelUsuario):
 
 class ModelGrupos():
     def __init__(self,nombreGrupo):
+        now = datetime.now()
         self.__nombreGrupo=nombreGrupo
+        self.__fecha_creacion = "{}-{}-{}".format(now.year,now.month,now.day) 
     
-    # Getter
+    # setter
     def setGrupo(self,grupo):
         self.__nombreGrupo=grupo
-    # Setter
+    # Getter
+    def getFechaCreacion(self):
+        return self.__fecha_creacion
     def getGrupo(self):
         return self.__nombreGrupo
 

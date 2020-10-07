@@ -6,6 +6,7 @@ from PyQt5.uic import loadUi
 from . import (
     Registros,
     Historiales,
+    Alumnos,
 )
 
 class PanelControlWindow(QMainWindow):
@@ -17,6 +18,7 @@ class PanelControlWindow(QMainWindow):
         self.logout.clicked.connect(lambda:self.cerrarSesion())
         self.registro_btn.clicked.connect(lambda:self.openSectionPanel("Registro"))
         self.historial_btn.clicked.connect(lambda: self.openSectionPanel("Historiales"))
+        self.alumnos_btn.clicked.connect(lambda:self.openSectionPanel("Alumnos"))
     # Abre la ventana e una sección dependiendo cual se eligó
     def openSectionPanel(self,sectionName):
         _sectionWindow = None
@@ -30,7 +32,7 @@ class PanelControlWindow(QMainWindow):
         elif sectionName == "Grupos":
             pass
         elif sectionName == "Alumnos":
-            pass
+            _sectionWindow = Alumnos.AlumnosWindow(self)            
         else:
             pass
         self.hide()
