@@ -36,7 +36,7 @@ class HistorialesWindow(QMainWindow):
 
     #Regresa a la venta de Panel de control
     def backToHome(self,parent):
-        parent.showWindowHome()
+        parent.show()
         self.hide()
 
      # LLama al prooeso para conseguir tods los grupos en la BDD
@@ -69,10 +69,8 @@ class HistorialesWindow(QMainWindow):
         self.__current_group = self.grupos_box.currentText()
         grupo = ModelGrupos(self.__current_group)
         response = getAlumnosByGrupo(grupo)        
-        if not response == RespBDD.ERROR_GET:
-            row = 0 
-            for registro in response:
-                col = 0
+        if not response == RespBDD.ERROR_GET:            
+            for registro in response:                
                 fullname = "{} {} {}".format(registro[2],registro[1],registro[0])
                 boleta = registro[3]
                 self.fillTable(self.table_historial,[boleta,fullname])
@@ -89,7 +87,3 @@ class HistorialesWindow(QMainWindow):
         print("{} {} {}".format(nombre,boleta,grupo))
         self.hide()
         _evaluacionesWin.show()        
-
-    # Esta función se llama desde otra ventana para volverla a mostrar
-    def showWindow(self):
-        self.show()

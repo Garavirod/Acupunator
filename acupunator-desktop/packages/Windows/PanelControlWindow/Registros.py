@@ -33,7 +33,7 @@ class RegistrosWindow(QMainWindow):
         self.getGrupos()
     #Regresa a la venta de Panel de control
     def backToHome(self,parent):
-        parent.showWindowHome()
+        parent.show()
         self.hide()
 
     # LLama al prooeso para conseguir tods los grupos en la BDD

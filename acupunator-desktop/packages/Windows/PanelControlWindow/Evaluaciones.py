@@ -35,7 +35,7 @@ class EvaluacionesWindow(QMainWindow):
 
     #Regresa a la venta de Panel de control
     def backTo(self,parent):
-        parent.showWindow()
+        parent.show()
         self.hide()
 
      # LLama al prooeso para conseguir tods los grupos en la BDD

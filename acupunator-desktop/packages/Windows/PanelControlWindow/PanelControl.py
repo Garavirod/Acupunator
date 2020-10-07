@@ -34,12 +34,7 @@ class PanelControlWindow(QMainWindow):
         else:
             pass
         self.hide()
-        _sectionWindow.show()
-    
-    # Esta función se llama desde otra ventana para volverla a mostrar
-    def showWindowHome(self):
-        self.show()
-
+        _sectionWindow.show()    
 
     # Cierra la sesión de la aplicación
     def cerrarSesion(self):
