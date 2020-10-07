@@ -142,3 +142,25 @@ def getAllGrupos():
             return RespBDD.ERROR_GET
     else:
         return RespBDD.ERROR_CON
+
+# Tareer todos los alumno que peretenecen a un grupo en especifico
+def getAlumnosByGrupo(grupo):
+    conn = connectionDBManager()
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            cursor = conn.cursor()
+            query = """
+                select R1.nombre, R1.apellidoPa, R1.apellidoMa, R2.numBoleta from Usuario as R1, (
+                    select * from Alumno where numBoleta in (
+                        select numBoleta from Grupo_Alumno where nombreGrupo = '{}'
+                    )
+                ) as R2 where R1.idUsuario = R2.idUsuario;
+            """.format(grupo.getGrupo())
+            cursor.execute(query)
+            rows = cursor.fetchall()
+            return rows
+        except expression as err:
+            print("Error al cargar loa alumnos pro grupo ",str(err))
+            return RespBDD.ERROR_GET
+    else:
+        return RespBDD.ERROR_CON
