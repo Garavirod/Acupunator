@@ -189,3 +189,29 @@ def getEvaluaciones(boleta):
             return RespBDD.ERROR_GET
     else:
         return RespBDD.ERROR_CON
+
+# Traer toda la infromacion respecto a los grupos
+
+def getFullDataGrupos():
+    conn = connectionDBManager()
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            cursor = conn.cursor()
+            query = """
+                select R1.nombreGrupo, R1.fechaCreacion, R2.cantidad
+                from 'Grupo' as R1, (
+                    select *,count(numBoleta) as cantidad 
+                    from 'Grupo_Alumno' 
+                    group by nombreGrupo
+                ) as R2
+                where R1.nombreGrupo = R2.nombreGrupo
+            """
+            cursor.execute(query)
+            rows = cursor.fetchall()
+            conn.close()
+            return rows
+        except Error as err:
+            print("Error al cargar los datos de full grupo", str(err))
+            return RespBDD.ERROR_GET            
+    else:
+        return RespBDD.ERROR_CON

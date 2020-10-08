@@ -7,6 +7,7 @@ from . import (
     Registros,
     Historiales,
     Alumnos,
+    Grupos,
 )
 
 class PanelControlWindow(QMainWindow):
@@ -19,6 +20,7 @@ class PanelControlWindow(QMainWindow):
         self.registro_btn.clicked.connect(lambda:self.openSectionPanel("Registro"))
         self.historial_btn.clicked.connect(lambda: self.openSectionPanel("Historiales"))
         self.alumnos_btn.clicked.connect(lambda:self.openSectionPanel("Alumnos"))
+        self.grupos_btn.clicked.connect(lambda:self.openSectionPanel("Grupos"))
     # Abre la ventana e una sección dependiendo cual se eligó
     def openSectionPanel(self,sectionName):
         _sectionWindow = None
@@ -30,7 +32,7 @@ class PanelControlWindow(QMainWindow):
         elif sectionName == "Simulador":
             pass
         elif sectionName == "Grupos":
-            pass
+             _sectionWindow = Grupos.GruposWindow(self)        
         elif sectionName == "Alumnos":
             _sectionWindow = Alumnos.AlumnosWindow(self)            
         else:

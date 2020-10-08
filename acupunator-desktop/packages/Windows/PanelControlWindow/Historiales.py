@@ -71,7 +71,7 @@ class HistorialesWindow(QMainWindow):
         response = getAlumnosByGrupo(grupo)        
         if not response == RespBDD.ERROR_GET:            
             for registro in response:                
-                fullname = "{} {} {}".format(registro[2],registro[1],registro[0])
+                fullname = "{} {} {}".format(registro[1],registro[2],registro[0])
                 boleta = registro[3]
                 self.fillTable(self.table_historial,[boleta,fullname])
         else:

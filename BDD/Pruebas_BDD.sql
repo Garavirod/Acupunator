@@ -30,7 +30,8 @@ CREATE TABLE `Profesor` (
 
 CREATE TABLE `Grupo` (
 	`nombreGrupo`	VARCHAR ( 30 ) NOT NULL UNIQUE,
-	PRIMARY KEY(`nombreGrupo`)
+    `fechaCreacion`	DATE NOT NULL,
+    PRIMARY KEY(`nombreGrupo`)
 );
 
 
@@ -108,10 +109,7 @@ INSERT INTO Profesor VALUES('@gara',1010101,5,'correo123@correo.com',last_insert
 /*
     Inserción de datos en tabla Grupo
 */
-INSERT INTO Grupo VALUES('3CM3');
-INSERT INTO Grupo VALUES('3CM4');
-INSERT INTO Grupo VALUES('3CM5');
-INSERT INTO Grupo VALUES('3CM1');
+INSERT INTO Grupo VALUES('3CM3','2014-23-02');
 
 /*
     Inserción de datos en tabla Grupo_Alumno
@@ -187,19 +185,19 @@ INSERT INTO Alumno VALUES('2015350123',200);
 
 /*
     Traer a todos los usuarios que son alumnos
-    por nombre, apellido paterno y materno que son 
+    por nombre, apellido paterno, materno y boleta que son 
     de un grupo en específico 
     
 */
 
-select nombre, apellidoPa, apellidoMa from Usuario 
-    where idUsuario in (
-	    select idUsuario from Alumno 
-            where numBoleta in (
-		        select numBoleta from Grupo_Alumno 
-                    where nombreGrupo = '3CM4'
-	)
-);
+select R1.nombre, R1.apellidoPa, R1.apellidoMa, R2.numBoleta 
+from Usuario as R1, (
+	select * from Alumno where numBoleta in (
+        select numBoleta 
+        from Grupo_Alumno 
+        where nombreGrupo = '3CM4'
+    )
+) as R2 where R1.idUsuario = R2.idUsuario;
 
 
 /*
@@ -210,6 +208,20 @@ delete from Usuario where idUsuario in (
     select idUsuario from Alumno where numBoleta = '2015350276'
 );
 
+
+
+/*
+    traer todos los datos de todos los grupos con la cantidad 
+    de alumnos inscriptos en él
+*/
+
+select R1.nombreGrupo, R2.cantidad, R1.fechaCreacion
+from 'Grupo' as R1, (
+	select *,count(numBoleta) as cantidad 
+	from 'Grupo_Alumno' 
+	group by nombreGrupo
+) as R2
+where R1.nombreGrupo = R2.nombreGrupo;
 
 /*
     Eliminar a un usuario que es profesor basado en su nombre de usuario
@@ -268,6 +280,20 @@ where R3.idUsuario = R2.idUsuario and R2.numBoleta = R1.numBoleta;
 
 delete from Grupo_Alumno where nombreGrupo = '3CM3';
 
+
+
+/*
+    Traer todas laas calificiaciones de un aumno segun su numero
+    de boleta
+*/
+
+SELECT fechaAplicacion, puntaje, moduloAprendizaje 
+FROM 'Evaluaciones' WHERE idEvaluacion in (
+	select idEvaluacion FROM 'Alumno_Evaluacion' 
+    WHERE numBoleta = '2015350274'
+);
+
+
 /*
 
     Acutalizar datos del admisntrador, como:
@@ -275,7 +301,6 @@ delete from Grupo_Alumno where nombreGrupo = '3CM3';
         password
         correo
 */
-
 update Profesor set userName = '@nuevoUser' where userName = '@actualUser';
 update Profesor set password = 'nuevoPassword' where userName = '@actualUser';
 update Profesor set correo = '@nuevoCorreo' where userName = '@actualUser';
