@@ -102,35 +102,6 @@ border-radius:10px;
          <attribute name="title">
           <string>Alumnos</string>
          </attribute>
-         <widget class="QFrame" name="frame_2">
-          <property name="geometry">
-           <rect>
-            <x>290</x>
-            <y>340</y>
-            <width>141</width>
-            <height>43</height>
-           </rect>
-          </property>
-          <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
-          <layout class="QHBoxLayout" name="horizontalLayout_2">
-           <item>
-            <widget class="QPushButton" name="regresar_alu_btn">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(206, 92, 0);
-color: rgb(255, 255, 255);</string>
-             </property>
-             <property name="text">
-              <string>Regresar</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </widget>
          <widget class="QLabel" name="alert_alumno">
           <property name="geometry">
            <rect>
@@ -179,14 +150,37 @@ color: rgb(255, 255, 255);</string>
                 </property>
                </widget>
               </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frame_6">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout">
               <item>
-               <widget class="QComboBox" name="comboBox"/>
+               <widget class="QComboBox" name="grupos_box"/>
+              </item>
+              <item>
+               <widget class="QPushButton" name="filtro_btn_alumno">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(32, 74, 135);
+color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Filtrar</string>
+                </property>
+               </widget>
               </item>
              </layout>
             </widget>
            </item>
            <item>
-            <widget class="QTableWidget" name="table_historial_2">
+            <widget class="QTableWidget" name="table_alumnos">
              <property name="sizeIncrement">
               <size>
                <width>0</width>
@@ -522,7 +516,7 @@ color: rgb(255, 255, 255);</string>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="label_3">
+               <widget class="QLabel" name="label_num_alum">
                 <property name="text">
                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;30&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
@@ -584,7 +578,7 @@ color: rgb(255, 255, 255);</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="guardar_alu_btn">
+               <widget class="QPushButton" name="elimina_alu_btn">
                 <property name="styleSheet">
                  <string notr="true">background-color: rgb(164, 0, 0);
 color: rgb(255, 255, 255);</string>
@@ -598,6 +592,23 @@ color: rgb(255, 255, 255);</string>
             </widget>
            </item>
           </layout>
+         </widget>
+         <widget class="QPushButton" name="regresar_alu_btn">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>350</y>
+            <width>93</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(206, 92, 0);
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Regresar</string>
+          </property>
          </widget>
         </widget>
         <widget class="QWidget" name="tab_2">

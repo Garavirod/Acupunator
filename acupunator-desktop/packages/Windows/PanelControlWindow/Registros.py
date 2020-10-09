@@ -18,7 +18,6 @@ from packages.database.Manager import (
 # utils
 from packages.utils.MessagesResponse import RespBDD
 
-from packages.utils.MessagesResponse import *
 class RegistrosWindow(QMainWindow):
     
     def __init__(self,parent=None):

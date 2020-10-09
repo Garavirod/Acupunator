@@ -215,3 +215,41 @@ def getFullDataGrupos():
             return RespBDD.ERROR_GET            
     else:
         return RespBDD.ERROR_CON
+
+
+# Eliminar un usuario que es alumno de las base de datos
+def eliminaAlumnobyBoleta(boleta):
+    conn = connectionDBManager()
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            cursor = conn.cursor()
+            query = """
+                delete from 'Usuario' where idUsuario in (
+                    select idUsuario from 'Alumno' where numBoleta = '{}'
+                )
+            """.format(boleta)
+            cursor.execute(query)
+            conn.commit()
+            conn.close()
+        except Error as err:
+            print("Error al eliminar un alumno ",str(err))
+            return RespBDD.ERROR_ON_DELETE        
+    else:
+        return RespBDD.ERROR_CON
+
+# Conseguir los datos del admisntrador
+def getDatosProfesorManager():
+    conn = connectionDBManager()
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            cursor = conn.cursor()
+            query = 'SELECT * FROM Profesor'
+            cursor.execute(query)
+            rows = cursor.fetchone()
+            conn.close()
+            return rows
+        except Error as err:
+            print("Error al tarer los datos del adminstrador ",str(err))
+            return RespBDD.ERROR_GET
+    else:
+        return RespBDD.ERROR_CON

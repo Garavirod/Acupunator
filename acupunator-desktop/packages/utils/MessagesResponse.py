@@ -4,3 +4,4 @@ class RespBDD:
     ERROR_CON = 3
     ERROR_ON_SAVE = 4
     ERROR_GET = 5
+    ERROR_ON_DELETE = 6
