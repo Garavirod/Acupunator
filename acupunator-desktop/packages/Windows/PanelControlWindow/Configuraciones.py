@@ -54,11 +54,11 @@ class ConfiguracionesWindow(QMainWindow):
             datosAdmin = getDatosProfesorManager()
             if not datosAdmin == RespBDD.ERROR_GET:
                 psd = PasswordEncrypt()
-                # Validamos password
+                # Validamos password                
                 if psd.validatepassword(self.password_input.text(),datosAdmin[1]):
                     # Relizamos la petcion de eliminacion al manager
-                    response = eliminaAlumnobyBoleta()
-                    # Verifiamos la respuetsa de eliminación de los datos
+                    response = eliminaAlumnobyBoleta(self.boleta_input.text())
+                    # Verifiamos la respuetsa de psdeliminación de los datos
                     if not response == RespBDD.ERROR_ON_DELETE:
                         QMessageBox.information(self, 'Estado de la petición', 'Alumno eliminado exitosamente', QMessageBox.Ok)                
                     else:

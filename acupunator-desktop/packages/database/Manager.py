@@ -231,6 +231,7 @@ def eliminaAlumnobyBoleta(boleta):
             cursor.execute(query)
             conn.commit()
             conn.close()
+            return RespBDD.SUCCESS
         except Error as err:
             print("Error al eliminar un alumno ",str(err))
             return RespBDD.ERROR_ON_DELETE        
