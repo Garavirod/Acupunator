@@ -11,10 +11,13 @@ CREATE TABLE `Usuario` (
 
 
 CREATE TABLE `Alumno` (
-	`numBoleta`	VARCHAR ( 10 ) NOT NULL UNIQUE,
-	`idUsuario`	INT NOT NULL UNIQUE,
-	FOREIGN KEY(`idUsuario`) REFERENCES `Usuario`(`idUsuario`) ON DELETE CASCADE ON UPDATE CASCADE,
-	PRIMARY KEY(`numBoleta`)
+	numBoleta	VARCHAR ( 10 ) NOT NULL UNIQUE,
+	idUsuario	INT NOT NULL UNIQUE,
+    CONSTRAINT fk_idUsuario
+	FOREIGN KEY(idUsuario) 
+    REFERENCES Usuario(idUsuario) 
+    ON DELETE CASCADE ON UPDATE CASCADE
+	PRIMARY KEY(numBoleta)
 );
 
 
