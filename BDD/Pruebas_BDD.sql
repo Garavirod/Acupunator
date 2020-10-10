@@ -310,6 +310,26 @@ update Profesor set correo = '@nuevoCorreo' where userName = '@actualUser';
 
 
 /*
+    Actualizar los datos de un estudiante
+*/
+
+update Usuario 
+set 
+nombre = 'RODRIGO',
+apellidoPa = 'GARCIA',
+apellidoMa = 'AVILA'
+where idUsuario in (
+	select idUsuario 
+	from Alumno 
+	where numBoleta = '1111111111'
+)
+
+update Alumno 
+set numBoleta = '9999999999' 
+where numBoleta = '1111111111'
+
+
+/*
     TODO
 
     Realizar inserciones de relacion.
