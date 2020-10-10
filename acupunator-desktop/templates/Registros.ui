@@ -399,6 +399,9 @@ border-radius:10px;
             <height>25</height>
            </rect>
           </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhUppercaseOnly</set>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -431,6 +434,9 @@ border-radius:10px;
             <height>25</height>
            </rect>
           </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhUppercaseOnly</set>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -446,6 +452,9 @@ border-radius:10px;
             <width>142</width>
             <height>25</height>
            </rect>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhUppercaseOnly</set>
           </property>
           <property name="text">
            <string/>

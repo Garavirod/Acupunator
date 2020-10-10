@@ -35,6 +35,7 @@ def verifyExistenceAlumno(boleta):
         except Error:
             print("Error alverificar la existencia del usuario")
 
+# Verifica la existencia de un grupo en las base de datos
 def verfyExistenceGrupo(grupo):
     conn = connectionDBManager()    
     if not conn == None:
@@ -256,5 +257,23 @@ def getDatosProfesorManager():
         except Error as err:
             print("Error al tarer los datos del adminstrador ",str(err))
             return RespBDD.ERROR_GET
+    else:
+        return RespBDD.ERROR_CON
+
+
+# Trae la cantidad de alumnos registrados en el sistema
+def countAlumnosManager():
+    conn = connectionDBManager()
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            curosr = conn.cursor()
+            query = """select count(*) from Alumno;"""
+            curosr.execute(query)
+            rows = curosr.fetchone()
+            return rows
+        except Error as err:
+            print("Error al contar los alumnos ",str(err))
+            return RespBDD.ERROR_GET
+            pass
     else:
         return RespBDD.ERROR_CON
