@@ -232,8 +232,7 @@ def eliminaAlumnobyBoleta(boleta):
                 );
             """
             cursor.execute(query,(boleta,))
-            conn.commit()
-            conn.commit()            
+            conn.commit()                      
             print("Alumno eliminado")                     
             conn.close()
             return RespBDD.SUCCESS
@@ -275,5 +274,69 @@ def countAlumnosManager():
             print("Error al contar los alumnos ",str(err))
             return RespBDD.ERROR_GET
             pass
+    else:
+        return RespBDD.ERROR_CON
+
+# Actualiza los datos de un estudiante
+def actualizaAlumnoManager(alumno,grupo,oldBoleta):
+    conn = connectionDBManager()
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            cursor = conn.cursor()
+            # Actualizar datos generales de usuario
+            query = """
+            update Usuario 
+            set 
+            nombre = ?,
+            apellidoPa = ?,
+            apellidoMa = ?
+            where idUsuario in (
+                select idUsuario 
+                from Alumno 
+                where numBoleta = ?
+            )
+            """
+            # Ejecutamos consulta
+            cursor.execute(query,(
+                alumno.getNombre(),
+                alumno.getApelldioPa(),
+                alumno.getApellidoMa(),
+                oldBoleta,
+                )
+            )
+            # Guardamos cambios
+            conn.commit()
+            # Actualizamos boleta
+            query="""
+            update Alumno 
+            set numBoleta = ? 
+            where numBoleta = ?
+            """
+            cursor.execute(query,(
+                alumno.getBoleta(),
+                oldBoleta,
+            ))
+            # Guardamos cambios en la BDD
+            conn.commit()
+
+            # Actualizamos alumno en grupo
+            query = """
+            update Grupo_Alumno 
+            set nombreGrupo = ? 
+            where numBoleta = ?
+            """
+            # Ejecutamos consulta
+            cursor.execute(query,(
+                grupo.getGrupo(),
+                alumno.getBoleta(),
+            ))
+            # Guardamos cambios
+            conn.commit()
+            # Cerramos conexión
+            conn.close()
+            return RespBDD.SUCCESS            
+        except Error as err:
+            print("Error al actualizar datos ",str(err))
+            return RespBDD.ERROR_ON_UPDATE
     else:
         return RespBDD.ERROR_CON

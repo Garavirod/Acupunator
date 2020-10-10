@@ -138,13 +138,17 @@ class ConfiguracionesWindow(QMainWindow):
         nombre = self.table_alumnos.item(row, 1).text()
         grupo = self.__current_group        
         print("{} {} {}".format(nombre,boleta,grupo))
+        # Destructuramos el nombre en sus partes
         nombre = nombre.split(" ")
+        # Inhabilitamos la ventana padre para evitar procesos simultaneos
         self.setEnabled(False)
+        # Creamos la instacia de la Ventana que servirá para actucalizar los datos
         windActualizaDatos = ActualizaAlumnoWindow(
             parent=self,
             nombre=nombre[2],
             boleta=boleta,
             apellidoPa=nombre[0],
             apellidoMa=nombre[1],
-            grupo=grupo)        
+            grupo=grupo)
+        # Mostramos la ventana
         windActualizaDatos.show()
