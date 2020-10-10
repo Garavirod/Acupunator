@@ -11,7 +11,9 @@ def connectionDBManager():
     conn = RespBDD.ERROR_CON
     db_path = os.path.join(BASE_DIR, "AcupunatorDB.db")
     try:
-        conn = sqlite3.connect(db_path)        
+        conn = sqlite3.connect(db_path)
+        # Habilitamos llaves foraneas, slite no las habilita por defecto
+        conn.execute("PRAGMA foreign_keys = 1")        
     except Error:
         print ("Hubo un error al conectar con las base de datos")
     return conn
@@ -224,12 +226,14 @@ def eliminaAlumnobyBoleta(boleta):
         try:
             cursor = conn.cursor()
             query = """
-                delete from 'Usuario' where idUsuario in (
-                    select idUsuario from 'Alumno' where numBoleta = '{}'
-                )
-            """.format(boleta)
-            cursor.execute(query)
+                delete from 'Usuario' WHERE ROWID in (
+                    select idUsuario from 'Alumno' WHERE numBoleta = ?
+                );
+            """
+            cursor.execute(query,(boleta,))
             conn.commit()
+            conn.commit()            
+            print("Alumno eliminado")                     
             conn.close()
             return RespBDD.SUCCESS
         except Error as err:
