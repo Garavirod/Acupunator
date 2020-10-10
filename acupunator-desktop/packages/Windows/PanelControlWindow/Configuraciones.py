@@ -21,18 +21,21 @@ from packages.database.Manager import (
 from packages.utils.MessagesResponse import RespBDD
 from packages.utils.PsdEncrypt import PasswordEncrypt
 
+# windows
+from .ActualizaAlumno import ActualizaAlumnoWindow
+
 
 
 class ConfiguracionesWindow(QMainWindow):
     def __init__(self,parent=None):
-        super(ConfiguracionesWindow,self).__init__(parent)
+        super(ConfiguracionesWindow,self).__init__(parent)        
         # Cargamos template del panel de control
         loadUi('templates/Configuraciones.ui',self)
-        # cagrgamos elementos del template tab Alumnos
+        # cagrgamos elementos del template tab Alumnos        
         self.elimina_alu_btn.clicked.connect(self.eliminaAlumno)
         self.regresar_alu_btn.clicked.connect(lambda: self.backToParent(parent))
         self.filtro_btn_alumno.clicked.connect(self.filtraGrupos)
-        self.table_alumnos.clicked.connect(self.showActualizaDatos)
+        self.table_alumnos.clicked.connect(lambda:self.showActualizaDatos(parent))
         self.__current_group = None
         self.getGrupos()
         self.countAlumnos()
@@ -129,9 +132,19 @@ class ConfiguracionesWindow(QMainWindow):
             self.alert_alumno.setText("¡Hay campos vacios!")
 
     # Abre una ventana con los datos del alumno
-    def showActualizaDatos(self):
+    def showActualizaDatos(self,parent):
         row = self.table_alumnos.currentRow()
         boleta = self.table_alumnos.item(row, 0).text()  
         nombre = self.table_alumnos.item(row, 1).text()
         grupo = self.__current_group        
         print("{} {} {}".format(nombre,boleta,grupo))
+        nombre = nombre.split(" ")
+        self.setEnabled(False)
+        windActualizaDatos = ActualizaAlumnoWindow(
+            parent=self,
+            nombre=nombre[2],
+            boleta=boleta,
+            apellidoPa=nombre[0],
+            apellidoMa=nombre[1],
+            grupo=grupo)        
+        windActualizaDatos.show()
