@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>810</width>
-    <height>600</height>
+    <height>662</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>10</x>
       <y>10</y>
       <width>791</width>
-      <height>571</height>
+      <height>651</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -67,7 +67,7 @@ background-color:none;</string>
        <x>20</x>
        <y>90</y>
        <width>761</width>
-       <height>461</height>
+       <height>521</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -96,7 +96,7 @@ border-radius:10px;
       <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="tab">
          <attribute name="title">
@@ -124,7 +124,7 @@ border-radius:10px;
             <x>360</x>
             <y>50</y>
             <width>371</width>
-            <height>271</height>
+            <height>331</height>
            </rect>
           </property>
           <property name="title">
@@ -219,7 +219,7 @@ color: rgb(255, 255, 255);</string>
             <x>10</x>
             <y>50</y>
             <width>341</width>
-            <height>271</height>
+            <height>331</height>
            </rect>
           </property>
           <property name="title">
@@ -334,8 +334,8 @@ color: rgb(255, 255, 255);</string>
          <widget class="QPushButton" name="regresar_alu_btn">
           <property name="geometry">
            <rect>
-            <x>330</x>
-            <y>350</y>
+            <x>10</x>
+            <y>410</y>
             <width>93</width>
             <height>25</height>
            </rect>
@@ -353,93 +353,275 @@ color: rgb(255, 255, 255);</string>
          <attribute name="title">
           <string>Grupos</string>
          </attribute>
-         <widget class="QLabel" name="alert_grupo">
+         <widget class="QGroupBox" name="groupBox_3">
           <property name="geometry">
            <rect>
-            <x>220</x>
-            <y>220</y>
-            <width>291</width>
-            <height>20</height>
+            <x>330</x>
+            <y>10</y>
+            <width>401</width>
+            <height>231</height>
            </rect>
           </property>
-          <property name="text">
-           <string/>
+          <property name="title">
+           <string>Eliminación y actualización de datos</string>
           </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-         <widget class="QLineEdit" name="grupo_input">
-          <property name="geometry">
-           <rect>
-            <x>221</x>
-            <y>160</y>
-            <width>291</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_7">
-          <property name="geometry">
-           <rect>
-            <x>270</x>
-            <y>100</y>
-            <width>194</width>
-            <height>17</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Escriba el nombre del grupo.</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-         <widget class="QFrame" name="frame_3">
-          <property name="geometry">
-           <rect>
-            <x>270</x>
-            <y>290</y>
-            <width>184</width>
-            <height>43</height>
-           </rect>
-          </property>
-          <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
-          <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
            <item>
-            <widget class="QPushButton" name="regresar_gru_btn">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(164, 0, 0);
+            <widget class="QFrame" name="frame_3">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QRadioButton" name="radioButton">
+                <property name="text">
+                 <string>Grupo</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QRadioButton" name="radioButton_2">
+                <property name="text">
+                 <string>Sólo alumnos</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="elimina_gru_btn">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(164, 0, 0);
 color: rgb(255, 255, 255);</string>
-             </property>
-             <property name="text">
-              <string>Regresar</string>
-             </property>
+                </property>
+                <property name="text">
+                 <string>Eliminar</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
             </widget>
            </item>
            <item>
-            <widget class="QPushButton" name="guardar_gru_btn">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(78, 154, 6);
+            <widget class="QFrame" name="frame_2">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <widget class="QLabel" name="alert_alumno_4">
+                <property name="text">
+                 <string>Cambiar nombre del grupo</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="nuevo_nombre">
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="echoMode">
+                 <enum>QLineEdit::Normal</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="placeholderText">
+                 <string>nuevo nombre</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="elimina_gru_btn_3">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(32, 74, 135);
 color: rgb(255, 255, 255);</string>
-             </property>
-             <property name="text">
-              <string>Guardar</string>
-             </property>
+                </property>
+                <property name="text">
+                 <string>Cambiar</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
             </widget>
            </item>
           </layout>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>311</width>
+            <height>231</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Datos Generales</string>
+          </property>
+          <widget class="QFrame" name="frame_8">
+           <property name="geometry">
+            <rect>
+             <x>110</x>
+             <y>120</y>
+             <width>81</width>
+             <height>91</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_9">
+            <item>
+             <widget class="QLabel" name="label_num_grupos_2">
+              <property name="font">
+               <font>
+                <pointsize>30</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QLabel" name="alert_alumno_7">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>40</y>
+             <width>271</width>
+             <height>65</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Total de grupos en el sistema</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>250</y>
+            <width>311</width>
+            <height>91</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Selección de grupo</string>
+          </property>
+          <widget class="QComboBox" name="grupos_box_gru_2">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>50</y>
+             <width>207</width>
+             <height>25</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>280</y>
+            <width>391</width>
+            <height>161</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Autorización</string>
+          </property>
+          <widget class="QLineEdit" name="password_input_gru">
+           <property name="geometry">
+            <rect>
+             <x>90</x>
+             <y>80</y>
+             <width>207</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <property name="placeholderText">
+            <string>Password de autorización</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="alert_alumno_8">
+           <property name="geometry">
+            <rect>
+             <x>90</x>
+             <y>30</y>
+             <width>207</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Autorización</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="alert_alumno_9">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>120</y>
+             <width>261</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>¡Necesita autorizar cualquier cambio!</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="regresar_alu_btn_2">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>390</y>
+            <width>93</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(206, 92, 0);
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Regresar</string>
+          </property>
          </widget>
         </widget>
         <widget class="QWidget" name="tab_3">
