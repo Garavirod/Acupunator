@@ -340,3 +340,49 @@ def actualizaAlumnoManager(alumno,grupo,oldBoleta):
             return RespBDD.ERROR_ON_UPDATE
     else:
         return RespBDD.ERROR_CON
+
+
+# Contar el numero de grupos en el siatma
+def countGruposManager():
+    conn = connectionDBManager()
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            cursor = conn.cursor()
+            query = """select count(*) from Grupo"""
+            cursor.execute(query)            
+            rows = cursor.fetchone()
+            conn.close()
+            return rows
+        except Error as err:
+            print("Error al cargar el número de grupos ",str(err))
+            return RespBDD.ERROR_GET
+    else:
+        return RespBDD.ERROR_CON
+
+def eliminaDatosGrupoManager(grupo,all_alu):
+    conn = connectionDBManager()
+    if not conn == RespBDD.ERROR_CON:
+        try:
+            cursor = conn.cursor()            
+            query1 = """
+            delete from Alumno WHERE numBoleta in (
+                select numBoleta from Grupo_Alumno WHERE nombreGrupo = ?
+            )
+            """
+            if all_alu:
+                cursor.execute(query1,(grupo.getGrupo(),))
+                conn.commit()                            
+            else:
+                query2 = """delete from Grupo where nombreGrupo = ?"""            
+                cursor.execute(query2,(grupo.getGrupo(),))
+                conn.commit()
+                cursor.execute(query1,(grupo.getGrupo(),))                
+                conn.commit()
+            conn.close()
+            return RespBDD.SUCCESS    
+        except Error as err:
+            print("Error al eliminar datos de grupo",str(err))
+            return RespBDD.ERROR_ON_DELETE        
+    else:
+        return RespBDD.ERROR_CON
+

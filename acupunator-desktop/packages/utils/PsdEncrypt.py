@@ -9,9 +9,9 @@ class PasswordEncrypt():
         encrypted = hashlib.md5(psd.encode()).hexdigest()        
         return encrypted
 
-    def validatepassword(self,pass2,pass1):
-        p2  = self.encrypt(pass2)
-        if p2 == pass1:
+    def validatepassword(self,pass_out,pass_bd):
+        p2  = self.encrypt(pass_out)
+        if p2 == pass_bd:
             return True
         else:
             return False

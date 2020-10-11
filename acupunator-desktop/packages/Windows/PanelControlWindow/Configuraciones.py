@@ -15,11 +15,14 @@ from packages.database.Manager import (
     countAlumnosManager,
     getAlumnosByGrupo,
     getDatosProfesorManager,
-    getAllGrupos,    
+    countGruposManager,
+    getAllGrupos,
+    eliminaDatosGrupoManager,    
 )
 # utils
 from packages.utils.MessagesResponse import RespBDD
 from packages.utils.PsdEncrypt import PasswordEncrypt
+
 
 # windows
 from .ActualizaAlumno import ActualizaAlumnoWindow
@@ -37,17 +40,24 @@ class ConfiguracionesWindow(QMainWindow):
         self.filtro_btn_alumno.clicked.connect(self.filtraGrupos)
         self.table_alumnos.clicked.connect(lambda:self.showActualizaDatos(parent))
         self.__current_group = None
-        self.getGrupos()
+        self.getGrupos(self.grupos_box)
         self.countAlumnos()
-        self.filtraGrupos()    
+        self.filtraGrupos()
+
+        # Cargamos elementos del template tab grupo
+        self.regresar_gru_btn.clicked.connect(lambda: self.backToParent(parent))
+        self.countGrupos()
+        self.getGrupos(self.grupos_box_gru)
+        self.elimina_gru_btn.clicked.connect(self.eliminaDatosGrupo)
+
     # LLama al prooeso para conseguir tods los grupos en la BDD
-    def getGrupos(self):
+    def getGrupos(self,combo):
         response = getAllGrupos() # hace la petcion al Manager
         if not response == RespBDD.ERROR_GET:
-            self.grupos_box.clear() #Borramos contenido previo
+            combo.clear() #Borramos contenido previo
             for gru in response:
-                self.grupos_box.addItem(gru[0])
-            self.grupos_box.view().setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+                combo.addItem(gru[0])
+            combo.view().setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
         else:
             QMessageBox.warning(self, 'Estado de la petición', 'Error al cargar los grupos', QMessageBox.Ok)
 
@@ -152,3 +162,55 @@ class ConfiguracionesWindow(QMainWindow):
             grupo=grupo)
         # Mostramos la ventana
         windActualizaDatos.show()
+
+    """Métodos para la sección de eliminacion y actualización de grupos"""
+    def countGrupos(self):
+        numGrupos = countGruposManager()
+        if numGrupos != RespBDD.ERROR_GET and numGrupos != RespBDD.ERROR_CON:
+            self.label_num_grupos.setText(str(numGrupos[0]))
+        else:
+            QMessageBox.warning(self, 'Estado de la petición', 'Error al cargar el numero de grupos', QMessageBox.Ok)                
+
+    # Llama a los proceso del manager para elimanr datso relacionados a un grupo
+    def eliminaDatosGrupo(self):
+        psd_auth = self.password_input_gru.text()
+        psd_bdd = getDatosProfesorManager()
+        current_gru= self.grupos_box_gru.currentText()
+        # Valiamos que el input no esta vacio
+        if not psd_auth == "":
+            if psd_bdd != RespBDD.ERROR_GET and psd_bdd != RespBDD.ERROR_CON:
+                # Validamos credenciales
+                psd = PasswordEncrypt()
+                if psd.validatepassword(psd_auth,psd_bdd[1]):
+                    # Eliminanos grupo o alumnos del grupo
+                    grupo = ModelGrupos(current_gru)
+                    if self.radio_grupo.isChecked():
+                        # Eliminamos grupo completo
+                        response = eliminaDatosGrupoManager(grupo,False)
+                        if response == RespBDD.SUCCESS:
+                            self.countGrupos()
+                            self.getGrupos(self.grupos_box_gru)
+                            self.getGrupos(self.grupos_box)
+                            QMessageBox.information(self, 'Estado de la petición', '¡Grupo eliminado exitosamente!', QMessageBox.Ok)                                        
+                        else:                            
+                            QMessageBox.information(self, 'Estado de la petición', '¡Error al eliminar el grupo!', QMessageBox.Ok)                                        
+
+                    # Eliminamos sólo alumnos del grupo
+                    else:
+                        response = eliminaDatosGrupoManager(grupo,True)
+                        if response == RespBDD.SUCCESS:
+                            self.getGrupos(self.grupos_box)
+                            self.countAlumnos()
+                            self.filtraGrupos()
+                            QMessageBox.information(self, 'Estado de la petición', '¡Alumnos dados de baja exitosamente!', QMessageBox.Ok)            
+                        else:
+                            QMessageBox.information(self, 'Estado de la petición', '¡Error al dar de baja alumnos!', QMessageBox.Ok)                                        
+                    
+                else:
+                    QMessageBox.warning(self, 'Estado de la petición', 'La contraseña no es válida', QMessageBox.Ok)            
+
+            else:
+                QMessageBox.critical(self, 'Estado de la petición', 'Hubo un error al tratar de validar las credenciales', QMessageBox.Ok)            
+        else:
+            self.alert_auth.setStyleSheet('color: rgb(164,0,0);')
+            self.alert_auth.setText("¡Es necesario autorizar la modifiación!")            

@@ -376,14 +376,17 @@ color: rgb(255, 255, 255);</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_7">
               <item>
-               <widget class="QRadioButton" name="radioButton">
+               <widget class="QRadioButton" name="radio_grupo">
                 <property name="text">
-                 <string>Grupo</string>
+                 <string>Grupo y alumnos</string>
+                </property>
+                <property name="checked">
+                 <bool>true</bool>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QRadioButton" name="radioButton_2">
+               <widget class="QRadioButton" name="radio_gru_alu">
                 <property name="text">
                  <string>Sólo alumnos</string>
                 </property>
@@ -483,7 +486,7 @@ color: rgb(255, 255, 255);</string>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_9">
             <item>
-             <widget class="QLabel" name="label_num_grupos_2">
+             <widget class="QLabel" name="label_num_grupos">
               <property name="font">
                <font>
                 <pointsize>30</pointsize>
@@ -528,7 +531,7 @@ color: rgb(255, 255, 255);</string>
           <property name="title">
            <string>Selección de grupo</string>
           </property>
-          <widget class="QComboBox" name="grupos_box_gru_2">
+          <widget class="QComboBox" name="grupos_box_gru">
            <property name="geometry">
             <rect>
              <x>50</x>
@@ -589,7 +592,7 @@ color: rgb(255, 255, 255);</string>
             <set>Qt::AlignCenter</set>
            </property>
           </widget>
-          <widget class="QLabel" name="alert_alumno_9">
+          <widget class="QLabel" name="alert_auth">
            <property name="geometry">
             <rect>
              <x>70</x>
@@ -599,14 +602,14 @@ color: rgb(255, 255, 255);</string>
             </rect>
            </property>
            <property name="text">
-            <string>¡Necesita autorizar cualquier cambio!</string>
+            <string/>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>
            </property>
           </widget>
          </widget>
-         <widget class="QPushButton" name="regresar_alu_btn_2">
+         <widget class="QPushButton" name="regresar_gru_btn">
           <property name="geometry">
            <rect>
             <x>110</x>
