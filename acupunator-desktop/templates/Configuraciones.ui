@@ -442,7 +442,7 @@ color: rgb(255, 255, 255);</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="elimina_gru_btn_3">
+               <widget class="QPushButton" name="cambia_gru_btn">
                 <property name="styleSheet">
                  <string notr="true">background-color: rgb(32, 74, 135);
 color: rgb(255, 255, 255);</string>

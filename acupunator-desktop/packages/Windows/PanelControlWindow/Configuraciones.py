@@ -17,7 +17,8 @@ from packages.database.Manager import (
     getDatosProfesorManager,
     countGruposManager,
     getAllGrupos,
-    eliminaDatosGrupoManager,    
+    eliminaDatosGrupoManager,
+    actualizaGrupoManager,    
 )
 # utils
 from packages.utils.MessagesResponse import RespBDD
@@ -49,6 +50,7 @@ class ConfiguracionesWindow(QMainWindow):
         self.countGrupos()
         self.getGrupos(self.grupos_box_gru)
         self.elimina_gru_btn.clicked.connect(self.eliminaDatosGrupo)
+        self.cambia_gru_btn.clicked.connect(self.cambiaNombreGrupo)
 
     # LLama al prooeso para conseguir tods los grupos en la BDD
     def getGrupos(self,combo):
@@ -214,3 +216,37 @@ class ConfiguracionesWindow(QMainWindow):
         else:
             self.alert_auth.setStyleSheet('color: rgb(164,0,0);')
             self.alert_auth.setText("¡Es necesario autorizar la modifiación!")            
+
+    # Llama al rpoceo del manager para cambiar nombre de un grupo
+    def cambiaNombreGrupo(self):
+        new_nombre = self.nuevo_nombre.text()
+        psd_auth = self.password_input_gru.text()
+        old_nombre= self.grupos_box_gru.currentText()
+        
+        if new_nombre == "":
+            self.alert_auth.setStyleSheet('color: rgb(164,0,0);')
+            self.alert_auth.setText("¡No ha colocado el nuevo nombre!") 
+        elif psd_auth == "":
+            self.alert_auth.setStyleSheet('color: rgb(164,0,0);')
+            self.alert_auth.setText("¡Es necesario autorizar la modifiación!")
+        else:
+            # traemos datos del adminstrador
+            psd_bdd = getDatosProfesorManager()
+            psd = PasswordEncrypt()
+            # Validamos el exito de la petcion de los datos del admin
+            if psd_bdd != RespBDD.ERROR_GET and psd_bdd != RespBDD.ERROR_CON:
+                # Validamos credenciales
+                if psd.validatepassword(psd_auth,psd_bdd[1]):                    
+                    response = actualizaGrupoManager(ModelGrupos(old_nombre),new_nombre)
+                    if response == RespBDD.SUCCESS:
+                        self.getGrupos(self.grupos_box)
+                        self.getGrupos(self.grupos_box_gru)                        
+                        self.filtraGrupos()
+                        QMessageBox.information(self, 'Estado de la petición', '¡Grupo actualizado exitosamente!', QMessageBox.Ok)                                        
+                    else:
+                        QMessageBox.critical(self, 'Estado de la petición', '¡Error al actualizar datos!', QMessageBox.Ok)                                        
+                else:
+                    QMessageBox.warning(self, 'Estado de la petición', 'La contraseña no es válida', QMessageBox.Ok)            
+            else:                         
+                QMessageBox.critical(self, 'Estado de la petición', 'Hubo un error al tratar de validar las credenciales', QMessageBox.Ok)
+

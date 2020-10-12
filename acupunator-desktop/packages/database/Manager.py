@@ -386,3 +386,17 @@ def eliminaDatosGrupoManager(grupo,all_alu):
     else:
         return RespBDD.ERROR_CON
 
+def actualizaGrupoManager(grupo,new_name):
+    conn = connectionDBManager()
+    try:
+        cursor = conn.cursor()            
+        query = "update Grupo set nombreGrupo = ? where nombreGrupo = ?"
+        cursor.execute(query,(new_name,grupo.getGrupo(),))
+        conn.commit() 
+        conn.close()                                   
+        return RespBDD.SUCCESS    
+    except Error as err:
+        print("Error al actualizar nombre de grupo",str(err))
+        return RespBDD.ERROR_ON_UPDATE       
+    else:
+        return RespBDD.ERROR_CON
