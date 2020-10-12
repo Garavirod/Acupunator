@@ -217,7 +217,7 @@ class ConfiguracionesWindow(QMainWindow):
             self.alert_auth.setStyleSheet('color: rgb(164,0,0);')
             self.alert_auth.setText("¡Es necesario autorizar la modifiación!")            
 
-    # Llama al rpoceo del manager para cambiar nombre de un grupo
+    # Llama al proceso del manager para cambiar nombre de un grupo
     def cambiaNombreGrupo(self):
         new_nombre = self.nuevo_nombre.text()
         psd_auth = self.password_input_gru.text()
