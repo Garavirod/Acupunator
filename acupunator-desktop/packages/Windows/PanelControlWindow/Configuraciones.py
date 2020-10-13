@@ -206,6 +206,7 @@ class ConfiguracionesWindow(QMainWindow):
                             self.countGrupos()
                             self.getGrupos(self.grupos_box_gru)
                             self.getGrupos(self.grupos_box)
+                            self.password_input_gru.clear()
                             QMessageBox.information(self, 'Estado de la petición', '¡Grupo eliminado exitosamente!', QMessageBox.Ok)                                        
                         else:                            
                             QMessageBox.information(self, 'Estado de la petición', '¡Error al eliminar el grupo!', QMessageBox.Ok)                                        
@@ -255,6 +256,7 @@ class ConfiguracionesWindow(QMainWindow):
                         self.getGrupos(self.grupos_box)
                         self.getGrupos(self.grupos_box_gru)                        
                         self.filtraGrupos()
+                        self.password_input_gru.clear()
                         QMessageBox.information(self, 'Estado de la petición', '¡Grupo actualizado exitosamente!', QMessageBox.Ok)                                        
                     else:
                         QMessageBox.critical(self, 'Estado de la petición', '¡Error al actualizar datos!', QMessageBox.Ok)                                        

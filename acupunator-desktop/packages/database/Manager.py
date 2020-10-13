@@ -367,8 +367,10 @@ def eliminaDatosGrupoManager(grupo,all_alu):
         try:
             cursor = conn.cursor()            
             query1 = """
-            delete from Alumno WHERE numBoleta in (
-                select numBoleta from Grupo_Alumno WHERE nombreGrupo = ?
+            delete from Usuario where idUsuario in (
+                select idUsuario from Alumno where numBoleta in (
+                    select numBoleta from Grupo_Alumno WHERE nombreGrupo = ?
+                )
             )
             """
             if all_alu:
