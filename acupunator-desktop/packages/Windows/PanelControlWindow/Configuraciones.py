@@ -15,7 +15,7 @@ from packages.database.Manager import (
     eliminaAlumnobyBoleta,
     countAlumnosManager,
     getAlumnosByGrupo,
-    getDatosProfesorManager,
+    getCredencialesAdmin,
     countGruposManager,
     getAllGrupos,
     eliminaDatosGrupoManager,
@@ -62,7 +62,8 @@ class ConfiguracionesWindow(QMainWindow):
         self.cargaDatosAdmin()
         self.editar_btn_Admin.clicked.connect(self.setEnableInputs)
         self.update_admin_dta.clicked.connect(self.actualizaDatosAdmin)
-        self.update_admin_psd.clicked.connect(self.actualizaPassword)        
+        self.update_admin_psd.clicked.connect(self.actualizaPassword)
+        self.regresar_perfil_btn.clicked.connect(lambda:self.backToParent(parent))        
 
     # LLama al prooeso para conseguir tods los grupos en la BDD
     def getGrupos(self,combo):
@@ -130,7 +131,7 @@ class ConfiguracionesWindow(QMainWindow):
         # Validamos campos vacios
         if not (self.boleta_input.text() == "" and self.password_input.text() == ""):
             # Traemos los datos del admin
-            datosAdmin = getDatosProfesorManager()
+            datosAdmin = getCredencialesAdmin()
             if not datosAdmin == RespBDD.ERROR_GET:
                 psd = PasswordEncrypt()
                 # Validamos password                
@@ -188,7 +189,7 @@ class ConfiguracionesWindow(QMainWindow):
     # Llama a los proceso del manager para elimanr datso relacionados a un grupo
     def eliminaDatosGrupo(self):
         psd_auth = self.password_input_gru.text()
-        psd_bdd = getDatosProfesorManager()
+        psd_bdd = getCredencialesAdmin()
         current_gru= self.grupos_box_gru.currentText()
         # Valiamos que el input no esta vacio
         if not psd_auth == "":
@@ -243,7 +244,7 @@ class ConfiguracionesWindow(QMainWindow):
             self.alert_auth.setText("¡Es necesario autorizar la modifiación!")
         else:
             # traemos datos del adminstrador
-            psd_bdd = getDatosProfesorManager()
+            psd_bdd = getCredencialesAdmin()
             psd = PasswordEncrypt()
             # Validamos el exito de la petcion de los datos del admin
             if psd_bdd != RespBDD.ERROR_GET and psd_bdd != RespBDD.ERROR_CON:
@@ -298,7 +299,40 @@ class ConfiguracionesWindow(QMainWindow):
         
 
     def actualizaPassword(self):
-        pass
+        new_psd = self.new_psd_admin.text() 
+        if new_psd != "":
+            if self.password_input_admin.text() != "":
+                psd_out = self.password_input_admin.text()
+                psd_bdd = getCredencialesAdmin()
+                if psd_bdd != RespBDD.ERROR_CON and psd_bdd != RespBDD.ERROR_GET:
+                    psd_valid = PasswordEncrypt()
+                    if psd_valid.validatepassword(psd_out,psd_bdd[1]):                                                
+                        # Capturamos la respuesta  de actualización
+                        new_psd = psd_valid.encrypt(new_psd)
+                        response = actualizaPasswordAdminManager(new_psd)
+                        if response == RespBDD.SUCCESS:
+                            QMessageBox.information(self, 'Estado de la petición', '¡Datos actualizados exitosamente!', QMessageBox.Ok)                                        
+                            self.cargaDatosAdmin()
+                            self.__enableInputs=False
+                            self.setEnableInputs()
+                            self.password_input_admin.clear()
+                            self.alert_auth_perfil.setText("")
+                            self.new_psd_admin.clear()
+                        else:
+                            QMessageBox.critical(self, 'Estado de la petición', '¡Error al actualizar datos!', QMessageBox.Ok)                                        
+                    else:
+                        QMessageBox.critical(self, 'Estado de la petición', 'La contraseña no es válida', QMessageBox.Ok)
+                else:
+                    QMessageBox.critical(self, 'Estado de la petición', 'Hubo un error al tratar de validar las credenciales', QMessageBox.Ok)
+            else:
+                self.alert_auth_perfil.setStyleSheet('color: rgb(164,0,0);')
+                self.alert_auth_perfil.setText("¡Es necesario autorizar la modifiación!")
+
+        else:
+            self.alert_auth_perfil.setStyleSheet('color: rgb(164,0,0);')
+            self.alert_auth_perfil.setText("¡No ha colocado la nuevo password!")
+
+        
     # Actualiza los datos del admin
     def actualizaDatosAdmin(self):        
         if not self.__enableInputs:
@@ -306,7 +340,7 @@ class ConfiguracionesWindow(QMainWindow):
                 # Vaerificamos campos vacios de autorización
                 if self.password_input_admin.text() != "":
                     psd_out = self.password_input_admin.text()
-                    psd_bdd = getDatosProfesorManager()
+                    psd_bdd = getCredencialesAdmin()
                     if psd_bdd != RespBDD.ERROR_CON and psd_bdd != RespBDD.ERROR_GET:
                         psd_valid = PasswordEncrypt()
                         if psd_valid.validatepassword(psd_out,psd_bdd[1]):
@@ -326,6 +360,8 @@ class ConfiguracionesWindow(QMainWindow):
                                 self.__enableInputs=False
                                 self.setEnableInputs()
                                 self.password_input_admin.clear()
+                                self.alert_auth_perfil.setText("")
+
                             else:
                                 QMessageBox.critical(self, 'Estado de la petición', '¡Error al actualizar datos!', QMessageBox.Ok)                                        
                         else:

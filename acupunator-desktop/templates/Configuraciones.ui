@@ -64,10 +64,10 @@ background-color:none;</string>
     <widget class="QFrame" name="card">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>90</y>
-       <width>761</width>
-       <height>521</height>
+       <x>10</x>
+       <y>70</y>
+       <width>771</width>
+       <height>541</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -335,7 +335,7 @@ color: rgb(255, 255, 255);</string>
           <property name="geometry">
            <rect>
             <x>10</x>
-            <y>410</y>
+            <y>430</y>
             <width>93</width>
             <height>25</height>
            </rect>
@@ -525,7 +525,7 @@ color: rgb(255, 255, 255);</string>
             <x>10</x>
             <y>250</y>
             <width>311</width>
-            <height>91</height>
+            <height>151</height>
            </rect>
           </property>
           <property name="title">
@@ -545,8 +545,8 @@ color: rgb(255, 255, 255);</string>
          <widget class="QGroupBox" name="groupBox_6">
           <property name="geometry">
            <rect>
-            <x>340</x>
-            <y>280</y>
+            <x>330</x>
+            <y>260</y>
             <width>391</width>
             <height>161</height>
            </rect>
@@ -612,8 +612,8 @@ color: rgb(255, 255, 255);</string>
          <widget class="QPushButton" name="regresar_gru_btn">
           <property name="geometry">
            <rect>
-            <x>110</x>
-            <y>390</y>
+            <x>10</x>
+            <y>430</y>
             <width>93</width>
             <height>25</height>
            </rect>
@@ -816,7 +816,7 @@ color: rgb(255, 255, 255);</string>
             <x>310</x>
             <y>210</y>
             <width>421</width>
-            <height>221</height>
+            <height>191</height>
            </rect>
           </property>
           <property name="title">
@@ -944,6 +944,23 @@ color: rgb(255, 255, 255);</string>
             </item>
            </layout>
           </widget>
+         </widget>
+         <widget class="QPushButton" name="regresar_perfil_btn">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>430</y>
+            <width>93</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(206, 92, 0);
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Regresar</string>
+          </property>
          </widget>
         </widget>
        </widget>

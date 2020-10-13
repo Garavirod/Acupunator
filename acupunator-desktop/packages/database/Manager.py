@@ -243,7 +243,7 @@ def eliminaAlumnobyBoleta(boleta):
         return RespBDD.ERROR_CON
 
 # Conseguir los datos del admisntrador
-def getDatosProfesorManager():
+def getCredencialesAdmin():
     conn = connectionDBManager()
     if not conn == RespBDD.ERROR_CON:
         try:
@@ -464,7 +464,7 @@ def actualizaPasswordAdminManager(psd):
         # Actualizamos psd del admin
         query = """
         update Profesor set 
-        password = ?,                
+        password = ?               
         where idUsuario in (
             select idUsuario from Profesor
         )
