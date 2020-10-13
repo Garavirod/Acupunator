@@ -66,8 +66,8 @@ background-color:none;</string>
       <rect>
        <x>20</x>
        <y>90</y>
-       <width>761</width>
-       <height>461</height>
+       <width>751</width>
+       <height>449</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -111,16 +111,16 @@ border-radius:10px;
          <property name="geometry">
           <rect>
            <x>0</x>
-           <y>0</y>
-           <width>729</width>
-           <height>871</height>
+           <y>-915</y>
+           <width>719</width>
+           <height>1323</height>
           </rect>
          </property>
          <layout class="QGridLayout" name="gridLayout">
           <item row="2" column="1">
            <widget class="QLabel" name="label_11">
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;visualizar las&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;calificaciones de los&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;alumnos registrados.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;visualizar las&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;calificaciones de los&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;alumnos obtenidas &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;en el simulador.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="margin">
              <number>10</number>
@@ -143,7 +143,7 @@ border-radius:10px;
           <item row="4" column="1">
            <widget class="QLabel" name="label_9">
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;visualizar la información&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;relacionada con&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;los grupos&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;registrados.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;visualizar la información&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;relacionada con los grupos&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;registrados.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="margin">
              <number>10</number>
@@ -153,7 +153,7 @@ border-radius:10px;
           <item row="0" column="1">
            <widget class="QLabel" name="label_8">
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;gestionar perfiles&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;de usuario de alumnos &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;e infromación propia&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;crear grupos y perfiles&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;de usuario de alumnos.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="margin">
              <number>10</number>
@@ -172,7 +172,7 @@ border-radius:10px;
              <property name="geometry">
               <rect>
                <x>80</x>
-               <y>30</y>
+               <y>70</y>
                <width>67</width>
                <height>17</height>
               </rect>
@@ -180,12 +180,15 @@ border-radius:10px;
              <property name="text">
               <string>Alumnos</string>
              </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
             </widget>
             <widget class="QPushButton" name="alumnos_btn">
              <property name="geometry">
               <rect>
                <x>50</x>
-               <y>60</y>
+               <y>120</y>
                <width>131</width>
                <height>25</height>
               </rect>
@@ -210,24 +213,11 @@ border-radius:10px;
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <widget class="QLabel" name="label_2">
-             <property name="geometry">
-              <rect>
-               <x>100</x>
-               <y>70</y>
-               <width>233</width>
-               <height>116</height>
-              </rect>
-             </property>
-             <property name="text">
-              <string>Registros</string>
-             </property>
-            </widget>
             <widget class="QLabel" name="label_16">
              <property name="geometry">
               <rect>
                <x>70</x>
-               <y>30</y>
+               <y>90</y>
                <width>91</width>
                <height>17</height>
               </rect>
@@ -243,7 +233,7 @@ border-radius:10px;
              <property name="geometry">
               <rect>
                <x>50</x>
-               <y>60</y>
+               <y>140</y>
                <width>131</width>
                <height>25</height>
               </rect>
@@ -272,7 +262,7 @@ border-radius:10px;
              <property name="geometry">
               <rect>
                <x>80</x>
-               <y>30</y>
+               <y>70</y>
                <width>67</width>
                <height>17</height>
               </rect>
@@ -280,12 +270,15 @@ border-radius:10px;
              <property name="text">
               <string>Grupos</string>
              </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
             </widget>
             <widget class="QPushButton" name="grupos_btn">
              <property name="geometry">
               <rect>
                <x>50</x>
-               <y>60</y>
+               <y>120</y>
                <width>131</width>
                <height>25</height>
               </rect>
@@ -305,7 +298,7 @@ border-radius:10px;
           <item row="5" column="1">
            <widget class="QLabel" name="label_13">
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;visualizar la información&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;relacionada con&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;los alumnos&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;registrados.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;visualizar la información&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;relacionada con&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;los alumnos registrados.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="margin">
              <number>10</number>
@@ -320,24 +313,11 @@ border-radius:10px;
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <widget class="QLabel" name="label_6">
-             <property name="geometry">
-              <rect>
-               <x>100</x>
-               <y>70</y>
-               <width>233</width>
-               <height>116</height>
-              </rect>
-             </property>
-             <property name="text">
-              <string>Registros</string>
-             </property>
-            </widget>
             <widget class="QPushButton" name="simulador_btn">
              <property name="geometry">
               <rect>
                <x>50</x>
-               <y>60</y>
+               <y>120</y>
                <width>131</width>
                <height>25</height>
               </rect>
@@ -356,7 +336,7 @@ border-radius:10px;
              <property name="geometry">
               <rect>
                <x>70</x>
-               <y>30</y>
+               <y>70</y>
                <width>91</width>
                <height>17</height>
               </rect>
@@ -378,24 +358,11 @@ border-radius:10px;
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <widget class="QLabel" name="label">
-             <property name="geometry">
-              <rect>
-               <x>100</x>
-               <y>70</y>
-               <width>233</width>
-               <height>116</height>
-              </rect>
-             </property>
-             <property name="text">
-              <string>Registros</string>
-             </property>
-            </widget>
             <widget class="QLabel" name="label_14">
              <property name="geometry">
               <rect>
                <x>80</x>
-               <y>30</y>
+               <y>50</y>
                <width>67</width>
                <height>17</height>
               </rect>
@@ -408,7 +375,7 @@ border-radius:10px;
              <property name="geometry">
               <rect>
                <x>50</x>
-               <y>60</y>
+               <y>90</y>
                <width>131</width>
                <height>25</height>
               </rect>
@@ -428,7 +395,7 @@ border-radius:10px;
           <item row="3" column="1">
            <widget class="QLabel" name="label_10">
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;acceder al simulador &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;para realizar pruebas de&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;estudio o evaluación.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;acceder al simulador &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;para realizar pruebas de&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;estudio o evaluación.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="margin">
              <number>10</number>
@@ -438,7 +405,7 @@ border-radius:10px;
           <item row="6" column="1">
            <widget class="QLabel" name="label_22">
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;realizar actualizaciones,&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;bajas y consultas&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;de grupos, alumnos&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;y perfil de usuario.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;En esta sección podrá&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;realizar actualizaciones,&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;bajas y consultas&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;de grupos, alumnos&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;y perfil de usuario.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="margin">
              <number>10</number>
@@ -457,7 +424,7 @@ border-radius:10px;
              <property name="geometry">
               <rect>
                <x>60</x>
-               <y>50</y>
+               <y>70</y>
                <width>121</width>
                <height>17</height>
               </rect>
@@ -575,7 +542,7 @@ border-radius:10px;
 background-color:none;</string>
      </property>
      <property name="text">
-      <string>Bienvenido : </string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Bienvenido:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_username">
@@ -592,7 +559,7 @@ background-color:none;</string>
 background-color:none;</string>
      </property>
      <property name="text">
-      <string>@username</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;@username&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QPushButton" name="logout">

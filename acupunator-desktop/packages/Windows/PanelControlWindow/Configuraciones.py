@@ -332,7 +332,7 @@ class ConfiguracionesWindow(QMainWindow):
 
         else:
             self.alert_auth_perfil.setStyleSheet('color: rgb(164,0,0);')
-            self.alert_auth_perfil.setText("¡No ha colocado la nuevo password!")
+            self.alert_auth_perfil.setText("¡No ha colocado el nuevo password!")
 
         
     # Actualiza los datos del admin
