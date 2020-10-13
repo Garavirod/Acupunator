@@ -359,6 +359,8 @@ def countGruposManager():
     else:
         return RespBDD.ERROR_CON
 
+    
+# Elimina datos de un grupo
 def eliminaDatosGrupoManager(grupo,all_alu):
     conn = connectionDBManager()
     if not conn == RespBDD.ERROR_CON:
@@ -386,6 +388,7 @@ def eliminaDatosGrupoManager(grupo,all_alu):
     else:
         return RespBDD.ERROR_CON
 
+# Actualizar nombre de un grupo
 def actualizaGrupoManager(grupo,new_name):
     conn = connectionDBManager()
     try:
@@ -398,5 +401,104 @@ def actualizaGrupoManager(grupo,new_name):
     except Error as err:
         print("Error al actualizar nombre de grupo",str(err))
         return RespBDD.ERROR_ON_UPDATE       
+    else:
+        return RespBDD.ERROR_CON
+
+
+# Actualiza los datos del adminstrador
+def actualizaDatosAdminManager(profesor):
+    conn = connectionDBManager()
+    try:
+        cursor = conn.cursor()            
+        # Actualizar datos generales de usuario
+        query = """
+        update Usuario 
+        set 
+        nombre = ?,
+        apellidoPa = ?,
+        apellidoMa = ?
+        where idUsuario in (
+            select idUsuario 
+            from Profesor            
+        )
+        """
+        cursor.execute(query,
+            (
+                profesor.getNombre(),
+                profesor.getApelldioPa(),
+                profesor.getApellidoMa(),
+            )
+        )
+        conn.commit() 
+
+        # Actualizamos datos del admin
+        query = """
+        update Profesor set 
+        userName = ?, 
+        correo = ?,        
+        where idUsuario in (
+            select idUsuario from Profesor
+        )
+        """
+        cursor.execute(query,
+            (
+                profesor.getUserName(),
+                profesor.getCorreo(),                
+            )
+        )
+        conn.commit() 
+        conn.close()                                   
+        return RespBDD.SUCCESS    
+    except Error as err:
+        print("Error al actualizar datos del admin",str(err))
+        return RespBDD.ERROR_ON_UPDATE       
+    else:
+        return RespBDD.ERROR_CON
+
+
+# Actualiza password de administrador
+def actualizaPasswordAdminManager(psd):
+    conn = connectionDBManager()
+    try:
+        cursor = conn.cursor()                    
+        # Actualizamos psd del admin
+        query = """
+        update Profesor set 
+        password = ?,                
+        where idUsuario in (
+            select idUsuario from Profesor
+        )
+        """
+        cursor.execute(query,(psd,))
+        conn.commit() 
+        conn.close()                                   
+        return RespBDD.SUCCESS    
+    except Error as err:
+        print("Error al actualizar password del admin",str(err))
+        return RespBDD.ERROR_ON_UPDATE       
+    else:
+        return RespBDD.ERROR_CON
+
+
+# consigue todos los datos genrales del Admin
+def datosGeneralesAdminManager():
+    conn = connectionDBManager()
+    try:
+        cursor = conn.cursor()                    
+        # Actualizamos psd del admin
+        query = """
+        select R1.nombre, R1.apellidoPa, R1.apellidoMa, R2.userName, R2.correo 
+        from Usuario as R1,Profesor as R2  where 
+        R1.idUsuario in (
+            select idUsuario from Profesor
+        )
+        """
+        cursor.execute(query)
+        rows = cursor.fetchone()   
+        conn.close()                               
+        return rows   
+    except Error as err:
+        print("Error al cargar datos del admin",str(err))
+        return RespBDD.ERROR_GET       
     else:
         return RespBDD.ERROR_CON

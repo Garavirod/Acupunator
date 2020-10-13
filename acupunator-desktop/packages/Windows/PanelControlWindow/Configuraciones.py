@@ -18,7 +18,8 @@ from packages.database.Manager import (
     countGruposManager,
     getAllGrupos,
     eliminaDatosGrupoManager,
-    actualizaGrupoManager,    
+    actualizaGrupoManager,
+    datosGeneralesAdminManager,    
 )
 # utils
 from packages.utils.MessagesResponse import RespBDD
@@ -51,6 +52,14 @@ class ConfiguracionesWindow(QMainWindow):
         self.getGrupos(self.grupos_box_gru)
         self.elimina_gru_btn.clicked.connect(self.eliminaDatosGrupo)
         self.cambia_gru_btn.clicked.connect(self.cambiaNombreGrupo)
+
+        # Cargamos los elementos del template tab Mi perfil
+        self.__enableInputs = False
+        self.setEnableInputs()
+        self.cargaDatosAdmin()
+        self.editar_btn_Admin.clicked.connect(self.setEnableInputs)
+        self.update_admin_dta.clicked.connect(lambda:self.actualizaDatosAdmin)
+        self.update_admin_psd.clicked.connect(lambda:self.actualizaPassword)        
 
     # LLama al prooeso para conseguir tods los grupos en la BDD
     def getGrupos(self,combo):
@@ -250,3 +259,43 @@ class ConfiguracionesWindow(QMainWindow):
             else:                         
                 QMessageBox.critical(self, 'Estado de la petición', 'Hubo un error al tratar de validar las credenciales', QMessageBox.Ok)
 
+    """Métodos para la actualización de datos del admin"""             
+    def setEnableInputs(self):
+        if self.__enableInputs:
+            self.nombre_admin_input.setEnabled(True)
+            self.appa_admin_input.setEnabled(True)
+            self.apma_admin_input.setEnabled(True)
+            self.username_input.setEnabled(True)
+            self.correo_input.setEnabled(True)          
+        else:
+            self.nombre_admin_input.setDisabled(True)
+            self.appa_admin_input.setDisabled(True)
+            self.apma_admin_input.setDisabled(True)
+            self.username_input.setDisabled(True)
+            self.correo_input.setDisabled(True)
+        
+        self.__enableInputs = not(self.__enableInputs)
+        print(self.__enableInputs)
+
+    def cargaDatosAdmin(self):
+        response = datosGeneralesAdminManager()
+        if response != RespBDD.ERROR_GET and response != RespBDD.ERROR_CON:
+            nombre = response[0]
+            apellidoPa = response[1]
+            apellidoMa = response[2]
+            username = response[3]
+            correo =  response[4]
+            self.nombre_admin_input.setText(nombre)
+            self.appa_admin_input.setText(apellidoPa)
+            self.apma_admin_input.setText(apellidoMa)
+            self.username_input.setText(username)
+            self.correo_input.setText(correo)
+        else:
+            QMessageBox.critical(self, 'Estado de la petición', 'Hubo un error al cargar los datos', QMessageBox.Ok)
+
+        
+
+    def actualizaPassword(self):
+        pass
+    def actualizaDatosAdmin(self):
+        pass
