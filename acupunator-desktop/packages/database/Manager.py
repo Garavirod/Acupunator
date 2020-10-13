@@ -435,7 +435,7 @@ def actualizaDatosAdminManager(profesor):
         query = """
         update Profesor set 
         userName = ?, 
-        correo = ?,        
+        correo = ?        
         where idUsuario in (
             select idUsuario from Profesor
         )

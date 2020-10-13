@@ -44,10 +44,9 @@ class ModelAlumno(ModelUsuario):
 
 
 class ModelProfesor(ModelUsuario):
-    def __init__(self,nombre,apellidoP,apellidoM,username,password,correo):
+    def __init__(self,nombre,apellidoP,apellidoM,username,correo):
         ModelUsuario.__init__(self,nombre,apellidoP,apellidoM)
-        self.__username = username
-        self.__password = password
+        self.__username = username        
         self.__correo = correo
 
     # Getters
