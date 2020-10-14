@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>799</width>
+    <width>863</width>
     <height>608</height>
    </rect>
   </property>
@@ -19,7 +19,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>781</width>
+      <width>841</width>
       <height>581</height>
      </rect>
     </property>
@@ -40,7 +40,7 @@
       <rect>
        <x>420</x>
        <y>20</y>
-       <width>331</width>
+       <width>411</width>
        <height>531</height>
       </rect>
      </property>
@@ -59,7 +59,7 @@ border-radius:10px;</string>
        <rect>
         <x>0</x>
         <y>10</y>
-        <width>331</width>
+        <width>401</width>
         <height>511</height>
        </rect>
       </property>
@@ -79,8 +79,8 @@ border-radius:10px;</string>
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>220</y>
+        <x>140</x>
+        <y>230</y>
         <width>141</width>
         <height>131</height>
        </rect>
@@ -101,7 +101,7 @@ border-radius:10px;</string>
      <widget class="QLabel" name="header_2">
       <property name="geometry">
        <rect>
-        <x>50</x>
+        <x>80</x>
         <y>20</y>
         <width>241</width>
         <height>51</height>
@@ -127,8 +127,8 @@ background-color:none;</string>
      <widget class="QLabel" name="header">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>70</y>
+        <x>60</x>
+        <y>80</y>
         <width>301</width>
         <height>51</height>
        </rect>

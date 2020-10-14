@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>810</width>
+    <width>863</width>
     <height>662</height>
    </rect>
   </property>
@@ -19,7 +19,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>791</width>
+      <width>841</width>
       <height>651</height>
      </rect>
     </property>
@@ -66,7 +66,7 @@ background-color:none;</string>
       <rect>
        <x>10</x>
        <y>70</y>
-       <width>771</width>
+       <width>821</width>
        <height>541</height>
       </rect>
      </property>
@@ -96,7 +96,7 @@ border-radius:10px;
       <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="currentIndex">
-         <number>0</number>
+         <number>2</number>
         </property>
         <widget class="QWidget" name="tab">
          <attribute name="title">
@@ -123,107 +123,123 @@ border-radius:10px;
            <rect>
             <x>360</x>
             <y>50</y>
-            <width>371</width>
-            <height>331</height>
+            <width>431</width>
+            <height>361</height>
            </rect>
           </property>
           <property name="title">
            <string>Actualización de datos</string>
           </property>
-          <layout class="QVBoxLayout" name="verticalLayout_6">
-           <item>
-            <widget class="QFrame" name="frame_5">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_4">
-              <item>
-               <widget class="QLabel" name="alert_alumno_5">
-                <property name="text">
-                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Filtre por grupo y selecione un alumno &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;para actualizar sus datos&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_6">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <widget class="QComboBox" name="grupos_box">
-              <property name="geometry">
-               <rect>
-                <x>70</x>
-                <y>10</y>
-                <width>86</width>
-                <height>25</height>
-               </rect>
+          <widget class="QFrame" name="frame_5">
+           <property name="geometry">
+            <rect>
+             <x>12</x>
+             <y>32</y>
+             <width>411</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QLabel" name="alert_alumno_5">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Filtre por grupo y selecione un alumno &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;para actualizar sus datos&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
               </property>
              </widget>
-             <widget class="QPushButton" name="filtro_btn_alumno">
-              <property name="geometry">
-               <rect>
-                <x>177</x>
-                <y>9</y>
-                <width>80</width>
-                <height>25</height>
-               </rect>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">background-color: rgb(64, 129, 191);
+            </item>
+           </layout>
+          </widget>
+          <widget class="QTableWidget" name="table_alumnos">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>160</y>
+             <width>411</width>
+             <height>192</height>
+            </rect>
+           </property>
+           <property name="sizeIncrement">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="baseSize">
+            <size>
+             <width>10</width>
+             <height>0</height>
+            </size>
+           </property>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <attribute name="verticalHeaderStretchLastSection">
+            <bool>false</bool>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>Boleta</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Alumno</string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QFrame" name="frame_6">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>100</y>
+             <width>411</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <widget class="QComboBox" name="grupos_box">
+            <property name="geometry">
+             <rect>
+              <x>70</x>
+              <y>10</y>
+              <width>86</width>
+              <height>25</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="filtro_btn_alumno">
+            <property name="geometry">
+             <rect>
+              <x>260</x>
+              <y>10</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(64, 129, 191);
 color: rgb(255, 255, 255);
 border-radius:10px;</string>
-              </property>
-              <property name="text">
-               <string>Filtrar</string>
-              </property>
-             </widget>
-            </widget>
-           </item>
-           <item>
-            <widget class="QTableWidget" name="table_alumnos">
-             <property name="sizeIncrement">
-              <size>
-               <width>0</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="baseSize">
-              <size>
-               <width>10</width>
-               <height>0</height>
-              </size>
-             </property>
-             <attribute name="horizontalHeaderStretchLastSection">
-              <bool>true</bool>
-             </attribute>
-             <attribute name="verticalHeaderStretchLastSection">
-              <bool>false</bool>
-             </attribute>
-             <column>
-              <property name="text">
-               <string>Boleta</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>Alumno</string>
-              </property>
-             </column>
-            </widget>
-           </item>
-          </layout>
+            </property>
+            <property name="text">
+             <string>Filtrar</string>
+            </property>
+           </widget>
+          </widget>
          </widget>
          <widget class="QGroupBox" name="groupBox_2">
           <property name="geometry">
@@ -231,7 +247,7 @@ border-radius:10px;</string>
             <x>10</x>
             <y>50</y>
             <width>341</width>
-            <height>331</height>
+            <height>361</height>
            </rect>
           </property>
           <property name="title">
@@ -243,7 +259,7 @@ border-radius:10px;</string>
              <x>12</x>
              <y>32</y>
              <width>321</width>
-             <height>244</height>
+             <height>271</height>
             </rect>
            </property>
            <property name="frameShape">
@@ -339,7 +355,7 @@ border-radius:10px;</string>
            <property name="geometry">
             <rect>
              <x>80</x>
-             <y>290</y>
+             <y>320</y>
              <width>171</width>
              <height>25</height>
             </rect>
@@ -382,7 +398,7 @@ border-radius:10px;</string>
            <rect>
             <x>330</x>
             <y>10</y>
-            <width>401</width>
+            <width>461</width>
             <height>231</height>
            </rect>
           </property>
@@ -427,8 +443,8 @@ border-radius:10px;</string>
           <widget class="QFrame" name="frame_2">
            <property name="geometry">
             <rect>
-             <x>176</x>
-             <y>32</y>
+             <x>240</x>
+             <y>30</y>
              <width>200</width>
              <height>97</height>
             </rect>
@@ -471,7 +487,7 @@ border-radius:10px;</string>
           <widget class="QPushButton" name="cambia_gru_btn">
            <property name="geometry">
             <rect>
-             <x>190</x>
+             <x>250</x>
              <y>150</y>
              <width>182</width>
              <height>25</height>
@@ -595,7 +611,7 @@ border-radius:10px;</string>
            <rect>
             <x>330</x>
             <y>260</y>
-            <width>391</width>
+            <width>461</width>
             <height>161</height>
            </rect>
           </property>
@@ -605,8 +621,8 @@ border-radius:10px;</string>
           <widget class="QLineEdit" name="password_input_gru">
            <property name="geometry">
             <rect>
-             <x>90</x>
-             <y>80</y>
+             <x>150</x>
+             <y>60</y>
              <width>207</width>
              <height>25</height>
             </rect>
@@ -627,7 +643,7 @@ border-radius:10px;</string>
           <widget class="QLabel" name="alert_alumno_8">
            <property name="geometry">
             <rect>
-             <x>90</x>
+             <x>150</x>
              <y>30</y>
              <width>207</width>
              <height>17</height>
@@ -643,8 +659,8 @@ border-radius:10px;</string>
           <widget class="QLabel" name="alert_auth">
            <property name="geometry">
             <rect>
-             <x>70</x>
-             <y>120</y>
+             <x>120</x>
+             <y>100</y>
              <width>261</width>
              <height>17</height>
             </rect>
@@ -888,8 +904,8 @@ border-radius:10px;</string>
            <rect>
             <x>310</x>
             <y>220</y>
-            <width>421</width>
-            <height>181</height>
+            <width>481</width>
+            <height>191</height>
            </rect>
           </property>
           <property name="title">
@@ -898,7 +914,7 @@ border-radius:10px;</string>
           <widget class="QLabel" name="alert_alumno_15">
            <property name="geometry">
             <rect>
-             <x>120</x>
+             <x>150</x>
              <y>60</y>
              <width>207</width>
              <height>17</height>
@@ -914,8 +930,8 @@ border-radius:10px;</string>
           <widget class="QLineEdit" name="password_input_admin">
            <property name="geometry">
             <rect>
-             <x>120</x>
-             <y>90</y>
+             <x>150</x>
+             <y>100</y>
              <width>207</width>
              <height>25</height>
             </rect>
@@ -936,7 +952,7 @@ border-radius:10px;</string>
           <widget class="QLabel" name="alert_auth_perfil">
            <property name="geometry">
             <rect>
-             <x>90</x>
+             <x>120</x>
              <y>150</y>
              <width>261</width>
              <height>17</height>
@@ -954,9 +970,9 @@ border-radius:10px;</string>
           <property name="geometry">
            <rect>
             <x>310</x>
-            <y>40</y>
-            <width>421</width>
-            <height>171</height>
+            <y>30</y>
+            <width>481</width>
+            <height>181</height>
            </rect>
           </property>
           <property name="title">
@@ -965,10 +981,10 @@ border-radius:10px;</string>
           <widget class="QFrame" name="frame_9">
            <property name="geometry">
             <rect>
-             <x>120</x>
-             <y>20</y>
+             <x>150</x>
+             <y>30</y>
              <width>201</width>
-             <height>101</height>
+             <height>91</height>
             </rect>
            </property>
            <property name="frameShape">
@@ -1009,8 +1025,8 @@ border-radius:10px;</string>
           <widget class="QPushButton" name="update_admin_psd">
            <property name="geometry">
             <rect>
-             <x>160</x>
-             <y>130</y>
+             <x>180</x>
+             <y>140</y>
              <width>131</width>
              <height>25</height>
             </rect>
@@ -1028,7 +1044,7 @@ border-radius:10px;</string>
          <widget class="QPushButton" name="regresar_perfil_btn">
           <property name="geometry">
            <rect>
-            <x>650</x>
+            <x>690</x>
             <y>430</y>
             <width>93</width>
             <height>25</height>
