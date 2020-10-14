@@ -504,3 +504,26 @@ def datosGeneralesAdminManager():
         return RespBDD.ERROR_GET       
     else:
         return RespBDD.ERROR_CON
+
+# Cambia las credenciales del administrador
+def updateCredentialsManager(new_psd,new_username):
+    conn = connectionDBManager()
+    try:
+        cursor = conn.cursor()                    
+        # Actualizamos psd del admin
+        query = """
+        update Profesor set 
+        password = ?, username = ?               
+        where idUsuario in (
+            select idUsuario from Profesor
+        )
+        """
+        cursor.execute(query,(new_psd,new_username,))
+        conn.commit() 
+        conn.close()                                   
+        return RespBDD.SUCCESS   
+    except Error as err:
+        print("Error al actualizar datos del admin",str(err))
+        return RespBDD.ERROR_ON_UPDATE       
+    else:
+        return RespBDD.ERROR_CON

@@ -1,6 +1,6 @@
 import os
 # Third party apps
-from PyQt5.QtWidgets import QMainWindow
+from PyQt5.QtWidgets import QMainWindow, QMessageBox
 from PyQt5.uic import loadUi
 from PyQt5.QtGui import QMovie
 # Ventanas
@@ -9,6 +9,7 @@ from packages.Windows.PanelControlWindow.PanelControl import PanelControlWindow
 from packages.database.Manager import getCredencialesAdmin
 # Utils
 from packages.utils.PsdEncrypt import PasswordEncrypt
+from packages.utils.RecoverPassword import RecoverPassword
 
 class LoginWindow(QMainWindow):    
     def __init__(self):
@@ -18,6 +19,7 @@ class LoginWindow(QMainWindow):
         # Cargamos template
         loadUi('templates/Login.ui',self)
         # Componentes del template
+        self.password_btn.clicked.connect(self.recoverPsd)
         self.login_btn.clicked.connect(self.validaCredenciales)
         path = os.path.dirname(os.path.abspath(__package__))+'/img/tindaleffect.gif'
         self.movie = QMovie(str(path))
@@ -50,3 +52,14 @@ class LoginWindow(QMainWindow):
                 self.hide() #Ocultamos la ventana principal            
             else:
                 self.label_alert.setText("¡Credenciales incorrectas!")
+
+    # Manda notifición con nuevo password y username
+    def recoverPsd(self):
+        self.password_btn.setDisabled(True)        
+        notifiaction = RecoverPassword()
+        resp = notifiaction.sendNotification()
+        if resp:
+            QMessageBox.information(self, 'Estado de la petición', 'Se mandaron nuevas credenciales a su email', QMessageBox.Ok)                
+        else:
+            QMessageBox.critical(self, 'Estado de la petición', 'No se pudieron mandar nuevas credenciales', QMessageBox.Ok)
+        self.password_btn.setEnabled(True)                   
