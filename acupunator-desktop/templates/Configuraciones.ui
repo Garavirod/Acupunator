@@ -96,7 +96,7 @@ border-radius:10px;
       <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="currentIndex">
-         <number>2</number>
+         <number>0</number>
         </property>
         <widget class="QWidget" name="tab">
          <attribute name="title">
@@ -161,22 +161,34 @@ border-radius:10px;
              <property name="frameShadow">
               <enum>QFrame::Raised</enum>
              </property>
-             <layout class="QHBoxLayout" name="horizontalLayout">
-              <item>
-               <widget class="QComboBox" name="grupos_box"/>
-              </item>
-              <item>
-               <widget class="QPushButton" name="filtro_btn_alumno">
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(32, 74, 135);
-color: rgb(255, 255, 255);</string>
-                </property>
-                <property name="text">
-                 <string>Filtrar</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             <widget class="QComboBox" name="grupos_box">
+              <property name="geometry">
+               <rect>
+                <x>70</x>
+                <y>10</y>
+                <width>86</width>
+                <height>25</height>
+               </rect>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="filtro_btn_alumno">
+              <property name="geometry">
+               <rect>
+                <x>177</x>
+                <y>9</y>
+                <width>80</width>
+                <height>25</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(64, 129, 191);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+              </property>
+              <property name="text">
+               <string>Filtrar</string>
+              </property>
+             </widget>
             </widget>
            </item>
            <item>
@@ -225,111 +237,122 @@ color: rgb(255, 255, 255);</string>
           <property name="title">
            <string>Eliminación de datos</string>
           </property>
-          <layout class="QVBoxLayout" name="verticalLayout_3">
-           <item>
-            <widget class="QFrame" name="frame_4">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_2">
-              <item>
-               <widget class="QLabel" name="alert_alumno_2">
-                <property name="text">
-                 <string>Total de alumnos en el sistema</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_num_alum">
-                <property name="font">
-                 <font>
-                  <pointsize>30</pointsize>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <spacer name="horizontalSpacer_2">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item>
-               <widget class="QLabel" name="alert_alumno_3">
-                <property name="text">
-                 <string>Eliminar alumno</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="boleta_input">
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="maxLength">
-                 <number>10</number>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-                <property name="placeholderText">
-                 <string>Boleta alumno</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="password_input">
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="echoMode">
-                 <enum>QLineEdit::Password</enum>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-                <property name="placeholderText">
-                 <string>Password de autorización</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="elimina_alu_btn">
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(164, 0, 0);
-color: rgb(255, 255, 255);</string>
-                </property>
-                <property name="text">
-                 <string>Eliminar</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-          </layout>
+          <widget class="QFrame" name="frame_4">
+           <property name="geometry">
+            <rect>
+             <x>12</x>
+             <y>32</y>
+             <width>321</width>
+             <height>244</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QLabel" name="alert_alumno_2">
+              <property name="text">
+               <string>Total de alumnos en el sistema</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_num_alum">
+              <property name="font">
+               <font>
+                <pointsize>30</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="alert_alumno_3">
+              <property name="text">
+               <string>Eliminar alumno</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="boleta_input">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="maxLength">
+               <number>10</number>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+              <property name="placeholderText">
+               <string>Boleta alumno</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="password_input">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="echoMode">
+               <enum>QLineEdit::Password</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+              <property name="placeholderText">
+               <string>Password de autorización</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="elimina_alu_btn">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>290</y>
+             <width>171</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(191, 64, 64);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+           </property>
+           <property name="text">
+            <string>Eliminar</string>
+           </property>
+          </widget>
          </widget>
          <widget class="QPushButton" name="regresar_alu_btn">
           <property name="geometry">
@@ -341,8 +364,9 @@ color: rgb(255, 255, 255);</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(206, 92, 0);
-color: rgb(255, 255, 255);</string>
+           <string notr="true">background-color: rgb(191, 64, 64);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
           </property>
           <property name="text">
            <string>Regresar</string>
@@ -365,97 +389,121 @@ color: rgb(255, 255, 255);</string>
           <property name="title">
            <string>Eliminación y actualización de datos</string>
           </property>
-          <layout class="QHBoxLayout" name="horizontalLayout_2">
-           <item>
-            <widget class="QFrame" name="frame_3">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_7">
-              <item>
-               <widget class="QRadioButton" name="radio_grupo">
-                <property name="text">
-                 <string>Grupo y alumnos</string>
-                </property>
-                <property name="checked">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QRadioButton" name="radio_gru_alu">
-                <property name="text">
-                 <string>Sólo alumnos</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="elimina_gru_btn">
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(164, 0, 0);
-color: rgb(255, 255, 255);</string>
-                </property>
-                <property name="text">
-                 <string>Eliminar</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_2">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_5">
-              <item>
-               <widget class="QLabel" name="alert_alumno_4">
-                <property name="text">
-                 <string>Cambiar nombre del grupo</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="nuevo_nombre">
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="echoMode">
-                 <enum>QLineEdit::Normal</enum>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-                <property name="placeholderText">
-                 <string>nuevo nombre</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="cambia_gru_btn">
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(32, 74, 135);
-color: rgb(255, 255, 255);</string>
-                </property>
-                <property name="text">
-                 <string>Cambiar</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-          </layout>
+          <widget class="QFrame" name="frame_3">
+           <property name="geometry">
+            <rect>
+             <x>12</x>
+             <y>32</y>
+             <width>158</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <item>
+             <widget class="QRadioButton" name="radio_grupo">
+              <property name="text">
+               <string>Grupo y alumnos</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="radio_gru_alu">
+              <property name="text">
+               <string>Sólo alumnos</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QFrame" name="frame_2">
+           <property name="geometry">
+            <rect>
+             <x>176</x>
+             <y>32</y>
+             <width>200</width>
+             <height>97</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <widget class="QLabel" name="alert_alumno_4">
+              <property name="text">
+               <string>Cambiar nombre del grupo</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nuevo_nombre">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="echoMode">
+               <enum>QLineEdit::Normal</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+              <property name="placeholderText">
+               <string>nuevo nombre</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="cambia_gru_btn">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>150</y>
+             <width>182</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(22, 112, 96);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+           </property>
+           <property name="text">
+            <string>Actualizar</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="elimina_gru_btn">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>120</y>
+             <width>140</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(191, 64, 64);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+           </property>
+           <property name="text">
+            <string>Eliminar</string>
+           </property>
+          </widget>
          </widget>
          <widget class="QGroupBox" name="groupBox_4">
           <property name="geometry">
@@ -619,8 +667,9 @@ color: rgb(255, 255, 255);</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(206, 92, 0);
-color: rgb(255, 255, 255);</string>
+           <string notr="true">background-color: rgb(191, 64, 64);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
           </property>
           <property name="text">
            <string>Regresar</string>
@@ -784,25 +833,49 @@ color: rgb(255, 255, 255);</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="editar_btn_Admin">
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(196, 160, 0);
-color: rgb(255, 255, 255);</string>
+               <widget class="QFrame" name="frame_10">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
                 </property>
-                <property name="text">
-                 <string>Editar</string>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
                 </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="update_admin_dta">
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(32, 74, 135);
-color: rgb(255, 255, 255);</string>
-                </property>
-                <property name="text">
-                 <string>Actualizar</string>
-                </property>
+                <widget class="QPushButton" name="update_admin_dta">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>0</y>
+                   <width>101</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(22, 112, 96);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+                 </property>
+                 <property name="text">
+                  <string>Actualizar</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="editar_btn_Admin">
+                 <property name="geometry">
+                  <rect>
+                   <x>130</x>
+                   <y>0</y>
+                   <width>101</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(196, 160, 0);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+                 </property>
+                 <property name="text">
+                  <string>Editar</string>
+                 </property>
+                </widget>
                </widget>
               </item>
              </layout>
@@ -814,9 +887,9 @@ color: rgb(255, 255, 255);</string>
           <property name="geometry">
            <rect>
             <x>310</x>
-            <y>210</y>
+            <y>220</y>
             <width>421</width>
-            <height>191</height>
+            <height>181</height>
            </rect>
           </property>
           <property name="title">
@@ -826,7 +899,7 @@ color: rgb(255, 255, 255);</string>
            <property name="geometry">
             <rect>
              <x>120</x>
-             <y>40</y>
+             <y>60</y>
              <width>207</width>
              <height>17</height>
             </rect>
@@ -883,7 +956,7 @@ color: rgb(255, 255, 255);</string>
             <x>310</x>
             <y>40</y>
             <width>421</width>
-            <height>161</height>
+            <height>171</height>
            </rect>
           </property>
           <property name="title">
@@ -893,7 +966,7 @@ color: rgb(255, 255, 255);</string>
            <property name="geometry">
             <rect>
              <x>120</x>
-             <y>40</y>
+             <y>20</y>
              <width>201</width>
              <height>101</height>
             </rect>
@@ -931,18 +1004,25 @@ color: rgb(255, 255, 255);</string>
               </property>
              </widget>
             </item>
-            <item>
-             <widget class="QPushButton" name="update_admin_psd">
-              <property name="styleSheet">
-               <string notr="true">background-color: rgb(32, 74, 135);
-color: rgb(255, 255, 255);</string>
-              </property>
-              <property name="text">
-               <string>Actualizar</string>
-              </property>
-             </widget>
-            </item>
            </layout>
+          </widget>
+          <widget class="QPushButton" name="update_admin_psd">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>130</y>
+             <width>131</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(22, 112, 96);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+           </property>
+           <property name="text">
+            <string>Actualizar</string>
+           </property>
           </widget>
          </widget>
          <widget class="QPushButton" name="regresar_perfil_btn">
@@ -955,8 +1035,9 @@ color: rgb(255, 255, 255);</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(206, 92, 0);
-color: rgb(255, 255, 255);</string>
+           <string notr="true">background-color: rgb(191, 64, 64);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
           </property>
           <property name="text">
            <string>Regresar</string>

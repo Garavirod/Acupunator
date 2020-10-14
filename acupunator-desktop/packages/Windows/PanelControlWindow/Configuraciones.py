@@ -78,8 +78,10 @@ class ConfiguracionesWindow(QMainWindow):
 
     # Regresa a la ventana padre
     def backToParent(self,parent):
+        parent.setUserName()
         parent.show()
         self.hide()
+
 
     # LLama al proceso del manager que cuenta el numero de alumnos
     def countAlumnos(self):

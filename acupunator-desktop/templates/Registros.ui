@@ -96,7 +96,7 @@ border-radius:10px;
       <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="tab">
          <attribute name="title">
@@ -478,30 +478,44 @@ border-radius:10px;
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
-          <layout class="QHBoxLayout" name="horizontalLayout_2">
-           <item>
-            <widget class="QPushButton" name="regresar_alu_btn">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(164, 0, 0);
-color: rgb(255, 255, 255);</string>
-             </property>
-             <property name="text">
-              <string>Regresar</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="guardar_alu_btn">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(78, 154, 6);
-color: rgb(255, 255, 255);</string>
-             </property>
-             <property name="text">
-              <string>Guardar</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
+          <widget class="QPushButton" name="regresar_alu_btn">
+           <property name="geometry">
+            <rect>
+             <x>9</x>
+             <y>9</y>
+             <width>80</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(191, 64, 64);
+color: rgb(255, 255, 255);
+border-radius:10px;
+</string>
+           </property>
+           <property name="text">
+            <string>Regresar</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="guardar_alu_btn">
+           <property name="geometry">
+            <rect>
+             <x>95</x>
+             <y>9</y>
+             <width>80</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(22, 112, 96);
+color: rgb(255, 255, 255);
+border-radius:10px;
+</string>
+           </property>
+           <property name="text">
+            <string>Guardar</string>
+           </property>
+          </widget>
          </widget>
          <widget class="QLabel" name="alert_alumno">
           <property name="geometry">
@@ -587,30 +601,44 @@ color: rgb(255, 255, 255);</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
-          <layout class="QHBoxLayout" name="horizontalLayout_3">
-           <item>
-            <widget class="QPushButton" name="regresar_gru_btn">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(164, 0, 0);
-color: rgb(255, 255, 255);</string>
-             </property>
-             <property name="text">
-              <string>Regresar</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="guardar_gru_btn">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(78, 154, 6);
-color: rgb(255, 255, 255);</string>
-             </property>
-             <property name="text">
-              <string>Guardar</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
+          <widget class="QPushButton" name="regresar_gru_btn">
+           <property name="geometry">
+            <rect>
+             <x>9</x>
+             <y>9</y>
+             <width>80</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(191, 64, 64);
+color: rgb(255, 255, 255);
+border-radius:10px;
+</string>
+           </property>
+           <property name="text">
+            <string>Regresar</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="guardar_gru_btn">
+           <property name="geometry">
+            <rect>
+             <x>95</x>
+             <y>9</y>
+             <width>80</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(22, 112, 96);
+color: rgb(255, 255, 255);
+border-radius:10px;
+</string>
+           </property>
+           <property name="text">
+            <string>Guardar</string>
+           </property>
+          </widget>
          </widget>
         </widget>
        </widget>

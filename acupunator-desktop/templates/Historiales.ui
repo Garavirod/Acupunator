@@ -137,8 +137,9 @@ border-radius:10px;
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(206, 92, 0);
+       <string notr="true">background-color: rgb(64, 129, 191);
 color: rgb(255, 255, 255);
+border-radius:10px;
 </string>
       </property>
       <property name="text">
@@ -155,8 +156,9 @@ color: rgb(255, 255, 255);
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(164, 0, 0);
-color: rgb(255, 255, 255);</string>
+       <string notr="true">background-color: rgb(191, 64, 64);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
       </property>
       <property name="text">
        <string>Regresar</string>

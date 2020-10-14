@@ -212,30 +212,42 @@ border-radius:10px;
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
-          <layout class="QHBoxLayout" name="horizontalLayout_2">
-           <item>
-            <widget class="QPushButton" name="regresar_alu_btn">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(164, 0, 0);
-color: rgb(255, 255, 255);</string>
-             </property>
-             <property name="text">
-              <string>cancelar</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="guardar_alu_btn">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(196, 160, 0);
-color: rgb(255, 255, 255);</string>
-             </property>
-             <property name="text">
-              <string>Actualizar</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
+          <widget class="QPushButton" name="regresar_alu_btn">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>30</y>
+             <width>111</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(191, 64, 64);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+           </property>
+           <property name="text">
+            <string>cancelar</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="guardar_alu_btn">
+           <property name="geometry">
+            <rect>
+             <x>220</x>
+             <y>30</y>
+             <width>111</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(22, 112, 96);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+           </property>
+           <property name="text">
+            <string>Actualizar</string>
+           </property>
+          </widget>
          </widget>
         </item>
        </layout>

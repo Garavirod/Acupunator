@@ -1,6 +1,6 @@
 import os
 # Third party apps
-from PyQt5.QtWidgets import QMainWindow
+from PyQt5.QtWidgets import QMainWindow, QMessageBox
 from PyQt5.uic import loadUi
 # Ventanas
 from . import (
@@ -12,12 +12,16 @@ from . import (
     Simulador,
 )
 
+# Manager
+from packages.database.Manager import getCredencialesAdmin
+
 class PanelControlWindow(QMainWindow):
     def __init__(self,parent=None):
         super(PanelControlWindow,self).__init__(parent)
         # Cargamos template del panel de control
         loadUi('templates/Home.ui',self)
         # cargamos elementos del template
+        self.setUserName()
         self.logout.clicked.connect(lambda:self.cerrarSesion())
         self.registro_btn.clicked.connect(lambda:self.openSectionPanel("Registro"))
         self.historial_btn.clicked.connect(lambda: self.openSectionPanel("Historiales"))
@@ -25,6 +29,7 @@ class PanelControlWindow(QMainWindow):
         self.grupos_btn.clicked.connect(lambda:self.openSectionPanel("Grupos"))
         self.settings_btn.clicked.connect(lambda: self.openSectionPanel("Configuraciones"))
         self.simulador_btn.clicked.connect(lambda: self.openSectionPanel("Simulador"))
+        
     # Abre la ventana e una sección dependiendo cual se eligó
     def openSectionPanel(self,sectionName):
         _sectionWindow = None
@@ -45,4 +50,11 @@ class PanelControlWindow(QMainWindow):
 
     # Cierra la sesión de la aplicación
     def cerrarSesion(self):
-        self.close()
+        resp = QMessageBox.question(self,'cerrar sesión',"¿Seguro que desa salir?", QMessageBox.Ok | QMessageBox.Cancel)
+        if resp == QMessageBox.Ok:
+            self.close()
+    
+    # Mostarr nombre de usuario actual
+    def setUserName(self):
+        username = getCredencialesAdmin()        
+        self.label_username.setText(str(username[0]))
