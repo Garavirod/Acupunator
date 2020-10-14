@@ -22,7 +22,7 @@ from packages.database.Models import ModelGrupos
 class SimuladorWindow(QMainWindow):
     def __init__(self,parent=None):
         super(SimuladorWindow,self).__init__(parent)
-        self.__detalle = """
+        self.__detalle_alumno = """
             ¿Desea autorizar la siguiente simulación? \n
             Simulación de tipo : {} \n
             Canal de estudio : {} \n
@@ -30,15 +30,23 @@ class SimuladorWindow(QMainWindow):
             Boleta : {} \n
             Grupo : {} \n
         """
+
+        self.__detalle_profesor = """
+            ¿Desea autorizar la siguiente simulación? \n
+            Simulación como rol 'Profesor'\n
+            Simulación de tipo : {} \n
+            Canal de estudio : {} \n
+        """
         # Cargamos template del panel de Simulador
         loadUi('templates/Simulador.ui',self)
         # Cargamos los elementos del template
         self.regresar_btn.clicked.connect(lambda: self.backToHome(parent)) 
         self.filtrar_btn.clicked.connect(self.filtrarAlumnos)
-        self.table_alumnos.clicked.connect(self.initAcupunator)
+        self.table_alumnos.clicked.connect(lambda:self.initAcupunator(rol="Alumno"))
         self.getGrupos() #LLena el combo box
         self.filtrarAlumnos() # filtra alumnos y despliega en tabla
         self.__current_group = self.grupos_box.currentText()
+        self.profe_btn_sim.clicked.connect(lambda:self.initAcupunator(rol="Profesor"))
 
     #Regresa a la venta de Panel de control
     def backToHome(self,parent):
@@ -85,7 +93,7 @@ class SimuladorWindow(QMainWindow):
 
     
     # Generá un arichivo JSON para compartir al simulador
-    def generateJSONFile(self,tipo,canal,boleta):
+    def generateJSONFile(self,rol,canal,tipo="",boleta=""):
         # ruta a guaradar el arichivo JSON
         path = os.path.dirname(os.path.abspath(__package__))+'/packages/shared/dataShared.json'
         # Estructura del JSON
@@ -95,7 +103,8 @@ class SimuladorWindow(QMainWindow):
             {
                 'tipo' : tipo,
                 'canal' : canal,
-                'numBoleta' : boleta
+                'numBoleta' : boleta,
+                'rol':rol
             }
         )
         with open(str(path), 'w+') as file:
@@ -103,26 +112,37 @@ class SimuladorWindow(QMainWindow):
 
 
     # Inicia el proceo de simulación
-    def initAcupunator(self):
-        row = self.table_alumnos.currentRow()
-        boleta = self.table_alumnos.item(row, 0).text()  
-        nombre = self.table_alumnos.item(row, 1).text()
-        grupo = self.__current_group
+    def initAcupunator(self, rol):
         tipo_simulacion = self.tipo_simulacion_box.currentText()
         canal = self.canales_box.currentText()
-        # Ventana modal de confirmación
-        resp = QMessageBox.question(
-            self,
-            'Detalle de simulación',
-            self.__detalle.format(
-                tipo_simulacion,
-                canal,
-                nombre,
-                boleta,
-                grupo), 
-                QMessageBox.Ok | QMessageBox.Cancel)  
-        # Validamos la respesta del suaurio
-        if(resp == QMessageBox.Ok):
-            # LLamamos al método que creará el arichivo JSON compartdio            
-            self.generateJSONFile(tipo_simulacion,canal,boleta)                         
-            # Ejecutamos el simulador via CMD
+        if rol == "Alumno":
+            row = self.table_alumnos.currentRow()
+            boleta = self.table_alumnos.item(row, 0).text()  
+            nombre = self.table_alumnos.item(row, 1).text()
+            grupo = self.__current_group           
+            # Ventana modal de confirmación
+            resp = QMessageBox.question(
+                self,
+                'Detalle de simulación',
+                self.__detalle_alumno.format(
+                    tipo_simulacion,
+                    canal,
+                    nombre,
+                    boleta,
+                    grupo), 
+                    QMessageBox.Ok | QMessageBox.Cancel)  
+            # Validamos la respesta del suaurio
+            if(resp == QMessageBox.Ok):
+                # LLamamos al método que creará el arichivo JSON compartdio            
+                self.generateJSONFile(rol,canal,tipo_simulacion,boleta)                         
+                # Ejecutamos el simulador via CMD
+        else:
+            resp = QMessageBox.question(
+                self,
+                'Detalle de simulación',
+                self.__detalle_profesor.format(
+                    tipo_simulacion,
+                    canal),
+                    QMessageBox.Ok | QMessageBox.Cancel) 
+            if resp == QMessageBox.Ok:
+                self.generateJSONFile(rol,canal,tipo_simulacion)                         

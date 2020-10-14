@@ -136,7 +136,7 @@ border-radius:10px;
      <widget class="QPushButton" name="regresar_btn">
       <property name="geometry">
        <rect>
-        <x>330</x>
+        <x>690</x>
         <y>420</y>
         <width>89</width>
         <height>25</height>
@@ -205,14 +205,14 @@ border-radius:10px;
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>180</x>
-        <y>50</y>
-        <width>351</width>
-        <height>20</height>
+        <x>40</x>
+        <y>9</y>
+        <width>251</width>
+        <height>181</height>
        </rect>
       </property>
       <property name="text">
-       <string>Seleccione un estudiante para iniciar la simulación</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Seleccione un alumno de la tabla&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;para iniciar la simulación, &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;o presione el botón &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;&amp;quot;entrar como profesor&amp;quot; &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;si la simulación no es para un alumno.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -221,10 +221,10 @@ border-radius:10px;
      <widget class="QFrame" name="frame_3">
       <property name="geometry">
        <rect>
-        <x>50</x>
-        <y>140</y>
+        <x>40</x>
+        <y>190</y>
         <width>231</width>
-        <height>241</height>
+        <height>171</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -305,6 +305,25 @@ background-color: rgb(234, 241, 247);
       </property>
       <property name="text">
        <string>Seleccionar grupo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="profe_btn_sim">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>380</y>
+        <width>231</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(196, 160, 0);
+color: rgb(255, 255, 255);
+border-radius:10px;
+</string>
+      </property>
+      <property name="text">
+       <string>Entrar como &quot;Profesor&quot;</string>
       </property>
      </widget>
     </widget>
