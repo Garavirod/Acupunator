@@ -40,7 +40,7 @@
       <rect>
        <x>40</x>
        <y>20</y>
-       <width>231</width>
+       <width>291</width>
        <height>51</height>
       </rect>
      </property>
@@ -112,8 +112,8 @@ border-radius:10px;
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>769</width>
-           <height>1323</height>
+           <width>766</width>
+           <height>1203</height>
           </rect>
          </property>
          <layout class="QGridLayout" name="gridLayout">
@@ -368,7 +368,7 @@ border-radius:10px;
               </rect>
              </property>
              <property name="text">
-              <string>Registros</string>
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Registros&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
              </property>
             </widget>
             <widget class="QPushButton" name="registro_btn">

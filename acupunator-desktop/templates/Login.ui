@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>863</width>
+    <width>898</width>
     <height>608</height>
    </rect>
   </property>
@@ -19,7 +19,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>841</width>
+      <width>881</width>
       <height>581</height>
      </rect>
     </property>
@@ -40,7 +40,7 @@
       <rect>
        <x>420</x>
        <y>20</y>
-       <width>411</width>
+       <width>441</width>
        <height>531</height>
       </rect>
      </property>
@@ -58,9 +58,9 @@ border-radius:10px;</string>
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>10</y>
-        <width>401</width>
-        <height>511</height>
+        <y>0</y>
+        <width>441</width>
+        <height>531</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -79,8 +79,8 @@ border-radius:10px;</string>
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
-        <x>140</x>
-        <y>230</y>
+        <x>150</x>
+        <y>220</y>
         <width>141</width>
         <height>131</height>
        </rect>
@@ -101,9 +101,9 @@ border-radius:10px;</string>
      <widget class="QLabel" name="header_2">
       <property name="geometry">
        <rect>
-        <x>80</x>
+        <x>70</x>
         <y>20</y>
-        <width>241</width>
+        <width>321</width>
         <height>51</height>
        </rect>
       </property>
@@ -128,9 +128,9 @@ background-color:none;</string>
       <property name="geometry">
        <rect>
         <x>60</x>
-        <y>80</y>
-        <width>301</width>
-        <height>51</height>
+        <y>110</y>
+        <width>331</width>
+        <height>21</height>
        </rect>
       </property>
       <property name="font">
@@ -203,10 +203,10 @@ border-radius:10px;</string>
     <widget class="QLabel" name="label_5">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>200</y>
-       <width>131</width>
-       <height>17</height>
+       <x>130</x>
+       <y>186</y>
+       <width>161</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="styleSheet">
