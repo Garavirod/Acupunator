@@ -1,0 +1,62 @@
+{
+    "Canal del pulmón":[
+        {
+            "id":1,
+            "name":"Zhong Fu.",
+            "alias":"En medio de las entrañas, en medio de la mansión.",
+            "location":"A 6 cun lateral de la línea media anterior, en el espacio entre la 2a y la 3a costillas, a 1 cun directamente debajo de Yunmen.",
+            "function":"Aclara (dispersa) el calor, despeja el fogón superior, favorece el recorrido de la energía de todos los canales, detiene la tos, da fluidez a la energía de pulmón.",
+            "directions":"Tos, asma, neumonía, tuberculosis pulmonar, sensación de opresión de pecho, dolor de tórax, dolor de la espalda y hombro.",
+            "puncture":"Suave, del exterior al interior (del hombro al esternón) a 45 grados ó 15 grados, se introduce de 0.5 a 0.8 cun; también se puede insertar perpendicularmente de 0.3 a 0.5 cun, con la punta dirigida hacia la parte externa del tórax.",
+            "combinations":[
+                "Lieque: para tos.",
+                "Shanzhong,Chize: para asma.",
+                "Neiguan: para dolor de tórax.",
+                "Taiyuan, Taixi, Zusanli: para tuberculosis pulmonar.",
+                "Dazhui, Kongzui: para neumonía."
+            ],
+            "remark":"unto Mu-Frontal del pulmón. Aquí converge la energía del canal."
+            
+
+        },       
+        {
+            "id":2,
+            "name":"Chi Ze.",
+            "alias":"Estanque o charco.",
+            "location":"En el pliegue del codo, en el lado radial del tendón del músculo bíceps braquial.",
+            "function":"Aclara el calor, dispersa la energía, 'abre el paso al agua' (hace descender al agua en el caso de anuria), equilibra la energía del estómago, intestino grueso y del intestino delgado. Regula los líquidos corporales.",
+            "directions":"Laringotraqueitis causada por calor o por frío, por asma. Neumonía, tuberculosis pulmonar, hemoptisis, epistaxis, pleuritis. Dolor e inflamación de faringe y laringe. Opresión del tórax. Calor en oleadas en cara, palmas, plantas (que es causado por deficiencia de Yin). Convulsiones en niños por hipertermia. Anasarca. Nicturia infantil. Enterocolitis aguda. Dolor de la articulación del codo, contractura y dolor del codo. Abducción y aducción dificultosa. Inflamación mamaria por el no drenaje de leche.",
+            "puncture":"Perpendicular de 0.5 a 1.2 cun.",
+            "combinations":[
+                "Xiaohai, Jianjing: para codo del tenista.",
+                "Shaoshang: para hematemesis, dolor de faringe y de laringe.",
+                "Lieque,Feishu: para laringotraqueítis.",
+                "Tanzhong: para asma.",
+                "Weizhong: éste último punto se sangra para tratar gastroenteritis aguda, vómito y diarrea aguda."
+            ],
+            "remark":"Punto He-Mar, Elemento Agua, y dispersante del canal."
+
+        },
+        {
+            "id":3,
+            "name":"Kong Zui.",
+            "alias":"Hueco profundo.",
+            "location":" En el borde radial del antebrazo, a 5 cun debajo de Chize (P 5) o a 7 cun por arriba de Taiyuan, sobre la línea que une a ambos puntos.",
+            "function":"Lubrica al pulmón, beneficia a la faringe, despeja el calor de la superficie. Drena la energía de pulmón.",
+            "directions":"Laringotraqueitis causada por calor o por frío, por asma. Neumonía, tuberculosis pulmonar, hemoptisis, epistaxis, pleuritis. Dolor e inflamación de faringe y laringe. Opresión del tórax. Calor en oleadas en cara, palmas, plantas (que es causado por deficiencia de Yin). Convulsiones en niños por hipertermia. Anasarca. Nicturia infantil. Enterocolitis aguda. Dolor de la articulación del codo, contractura y dolor del codo. Abducción y aducción dificultosa. Inflamación mamaria por el no drenaje de leche.",
+            "puncture":"Perpendicular de 0.5 a 1.2 cun.",
+            "combinations":[
+                "Xiaohai, Jianjing: para codo del tenista.",
+                "Shaoshang: para hematemesis, dolor de faringe y de laringe.",
+                "Lieque,Feishu: para laringotraqueítis.",
+                "Tanzhong: para asma.",
+                "Weizhong: éste último punto se sangra para tratar gastroenteritis aguda, vómito y diarrea aguda."
+            ],
+            "remark":"Punto Xi-Hendidura o fisura."
+
+        }  
+    ],
+    "" :[
+
+    ]
+}
