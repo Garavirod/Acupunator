@@ -341,259 +341,350 @@
     "canal del estomago": [
         {
             "id": 1,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Cheng Qi.",
+            "alias": "Sitio de recolección de lágrimas.",
+            "location": "A 0.7 cun directamente por debajo de la pupila, mirando el paciente hacia el frente; entre el borde inferior del globo ocular y el borde óseo de la órbita.",
+            "function": "Dispersa el viento y el calor, aclara la visión. Controla las lágrimas.",
+            "directions": "Conjuntivitis, lagrimeo al recibir viento por ataque repentino, manifestaciones de calor externo, visión borrosa, atrofia del nervio óptico, rinitis pigmentosa, estrabismo, ceguera nocturna, parálisis facial, tic del párpado.",
+            "puncture": "Se inserta la aguja perpendicularmente de 0.3 a 0.7 cun a lo largo del borde infraorbitario; nunca rotar la aguja una vez introducida ésta. Al tener el paciente la sensación de brillo, se saca lentamente la aguja y se hace presión sobre el punto para evitar sangrado.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Fengchi (VB 20), Taiyang (extra):  A un cun posterior del cruce de la prolongación de las lineas: cola de la ceja y angulo externo del ojo: cefalea, trqastornos oculares, hipertensión Degeneración del nervio óptico.",
+                "Ganshu (V 18), Shenshu (V 23): Ceguera nocturna.",
+                "Taiyang (extra), Erjian (IG 2), Zanzhu (V 2): Inflamación y enrojecimiento de ojos."                            
             ],
-            "remark": ""
+            "remark": "Este punto nunca se moxa; es punto de reunión de los vasos extraordinarios Yang Qiao y Ren Mai.\n Otros nombres que recibe este punto : Xie Xie (Punto de separación de pequeños músculos) y Mian Liao (Orificio de la cara)."
         },
         {
             "id": 2,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Si Bai.",
+            "alias": "Cuatro blancos brillantes.",
+            "location": "Debajo de Chengqi (E 1), a 1 cun por abajo y en dirección de la pupila, en la depresión del agujero infraorbirario.",
+            "function": "Dispersa el viento y el calor, drena canales y colaterales.",
+            "directions": "Se usa en problemas oculares con viento y calor, drena canales y colaterales, es útil en parálisis facial; dolor facial, inflamación y dolor de ojos, tic de párpados, aclara la vista, ayuda a la circulación de energía del hígado y vesícula biliar (Madera), cura la ascaridiasis biliar, relaja tendones.",
+            "puncture": "Horizontal u oblicua de 0.3 a 0.8 cun, se puede dirigir la aguja hacia Quanliao (ID 19) en la neuralgia del trigémino o también hacia Xiaguan (E 7) por debajo del arco cigomático.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Renzhong (DM 26), Hegu (IG 4): Tic facial.",
+                "Fengchi (VB 20), Taiyang (extra), Hegu (IG 4): Miopía.",
+                "Fengchi (VB 20), Xiaguan (E 7), Hegu (IG 4): Neuralgia del trigémino.",
+                "Fengchi (VB 20), Dashu (V 11): Cefalea, mareo y visión borrosa."                
             ],
-            "remark": ""
+            "remark": "Totalmente contraindicada la inserción profunda, en este punto está indicada la moxibustión."
         },
         {
             "id": 3,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ju Liao.",
+            "alias": "Agujero grande.",
+            "location": "Debajo de Sibai,  a nivel del borde inferior del ala de la nariz, en dirección de la pupila.",
+            "function": "Dispersa el viento en los canales y colaterales, antiinflamatorio y analgésico. Actua sobre los orificios de la cara.",
+            "directions": "Obstrucción nasal, miedo al frío, parálisis facial, antiinflamatorio, beri-beri, bocio, neuralgia del trigémino, fotofobia, catarata, atrofia del nervio óptico, anestesia en ORL, dolor dental, edema de labios y mejilla, epistaxis, sinusitis.",
+            "puncture": "Perpendicular de 0.3 a 0.4 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Neiting (E 44), Fengchi (VB 20): Viento y calor en ojos."
             ],
-            "remark": ""
+            "remark": "Está indicada la moxibustión."
         },
         {
             "id": 4,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Di Cang.",
+            "alias": "Granero de la tierra.",
+            "location": "A 0.4 cun lateral al ángulo de la boca, exactamente debajo del punto anterior (Juliao). En dirección de la pupila y comisura bucal.",
+            "function": "Dispersa el viento y calor, drena canales y colaterales, fortalece la energía de protección, es antiinflamatorio.",
+            "directions": "Desviación de la boca, salivación, tic de los párpados, debilidad de la piel, tétanos (la punta de la aguja debe dirigirse hacia Xiaguan o Jiache), miopía, mutismo.",
+            "puncture": "Oblicua de 0.5 a 1 cun, la moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Chengjiang (RM 24): Sialorrea.",
+                "Jiache (E 6), Hegu (IG 4), Xiaguan (E 7), Fengchi (VB 20): Neuralgia del trigémino."
             ],
-            "remark": ""
+            "remark": "Se usa en afecciones de las piernas. Es punto de reunión del canal Yang-ming de la mano y pie y del Yang Qiao."
         },
         {
             "id": 5,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Da Ying.",
+            "alias": "Gran reunión de Tai-Yin.",
+            "location": "Anterior al ángulo de la mandíbula, en el borde anterior del músculo masetero, en la depresión que aparece cuando se sopla.",
+            "function": "Elimina viento y estancamiento de la energía.",
+            "directions": "Espasmos de la cara, luxación de la mandíbula, neuralgia dentaria inferior, espasmos del cuello, espasmo ocular, parotiditis, trismus, desviación de boca, edema de mejilla, dolor dental, inflamación de pómulos, tic de labios.",
+            "puncture": "Oblicua de 0.3 cun dirigiendo la punta de la aguja hacia Dicang (E 4) o Jiache (E 6), no se debe pinchar la arteria. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Hegu (IG 4), Jiache (E 6): Incapacidad para abrir la boca.",
+                "Xiaguan (E 7): Caída mandibular."
             ],
-            "remark": ""
+            "remark": "Otro nombre que recibe el punto es Suikong 'Agujero medular'."
         },
         {
             "id": 6,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Jia Che.",
+            "alias": "Sujetar un carro.",
+            "location": "En el ángulo inferior de la mandíbula, donde se forma la prominencia del músculo masetero cuando se aprietan los dientes.",
+            "function": "Dispersa el viento, activa los colaterales, regula la energía, tiene acción analgésica, nutre a la mandíbula.",
+            "directions": "Odontalgia mandibular, parálisis facial, edema de la mejilla, trismos, dolor y rigidez de nuca, parotiditis, inflamación de la mandíbula, imposibilidad para masticar, neuralgia del trigémino, afonía, neuralgia de dientes inferiores, contracción de mandíbula, tortícolis.",
+            "puncture": "Oblicua o perpendicular de 1 a 2 cun hacia el punto Dicang. En la primera etapa de la parálisis facial (ataque de viento a colaterales), la punción es superficial.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Chengjiang (RM 24), Hegu (IG 4): Incapacidad para abrir la boca o desviación.",
+                "Yifeng (SJ 17), Hegu (IG 4): Amigdalitis."
             ],
-            "remark": ""
+            "remark": "Otros nombres que recibe el punto: Kaichuan, (Refugio del demonio) o Guya (Dolor de dientes)."
         },
         {
             "id": 7,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Xia Guan.",
+            "alias": "Articulación",
+            "location": "En la depresión inferior al borde del arco cigomático y anterior al cóndilo de la mandíbula. Se debe localizar el punto cuando el paciente tiene la boca cerrada.",
+            "function": "Dispersa el viento, abre los orificios (oído), antiinflamatorio, despierta la inteligencia, aumenta la actividad cerebral y agilidad mental, aumenta la capacidad auditiva.",
+            "directions": "Luxación recidivante de la articulación temporomaxilar, neuralgia dental, parálisis facial con dolor, inflamación, alteraciones de movimientos, astenia, sordera, zumbido de oídos, otitis media, tinnitus, otorrea, trastornos motores de la mandíbula.",
+            "puncture": "Perpendicular de 0.3 a 1 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Yifeng (SJ 17), Tinggong (ID 19): Otitis.",
+                "Yangxi (IG 5), Yemen (SJ 2): Tinnitus, sordera."            
             ],
-            "remark": ""
+            "remark": "Es el punto de reunión del Yang-Ming del pie y Shao-Yang del pie (E-VB)."
         },
         {
             "id": 8,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Tou Wei..",
+            "alias": "Protege la cabeza.",
+            "location": "Directamente por arriba de la línea anterior de la patilla a 4.5 cun lateral a la línea media y a 0.5 cun posterior a la línea anterior de la implantación del pelo (Shenting).",
+            "function": "Dispersa el viento, aclara la cabeza y los ojos.",
+            "directions": "Congestión cerebral, migraña (como que se abre), neuralgia frontal, visión débil, vértigos, dolor oftálmico, lagrimeo al recibir viento, conjuntivitis purulenta, cefalea por viento o frío, tic ocular.",
+            "puncture": "Inserción horizontal de 0.5 a 1 cun a lo largo del cuero cabelludo, con la punta de la aguja hacia abajo; si hay cefalea con sensación de que se va a salir el ojo, dirigir la punta de la aguja hacia el ojo.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Chengqi (E 1), Fengchi (VB 20): Lagrimeo por viento.",
+                "Daling (PC 7): Dolor de cabeza. -Sensación de que se quiebra",
+                "Fengchi (VB 20), Lieque (P 7): Cefalea por viento frío.",
+                "Jingming (V 1), Fengchi (VB 20): Visión borrosa."                
             ],
-            "remark": ""
+            "remark": "Punto de confluencia de los canales Shaoyang de pie y Yangwei."
         },
         {
             "id": 9,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Liang Men.",
+            "alias": "Viga de la puerta.",
+            "location": "A 2 cun de la línea media anterior y 4 cun arriba del ombligo, a 1 cun abajo del punto anterior.",
+            "function": "Regula la energía del calentador medio, estómago e intestinos, ayuda a que el bazo realice su función de absorción y distribución de alimentos. Elimina estancamiento de alimentos por frío.",
+            "directions": "Dolor de estómago, vómito, anorexia, diarrea, mala digestión, sensación de que se llena fácilmente, evacuaciones semipastosas, ptosis de estómago.",
+            "puncture": "Perpendicular de 0.7 a 1.5 cun. Se usa moxibustión.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Yunmen (P 2), Houxi (ID 3): Vómito de sangre.",
+                "Zhongwan (RM 12), Qihai (RM 6), Shangjuxu (E 37): Ptosis de estómago.",
+                "Qihai (RM 6), Shangjuxu (E 37): Evacuaciones semipastosas con moco.",
+                "Zhongwan (RM 12), Gongsun (B 4), Zusanli (E 36), Neiguan (PC 6): Mala digestión."                
             ],
             "remark": ""
         },
         {
             "id": 10,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Tian Shu.",
+            "alias": "El eje del cielo.",
+            "location": "A la altura del ombligo, a 2 cun lateral del canal Ren Mai.",
+            "function": "Regula al calentador central, fortalece el bazo y estómago, regula los canales y la energía, desciende los alimentos del estómago.",
+            "directions": "Dolor abdominal, edema y menstruación irregular, parásitos, diarrea, disentería, constipación, borborigmos, distensión abdominal, fiebre intermitente, nefritis, ascitis y dismenorrea.",
+            "puncture": "Perpendicular 0.7 a 1.2 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Guanyuan (RM 4), Shangjuxu (E 37): Disentería.",
+                "Zhigou (SJ 6), Quchi (IG 11): Estreñimiento."                                                
             ],
-            "remark": ""
+            "remark": "Este es el punto Mu frontal de IG. Recibe otros nombres como el de Chang-xi (Separación muscular) y Gu-men (Puerta hondonada). Sirve de referencia para la localización de los puntos que se halla en el abdomen inferior (hipogástrio). La distancia de Tian-shu a Qichong es de 5 cun."
         },
         {
             "id": 11,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shui Dao.",
+            "alias": "Camino del agua.",
+            "location": "A 3 cun por abajo del ombligo y 2 cun lateral de la línea media o canal Ren Mai.",
+            "function": "Regula el calentador inferior y drena el canal del agua, regula la vejiga.",
+            "directions": "Distensión abdominal, hernia, retención de orina, orquitis, dolor de pene, leucorrea, inflamación de los ovarios, todas las afecciones genitales de ambos sexos, prolapso rectal, enuresis, anuria, nefritis.",
+            "puncture": "Perpendicular de 0.7 a 1.3 cun. La moxa es útil.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zusanli (E 36), Shuifen (RM 9), Sanyinjiao (B 6): Ascitis.",
+                "Baihui (DM 20), Sanyinjiao (B 6): Enuresis, anuria.",
+                "Shenshu (V 23), Sanyinjiao (B 6): Nefritis."                                
             ],
             "remark": ""
         },
         {
             "id": 12,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Gui Lai.",
+            "alias": "El que regresa.",
+            "location": "A 4 cun por abajo del ombligo y 2 cun lateral de la línea media anterior.",
+            "function": "Calienta al calentador inferior, regula la función del útero, estimula la ovulación.",
+            "directions": "Dolor abdominal, hernia, prolapso uterino, orquitis, dolor en pene, leucorrea, inflamación de los ovarios, amenorrea y todas las afecciones genitales de ambos sexos, frío en vientre bajo.",
+            "puncture": "Perpendicular de 0.7 a 1.2 cun. Se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zhongji (RM 3), Sanyinjiao (B 6), Xuehai (B 10): Amenorrea.",
+                "Dadu (B 2): Hernia inguinal.",
+                "Guanyuan (RM 4), Zhongji (RM 3), Shenshu (V 23): Alteraciones del aparato reproductor."
             ],
             "remark": ""
         },
         {
             "id": 13,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Qi Chong.",
+            "alias": "Camino de la energía.",
+            "location": "A 2 cun lateral de la línea media anterior, a nivel del borde superior de la sínfisis del pubis.",
+            "function": "Relaja los tendones, regula sangre y útero, desciende la energía invertida, baja la energía a extremidades inferiores.",
+            "directions": "Dolor y edema de los genitales externos, hernia, menstruación irregular, todas las afecciones genitales de ambos sexos y en afecciones lumbares, regula la potencia sexual, metrorragia, impotencia, esterilidad, dolor testicular, debilidad de las extremidades inferiores.",
+            "puncture": "Perpendicular 1 a 1.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Guanyuan (RM 4), Shenshu (V 23): Impotencia.",
+                "Dadu (B 2), Taichong (H 3): Hernia inguinal.",
+                "Xuehai (B 10): Metrorragia."
             ],
-            "remark": ""
+            "remark": "Aquí asciende el canal Chong Mai. Es paso de mucha energía."
         },
         {
             "id": 14,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Liang Qiu.",
+            "alias": "Valle pequeño sobre la montaña.",
+            "location": "2 cun por arriba del borde superior externo de la rótula, a 1 cun por abajo de Yinshi.",
+            "function": "Regula la sangre y la energía, activa canales y colaterales, regula la energía del estómago.",
+            "directions": "Se usa para el tratamiento de enfermedades agudas del estómago, dolor y edema de miembros inferiores, mastitis, fatiga y dolor en el miembro inferior.",
+            "puncture": "Perpendicular de 0.5 a 1 cun. Se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zusanli (E 36), Zhonwang (RM 12): Vómitos y dolor de estómago."
             ],
-            "remark": ""
+            "remark": "Punto Xi-Hendidura."
         },
         {
             "id": 15,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Du Bi.",
+            "alias": "Nariz de buey.",
+            "location": "Con la rodilla flexionada, en el borde externo del tendón rotuliano, en la depresión que se forma en la cara externa de la articulación de la rodilla.",
+            "function": "Elimina el frío y la humedad, favorece la flexibilidad de la rodilla, mejora la función articular, conforta la articulación.",
+            "directions": "Dolor, entumecimiento y trastornos motores de la articulación de la rodilla, beri-beri, artritis de la rodilla, debilidad de las piernas, parestesia de rodilla.",
+            "puncture": "Oblicua de 0.7 a 1 cun, la punta se dirige ligeramente hacia el lado interno. Se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Liangqiu (E 34), Yanglingquan (VB 34), Xuehai (B 10): Dolor de rodilla."
             ],
-            "remark": ""
-        }
+            "remark": "Otro nombre que recibe este punto es Xi Yang externo."
+        },        
+        {
+            "id": 16,
+            "name": "Zu San Li.",
+            "alias": "Tres medidas del pie.",
+            "location": "A 3 cun  por debajo del Dubi, cuando está flexionado el pie. Estando acostado el paciente se toma como referencia la prominencia tibial anterior, un dedo por abajo y uno lateral.",
+            "function": "Tonifica la energía del bazo y estómago, regula la función intestinal y va a dispersar la oclusión de alimentos y de energía, regula la sangre y la energía; drena canales y colaterales. Fortalece la energía, encapsula la energía Yuan, dispersa la energía perversa, prevee enfermedades de tipo viral, en epidemia es preventivo, alarga la vida del paciente, evita el envejecimiento prematuro. Actua en enfermedades de los tres calentadores. En China los médicos se moxan este punto antes de trabajar.",
+            "directions": "Dolor de estómago, vómito, distensión abdominal, desnutrición, diabetes, indigestión, borborigmos, diarrea, constipación, disentería, mareo, trastornos mentales, hemiplejia, beri-beri, dolor de la articulación de la rodilla y pierna. Gastritis aguda o crónica, mala digestión, anorexia, pérdida de peso, trastornos del habla, enfermedades de la boca, peritonitis, flatulencia, anuria, arteriosclerosis, congestión opresiva del cuello, fatiga, dolor de miembros, cefalea, afecciones oculares, asma por baja de energía. \n El uso adecuado y regular de  este punto conserva la robustez y la vitalidad.",
+            "puncture": "Perpendicular de 0.5 a 1.3 cun. Se puede moxar.",
+            "combinations": [
+                "Zhongwang (RM 12), Qihai (RM 6), Baihui (DM 20): Pirosis.",
+                "Zhongwang (RM 12), Quchi (IG 11): Alteración de estómago por inquietud.",
+                "Neiguan (PC 6), Zhongwan (RM 12): Borborigmos, diarrea, disentería, constipación.",
+                "Sanyinjiao (B 6): Artritis por humedad.",
+                "Quchi (IG 11): Enfermedades crónicas."
+            ],
+            "remark": "Punto Mar inferior de estómago. Punto Mar y Tierra. Punto general para tratamiento de problemas digestivos."
+        },        
+        {
+            "id": 17,
+            "name": "Shang Ju Xu.",
+            "alias": "La gran depresión superior.",
+            "location": "A 3 cun debajo de Zu San Li y 6 cun de Du Bi, a un dedo lateral de la cresta tibial.",
+            "function": "Regula la función gastrointestinal, dispersa el calor y la humedad, drena canales y colaterales, activa sangre y energía.",
+            "directions": "Gastroenterocolitis (Humedad - calor en IG), dolor y distensión de abdomen, disentería, borborigmos, diarrea, apendicitis, hemiplejia, beri-beri; dolor en región lumbar, debilidad con edema de piernas. Parálisis de miembro inferior. Anemia cerebral, falta de aducción y abducción de miembros inferiores.",
+            "puncture": "Perpendicular de 0.5 a 1.3 cun. La moxa está indicada.",
+            "combinations": [
+                "Zusanli (E 36), Tianshu (E 25): Diarrea, colitis."
+            ],
+            "remark": "Punto Mar inferior de IG."
+        },
+        {
+            "id": 18,
+            "name": "Xia Ju Xu.",
+            "alias": "La gran depresión inferior.",
+            "location": "A 3 cun inferior a Shang Xu Ju ó 6 cun de Zu San Li y a un dedo lateral de la cresta anterior de la tibia. 7 cun sobre maléolo externo.",
+            "function": "Regula o drena al intestino, dispersa la oclusión. Regula la energía de los canales.",
+            "directions": "Dolor de hipogastrio, dolor en región lumbar y espalda que irradia a testículos, mastitis, atrofia muscular, trastornos motores, dolor y parálisis de los miembros inferiores. Anemia cerebral, neuralgia intercostal, hipersalivación, anorexia, espasmos de abdomen inferior y debilidad de piernas.",
+            "puncture": "Perpendicular de 0.5 a 1 cun. Se puede moxar.",
+            "combinations": [
+                "Guanyuan (RM 4), Xiaochangshu (V 27): Dolor abdominal y diarrea."
+            ],
+            "remark": "Este es el punto He (Mar) inferior del intestino delgado."
+        },
+        {
+            "id": 19,
+            "name": "Feng Long.",
+            "alias": "Prominencia llena.",
+            "location": "A 8 cun sobre maléolo externo, 8 cun abajo de Dubi y 2 cun lateral de la tibia.",
+            "function": "Trata la inversión de la energía del bazo y estómago; es uno de los puntos necesarios para sacar la flema (DM 26, PC 6, y E 40 sacan la flema). Regula la función del intestino y del estómago; dispersa la flema y la humedad. Tiene acción ansiolítica, calma el espíritu y la voluntad. Libera la energía.",
+            "directions": "Dolor precordial, asma, esputo profuso, dolor e inflamación de la garganta, trastornos motores, inflamación de articulaciones. Parálisis e hinchazón de los miembros inferiores. Cefalea, mareo, trastornos mentales, epilepsia. Absceso hepático, constipación y anemia.",
+            "puncture": "Perpendicular de 0.5 a 1 cun. Se puede moxar.",
+            "combinations": [
+                "Taichong (H 3), Feishu (V 13): Flema abundante.",
+                "Fuliu (R 7): Edema articular."                
+            ],
+            "remark": "Es el punto Luo (conexión) del canal."
+        },
+        {
+            "id": 20,
+            "name": "Jie Xi.",
+            "alias": "Gran separación muscular.",
+            "location": "Se traza una línea que va de ambos maléolos, en la unión de la pierna con el pie; entre el tendón flexor del dedo gordo y extensor común de los dedos, en el pliegue.",
+            "function": "Regula la función del bazo, tonifica, elimina o seca la humedad y flema; dispersa el calor del estómago y desciende la energía invertida del bazo y estómago. Tiene mucho efecto sobre la cabeza y enfermedades mentales, trata el cloasma facial.",
+            "directions": "Edema de la cabeza y cara, cefalea, mareo, vértigo, distensión abdominal, constipación, atrofia muscular, trastornos mentales de tipo depresivo, malaria, debilidad de estómago, convulsiones, dolor de pie y maléolo.",
+            "puncture": "Perpendicular de 0.5 a 0.7 cun. Se puede moxar.",
+            "combinations": [
+                "Yaoshu (DM 2): Recupera la energía.",
+                "Shangqiu (B 5): Pie baro.",
+                "Qiuxu (VB 40): Pie valgo.",
+                "Baihui (DM 20), Taichong (H 3), Yintang (extra): Cefalea y mareo."                
+            ],
+            "remark": "Es el punto Río, fuego y punto tonificante del canal."
+        },
+        {
+            "id": 21,
+            "name": "Chong Yang.",
+            "alias": "Movimiento de la energía yang.",
+            "location": "A 1 cun distal a Jie Xi o 5 cun proximal a los ortejos, donde se encuentra el latido de la arteria pedia, en la parte más alta del dorso del pie o en la depresión entre el 2o. y 3er. hueso metatarsiano y el hueso cuneiforme.",
+            "function": "Fortalece y ayuda a la tierra (estómago y bazo), dispersa la humedad, dispersa el calor del estómago. Tiene efecto ansiolítico, ceda el espíritu.",
+            "directions": "Enfermedades mentales, parálisis facial, atrofia muscular, trastornos del pie, inflamación y edema del dorso del pie, dolor dental.",
+            "puncture": "Perpendicular 0.3 cun, evitando la arteria. Puede moxarse.",
+            "combinations": [
+                "Shenmen (C 7), Fenglong (E 40), Houxi (ID 3): Esquizofrenia, delirio.",
+                "Neiguan (PC 6), Zusanli (E 36): Distensión abdominal, hiporexia.",
+                "Weizhong (V 40), Fengchi (VB 20), Neiguan (PC 6), Yinlingquan (B 9): Edema de cara y cabeza.",
+                "Tiaokou (E 38): Atrofia de miembros inferiores, dolor de pie."                
+            ],
+            "remark": "Es el punto Yuan, fuente u origen del canal."
+        },
+        {
+            "id": 22,
+            "name": "Xian Gu..",
+            "alias": "Valle vacío.",
+            "location": "En la depresión distal, que se encuentra en la unión del 2o. y 3er. metatarsiano.",
+            "function": "Fortalece al bazo, y elimina el agua (edema), regula al estómago y corrige la inversión de la energía.",
+            "directions": "Edema facial o generalizado, borborigmos, dolor abdominal, dolor y edema del dorso del pie. Congestión ocular, fiebre intermitente y sudores nocturnos, distensión abdominal, vómito de agua.",
+            "puncture": "Perpendicular 0.5 a 0.7 cun, se puede moxar.",
+            "combinations": [
+                "Zusanli (E 36), Yinlingquan (B 9), Neiguan (PC 6): Edema palpebral."                
+            ],
+            "remark": "Es el punto Shu (arroyo) y madera del canal."
+        },
+        {
+            "id": 23,
+            "name": "Nei Ting.",
+            "alias": "Pasillo del interior.",
+            "location": "En el pliegue  interdigital del 2o. y 3er. ortejo, distal a la articulación metatarsofalángica.",
+            "function": "Dispersa el calor y humedad del estómago e intestino delgado, hace que la energía Yang Ming circule adecuadamente.",
+            "directions": "Fiebre, sensación de calor en cara, sangrado de encías y epistaxis por fiebre, dolor en maxilar superior por odontalgia (Junto con Xia-Guan E 7), desviación de boca, dolor o distensión abdominal. Diarrea, disentería, dolor e inflamación del dorso del pie, enfermedades febriles, inflamación de faringe, hernia hiatal.",
+            "puncture": "Perpendicular 0.5 cun. Se puede moxar.",
+            "combinations": [
+                "Xiaguan (E 7): Dolor de diente superior. ",
+                "Hegu (IG 4): Dolor e inflamación de garganta.",
+                "Fengchi (VB 20), Yingxiang (IG 20): Epistaxis.",
+                "Zusanli (E 36): Colitis, distensión abdominal."                
+            ],
+            "remark": "Es el punto manantial y  agua del canal."
+        },
+        {
+            "id": 24,
+            "name": "Li Dui.",
+            "alias": "Puerta grande o mayor.",
+            "location": "Ángulo ungueal externo del 2o. ortejo.",
+            "function": "Aclara la energía Yang. Activa la energía de los canales y colaterales.",
+            "directions": "Desmayos, dispersa la energía perversa del Yang Ming, ansiolítico. Edema facial, desviación de la boca y dolor dental, epistaxis, sensación de opresión de pecho y distensión abdominal. Sensación de frío en pies y piernas, enfermedades febriles, pesadillas. Trastornos mentales, absceso hepático, mala digestión, anemia cerebral, atonía del músculo orbicular de la boca, rinitis aguda y demencia.",
+            "puncture": "Oblicua de 0.1 cun. Se puede moxar.",
+            "combinations": [],
+            "remark": "Es el punto Pozo, Metal y dispersante del canal."
+        }       
     ],
     "canal del bazo": [
         {
