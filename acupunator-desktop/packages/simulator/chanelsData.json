@@ -985,258 +985,178 @@
     "canal del intestino delgado": [
         {
             "id": 1,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shao Ze.",
+            "alias": "Pequeño estancamiento de agua.",
+            "location": "0.1 cun del ángulo ungueal cubital del dedo meñique.",
+            "function": "Dispersa el viento, aumenta la secreción láctea, aclara el fuego de corazón y ayuda a recobrar la conciencia.",
+            "directions": "Estado de coma, precordalgia, hipogalactia, dolor costal, cefalea, fiebre, faringitis, agalactia, mastodinia, glositis, intranquilidad, pterigión, rigidez de lengua.",
+            "puncture": "Superficial o perpendicular 3 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Hegu (IG 4), Tianzong (ID 11): para hipogalactia.",
+                "Yifeng (SJ 17) y Tinggong (ID 19): para tinnitus, sordera.",
+                "Punto Pozo y Metal del ID."                                
             ],
             "remark": ""
         },
         {
             "id": 2,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Qian Gu.",
+            "alias": "Frente al valle.",
+            "location": "Extremo distal de la articulación metacarpofalángica entre las dos pieles, del dedo meñique.",
+            "function": "Dispersa el viento, aclara el fuego, detiene el dolor.",
+            "directions": "Epistaxis, cefalea, faringitis, edema de cuello, tortícolis, epilepsia, dolor de dedo meñique, estado febril y mastitis.",
+            "puncture": "Perpendicular de 2 a 5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Hegu (IG 4), Quchi (IG 11), Waiguan (SJ 5): Tortícolis.",
+                "Waiguan (SJ 5), Yanggu (ID 5): para entumecimiento del dedo meñique."
             ],
-            "remark": ""
+            "remark": "Punto Manantial y Agua."
         },
         {
             "id": 3,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Hou Xi.",
+            "alias": "Después del arroyo.",
+            "location": "Porción proximal de la articulación metacarpofalángica del dedo meñique entre las dos pieles.",
+            "function": "Despeja el espíritu, aclara fuego, ayuda a mantener la energía protectora superficial en contra de los seis factores patógenos exógenos, ayuda a la circulación del canal Du Mai.",
+            "directions": "Trastornos de la conducta, neurosis, histeria, epilepsia, insomnio, sudoración anormal, faringoamigdalitis, disminución de la agudeza auditiva, odontalgia, tortícolis, lumbalgia en estado agudo, dolor muscular o articular de extremidades superiores.",
+            "puncture": "Perpendicular u oblicua 0.5 a 1 cun, se moxa de 10 a 15 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Tianzong (ID 11), Jianyu (IG 11): para dolor de hombro y espalda por viento húmedo.",
+                "Huantiao (VB 30): para dolor e inflamación en la pierna por calor.",
+                "Jianshi (PC 5), Dazhui (DM 5): Malaria recidivante."                                
             ],
-            "remark": ""
+            "remark": "Punto Arroyo, Madera, Tonificante."
         },
         {
             "id": 4,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Wan Gu.",
+            "alias": "Hueso de la muñeca.",
+            "location": "En la depresión que forma el hueso pisiforme y el hueso ganchoso, distal del hueso triangular base del 5o. metacarpiano.",
+            "function": "Elimina la humedad y mejora la circulación de canales y colaterales, aclara el fuego y ayuda a dispersar las seis energías perversas, drena el Taiyang.",
+            "directions": "Ictericia, dolor articular de muñeca y de la extremidad superior, dolor cervical, diabetes, cefalea, fiebre, tinnitus, dolor costal.",
+            "puncture": "Perpendicular 3 a 5 cun, se moxa 10 a 15 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Tinggong (ID 19), Yifeng (SJ 17): Tinnitus y sordera.",
+                "Waiguan (SJ 5), Yongquan (R 1), Shenmai (V 62): Ictericia.",
+                "Zusanli (E 36) y Pishu (V 20): para diabetes."                                
             ],
-            "remark": ""
+            "remark": "Punto Yuan."
         },
         {
             "id": 5,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yang Gu.",
+            "alias": "Valle del Yang o de la luz.",
+            "location": "En la depresión entre la apófisis estiloides del cúbito y el hueso triangular.",
+            "function": "Dispersa el viento, permeabiliza y mejora la circulación de canales y colaterales, tranquiliza el espíritu.",
+            "directions": "Vértigo, tinnitus, disminución de la agudeza auditiva, trismus, dolor articular de la muñeca.",
+            "puncture": "Perpendicular 5 cun, se moxa de 10 a 15 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Shang Yang (IG 1), Baihui (DM 20): Sordera, tinnitus.",
+                "Hegu (IG 4), Yintang (extra): Convulsiones con fiebre y sudor."
             ],
-            "remark": ""
+            "remark": "Es Punto Río y Elemento Fuego."
         },
         {
             "id": 6,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yang Lao.",
+            "alias": "Mantener a lo viejo.",
+            "location": "Depresión por abajo de la apófisis estiloides del cúbito.",
+            "function": "Mejora la visión, mejora la circulación de los Luo. Da flexibilidad a las articulaciones.",
+            "directions": "Disminución de la agudeza visual, dolor articular en extremidades superiores, dolor a nivel de cintura.",
+            "puncture": "Perpendicular 3 a 5 cun, se moxa de 10 a 15 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Fengchi (VB 20): para tortícolis.",
+                "Neiguan (PC 6): Hipo."                
             ],
-            "remark": ""
+            "remark": "Punto Xi-Hendidura."
         },
         {
             "id": 7,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Zhi Zheng.",
+            "alias": "Rama recta.",
+            "location": "5 cun arriba de apófisis estiloides del cubito (borde interno del cubito).",
+            "function": "Dispersa el viento, elimina el calor, detiene el dolor, aclara el corazón, tranquiliza el espíritu.",
+            "directions": "Vértigo, contractura cervical, epilepsia, dificultad de dorso extensión del codo, síndrome ocasionado por calor, dolor dorsal y lumbar el cual imposibilita la flexión.",
+            "puncture": "Perpendicular 5 cun a 1 cun. Se moxa de 10 a 15 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Sanjiaoshu (V 22): Cefalea y visión borrosa.",
+                "Neiguan (PC 6), Renzhong (DM 26): Calor interno.",
+                "Quchi (IG 11): Contractura del codo."                                
             ],
-            "remark": ""
+            "remark": "Corresponde al Punto Luo."
         },
         {
             "id": 8,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Xiao Hai.",
+            "alias": "Pequeño mar.",
+            "location": "Entre el epicóndilo interno del húmero y el olécranon.",
+            "function": "Dispersa el viento, mejora la circulación de los Luo, aclara el calor o el fuego y tiene una acción tranquilizante.",
+            "directions": "Tortícolis, dolor de cuello, hombro, codo, cefalea, neurosis, faringitis, insomnio.",
+            "puncture": "Perpendicular 3 a 5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Quchi (IG 11), Tianjing (SJ 10): Dolor de codo.",
+                "Shenmen (C 7), Lingdao (C 4): Dolor cubital."
             ],
-            "remark": ""
+            "remark": "Punto Mar y Elemento Tierra."
         },
         {
             "id": 9,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Jian Zhen.",
+            "alias": "Unión con el hombro.",
+            "location": "Localización: 1 cun arriba del pliegue axilar posterior.",
+            "function": "Mejora circulación de los luo, mejora la audición, aclara el fuego o el calor y ayuda a la reabsorción del estado inflamatorio, drena viento y activa la sangre.",
+            "directions": "Tinnitus, disminución de la agudeza auditiva, dolor articular de hombro y cuello, imposibilidad para levantar el brazo, síndrome causado por calor, escrófula y odontalgia.",
+            "puncture": "Perpendicular 1 a 1.5 cun, se moxa de 10 a 15 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Naohui (SJ 13), Quyuan (ID 13): Dolor de hombro y escápula.",
+                "Tianzong (ID 11), Jianwaishu (ID 14): Incapacidad para levantar el brazo.",
+                "Jianyu (IG 15), Jianliao (SJ 14), Tianzong (ID 11): Inflamación del hombro."                                
             ],
             "remark": ""
         },
         {
             "id": 10,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Nao Shu.",
+            "alias": "Agujero del hombro.",
+            "location": "Se encuentra sobre pliegue axilar posterior en el borde inferior de la escápula o espina escapular.",
+            "function": "Mejora la permeabilidad y circulación de los canales y colaterales (Jing Luo). Conforta los tendones, dispersa acúmulos.",
+            "directions": "Dolor articular en hombro o dolor muscular en brazo, limitación de movimiento.",
+            "puncture": "Perpendicular 5 cun a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Jianyu (IG 15), Binao (IG 14), Yanglao (ID 6): Dolor de hombro.",
+                "Jianyu (IG 15), Quchi (IG 11), Tianzong (ID 11): Dolor escapular."                                                
             ],
-            "remark": ""
+            "remark": "Conecta con los canales extraordinarios Yangwei y Yangqiao."
         },
         {
             "id": 11,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Quan Liao.",
+            "alias": "Región malar o pómulo.",
+            "location": "Borde inferior del hueso malar, línea perpendicular al ángulo externo del ojo.",
+            "function": "Dispersa el viento, mejora la circulación de Luo Mai, aclara el fuego, detiene el dolor.",
+            "directions": "Parálisis facial, tics nerviosos, odontalgia, neuralgia del trigémino, edema facial.",
+            "puncture": "Perpendicular 0.5 cun superficial hacia el oído, aguja de 3 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Hegu (IG 4), Renzhong (DM 26): Tics general.",
+                "Daying (E 5): Tics del ojo.",
+                "Neiting (E 44), Xiaguan (E 7): Odontalgia."                                
             ],
             "remark": ""
         },
         {
             "id": 12,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ting Gong.",
+            "alias": "Palacios de sonidos.",
+            "location": "Al abrir la boca, en la depresión que se forma entre el trago y la articulación temporomaxilar, (anterior y central del trago).",
+            "function": "Mejora agudeza auditiva y tiene efecto tranquilizante.",
+            "directions": "Disminución de la agudeza auditiva, otitis, neurosis e histeria.",
+            "puncture": "Perpendicular 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Tinghui (VB 2), Yifeng (SJ 17): Tinnitus, sordera.",
+                "Yifeng (SJ 17): Otitis media.",
+                "Xiaguan (E 7): Artritis mandibular."                                
             ],
-            "remark": ""
-        },
-        {
-            "id": 13,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 14,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 15,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
+            "remark": "Reune al TC y a VB."
         }
     ],
     "canal de la vejiga": [
