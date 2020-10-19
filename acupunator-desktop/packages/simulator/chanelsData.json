@@ -859,348 +859,127 @@
                 "Quchi (IG 11), Weizhong (V 40): Urticaria."
             ],
             "remark": ""
-        },
-        {
-            "id": 11,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 12,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 13,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 14,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 15,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
         }
     ],
     "canal del corazón": [
         {
             "id": 1,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ji Quan.",
+            "alias": "Estanque profundo.",
+            "location": "En el centro de la axila, donde palpita la arteria.",
+            "function": "Aclara el corazón, tranquiliza el espíritu, mejora la circulación de canales y colaterales.",
+            "directions": "Dolor precordial, sed, dolor de costado, sequedad de garganta, dolor y frío en el codo, falta de movimiento de la extremidad superior, depresión.",
+            "puncture": "De 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Xiabai (P 4): Náuseas.",
+                "Neiguan (PC 6): Parálisis de brazo.",
+                "Lingtai (DM 10), Lingdao (C 4), Qingling (C 2): Tristeza y depresión."                                                
             ],
             "remark": ""
         },
         {
             "id": 2,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shao Hai.",
+            "alias": "Mar pequeño.",
+            "location": "En la punta del pliegue interno del codo.",
+            "function": "Aclara el corazón, tranquiliza el espíritu, drena el canal, regula la sangre y la energía.",
+            "directions": "Epilepsia, psicopatías, pérdida de la memoria, precordalgia, temblor de mano, contractura del codo, dolor axilar, entumecimiento de brazo, odontalgia con sensación de frío en dientes, gingivitis, babeo, demencia.",
+            "puncture": "De 0.5 a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Neiting (E 44), Hegu (IG 4): Calosfríos.",
+                "Shousanli (IG 10): Adormecimiento de miembros superiores."                                                
             ],
-            "remark": ""
+            "remark": "Punto He-Mar. Agua."
         },
         {
             "id": 3,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ling Dao.",
+            "alias": "Camino del alma.",
+            "location": "Estando la palma hacia arriba, se encuentra a 1.5 cun proximal del pliegue de la muñeca, en el lado radial del tendón del músculo flexor cubital del carpo.",
+            "function": "Favorece la función del corazón, lo tranquiliza, calma el espíritu y la voluntad.",
+            "directions": "Dolor precordial, convulsiones, afonía súbita, insomnio, miedo, depresión, dolor de codo y brazo, náusea, histeria, prurito, despellejamiento palmar. Controla la parte anímica, tristeza, ansiedad e intranquilidad.",
+            "puncture": "Vertical de 0.5 a 0.8 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Renzhong (DM 26), Juque (RM 14): Histeria.",
+                "Tiantu (RM 22), Tianchuang (ID 16): Afasia, mutismo."
             ],
-            "remark": ""
+            "remark": "Punto Río y Metal del canal."
         },
         {
             "id": 4,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Tong Li.",
+            "alias": "Drenar, Comunicar lo interno.",
+            "location": "En la parte cubital e interna del antebrazo, a 1 cun proximal del pliegue de la muñeca, en el borde radial del tendón del flexor cubital del carpo.",
+            "function": "Aclara el corazón, tranquiliza el espíritu, favorece y activa la lengua, drena el canal.",
+            "directions": "Palpitaciones, mareo, afonía, rigidez en la lengua que impide hablar, dolor en la muñeca y brazo, cefalea, vértigos, palpitaciones de origen nervioso, amigdalitis y faringitis, congestión ocular con vértigos, vómitos, bostezos frecuentes, atonía lingual, dismenorreas, metrorragias, incontinencia urinaria, locura, falta de sudor, bolo histérico.",
+            "puncture": "Perpendicular 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Xinshu (V 15): Dolor de corazón e inflamación.",
+                "Neiguan (PC 6), Yingchuan (E 16), Rugen (E 18): Dolor precordial.",
+                "Shenmen (C 7): Locura.",
+                "Xinshu (V 15), Neiguan (PC 6): Cardialgia."                
             ],
-            "remark": ""
+            "remark": "Punto Luo o Pasaje."
         },
         {
             "id": 5,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yin Xi.",
+            "alias": "La hendidura Yin.",
+            "location": "En el borde radial del tendón flexor cubital del carpo a 0.5 cun proximal del pliegue de la muñeca (Shen Men C 7).",
+            "function": "Aclara el corazón, tonifica el yang, tranquiliza el espíritu, protege la superficie del cuerpo, buen ansiolítico.",
+            "directions": "Dolor precordial, fiebre vespertina, sudoración nocturna, hematemesis, epistaxis, afonía, cefaleas, vértigo, miedo, palpitaciones nerviosas, vómito de sangre, cólera, inflamación del útero.",
+            "puncture": "Oblicua de 45 ó 15 grados, y 0.5 a 0.8 cun de profundidad.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Neiguan (PC 6), Xinshu (V 15): Plétora en tórax.",
+                "Dazhui (DM 14): Agotamiento.",
+                "Houxi (ID 3): Sudor nocturno."                                
             ],
-            "remark": ""
+            "remark": "Punto Hendidura."
         },
         {
             "id": 6,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shen Men.",
+            "alias": "Puerta del Espíritu.",
+            "location": "En el pliegue de la muñeca, en el borde radial del pisiforme.",
+            "function": "Aclara el corazón, calma el espíritu, regula la energía nutritiva y las emociones, miedo, ira y tristeza.",
+            "directions": "Dolor precordial, angustia, palpitaciones, mala memoria, insomnio, trastornos mentales maniacos, demencia, dolor costal, hipertensión, epilepsia, garganta seca, enfermedades cardiacas, sensación de manos calientes, pies fríos.",
+            "puncture": "De 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Shaoshang (P 11), Yongquan (R 1), Xinshu (V 15): Locura.",
+                "Yintang (extraord), Fengchi (VB 20), Baihui (DM 20): Alteraciones de la memoria.",
+                "Neiguan (PC 6), Sanyinjiao (B 6), Yintang (extraord): Histeria, palpitación e insomnio."                                
             ],
-            "remark": ""
+            "remark": "Punto Arroyo, Yuan, Tierra, dispersante."
         },
         {
             "id": 7,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shao Fu.",
+            "alias": "La vasija pequeña.",
+            "location": "Entre el cuarto y quinto metacarpiano sobre la palma de la mano, donde indica la punta del meñique al cerrar la mano. Proximal a la articulación metacarpofalángica.",
+            "function": "Aclara el corazón, tranquiliza el espíritu, favorece el manejo de humedad.",
+            "directions": "Palpitaciones, dolor de pecho, contractura y dolor del meñique, misantropía con suspiro y lamentos, prolapso uterino, disuria, enuresis.",
+            "puncture": "De 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Ligou (H 5): Prurito vulvar.",
+                "Neiguan (PC 6): Dolor de tórax.",
+                "Weizhong (V 40): Polaquiuria por calor humedad."                                
             ],
-            "remark": ""
+            "remark": "Punto Manantial y Fuego."
         },
         {
             "id": 8,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shao Chong.",
+            "alias": "Corriente pequeña.",
+            "location": "A 0.1 cun del ángulo ungueal radial del dedo meñique.",
+            "function": "Tranquiliza el corazón, calma el espíritu, elimina calor, abre los orificios de la cabeza.",
+            "directions": "Coma apoplético, inestabilidad de carácter, pereza, sequedad de garganta, palpitaciones, dolor costal y de pecho, ictericia, fiebre, desmayo.",
+            "puncture": "Punción: 0.1 cun o sangría.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Renzhong (DM 26), Hegu (IG 4), Zusanli (E 36): Coma.",
+                "Daling (PC 7): Dolor de corazón.",
+                "Hegu (IG 4), Taichong (H 3): Convulsiones."                                
             ],
-            "remark": ""
-        },
-        {
-            "id": 9,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 10,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 11,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 12,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 13,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 14,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 15,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
+            "remark": "Punto Pozo y Madera. Punto Madre."
         }
     ],
     "canal del intestino delgado": [
