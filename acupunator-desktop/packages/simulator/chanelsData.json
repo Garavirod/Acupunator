@@ -689,171 +689,174 @@
     "canal del bazo": [
         {
             "id": 1,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yin Bai.",
+            "alias": "El blanco oculto.",
+            "location": "En el ángulo ungeal interno del primer ortejo, 0.1 cun posterior al ángulo de la uña.",
+            "function": "Fortalece al estómago y bazo, tranquiliza el espíritu, fortalece la energía y drena la sangre.",
+            "directions": "Distensión abdominal, hemorragia uterina, desórdenes mentales, exceso de sueño, convulsiones, flujo, vómito y ensoñaciones exageradas.",
+            "puncture": "Oblicua 0.1 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Pishu (V 20), Weishu (V 21), Zusanli (E 36), Tianshu (E 25): Distensión abdominal y diarrea.",
+                "Sanyinjiao (B 6), Xuehai (B 10), Guanyuan (RM 4): Menstruación irregular y hematuria.",
+                "Zusanli (E 36), Shenmai (V 62): Melena.",
+                "Zusanli (E 36): Hemorragias.",
+                "Xuehai (B 10), Shenmen (C 7): Metrorragia.",
+                "Weizhong (V 40): Suprime epistaxis.",
+                "Xuehai (B 10), Dadun (H 1): Menstruación frecuente.",
+                "Lidui (E 45), Shenmen (C 7): Sueños exagerados."
             ],
-            "remark": ""
+            "remark": "Punto Jing Pozo y Madera."
         },
         {
             "id": 2,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Da Du.",
+            "alias": "Gran capital o metrópoli.",
+            "location": "En el lado interno del primer ortejo distal de la articulación metatarsofalángica, en la unión de la piel blanca y la roja.",
+            "function": "Fortalece al estómago y bazo, ayuda a la digestión, tonifica la energía central o del Jiao medio, elimina la energía patógena de la superficie.",
+            "directions": "Distensión abdominal, dolor de estómago, enfermedades febriles sin pesadez del cuerpo, edema de extremidades, aumenta la inteligencia en niños y fortalece al organismo.",
+            "puncture": "Perpendicular de 0.1 a 0.2 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zusanli (E 36), Sanyinjiao (B 6): Mejora la digestión.",
+                "Zusanli (E 36), Neiguan (PC 6): Mala digestión.",
+                "Jingqu (P 8): Calor patógeno sin sudor.",
+                "Taibai (B 3): Diarrea violenta.",
+                "Henggu (R 11): Obstrucción de energía que causa dolor en abdomen."
             ],
-            "remark": ""
+            "remark": "Punto Manantial y Fuego. Punto Madre, tonificante."
         },
         {
             "id": 3,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Tai Bai.",
+            "alias": "Estrella Venus.",
+            "location": "Proximal de la articulación metatarsofalángica del primer ortejo en la unión de la piel roja con la piel blanca.",
+            "function": "Fortalece al estómago y al bazo, ordena la energía húmeda y regula la digestión.",
+            "directions": "Dolor de estómago, distensión abdominal, diarrea, sensación de pesadez del cuerpo (adinamia), disentería, vómito, constipación, beri-beri, colitis aguda, pulso lento, dolor costal.",
+            "puncture": "Perpendicular 0.3 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Neiguan (PC 6), Zusanli (E 36): Disentería, inflamación de estómago e intestinos.",
+                "Tianshu (E 25), Dachangshu (V 25): Estreñimiento.",
+                "Gongsun (B 4): Inflamación abdominal.",
+                "Fenglong (E 40): Pesadez del cuerpo y dolor costal."                
             ],
-            "remark": ""
+            "remark": "Punto Shu Arroyo, Yuan Fuente u Origen y Tierra."
         },
         {
             "id": 4,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Gong Sun.",
+            "alias": "Nieto público.",
+            "location": "En la depresión del borde anteroinferior de la articulación tarsometatarsiana del primer ortejo en la unión  de la piel roja y la piel blanca.",
+            "function": "Fortalece al estómago y bazo, ayuda a la digestión, ordena el mecanismo energético interior de bazo y estómago, transforma el calor húmedo.",
+            "directions": "Gastralgia, vómito, borborigmos, dolor abdominal, diarrea, disentería, edema de cara, ictericia, calor y dolor en corazón, epilepsia, distensión abdominal, activa la energía en el pie.",
+            "puncture": "Perpendicular 0.5 a 1.0 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zusanli (E 36), Xiangu (E 43): Alteraciones de la energía en pie, hernia.",
+                "Neiguan (PC 6): Dolor en corazón.",
+                "Baihui (DM 20), Renzhong (DM 26), Hegu (IG 4), Taichong (H 3), Zusanli (E 36): Epilepsia."                
             ],
-            "remark": ""
+            "remark": "Punto Luo Enlace. Punto de reunión con el canal Chongmai."
         },
         {
             "id": 5,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shang Qiu.",
+            "alias": "Colina metálica o de oro.",
+            "location": "En la depresión anteroinferior del maléolo interno, en la parte media entre la prominencia del hueso navicular y la punta del maléolo interno.",
+            "function": "Fortalece al bazo, favorece la humedad, reconforta los tendones, aviva el canal y dirige los alimentos al cuerpo.",
+            "directions": "Borborigmos, distensión abdominal, rigidez y dolor en la lengua, constipación, diarrea, dolor en la articulación del pie y del tobillo, alimentos no digeridos, sueños abundantes, dificultad al hablar, hernias, convulsiones febriles, esterilidad, en insuficiencia venosa (várices) es muy útil.",
+            "puncture": "Perpendicular de 0.2 a 0.3 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zhongwang (RM 12), Weishu (V 21), Pishu (V 20): Convulsiones infantiles.",
+                "Chengshan (V 57): Hemorroides y constipación.",
+                "Sanyinjiao (B 6), Guilai (E 29): Esterilidad.",
+                "Lianquan (RM 23): Dificultad al hablar."                
             ],
-            "remark": ""
+            "remark": "Punto Jing Río y Metal."
         },
         {
             "id": 6,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "San Yin Jiao.",
+            "alias": "Lugar donde se cruzan los 3 Yin del pie.",
+            "location": "A 3 cun por arriba del maléolo interno en el borde posterior de la tibia, en la línea que une al maléolo interno con el punto Yinlingquan.",
+            "function": "Favorece y protege al bazo y estómago, ayuda a la digestión y comunica el paso del canal, armoniza energía y sangre, maneja sangre y líquidos, es el gran tonificante de yin.",
+            "directions": "Borborigmos, distensión abdominal, heces diarreicas con alimentos sin digerir, menstruación irregular, hematuria, leucorrea, prolapso uterino, amenorrea, esterilidad, impotencia, edema, sed, hace descender al producto, periodo expulsivo difícil, metrorragia postaborto, hipogalactia, dismenorrea, emisión seminal, dolor de los genitales externos, hernia, disuria, insomnio, enuresis, atrofia muscular, trastornos motores y parálisis, dolor de los miembros inferiores.",
+            "puncture": "Perpendicular de 0.5 a 1.0 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Guanyuan (RM 4): Prurito y edema vulvar.",
+                "Shuifen (RM 9): Borborigmos y ascitis.",
+                "Qihai (RM 6): Espermatorrea.",
+                "Taichong (H 3): Eyaculación precoz e impotencia.",
+                "Zusanli (E 36), Guilai (E 29): Hernia.",
+                "Guanyuan (RM 4), Baihui (DM 20): Incontinencia urinaria.",
+                "Hegu (IG 4), Taichong (H 3): Periodo expulsivo difícil.",
+                "Shenmen (C 7): Insomnio.",
+                "Zhongji (RM 3), Guilai (E 29), Guanyuan (RM 4): Esterilidad.",
+                "Xuehai (B 10), Guanyuan (RM 4): Menstruación irregular.",
+                "Chengshan (V 57): Masas palpables.",
+                "Qihai (RM 6), Zhongji (RM 3): Amenorrea."
             ],
             "remark": ""
         },
         {
             "id": 7,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Lou Gu.",
+            "alias": "Goteo entre la tibia y el peroné.",
+            "location": "A 6 cun por arriba del extremo del maléolo interno, a 3 cun por arriba de Sanyinjiao, en el borde posterior de la tibia.",
+            "function": "Tonifica al corazón, restablece al bazo, armoniza a la energía y ordena el centro.",
+            "directions": "Distensión abdominal, borborigmos, sensación de frío, entumecimiento y dolor de la rodilla, parálisis de la pierna, inflamación o dolor en el tobillo, masas en cualquier lugar, plenitud abdominal, disuria, retención urinaria.",
+            "puncture": "Perpendicular 0.5 a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Ququan (H 8): Masas por hematoma.",
+                "Daling (PC 7): Histeria."                                                
             ],
             "remark": ""
         },
         {
             "id": 8,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Di Ji.",
+            "alias": "Mecanismo o maquinaria de tierra.",
+            "location": "A 3 cun por abajo del cóndilo interno de la tibia, en la línea que une al punto Yinlingquan con el maléolo interno ó 4 cun por arriba de Lougu (B 7).",
+            "function": "Armoniza y unifica al bazo, ordena la sangre menstrual, y regulariza la energía esencial.",
+            "directions": "Distensión abdominal, anorexia, disentería, menstruación irregular, disuria, emisión seminal, edema, alteraciones en los movimientos de los miembros inferiores, incontinencia urinaria, dolor lumbar, dismenorrea, masas abdominales.",
+            "puncture": "Perpendicular de 0.5 a 1.0 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Xuehai (B 10): Menstruación irregular.",
+                "Sanyinjiao (B 6), Zhongji (RM 3): Dismenorrea.",
+                "Shenshu (V 23), Guanyuan (RM 4): Emisión seminal, dolor lumbar, leucorrea."                
             ],
-            "remark": ""
+            "remark": "Punto Xi -hendidura."
         },
         {
             "id": 9,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yin Ling Quan.",
+            "alias": "Fuente Yin del valle.",
+            "location": "En el borde posteroinferior del cóndilo interno de la tibia.",
+            "function": "Fortalece al bazo, favorece la eliminación de humedad, favorece y comunica al triple calentador.",
+            "directions": "Distensión abdominal, edema, ictericia, diarrea, disuria, incontinencia urinaria, dolor en los genitales externos, emisión seminal, dolor en las rodillas, leucorrea, lumbago, dolor y frío en el centro del abdomen, vómito agotante, obstrucción urinaria, ascitis, evacuaciones con alimento no digerido, masas abdominales.",
+            "puncture": "Perpendicular de 0.5 cun a 1.0 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Yanglingquan (VB 34): Dolor de rodillas.",
+                "Shuifen (RM 9), Zhongji (RM 3), Zusanli (E 36), Sanyinjiao (B 6): Ascitis, obstrucción urinaria.",
+                "Xuehai (B 10), Sanyinjiao (B 6): Edema en miembros inferiores.",
+                "Chengshan (V 57), Jiexi (E 41), Taibai (B 3): Vómito, diarrea intensa.",
+                "Yinbai (B 1): Diarrea.",
+                "Diji (B 8), Xiaguan (E 7): Distensión, plenitud."
             ],
-            "remark": ""
+            "remark": "Punto He Mar y Agua."
         },
         {
             "id": 10,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Xue Hai.",
+            "alias": "Mar de la sangre.",
+            "location": "Con la rodilla flexionada se localiza este punto en la parte interna del músculo cuadriceps, 2 cun por arriba del borde superointerno de la rótula, o se coloca la palma de la mano derecha en la rótula izquierda, con el pulgar en el lado interno y los otros dedos hacia arriba, el punto está donde indica la punta del pulgar.",
+            "function": "Aclara el calor, refresca la sangre, dispersa el viento, armoniza el canal.",
+            "directions": "Menstruación irregular, dismenorrea, amenorrea, hemorragia uterina, dolor y prurito en la parte interna del muslo, eczema, urticaria, prurito perineal, síndrome por humedad, viento, inversión de la energía, anemia.",
+            "puncture": "Perpendicular de 0.7 a 1.2 cun. La moxibustión está indicada.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zusanli (E 36): Dismenorrea.",
+                "Yinbai (B 1): Metrorragia.",
+                "Geshu (V 17): Deficiencia de la sangre.",
+                "Liangqiu (E 34), Zusanli (E 36): Humedad, viento en la rodilla.",
+                "Guanyuan (RM 4), Qihai (RM 6), Zusanli (E 36): Anemia.",
+                "Quchi (IG 11), Weizhong (V 40): Urticaria."
             ],
             "remark": ""
         },
