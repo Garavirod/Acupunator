@@ -1620,258 +1620,112 @@
     "canal del riñón": [
         {
             "id": 1,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yong Quan.",
+            "alias": "La fuente que brota.",
+            "location": "En la depresión, donde se une el tercio anterior y medio de la planta del pie.",
+            "function": "Abre el orificio del riñón que es el oído, calma el espíritu, dispersa calor, alimenta al riñón.",
+            "directions": "Insolación, insomnio, lipotimia, epilepsia, convulsiones infantiles por hipertermia, cefalea de tipo parietal, paresia de miembros inferiores, fobias, miedos, mudez.",
+            "puncture": "Perpendicular de 0.3 a 0.5 cun, se puede moxar, hay que masajearlo antes de picarlo porque es muy doloroso, se hace con aguja delgada y se usa poco.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Taichong (H 3), Dazhong (R 4): Dolor de garganta.",
+                "Rangu (R 2): Mudez."            
             ],
-            "remark": ""
+            "remark": "Punto Pozo, elemento Madera. Punto Hijo dispersante."
         },
         {
             "id": 2,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ran Gu.",
+            "alias": "Valle bendito.",
+            "location": "En la depresión anterior a la tuberosidad del hueso navicular.",
+            "function": "Nutre la energía Yin y tonifica al riñón, aclara el calor disminuye la humedad, favorece la vejiga.",
+            "directions": "Prurito general, desequilibrio menstrual, espermatorrea, hemoptisis, diarrea, asma, dolor e inflamación de tobillo.",
+            "puncture": "Perpendicular de 0.8 a 1.2 cun, se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Taixi (R 3): Dolor de garganta.",
+                "Yongquan (R 1): Dolor e inflamación del maléolo interno."
             ],
-            "remark": ""
+            "remark": "Punto Manantial, elemento Fuego."
         },
         {
             "id": 3,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Tai Xi.",
+            "alias": "La corriente suprema.",
+            "location": "En el punto medio entre la prominencia del maléolo interno y el tendón del calcáneo.",
+            "function": "Ayuda al riñón y desciende al fuego, moviliza y equilibra a Ren Mai y a Chong Mai (punto extraordinario), aclara al pulmón, nutre el agua del riñón.",
+            "directions": "Dolor de garganta, dolor de dientes, sordera, hemoptisis, asma, desequilibrio menstrual, insomnio, espermatorrea, impotencia, lumbago, tinnitus.",
+            "puncture": "Perpendicular de 0.5 a 1 cun, se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Kunlun (V 60): Inflamación de la articulación de pie.",
+                "Zhaohai (R 6): Hemorroides."
             ],
-            "remark": ""
+            "remark": "Punto Arroyo, elemento Tierra, Punto Yuan."
         },
         {
             "id": 4,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Da Zhong.",
+            "alias": "La gran campana.",
+            "location": "A 0.5 cun por debajo del punto Taixi, en el borde anterior del tendón del calcáneo.",
+            "function": "Ayuda al riñón, aclara el calor, pacifica al espíritu, regula energía y Xue, drena el canal.",
+            "directions": "Dolor y rigidez lumbar, asma, disuria, dolor en el talón, sueño a toda hora, inmadurez, retraso mental, espolón calcáneo.",
+            "puncture": "Perpendicular de 0.5 a 1 cun, se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Rangu (R 2), Feishu (V 13): Tos."
             ],
-            "remark": ""
+            "remark": "Es un punto de riñón de los más sensibles, se le puede dar masaje y el canal se relaja. Es el punto Luo del canal."
         },
         {
             "id": 5,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shui Quan.",
+            "alias": "Fuente agua o Manantial.",
+            "location": "A un cun directamente por abajo de Taixi.",
+            "function": "Moviliza y equilibra la sangre de los canales, fluidifica el calentador inferior, congestión de pelvis, regula a Renmai y Chongmai.",
+            "directions": "Dismenorrea, desequilibrio menstrual, prolapso uterino,  obstrucción urinaria, desmayo con sensación de ver negro, los ojos no brillan.",
+            "puncture": "Perpendicular a 0.5 cun, se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Sanyinjiao (B 6): Dismenorrea."                
             ],
-            "remark": ""
+            "remark": "Punto Xi hendidura."
         },
         {
             "id": 6,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Zhao Hai.",
+            "alias": "El mar que brilla.",
+            "location": "Directamente por debajo de la prominencia del maléolo interno, a 0.4 cun por debajo del borde inferior del maléolo interno.",
+            "function": "Aclara el calor, despeja la garganta y el espíritu. Infección de garganta en adultos, calma el dolor.",
+            "directions": "Flujo rojo o blanco, prurito genital, hernia, poliuria, convulsiones, dolor y resequedad de garganta, problemas de ojos, insomnio.",
+            "puncture": "Perpendicular de 0.5 a 1 cun, se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Shenmai (V 62): Dolor en tobillo."
             ],
-            "remark": ""
+            "remark": "Para aplicar este punto se masajea y se desplaza a los tendones, punto que comunica con el canal Yin qiao."
         },
         {
             "id": 7,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Fu Liu.",
+            "alias": "La corriente que retorna.",
+            "location": "A dos cun por encima de la prominencia del maléolo interno. En el borde anterior del tendón del calcáneo.",
+            "function": "Nutre el riñón, drena la humedad, tonifica al riñón, nutre y humedece al calentador inferior.",
+            "directions": "Edema, diarrea, borborigmos, inflamación de la pierna, atrofia del pie, diaforesis nocturna, por deficiencia de yin, en enfermedades calientes y que no hay diaforesis, se puede hacer que el paciente sude (dispersando). En la diaforesis se tonifica.",
+            "puncture": "De 0.5 a 1 cun, se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Neiguan (PC 6): Sudores nocturnos."
             ],
-            "remark": ""
+            "remark": "Punto Yin-Río, elemento Metal, Punto Madre, tonificante."
         },
         {
             "id": 8,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yin Gu.",
+            "alias": "Valle del Yin.",
+            "location": "Entre los dos tendones de los músculos semitendinoso y semimembranoso, en el lado interno de la fosa poplítea.",
+            "function": "Equilibra el calentador inferior, aclara o libera la plenitud del calor inferior, tonifica al riñón.",
+            "directions": "Impotencia, hernia, dolor en la cara interna de la rodilla y el muslo.",
+            "puncture": "De 1 a 1.5 cun, hay que picarlo profundo, se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Sanyinjiao (B 6): Impotencia.",
+                "Yinlingquan (B 9): Disuria.",
+                "Zusanli (E 36): Gastroenteritis."                                
             ],
-            "remark": ""
-        },
-        {
-            "id": 9,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 10,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 11,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 12,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 13,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 14,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 15,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
+            "remark": "Es un punto excelente para problemas menstruales. Punto He-Mar, elemento agua del canal."
         }
     ],
     "canal del pericardio": [
