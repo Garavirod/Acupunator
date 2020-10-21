@@ -1731,258 +1731,107 @@
     "canal del pericardio": [
         {
             "id": 1,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Qu Ze.",
+            "alias": "Estanque curvo.",
+            "location": "En el centro del pliegue transversal del codo del lado cubital del tendón del bíceps.",
+            "function": "Activa la sangre, enfría y limpia el útero, se utiliza en enfermedades de la energía invertida, es antiemético, tiene acción relajante local o general, suprime el fastidio.",
+            "directions": "Dolor del corazón, de estómago, brazo y codo, vómito, intranquilidad, temblor de la mano y brazo, palpitaciones.",
+            "puncture": "Vertical 0.5 a 0.8 cun, se puede hacer sangría con agujas de 3 filos.",
             "combinations": [
-                "",
-                "",
-                "",
+                "Neiguan (PC 6), Daling (PC 7): Dolor de corazón y palpitaciones.",
+                "Shaoshang (P 11): Sed.",
+                "Jianshi (PC 5): Sangrados en gastroenteritis aguda.",
                 "",
                 ""
             ],
-            "remark": ""
+            "remark": "Punto He-Mar."
         },
         {
             "id": 2,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Xi Men.",
+            "alias": "Puerta hendidura.",
+            "location": "5 cun por arriba del pliegue de la muñeca, entre los tendones del músculo largo palmar y flexor radial del carpo.",
+            "function": "Ansiolítico, enfría la sangre, cuando la energía perversa se encuentra en ella, contiene la energía más profunda.",
+            "directions": "Dolor de corazón, taquicardia, hemoptisis, hematemesis, trastornos menstruales, epilepsia, furunculosis, epistaxis, degeneración nerviosa, insomnio, cuadros de emergencia.",
+            "puncture": "Vertical 0.8 a 1.2 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Xinshu (V 15), Tanzhong (RM 17): Miocarditis.",
+                "Quchi (IG 11): Epistaxis, hematemesis."
             ],
-            "remark": ""
+            "remark": "Observaciones: Es el Punto Xi hendidura."
         },
         {
             "id": 3,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Jian Shi.",
+            "alias": "Sirviente mensajero.",
+            "location": "A 3 cun por arriba del pliegue de la muñeca entre los tendones.",
+            "function": "Ansiolítico, drena los canales y activa los colaterales, elimina la flema, nutre el corazón, abre los agujeros de la cabeza.",
+            "directions": "Dolor de corazón, estómago, brazo, vómito, fiebre, malaria, trastornos mentales, epilepsia, edema axilar, tic o contracción del codo, AVC por flema, insomnio.",
+            "puncture": "Punción: 0.5 a 1 cun. Se puede aplicar moxibustión.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Dazhui (DM 14): Paludismo.",
+                "Houxi (ID 3), Hegu (IG 4): Alteraciones mentales."            
             ],
-            "remark": ""
+            "remark": "Es el Punto Río-Metal."
         },
         {
             "id": 4,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Nei Guan.",
+            "alias": "Tapa lo interno.",
+            "location": "A 2 cun del pliegue de la muñeca, entre los tendones. Largo palmar y flexor radial del carpo.",
+            "function": "Ansiolítico, analgésico, regula la energía y equilibra el estómago, además se utiliza en enfermedades del calentador superior y el medio, aclara el calor, elimina el fastidio. Útil en enfermedades por obstrucción interna.",
+            "directions": "Dolor de corazón, estómago, taquicardia, vómito, trastornos mentales, maniacos, epilepsia, fiebre, contracción y dolor del codo y del brazo, malaria, insomnio, alteraciones de la memoria, AVC, enfermedad coronaria.",
+            "puncture": "0.5 a 1 cun perpendicular. Se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Gongsun (B 4): Para irritabilidad.",
+                "Tanzhong (RM 17): Suspiros y opresión de pecho.",
+                "Zusanli (E 36), Sanyinjiao (B 6): Tonificar el bazo."                                
             ],
-            "remark": ""
+            "remark": "Es el punto Luo o enlace, es uno de los 8 puntos de cruce."
         },
         {
             "id": 5,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Da Ling.",
+            "alias": "Cerro grande entre colinas.",
+            "location": "En el centro del pliegue de la muñeca entre los tendones.",
+            "function": "Ansiolítico, regula la energía del estómago, tiene que llevar su dirección para cuando se inserta, expande el tórax, dolor en el talón, dispersa el corazón, refresca la sangre. Favorece que el sueño sea prolongado y reparador.",
+            "directions": "Dolor de corazón, taquicardia, dolor de estómago, trastornos mentales, maniacos, dolor torácico y de la región costal, miedo, insomnio.",
+            "puncture": "Vertical 0.5 a 0.8 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Shangwang (RM 13): Dolor en epigastrio."
             ],
-            "remark": ""
+            "remark": "Punto Yuan-Fuente del pericardio, punto Arroyo y elemento Tierra, punto Hijo dispersante."
         },
         {
             "id": 6,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Lao Gong.",
+            "alias": "Palacio del trabajo.",
+            "location": "En el centro del pliegue transverso de la palma, entre el 2o. y 3er.metacarpiano, proximal de la articulación metacarpofalángica.",
+            "function": "Ansiolítico, enfria la sangre, regula el estómago, aclara el fuego de corazón, elimina flema y humedad.",
+            "directions": "Dolor de corazón, trastornos mentales, maniacos, epilepsia, úlcera labial, halitosis, fuego del estómago, hemorragia cerebral.",
+            "puncture": "Vertical 0.3 a 0.5 cun.",
             "combinations": [
-                "",
+                "Neiguan (PC 6), Wangu (ID 4): Aftas y úlcera bucal.",
                 "",
                 "",
                 "",
                 ""
             ],
-            "remark": ""
+            "remark": "Punto manantial, elemento Fuego."
         },
         {
             "id": 7,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Zhong Chong.",
+            "alias": "Llegar al dedo central.",
+            "location": "En la punta del dedo medio en el centro de la yema de este dedo.",
+            "function": "Abre los orificios del corazón, aclara el corazón, antitérmico, restaura el yang en colapsos.",
+            "directions": "Dolor de corazón, angustia, desmayo, tinnitus, rigidez y dolor de lengua, fiebre, insolación de calor de verano, sollozos de niños por la noche, AVC.",
+            "puncture": "0.1 cun. Se sangra.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Shaoshang (P 11): Fiebre.",
+                "Renzhong (DM 26): Desmayo."
             ],
-            "remark": ""
-        },
-        {
-            "id": 8,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 9,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 10,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 11,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 12,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 13,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 14,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 15,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
+            "remark": "Punto Pozo-Madera, punto Madre tonificante."
         }
     ],
     "canal de sanjiao": [
