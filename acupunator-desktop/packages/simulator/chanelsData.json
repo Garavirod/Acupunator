@@ -1837,256 +1837,221 @@
     "canal de sanjiao": [
         {
             "id": 1,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Guan Chong.",
+            "alias": "Ruta en movimiento.",
+            "location": "En el ángulo ungueal externo o cubital del dedo anular.",
+            "function": "Elimina el viento maligno, dispersa el fuego y el calor.",
+            "directions": "Cefalea en la parte externa de la ceja, conjuntivitis, faringitis, rigidez de la lengua, enfermedades febriles, tinnitus, dolor de oído, convulsiones.",
+            "puncture": "Oblicua de 15 grados. A 0.1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Yemen (SJ 2): para trastornos de la audición."
             ],
-            "remark": ""
+            "remark": "Es punto pozo, elemento Metal."
         },
         {
             "id": 2,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ye Men.",
+            "alias": "Puerta del líquido.",
+            "location": "Entre el 4o. y 5o. metacarpiano, en la parte distal de la articulación metacarpofalángica.",
+            "function": "Dispersa el calor del Sanjiao, hace circular el Qi estancado de los canales, genera líquidos en el organismo.",
+            "directions": "Cefalea lateral, conjuntivitis, acúfenos, dolor en la articulación del hombro y enfermedades con trastornos mentales, dolor de garganta con sensación de sequedad, sequedad de ojos.",
+            "puncture": "Oblicua de 0.3 a 0.5 cun a 45 grados.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Tinggong (ID 19), Ermen (SJ 21): para acúfenos y baja de la agudeza auditiva.",
+                "Taiyang (extra), Fengchi (VB 20): para cefalea temporal.",
+                "Baihui (DM 20), Renzhong (DM 26) y Daling (PC 7): para alteraciones mentales."               
             ],
-            "remark": ""
+            "remark": "Es punto manantial, elemento Agua."
         },
         {
             "id": 3,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Zhong Zhu.",
+            "alias": "Canal central.",
+            "location": "En el dorso de la mano, entre el 4o. y 5o. metacarpianos, en la depresión proximal de la articulación metacarpofalángica.",
+            "function": "Aclara y dispersa la cabeza y ojos, elimina viento y calor, facilita la circulación de canales y colaterales, remueve la sangre, tonifica al cerebro.",
+            "directions": "Sordera, cefalea lateral, conjuntivitis, tinnitus, faringitis, energía de contracorriente de garganta, laringitis, intranquilidad dentro del corazón, ictericia, diarrea, dolor en vértebras, flacidez en músculos que atraviesan el recorrido del canal y frío en los mismos, calor y dolor en el centro de la planta del pie.",
+            "puncture": "Perpendicular de 0.3 a 0.8 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Tinghui (VB 2), Shenshu (V 23): Disminución de la agudeza auditiva.",
+                "Yifeng (SJ 17), Tinggong (ID 19): Sordera y tinnitus.",
+                "Taixi (R 3): Dolor e inflamación garganta."
             ],
-            "remark": ""
+            "remark": "Es punto Arroyo, elemento madera, punto Madre tonificante."
         },
         {
             "id": 4,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yang Chi.",
+            "alias": "Estanque exterior.",
+            "location": "En el pliegue transversal del dorso de la muñeca, en la depresión que se forma entre los tendones del músculo extensor común digital y el extensor del meñique.",
+            "function": "Dispersa viento y fuego, conecta los tres calentadores, elimina obstrucción de canales y colaterales.",
+            "directions": "Dolor en la articulación de la muñeca, dolor de mano, sordera, diabetes, desviaciones uterinas, relaja los tendones.",
+            "puncture": "Perpendicular de 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Yanggu (ID 5), Yanglao (ID 6): Dolor de la muñeca.",
+                "Dazhui (DM 14), Hegu (IG 4),Fengchi (VB 20): Gripe",
+                "Dazhui (DM 14), Fengmen (V 12): Enfermedades febriles sin sudor."                                
             ],
-            "remark": ""
+            "remark": "Es el punto Yuan."
         },
         {
             "id": 5,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Wai Guan.",
+            "alias": "Relación con el exterior.",
+            "location": "A 2 cun por arriba del pliegue de la muñeca, entre el radio y el cubito.",
+            "function": "Elimina el viento hacia la superficie, aclara el calor, conecta canales y colaterales, defiende contra todos los factores patógenos externos.",
+            "directions": "Tinnitus, enfermedades febriles, cefalea en la sien, sordera, imposibilidad motora de codo y brazo, temblor de manos, migraña, resfriado común, acúfenos, faringitis.",
+            "puncture": "Perpendicular de 0.5 a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Jianyu (IG 15), Quchi (IG 11), Shanglian (IG 9), Hegu (IG 4): Trastornos motores del brazo.",
+                "Dazhui (DM 14), Fengchi (VB 20), Hegu (IG 4): Fiebre y gripe.",
+                "Tinggong (ID 19): Sordera y tinnitus.",
+                "Chize (P 5): Temblor de mano."             
             ],
-            "remark": ""
+            "remark": "Es el punto Luo. Es punto maestro del Yang, conecta con el canal Yangwei."
         },
         {
             "id": 6,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Zhi Gou.",
+            "alias": "Rama del canal.",
+            "location": "A 3 cun por arriba del pliegue de la muñeca, entre el radio y el cubito.",
+            "function": "Aclara los 3 calentadores, conecta canales y colaterales, comunica la energía, favorece la función del útero y anexos, entra en contacto con las vísceras huecas, dispersa la coagulación de la sangre.",
+            "directions": "Tinnitus, sordera, sensación de pesantez en hombros y espalda, vómito, estreñimiento, diarrea, enfermedades febriles sin sudor, hemiplejia.",
+            "puncture": "Perpendicular de 1 a 1.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Renzhong (DM 26), Zhongchong (PC 9), Shanzhong (RM 17), Hegu (IG 4): Desmayo y coma.",
+                "Zusanli (E 36), Tianshu (E 25): Constipación crónica.",
+                "Yanglingquan (VB 34): Dolor en hipocondrio.",
+                "Tianshu (E 25), Dachangshu (V 25), Zhaohai (R 6): Estreñimiento."            
             ],
-            "remark": ""
+            "remark": "Es punto Río, elemento Fuego."
         },
         {
             "id": 7,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Hui Zong.",
+            "alias": "Reunión fundamental.",
+            "location": "A 3 cun por arriba del pliegue de la muñeca, en el borde radial del cubito.",
+            "function": "Aclara el calor maligno del Sanjiao y hace circular la energía del canal.",
+            "directions": "Sordera, tinnitus, dolor de abdomen y pecho, sensación de opresión o llenado en el pecho.",
+            "puncture": "Perpendicular de 0.5 a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zhongzhu (SJ 3), Tinggong (ID 19), Waiguan (SJ 5): Sordera y tinnitus."
             ],
-            "remark": ""
+            "remark": "Es punto Xi hendidura."
         },
         {
             "id": 8,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Tian Jing.",
+            "alias": "Pozo del cielo.",
+            "location": "A 1 cun por arriba del olécranon, en la depresión.",
+            "function": "Moviliza la flema y sangre estancada, aclara las ideas del corazón, tranquiliza el espíritu.",
+            "directions": "Migraña, sordera, tos con flemas, hemoptisis, epilepsia, dolor en cuello, brazo y espalda en general.",
+            "puncture": "erpendicular de 0.5 a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Shaohai (C 3), Quchi (IG 11), Chize (P 5): Dolor de codo.",
+                "Shaohai (C 3): Abscesos.",
+                "Fenglong (E 40), Yuji (P 10): Tos y expectoración.",
+                "Xuehai (B 10), Quchi (IG 11): Exantemas."                
             ],
-            "remark": ""
+            "remark": "Es punto Mar, elemento Tierra y punto Hijo, dispersante."
         },
         {
             "id": 9,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Jian Liao.",
+            "alias": "Agujero del hombro.",
+            "location": "En la depresión posteroinferior del acromion, al levantar el brazo.",
+            "function": "Elimina viento y humedad, equilibra sangre y energía, conecta canales y colaterales.",
+            "directions": "Hombro doloroso y pesado, dolor y frío del brazo.",
+            "puncture": "Oblicua de 15 a 45 grados y de 0.5 a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Jianyu (IG 15), Tianzong (ID 11), Quchi (IG 11): Dolor e inflamación del hombro."
             ],
             "remark": ""
         },
         {
             "id": 10,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yi Feng.",
+            "alias": "Obstáculo del viento.",
+            "location": "En la parte posterior de la punta del lóbulo en la punta de la oreja, en la depresión que se forma entre el ángulo de la mandíbula y el mastoides.",
+            "function": "Dispersa y hace circular el calor y el viento, conecta con el orificio del oído, refresca la sangre y elimina la infección.",
+            "directions": "Sordera, tinnitus, infección e inflamación del oído, parálisis facial, dificultad para hablar, neuralgia del trigémino, sensación de oído tapado.",
+            "puncture": "Perpendicular u oblicua a 45 grados de 1 a 2 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Jiache (E 6): Edema mandibular.",
+                "Dicang (E 4), Sibai (E 2), Jiache (E 6), Hegu (IG 4), Yingxiang (IG 20), Yangbai (VB 14): Parálisis facial y trismus."
             ],
             "remark": ""
         },
         {
             "id": 11,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Qi Mai.",
+            "alias": "Canal que controla el temblor.",
+            "location": "En el borde anteroinferior del mastoides.",
+            "function": "Aclara calor, elimina el dolor de oído y la cabeza.",
+            "directions": "Sordera, tinnitus, dolor de oído, migraña, vómito, crisis de pequeño mal en niños, resuelve el miedo.",
+            "puncture": "Oblicua de 15 a 45 grados y de 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Sanyangluo (SJ 8), Ermen (SJ 21), Taixi (R 3): Tinnitus y sordera.",
+                "Yanglingquan (VB 34): Cefalea temporal.",
+                "Shenmen (C 7), Taixi (R 3): Miedos."                                
             ],
             "remark": ""
         },
         {
             "id": 12,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Lu Xi.",
+            "alias": "Reposo del cráneo.",
+            "location": "En el borde anterosuperior del mastoides.",
+            "function": "Dispersa el viento, calma el dolor y refresca las ideas, tranquiliza el espíritu cuando hay miedo.",
+            "directions": "Migraña, tinnitus, sordera, dolor de oído, dolor costal, tos con hemoptisis, insomnio, convulsiones en niños, temblores.",
+            "puncture": "Oblicua de 15 a 45 grados y de 0.1 a 0.3 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Shenmen (C 7), Baihui (DM 20), Dadu (B 2): Trastornos de la memoria.",
+                "Taiyang (extraord), Hegu (IG 4), Fengchi (VB 20): Derrame ocular.",
+                "Yifeng (SJ 17), Ermen (SJ 21), Tinggong (ID 19): Problemas de oído."
             ],
             "remark": ""
         },
         {
             "id": 13,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Jiao Sun.",
+            "alias": "Angulo de la oreja.",
+            "location": "En la punta de la oreja, al pegarla con la cabeza, en la implantación del pelo.",
+            "function": "Aclara el viento maligno del Sanjiao y elimina el calor del canal.",
+            "directions": "Migraña, edema del oído, conjuntivitis, dolor e inflamación de encías, espasmo brusco del cuello.",
+            "puncture": "Oblicua a 15 grados, de 0.2 a 0.5 cun dirigida hacia abajo.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Quanliao (ID 18): Dolor de encías superiores.",
+                "Taichong (H 3), Hegu (IG 4), Linqi del pie (VB 41): Migraña."
             ],
             "remark": ""
         },
         {
             "id": 14,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Er Men.",
+            "alias": "Puerta del oído.",
+            "location": "En la depresión superoanterior del trago.",
+            "function": "Destapa el orificio del oído, comunica la energía, libera el factor patógeno.",
+            "directions": "Tinnitus, sordera, dolor dental superior, dolor de oído, sordomudez.",
+            "puncture": "De 15 a 45 grados y de 1 a 1.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Waiguan (SJ 5): Sordera.",
+                "Heliao (SJ 22): Odontalgia superior.",
+                "Heliao (SJ 22), Tinghui (VB 2): Artritis temporomandibular.",
+                "Tinghui (VB 2), Tinggong (ID 19), Zhongzhu (SJ 3): Sordera."            
             ],
             "remark": ""
         },
         {
             "id": 15,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Si Zhu Kong.",
+            "alias": "Hueco del bambú delgado.",
+            "location": "Depresión del extremo externo de la ceja.",
+            "function": "Aclara el fuego de los ojos y dispersa el viento, calma el dolor de los ojos, aclara la visión.",
+            "directions": "Migraña, conjuntivitis dolorosa y espasmo de la cara, tics, enfermedades de los ojos.",
+            "puncture": "Oblicua de 15 a 45 grados y de 0.5 a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Taiyang (extra), Zhanzhu (V 2): Conjuntivitis.",
+                "Taiyang (extra), Hegu (IG 4), Jingming (V 1): Conjuntivitis crónica."
             ],
             "remark": ""
         }
