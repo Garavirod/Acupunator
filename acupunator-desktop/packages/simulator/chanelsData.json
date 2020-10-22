@@ -2467,256 +2467,171 @@
     "canal du mai": [
         {
             "id": 1,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Chang Qiang.",
+            "alias": "Largo y Poderoso.",
+            "location": "Entre el coxis y el ano, a la mitad de distancia.",
+            "function": "Efecto sedante para fasciculaciones, detiene el dolor, despeja el calor  patógeno en la sangre, restablece o fija los prolapsos.",
+            "directions": "Evacuaciones con sangre, prolapso rectal, hemorroides, disnea, dolor lumbar o sacro, epilepsia, fisura anal.",
+            "puncture": "Perpendicular 0.5 a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Shugu (V 65): Grietas en recto.",
+                "Dadun (H 1): Dolor por gases en intestino delgado.",
+                "Huiyang (V 35), Baihuangshu (V 30): Escozor anal, hemorroides.",
+                "Chengshan (V 57): Hemorroides, melena.",
+                "Xiaochangshu (V 27): Dificultad para obrar u orinar.",
+                "Sanyinjiao (B 6): Enuresis.",
+                "Baihui (DM 20), Chengshan (V 57), Qihai (RM 6): Prolapso rectal."
             ],
-            "remark": ""
+            "remark": "Punto Luo del canal."
         },
         {
             "id": 2,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ming Men.",
+            "alias": "Puerta de la vida.",
+            "location": "Borde inferior de la apófisis espinosa de la segunda vértebra lumbar, en la línea media posterior.",
+            "function": "Refuerza la energía vital, tonifica al riñón, consolida la fuerza vital, detiene el flujo vaginal, dispersa canales, equilibra y regula la energía, fortalece la columna lumbar.",
+            "directions": "Dolor de cintura, dolor de abdomen, dismenorrea, leucorrea, impotencia, emisión seminal nocturna, enuresis, diarrea, disentería, depresión nerviosa, anasarca.",
+            "puncture": "Oblicua a 75 grados ó perpendicular 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Tianshu (E 25), Zusanli (E 36): Diarrea.",
+                "Shenshu (V 23), Baliao (extra): Dolor menstrual, leucorrea, enuresis, impotencia, espermatorrea."
             ],
             "remark": ""
         },
         {
             "id": 3,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shen Zhu.",
+            "alias": "Pilar del cuerpo humano.",
+            "location": "Borde inferior de la apófisis espinosa de la tercera vértebra dorsal, en la línea media posterior.",
+            "function": "Desciende la fiebre, aclara y dispersa el fuego del corazón, tranquiliza el espíritu, detiene la tos por inversión de la energía del pulmón.",
+            "directions": "Tosferina, epilepsia, calor en todo el cuerpo, enfermedades mentales (del espíritu), depresión, convulsiones en niños, tétanos, furúnculos, reumatismo (humedad-viento, humedad-viento-calor), fortalece el cuerpo de los niños (prevención).",
+            "puncture": "Oblicua 0.3 a 0.5 cun en dirección de la cabeza.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Weizhong (V 40): Ulceras incipientes en general.",
+                "Fengmen (V 12): Tos crónica.",
+                "Benshen (VB 13): Epilepsia.",
+                "Mingmen (DM 4): Convulsiones en niños.",
+                "Dazhui (DM 14), Feishu (V 13), Tiantu (RM 22), Shanzhong (RM 17): Tos."
             ],
             "remark": ""
         },
         {
             "id": 4,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Da Zhui.",
+            "alias": "Gran Vértebra.",
+            "location": "Borde inferior de la apófisis espinosa de la séptima vértebra cervical, en la línea media posterior.",
+            "function": "Libera la superficie, aclara el calor, dispersa el viento, esparce el frío, permite el paso libre de la energía Yang, regula la energía obstruída, aclara y despeja el corazón y lo tranquiliza.",
+            "directions": "Cefalea, enfermedades agudas por calor, fiebre muy alta, resfriado común, sudoración excesiva, malaria, tos, asma, atrofia, contractura del cuello, epilepsia con aura, desciende la fiebre.",
+            "puncture": "Oblicua 0.3 a 0.5 cun en dirección de la cabeza.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Jianshi (PC 5): Malaria.",
+                "Renzhong (DM 26), Yanglingquan (VB 34), Quchi (IG 11): Golpe de viento.",
+                "Quchi (IG 11), Hegu (IG 4): Infecciones epidémicas.",
+                "Baliao (extra): Sífilis.",
+                "Fengchi (VB 20), Baihui (DM 20), Fengfu (DM 16), Yifeng (SJ 17): Alteraciones hereditarias después del nacimiento.",
+                "Shenzhu (DM 12), Dadun (H 1), Dachangshu (V 25): Enfermedades de columna y médula comprimida.",
+                "Fengfu (DM 16): Atrofia muscular de columna.",
+                "Fenglong (E 40): Asma.",
+                "Zusanli (E 36), Quchi (IG 11): Leucopenia.",
+                "Tiantu (RM 22), Shangwan (RM 13): Traqueitis.",
+                "Shaoshang (P 11) -sangría-: Dispersa calor.",
+                "Quchi (IG 11), Hegu (IG 4): Dispersar el calor."
             ],
-            "remark": ""
+            "remark": "Punto de confluencia y reunión de los tres canales Yang de la mano y los tres canales Yang de pie."
         },
         {
             "id": 5,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ya Men.",
+            "alias": "La Puerta del Mutismo.",
+            "location": "0.5 cun arriba de la implantación posterior del pelo, sobre la horizontal que pasa por la punta del mastoides, en la línea media posterior.",
+            "function": "Mejora la circulación, permite y abre el paso de los colaterales, aclara el espíritu y la conciencia, mutismo funcional.",
+            "directions": "Epilepsia, histeria, mudez súbita, dolor e inflamación de laringe y faringe (constantes), rigidez de la lengua, sordomudez, tortícolis, parálisis cerebral, cuadriplejía, obstrucción de vías respiratorias.",
+            "puncture": "De arriba a abajo 0.3 a 0.5 cun. Introducción en tres movimientos y sacar, no girar aguja.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Yongquan (R 1): Accidente vascular cerebral con afacia.",
+                "Zhongzhu (SJ 3), Tinggong (ID 19), Ermen (SJ 21): Sordomudez.",
+                "Guanchong (SJ 1): Endurecimiento de la lengua que no permite hablar.",
+                "Baihui (DM 20), Taiyang (extra): Cefalea.",
+                "Fengfu (DM 16): Contracción tónico clónica."
             ],
             "remark": ""
         },
         {
             "id": 6,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Feng Fu.",
+            "alias": "Palacio del Viento.",
+            "location": "A 1 cun por arriba de la implantación del pelo, por abajo de la protuberancia occipital, en la línea media posterior.",
+            "function": "Esparce y dispersa el viento, aclara el corazón y tranquiliza el espíritu, abre el paso a los canales y beneficia la función del corazón y articulaciones.",
+            "directions": "Dolor de cabeza, contractura del cuello, epilepsia, hemiplejía, afasia, vértigo, epistaxis, seudo parálisis, atrofia cerebral, esclerosis lateral amiotrófica. Parálisis del bulbo raquídeo.",
+            "puncture": "Oblicua 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Changqiang (DM 1): Tortícolis aguda.",
+                "Hegu (IG 4): Cefalea posterior.",
+                "Fengchi (VB 20), Neiguan (PC 6), Shenmen (C 7): Temblor de origen cerebral.",
+                "Sishencong (extra), Neiguan (PC 6): Alteraciones cerebrales.",
+                "Renzhong (DM 26), Neiguan (PC 6), Baihui (DM 20), Sanyinjiao (B 6): Hipertensión cerebral.",
+                "Renzhong (DM 26), Neiguan (PC 6), Sishencong (extra): Epilepsia - Si la epilepsia es de día agregar Shenmai. Si la epilepsia es de noche agregar Zhaohai (R 6) .",
+                "Dazhui (DM 14), Jizhong (DM 6), Zhongshu (DM  7), Mingmen (DM 4), Jiquan (C 1), Shaohai (C 3), Huantiao (VB 30), Weizhong (V 40): Atrofia muscular de columna.",
+                "Lianquan (RM 23), Tiantu (RM 22): Falsa parálisis garganta. ",
+                "Zhongfeng (H 4), Yangfu (VB 38): Visión borrosa.",
+                "Yongquan (R 1), Lianquan (RM 23), Neiguan (PC 6), Xinshu (V 15): Afacia por AVC.",
+                "Renzhong (DM 26), Neiguan (PC 6): Disfunción nerviosa."
             ],
             "remark": ""
         },
         {
             "id": 7,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Bai Hui.",
+            "alias": "Las Cien Reuniones.",
+            "location": "En la línea media del cráneo, en su unión con la línea que va de la punta de una oreja a la otra, 5 cun atrás de la implantación anterior del pelo.",
+            "function": "Asciende el yang, sube la energía, aclara el cerebro, tranquiliza el espíritu, equilibra la función del hígado.",
+            "directions": "Epilepsia, pérdida del conocimiento, AVC, convulsiones tónico clónicas, mareo, tinnitus, palpitaciones, mala memoria, insomnio, obstrucción nasal, prolapso rectal, histeria, prolapso uterino, ptosis gástrica, cefalea, vértigo, visión borrosa, septicemia, sobresaltos en niños cuando duermen, dolor de cabeza, hemorroides.",
+            "puncture": "Oblicua superficial 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Changqiang (DM 1): Prolapso rectal.",
+                "Guanyuan (RM 4), Ciliao (V 32): Prolapso uterino.",
+                "Zhongwan (RM 12), Tianshu (E 25), Qihai (RM 6), Zusanli (E 36): Ptosis gástrica.",
+                "Fengchi (VB 20), Taichong (H 3): Cefalea, mareo, visión borrosa.",
+                "Tinggong (ID 19), Xinjian (H 2): Tinnitus.",
+                "Renzhong (DM 26), Neiguan (PC 6), Fengchi (VB 20): Disfunción nerviosa.",
+                "Zhiyin (V 67): Cefalea posterior."                
             ],
-            "remark": ""
+            "remark": "Punto de reunión con vejiga, vesícula biliar, sanjiao e hígado."
         },
         {
             "id": 8,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shen Ting.",
+            "alias": "Habitación del espíritu.",
+            "location": "0.5 cun posterior a la línea anterior de la implantación del pelo, sobre la línea media.",
+            "function": "Función: Pacifica el espíritu, es tranquilizante, ansiolítico.",
+            "directions": "Dolor de cabeza frontal, mareos, vértigos, rinitis, epilepsia, ansiedad, insomnio, maniaco.",
+            "puncture": "Oblicua superficial 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Shenmen (C 7), Sanyinjiao (B 6): Insomnio.",
+                "Lieque (P 7): Cefalea.",
+                "Neiguan (PC 6), Tongli (C 5): Palpitaciones.",
+                "Shangxing (DM 23), Jingming (V 1), Qianding (DM 21), Taiyang (extra): Conjuntivitis."                
             ],
             "remark": ""
         },
         {
             "id": 9,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ren Zhong o Shui Gou.",
+            "alias": "Centro del Hombre.",
+            "location": "Por debajo de la nariz en el tercio superior del surco nasolabial, sobre la línea media.",
+            "function": "Recupera y tranquiliza el espíritu, abre los agujeros de la cabeza, elimina viento, suprime el dolor, dispersa calor y transforma la flema.",
+            "directions": "Desórdenes mentales, epilepsia, convulsión infantil, coma, trismus, parálisis facial, hinchazón facial, dolor y rigidez de la región lumbar, ictericia, diabetes.",
+            "puncture": "Perpendicular superficial 0.1 a 0.3 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 10,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 11,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 12,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 13,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 14,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "remark": ""
-        },
-        {
-            "id": 15,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
-            "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Neiguan (PC 6), Sanyinjiao (B 6), Weizhong (V 40), Jiquan (C 1): Alteraciones por sangre en cerebro -AVC-; éste es el método para abrir los agujeros y volver a la conciencia.",
+                "Hegu (IG 4), diez yemas: Salva de la muerte.",
+                "Neiguan (PC 6), Taiyang (extra): Golpe de calor, insolación.",
+                "Neiguan (PC 6): Histeria.",
+                "Fengchi (VB 20), Fengfu (DM 16), Zhongwan (RM 12), Taichong (H 3): Alteraciones del sentimiento.",
+                "Yongquan (R 1), Tongli (C 5): Afasia.",
+                "Weizhong (V 40): Esguince de cintura.",
+                "Shenting (DM 24): Inflamación de cara y dolor."
+
             ],
             "remark": ""
         }
