@@ -2639,258 +2639,278 @@
     "canal ren mai": [
         {
             "id": 1,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Hui Yin.",
+            "alias": "Reunión del Yin.",
+            "location": "En el hombre; entre el ano y el escroto \n En la mujer; en la comisura posterior de labios mayores y el ano.",
+            "function": "Regula el ciclo menstrual, fortalece el riñón, elimina la humedad y el calor, restaura el yang qi.",
+            "directions": "Prurito vaginal, trastornos en la menstruación, dificultad a la micción, espermatorrea, impotencia, edema del escroto, prolapso uterino y hemorroides.",
+            "puncture": "Perpendicular de 0.5 a 0.8 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Sanyinjiao (B 6), Ligou (H 5): Prurito vaginal.",
+                "Chengshan (V 57), Weizhong (V 40): Hemorroides."                
             ],
-            "remark": ""
+            "remark": "Punto de reunión con el DU MAI y el CHONG MAI."
         },
         {
             "id": 2,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Qu Gu.",
+            "alias": "Curvatura del Hueso.",
+            "location": "En el borde superior de la sínfisis del pubis y la línea media anterior.",
+            "function": "Tonifica y calienta el Yang del riñón, regula el ciclo menstrual y elimina la leucorrea.",
+            "directions": "Espermatorrea, impotencia, prostatitis, retención urinaria, trastornos en la menstruación, leucorrea, enuresis, incontinencia urinaria.",
+            "puncture": "Perpendicular de 1 a 2 cun; se moxa de 15 a 20 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Sanyinjiao (B 6), Daimai (VB 26): Flujo.",
+                "Zhongji (RM 3) y Sanyinjiao (B 6): Incontinencia urinaria.",
+                "Guilai (E 29) y Sanyinjiao (B 6): Enuresis.",
+                "Zhongji (RM 3), Chize (P 5): Micción involuntaria nocturna.",
+                "Sanyinjiao (B 6), Pangguangshu (V 28): Cistitis.",
+                "Houxi (ID 3): Espermatorrea, impotencia y eyaculación precoz."
             ],
-            "remark": ""
+            "remark": "Punto de unión con el canal de hígado."
         },
         {
             "id": 3,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Zhong Ji.",
+            "alias": "La parte más central.",
+            "location": "1 cun arriba del pubis en la línea media anterior.",
+            "function": "Tonifica el Yang, armoniza la función de la sangre en meridianos mejora la función de vejiga y del Jiao inferior, refuerza la energía yuan.",
+            "directions": "Espermatorrea, enuresis, dificultad para la micción, polaquiuria, linfangitis, dolor en el bajo vientre, orquitis, prostatitis, trastornos de la menstruación, sangrados uterinos disfuncionales, prolapso uterino, leucorrea con prurito vaginal.",
+            "puncture": "Perpendicular de 1 a 3 cun, se moxa de 15 a 20 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Sanyinjiao (B 6) y Shenshu (V 23): Enuresis.",
+                "Guanyuan (RM 4) y Sanyinjiao (B 6): Micción nocturna involuntaria.",
+                "Taichong (H 3), Yinlingquan (B 9): Cistitis.",
+                "Changqian (DM 1), Sanyinjiao (B 6): Prostatitis.",
+                "Zigong (RM 19), Sanyinjiao (B 6): Anexitis."
             ],
-            "remark": ""
+            "remark": "Punto de unión con R, H, B, punto Mu de vejiga."
         },
         {
             "id": 4,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Guan Yuan.",
+            "alias": "Relación con el origen.",
+            "location": "En la línea media anterior a 3 cun por abajo del ombligo.",
+            "function": "Calentar el riñón, tonifica la substancia vital del riñón, tonifica la energía en general, armoniza las funciones de Chong Mai, hace circular la energía y armoniza las funciones de la sangre; favorece la espermatogenesis, protege y es profiláctico, es el lugar donde se produce la energía de Sanjiao.",
+            "directions": "Espermatorrea, impotencia, enuresis, retención urinaria, polaquiuria, trastornos de la menstruación, leucorrea, retención placentaria, sangrado postparto, prolapso uterino, dispepsia en el niño, diarrea, neurastenia e hipertensión, agotamiento, infertilidad.",
+            "puncture": "Perpendicular de 1 a 1.5 cun, moxa por 20 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Shenque (RM 8) moxado: Epilepsia por deficiencia.",
+                "Yintang (extra), Sanyinjiao (B 6), Zhongwuan (RM 12), Shenmen (C 7): Debilitamiento, neurastenia.",
+                "Sanyinjiao (B 6): Quiste de ovario.",
+                "Hegu (IG 4): Dolor uterino postparto.",
+                "Yinlingquan (B 9), Sanyinjiao (B 6): Sangrado uterino."
             ],
-            "remark": ""
+            "remark": "Punto Mu del Intestino Delgado."
         },
         {
             "id": 5,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shi Men.",
+            "alias": "Puerta de Piedra.",
+            "location": "Sobre la línea media anterior a 2 cun por abajo del ombligo.",
+            "function": "Regula el ciclo menstrual, detiene o elimina la leucorrea, calienta el riñón y tonifica el yang en general.",
+            "directions": "Secreción mucosanguinolenta, trastornos vaginales, amenorrea, sangrado postparto, dolor abdominal, diarrea, retención urinaria, edema, linfangitis.",
+            "puncture": "Perpendicular de 1 a 1.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Guanyuan (RM 4), Sanjiaoshu (V 22), Sanyinjiao (B 6): Alteración del aparato genitourinario.",
+                "Fenglong (E 40): Eliminar líquido.",
+                "Guanyuan (RM 4): Dolor abdominal postparto.",
+                "Dachangshu (V 25): Alteraciones en la evacuación."                
             ],
-            "remark": ""
+            "remark": "Punto Mu de Sanjiao."
         },
         {
             "id": 6,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Qi Hai.",
+            "alias": "Mar de la energía.",
+            "location": "En la línea media anterior a 1.5 cun por abajo del ombligo.",
+            "function": "Hace ascender el Yang, tonifica la energía, nutre el riñón y tonifica la substancia vital del riñón (yuan), fortalece los espermatozoides, mejora la circulación de los canales.",
+            "directions": "Dolor abdominal por frío, edema, distensión abdominal, diarrea, impotencia, espermatorrea, enuresis, retención urinaria, estreñimiento, prolapso rectal, dismenorrea, prolapso uterino, leucorrea, falta de fuerza en las extremidades.",
+            "puncture": "Perpendicular de 1 a 1.5 cun, moxa por 20 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Changquiang (DM 1): Prolapso rectal.",
+                "Guanyuan (RM 4): Goteo terminal.",
+                "Zhongji (RM 3), Weizhong (V 40): Flujo rojo.",
+                "Zhongji (RM 3), Shenshu (V 23), Sanyinjiao (B 6), Xingjian (H 2): Flujo rojo o blanco.",
+                "Tianshu (E 25) moxado: Diarrea crónica."
             ],
             "remark": ""
         },
         {
             "id": 7,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shen Que.",
+            "alias": "Casa del espíritu.",
+            "location": "En la cicatriz umbilical.",
+            "function": "Calienta y hace circular el Yang. Elimina el edema y la obstrucción y mejora las funciones del bazo, estómago e intestino.",
+            "directions": "Distensión abdominal, dolor abdominal, diarrea, deficiencia de energía como en el AVC, prolapso vesical y prolapso rectal.",
+            "puncture": "Está prohibido usar aguja, sólo se moxa.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Guanyuan (RM 4): Apoplejia por deficiencia.",
+                "Shuifen (RM 9), Sanjian (IG 3): Diarrea y borborigmos."                
             ],
-            "remark": ""
+            "remark": "Este punto no se punciona, sólo se moxa, en urticaria aplicar ventosas."
         },
         {
             "id": 8,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shui Fen.",
+            "alias": "Una parte del agua.",
+            "location": "En la línea media anterior a 1 cun por arriba de la cicatriz umbilical.",
+            "function": "Fortalece al bazo y estómago, elimina los líquidos y la humedad, promueve el metabolismo del agua.",
+            "directions": "Borborigmos, diarrea, distensión abdominal, dolor a nivel umbilical, edema, dificultad a la micción, nefritis, ascitis.",
+            "puncture": "Perpendicular de 1 a 1.5 cun, moxa por 20 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Sanyinjiao (B 6), Shuidao (E 28): Anasarca.",
+                "Shuidao (E 28): Edema.",
+                "Zhangmen (H 13), Ququan (H 8) 'moxa': Peritonitis con masas palpables.",
+                "Guanyuan (RM 4), Fuliu (R 7), Shenshu (V 23): Pielonefritis.",
+                "Zhangmen (H 13), Daimai (VB 26): Cirrosis con ascitis."
             ],
             "remark": ""
         },
         {
             "id": 9,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Xia Wan.",
+            "alias": "Por abajo de la cavidad.",
+            "location": "En la línea media anterior a 2 cun por arriba del ombligo.",
+            "function": "Fortalece al bazo, armoniza las funciones de estómago, elimina la obstrucción, mejora la función del píloro.",
+            "directions": "entería bacilar, borborigmos en síndromes causados por deficiencia de energía de bazo y estómago, pesantez del estómago.",
+            "puncture": "Perpendicular de 1 a 1.5 cun, se moxa por 20 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zhongwan (RM 12), Tianshu (E 25), Zusanli (E 36): Dolor abdominal.",
+                "Liangmen (E 21): Alteraciones de la digestión."
             ],
             "remark": ""
         },
         {
             "id": 10,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Zhong Wan.",
+            "alias": "Centro de la cavidad.",
+            "location": "En la línea media anterior a 4 cun por arriba del ombligo.",
+            "function": "Fortalece al bazo y elimina la humedad del canal del bazo. Regula el calentador medio, desciende la energía invertida.",
+            "directions": "Vómito, disentería, inflamación abdominal y dolor de estómago, síndrome ácido-péptico, regurgitación.",
+            "puncture": "Perpendicular 1 a 1.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Neiguan (PC 6), Neiting (E 44), Liangmen (E 21): Ulcera gástrica.",
+                "Yangchi (SJ 4), Shangwan (RM 13): Vómito.",
+                "Lianquan (RM 23): Espasmo de estómago, torción de estómago.",
+                "Qihai (RM 6), Zusanli (E 36), Tianshu (E 25), Baihui (DM 20): Ptosis de estómago.",
+                "Neiguan (PC 6): Gastritis aguda."
             ],
-            "remark": ""
+            "remark": "Es el punto Mu del estómago y punto de influencia de las vísceras."
         },
         {
             "id": 11,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shang Wan.",
+            "alias": "Sobre la cavidad.",
+            "location": "En la línea media anterior a 5 cun por arriba del ombligo.",
+            "function": "Drena hígado, tranquiliza el espíritu, desciende la energía invertida, fortalece al bazo y transforma la humedad, mejora la función del cardias.",
+            "directions": "Dolor de estómago, vómito, hematemesis, mala memoria, hipo, náusea, eructo.",
+            "puncture": "de 1 a 1.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Lianqiu (E 34), Neiguan (PC 6): Vómito.",
+                "Gongsun (B 4), Neiguan (PC 6): Gastralgia.",
+                "Jizhong (DM 6), Xuanshu (DM 5): Gastralgia.",
+                "Neiguan (PC 6),Xinshu (V 15): Dolor de corazón."                
             ],
             "remark": ""
         },
         {
             "id": 12,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": " Ju Que.",
+            "alias": "Puerta grande.",
+            "location": "En la línea media anterior a 6 cun por arriba del ombligo.",
+            "function": "Amplía el tórax, transforma la flema, regula el estancamiento, y desciende la energía invertida, tranquiliza el espíritu.",
+            "directions": "Dolor de tórax y corazón, náuseas, vómito, palpitaciones, neurosis, depresión.",
+            "puncture": "de 1 a 1.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Neiguan (PC 6), Xinshu (V 15), Shenmen (C 7): Palpitaciones.",
+                "Zhongwang (RM 12), Fenglong (E 40), Tonggu (V 66), Houxi (ID 3): Epilepsia.",
+                "Feishu (V 13), Lieque (P 7), Chize (P 5): Pleuritis.",
+                "Zusanli (E 36), Neiting (E 44): Acidez gástrica. ",
+                "Tiantu (RM 22), Zhongwan (RM 12), Lianquan (RM 23): Inflamación de faringe y esófago."
             ],
-            "remark": ""
+            "remark": "unto Mu del corazón."
         },
         {
             "id": 13,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Jiu Wei.",
+            "alias": "Cola de la horquilla.",
+            "location": "En la línea media anterior se encuentra a 1 cun por debajo del xifoides.",
+            "function": "Amplía al tórax, transforma la flema, regula el estómago, desciende la energía invertida, tranquiliza el espíritu.",
+            "directions": "Dolor de tórax y corazón, náuseas, alteración mental por flema , hipo, regurgitaciones.",
+            "puncture": "de 0.5 a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Houxi (ID 3), Shenmen (C 7): Epilepsia.",
+                "Geshu (V 17): Hipo.",
+                "Houxi (ID 3), Yongquan (R 1), Xinshu (V 15), Zusanli (E 36), Taichong (H 3): Epilepsia.",
+                "Shenmen (C 7), Neiguan (PC 6), Fenglong (E 40). Epilepsia y locura."                
+            ],
+            "remark": "Es el punto Luo del canal."
+        },
+        {
+            "id": 14,
+            "name": "Shan Zhong.",
+            "alias": "Centro del Pericardio.",
+            "location": "En la línea media anterior a nivel de las tetillas.",
+            "function": "Armoniza y hace circular la energía, mejora las funciones de pulmón y mejora la función de descenso. Hace descender lo sucio del pulmón, elimina flemas. Protege al corazón.",
+            "directions": "Disnea, tos, opresión torácica, respiración corta superficial, bronquitis asmatiforme, aumenta la secreción láctea, problemas de energía en calentador superior.",
+            "puncture": "Subcutánea de 0.5 a 1 cun.",
+            "combinations": [
+                "Neiguan (PC 6): Sensación de opresión en pecho.",
+                "Qihaishu (V 24), Zusanli (E 36): Debilidad.",
+                "Feishu (V 13), Chize (PC 5): Tos y enfermedades del aparato respiratorio.",
+                "Shaoze (ID 1): Hipogalactia.",
+                "Jimen (B 11): Dolor de corazón."
+            ],
+            "remark": "Si se quiere aumentar la producción láctea dirigir aguja hacia el pezón. Punto de influencia de la energía, punto Mu del Pericardio."
+        },
+        {
+            "id": 15,
+            "name": "Tian Tu.",
+            "alias": "Saltar al cielo.",
+            "location": "Depresión que forma la orquilla esternal.",
+            "function": "Mejora la función de dispersión del pulmón, detiene la tos, desciende lo sucio, elimina las flemas y mejora la función de la garganta.",
+            "directions": "Tos, disnea, garganta edematosa y dolorosa, asma, espasmos del diafragma, vómitos y bronquitis.",
+            "puncture": "Subcutánea 1 a 2 cun, por atrás del esternón.",
+            "combinations": [
+                "Dingchuan (extra), Feishu (V 13): Tos y asma.",
+                "Fengchi (VB 20), Lianquan (RM 23): Obstrucción de garganta.",
+                "Neiguan (PC 6), Yintang (extraord), Zusanli (E 36): Vómito neurológico.",
+                "Chize (P 5): Bronquitis.",
+                "Dazhui (DM 14):Asma."
             ],
             "remark": ""
         },
         {
-            "id": 14,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "id": 16,
+            "name": "Fuente de agua.",
+            "alias": "Depresión del borde superior que forma el hueso hioides, en la línea media anterior.",
+            "location": "Aclara el fuego, elimina la flema y mejora las funciones de la garganta, humedece la boca.",
+            "function": "Dolor y edema en la lengua, sialorrea, en AVC cuando no habla claro o en casos de parálisis facial, amigdalitis, afasia.",
+            "directions": "Se introduce la aguja dirigida hacia la raíz de la lengua de 1 a 2 cun.",
+            "puncture": "Yamen (DM 15), Tongli (C 5), Sanyangluo (SJ 8): Trastornos del habla.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Fengchi (VB 20): Obstrucción de garganta.",
+                "Renzhong (DM 26), Waiguan (SJ 5):  Afonía en histeria.",
+                "Fengchi (VB 20), Jinjin, yuye  (extra): Sangrado, parálisis de la lengua."                                
             ],
             "remark": ""
         },
         {
             "id": 15,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Cheng Jiang.",
+            "alias": "Vasija de líquidos.",
+            "location": "En la línea media anterior y el surco transversal del mentón.",
+            "function": "Dispersa el viento, mejora la circulación de colaterales, elimina el edema.",
+            "directions": "Neuralgia del trigémino, edema y parálisis facial, odontalgia, sialorrea, epilepsia.",
+            "puncture": "Perpendicular de 0.3 cun. Subcutánea hacia arriba.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Jiache (E 6), Dicang (E 4), Yingxiang (IG 20), Quanliao (ID 18): Parálisis facial.",
+                "Punción de Chengjiang (RM 24) hasta Dicang (E 4): Parálisis facial en boca.",
+                "Hegu (IG 4), Jiache (E 6): Odontalgia.",
+                "Lianguan (RM 23): Sialorrea."                
             ],
-            "remark": ""
+            "remark": "Punto de unión con canal de estómago."
         }
     ]
 }
