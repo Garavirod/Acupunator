@@ -2059,259 +2059,287 @@
     "canal de la vesicula biliar": [
         {
             "id": 1,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Tong Zi Liao.",
+            "alias": "Orificio de la pupila.",
+            "location": "A 0.5 cun por fuera del ángulo externo del ojo.",
+            "function": "Dispersar el viento, el calor, aclara la vista, elimina el edema, detiene el dolor.",
+            "directions": "Cefalea, conjuntivitis, baja de agudeza visual, parálisis del nervio óptico, estrabismo, hemeralopia (ceguera nocturna).",
+            "puncture": "Superficial o subcutánea de 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Xiaguan (E 7), Zanzhu (V 2), Jiache (E 6): Desviación de boca y ojo.",
+                "Ganshu (V 18), Jingming (V 1), Taiyang (extra), Fengchi (VB 20): Derrame conjuntival, atrofia del nervio óptico.",
+                "Zanzhu  (V 2), Fengchi (VB 20): Cefalea."                                
             ],
-            "remark": ""
+            "remark": "Punto de reunión con triple calentador e intestino grueso."
         },
         {
             "id": 2,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ting Hui.",
+            "alias": "El poder de escuchar y oir.",
+            "location": "En la parte infero anterior del trago.",
+            "function": "Limpia el canal del hígado, mejora las funciones de vesícula, ayuda a la circulación de la energía, abre el oído.",
+            "directions": "Tinnitus, disminución de agudeza auditiva, otitis, parotiditis, odontalgia, dolor de la articulación temporomaxilar cuando hay parálisis facial.",
+            "puncture": "Perpendicular de 0.5 a 1 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Yifeng (SJ 17): Sordera.",
+                "Tinggong (ID 19), Zhongzhu (SJ 3), Taixi (R 3): Sordomudez."
             ],
             "remark": ""
         },
         {
             "id": 3,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shang Guan.",
+            "alias": "Por arriba de la articulación.",
+            "location": "Borde superior del arco cigomático anterior a la implantación del cabello de la patilla.",
+            "function": "Aclarar el fuego de hígado y vesícula biliar, mejora la agudeza auditiva, abre el oído.",
+            "directions": "Cefalea, disminución de agudeza auditiva, tinnitus, parálisis facial, contractura de la articulación temporomaxilar, baja de agudeza visual.",
+            "puncture": "Perpendicular a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zanzhu (V 2), Xiaguan (E 7), Jiache (E 6), Dicang (E 4): Parálisis facial."
             ],
             "remark": ""
         },
         {
             "id": 4,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Shuai Gu.",
+            "alias": "Valle que conduce.",
+            "location": "En la línea del ápex de la oreja, 1.5 cun por arriba de la implantación del cabello.",
+            "function": "Dispersa el viento, mejora las funciones del hígado, detiene el dolor y las crisis convulsivas.",
+            "directions": "Cefalea hemicraneal cuando hay dolor gástrico, llenura postprandial con vómito, crisis convulsivas, parálisis facial.",
+            "puncture": "Subcutánea de 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Waiguan (SJ 5), Yifeng (SJ 17), Tinghui (VB 2): Mareo y vértigo."            
             ],
-            "remark": ""
+            "remark": "Punto de reunión con el canal de vejiga."
         },
         {
             "id": 5,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ben Shen.",
+            "alias": "Raíz del espíritu.",
+            "location": "A 0.5 cun por dentro de la línea de implantación del cabello y 3 cun lateral de Shenting (DM 24).",
+            "function": "Eliminar el fuego de la vesícula, aclara la vista, tiene un efecto tranquilizante.",
+            "directions": "Cefalea, mareos, AVC o estado de coma cuando no reconocen a personas o medio (orientación de tiempo, espacio y persona). Convulsiones, sialorrea, vómito, parálisis facial y en estados de neurosis o estados depresivos, enfermedades con alteración del espíritu.",
+            "puncture": "Subcutánea de 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Baihui (DM 20), Renzhong (DM 26): Amnesia por enfermedad vascular cerebral."
             ],
             "remark": ""
         },
         {
             "id": 6,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yang Bai.",
+            "alias": "Yang blanco.",
+            "location": "En la parte central de la ceja, 1 cun por arriba. En dirección de la pupila.",
+            "function": "Dispersa el viento, aclara el calor, aumenta la energía del ojo, aclara la vista.",
+            "directions": "Vértigo, cefalea frontal, quemaduras en el ojo por soldadura, epífora, tics ocular nervioso, hemeralopia (ceguera nocturna), parálisis facial, neuralgia del trigémino (rama oftálmica), ptosis palpebral por parálisis facial.",
+            "puncture": "Subcutánea de 0.3 a 0.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Fengchi (VB 20), Shenshu (V 23), Ganshu (V 18), Jinming (V 1): En dolor e inflamación y ojos rojos."
             ],
             "remark": ""
         },
         {
             "id": 7,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Feng Chi.",
+            "alias": "Depósito del viento.",
+            "location": "Borde inferoposterior de la apófisis mastoides entre el trapecio y el esternocleidomastoideo.",
+            "function": "Dispersa el viento, aclara el calor, mejora la circulación de la sangre y energía de los Yin Mai. Ayuda a recobrar y aclarar el estado de conciencia, aclara la vista y nutre la energía del oído.",
+            "directions": "Secuelas de enfermedad vascular cerebral, trastornos en el habla, cefalea, vértigo, mareo, sialorrea, baja de la agudeza auditiva, tinnitus, síndromes por frío, viento, calor extremo, cuando hay pérdida de la conciencia, parálisis facial, rinitis, sinusitis, epistaxis, dolor en hombro, espalda, insomnio, hipertensión arterial, neurastenia, cuando se olvidan fácilmente las cosas.",
+            "puncture": "1 a 1.5 cun en dirección al ojo contrario.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Renzhong (DM 26) y Neiguan (PC 6): Convulsiones.",
+                "Quchi (IG 11), Zusanli (E 36), Taichong (H 3): En hipertensión arterial.",
+                "Dazhui (DM 14), Hegu (IG 4): En cuadros gripales.",
+                "Dazhui (DM 14), Yanglingquan (VB 34), Quchi (IG 11): Secuelas de encefalitis como cefalea o crisis convulsivas, en fase aguda.",
+                "Renzhong (DM 26), Baihui (DM 20), Lianquan (RM 23): Arteriosclerosis cerebral."
             ],
-            "remark": ""
+            "remark": "Es el mejor punto para dispersar el viento en general. Punto que une al TC y al Yang Wei Mai."
         },
         {
             "id": 8,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Jian Jing.",
+            "alias": "Brote del hombro.",
+            "location": "Entre la séptima vértebra cervical y el acromion. Sobre la línea que une a estos puntos, a la mitad, en la parte más alta del hombro.",
+            "function": "Mejora la circulación de canales y colaterales. Elimina las flemas.",
+            "directions": "Está indicado en expectoración (flema), en retención de flema, en AVC, cefalea, dolor de hombro, brazo, dificultad para levantar el brazo, tortícolis. Trabajo de  parto prolongado, retención placentaria. Cuando no hay control de esfínter vesical. Sangrados uterinos funcionales, hipogalactia.",
+            "puncture": "Perpendicular de 0.5 a 0.8 cun. Moxa de 15 a 20 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Jianyu (IG 15): En dolor de hombro.",
+                "Baihui (DM 20), Fengchi (VB 20), Neiguan (PC 6), Renzhong (DM 26): Trastornos del habla en AVC."
             ],
-            "remark": ""
+            "remark": "Punto de unión de TC y Yang Wei Mai."
         },
         {
             "id": 9,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Ri Yue.",
+            "alias": "Día del sol.",
+            "location": "A nivel del 7o. espacio intercostal y la línea mamaria o media clavicular.",
+            "function": "Permeabilizar o dragar el canal de hígado y vesícula biliar, eliminar la humedad y armonizar los órganos que están en el Jiao medio, da claridad a los ojos.",
+            "directions": "Diarrea, distensión abdominal, borborigmos, dolor costal, dolor por 'ulcera gastroduodenal, ptosis renal y nefritis.",
+            "puncture": "Subcutánea, oblicua u horizontal de 0.5 a 1 cun. En ptosis renal se puede moxar este punto de 15 a 20 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Zhongwang (RM 12): para úlcera gastroduodenal."
             ],
-            "remark": ""
+            "remark": "Es el punto Mu de vesícula biliar."
         },
         {
             "id": 10,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Jing Men.",
+            "alias": "La puerta de la capital.",
+            "location": "En la punta de la 12a costilla.",
+            "function": "Armoniza las funciones de estómago, calienta al riñón, hace circular la energía (cuando hay estancamiento), así como los líquidos.",
+            "directions": "Borborigmos, diarrea, úlcera gastroduodenal, nefritis, ptosis renal.",
+            "puncture": "Superficial, de 0.5 a 1 cun. Perpendicular.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Guanyuan (RM 4): Ptosis renal.",
+                "Shenshu (V 23) y Pangguanshu (V 28): Inflamación renal.",
+                "Es el punto Mu de riñón. En ptosis renal moxar este punto de 15 a 20 minutos."
             ],
             "remark": ""
         },
         {
             "id": 11,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Huan Tiao.",
+            "alias": "Hundimiento glúteo.",
+            "location": "En el tercio externo de la línea que une al trocánter mayor y al hiato del sacro.",
+            "function": "Mejora la circulación de canales y colaterales, nutre al riñón, fortalece la cintura y dispersa el viento frío, da fuerza a las piernas.",
+            "directions": "Lumbalgia, ciática, hemiplejia, síndromes dolorosos causados por viento, frío, combinados, o por síndrome de viento húmedo, edemas, dolor de articulaciones en miembros inferiores.",
+            "puncture": "Perpendicular, de 1 a 3 cun, se debe sentir la sensación hasta la punta del dedo. Se puede moxar de 15 a 20 minutos.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Weizhong (V 40) y Sanyinjiao (B 6): Ciática."                
             ],
             "remark": ""
         },
         {
             "id": 12,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Feng Shi.",
+            "alias": "Lugar de reunión del viento.",
+            "location": "A 7 cun arriba del pliegue poplíteo, en la línea externa del muslo, (punta del dedo medio al estar de pie).",
+            "function": "Elimina el viento, humedad y frío, hace circular la sangre y energía, fluidifica los canales y colaterales. Aclara el calor y lo drena. Fortalece músculos y tendones.",
+            "directions": "Para todo tipo de urticarias y alergias, hemiplejia, distrofias, síndrome obstructivo de la pierna, adormecimiento y prurito de la mitad del cuerpo.",
+            "puncture": "Perpendicular de 1 a 2 cun, se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Xuehai (B 10) y Quchi (IG 11): Urticaria."
             ],
             "remark": ""
         },
         {
             "id": 13,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Yang Ling Quan.",
+            "alias": "Fuente alta del Yang.",
+            "location": "En la depresión antero-inferior de la cabeza del peroné.",
+            "function": "clara vesícula biliar e hígado, permeabiliza tendones y colaterales, armoniza la articulación de la rodilla, estimula la contracción de la vesícula biliar.",
+            "directions": "Hemiplejia, síndrome obstructivo y distrofia de miembro inferior, analgesia, dolor e inflamación de rodilla, dolor en parrilla costal, boca amarga y vómito.",
+            "puncture": "Perpendicular de 1 a 1.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Huantiao (VB 30), Weizhong (V 40) y Quchi (IG 11): Hemiplejia."
             ],
-            "remark": ""
+            "remark": "Es punto mar del meridiano Shaoyang de pie. Es uno de los 8 puntos de influencia, corresponde a los tendones. Punto elemento Tierra."
         },
         {
             "id": 14,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Wai Qiu.",
+            "alias": "Inicio de parte alta.",
+            "location": "A 7 cun por arriba de la punta del maléolo externo, en el borde anterior del peroné.",
+            "function": "Aclara el hígado, libera el veneno de intoxicación o piquetes de insecto (toda sustancia nociva), permeabiliza canales y colaterales y los moviliza.",
+            "directions": "Plenitud torácica y costal, dolor y entumecimiento de cuello, síndrome de obstrucción y distrofia de pierna.",
+            "puncture": "Perpendicular de 1 a 1.5 cun.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Fengchi (VB 20): Tortícolis."
             ],
-            "remark": ""
+            "remark": "Es el punto hendidura del meridiano Shaoyang de pie."
         },
         {
             "id": 15,
-            "name": "",
-            "alias": "",
-            "location": "",
-            "function": "",
-            "directions": "",
-            "puncture": "",
+            "name": "Guang Ming.",
+            "alias": "Luz brillante.",
+            "location": "A 5 cun por arriba del maléolo externo, en el borde anterior del peroné.",
+            "function": "Hace circular a los colaterales, aclara los ojos, drena el hígado, elimina viento y humedad.",
+            "directions": "Dolor de rodilla, síndrome obstructivo y distrofia de la pierna, dolor ocular, nictalopía, toda enfermedad de los ojos, enfermedades mentales, ceguera.",
+            "puncture": "Perpendicular, de 1 a 1.5 cun, se puede moxar.",
             "combinations": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Ganshu (V 18), Fengchi (VB 20), Taichong (H 3) y Jingming (V 1): Alteraciones de los ojos."                
             ],
-            "remark": ""
-        }
+            "remark": "Es el punto Luo del canal."
+        },
+        {
+            "id": 16,
+            "name": "Yang Fu.",
+            "alias": "Hueso del peroné.",
+            "location": "A 4 cun por arriba del maléolo externo, en el borde anterior del peroné.",
+            "function": "Aclara hígado y vesícula biliar, permeabiliza canales y colaterales.",
+            "directions": "Cefalea hemicraneal, dolor en el ángulo externo del ojo, dolor debajo de la axila, furunculosis, dolor en la parte externa del miembro inferior y en la parte externa de las costillas, paludismo, pie de atleta.",
+            "puncture": "Perpendicular de 1 a 1.5 cun.",
+            "combinations": [
+                "Taichong (H 3) y Xuanzhong (VB 39): Alteraciones de  miembros inferiores."
+            ],
+            "remark": "Es el punto río del meridiano Shaoyang del pie, punto Hijo y elemento Fuego."
+        },
+        {
+            "id": 17,
+            "name": "Xuan Zhong.",
+            "alias": "Campana suspendida.",
+            "location": "A 3 cun por arriba del maléolo externo, en el borde posterior del peroné.",
+            "function": "Elimina viento, humedad y fuego de vesícula biliar, armoniza los tendones.",
+            "directions": "Hemiplejia, rigidez del cuello, plenitud torácica y costal, dolor costal, dolor de pie y rodilla, micosis.",
+            "puncture": "Perpendicular, de 1 a 1.5 cun.",
+            "combinations": [
+                "Dazhui (DM 14): Fiebre ocasionada por frío."
+            ],
+            "remark": "Es uno de los 8 puntos de influencia, corresponde a la médula."
+        },
+        {
+            "id": 18,
+            "name": "Qiu Xu.",
+            "alias": "Parte alta del maléolo.",
+            "location": "En la parte antero-inferior del maléolo externo, en la depresión situada en el lado externo del tendón del músculo extensor largo digital.",
+            "function": "Aclara el calor de vesícula biliar e hígado, armoniza la articulación del tobillo.",
+            "directions": "Dolor de cuello, inflamación sub-axilar, dolor costal, síndrome obstructivo, distrofia, vómito ácido, dolor e inflamación del maléolo externo, paludismo.",
+            "puncture": "Perpendicular de 0.5 a 0.8 cun.",
+            "combinations": [
+                "Zhaohai (R 6): Mareo."
+            ],
+            "remark": "Punto yuan."
+        },
+        {
+            "id": 19,
+            "name": "Lin Qi del pie.",
+            "alias": "Mirar la lágrima en pie.",
+            "location": "Distal de la articulación tarsometatarsiana en la unión del 4o. y 5o. metatarsiano.",
+            "function": "Aclara cabeza y ojos, armoniza tórax y costillas, drena hígado y elimina el viento.",
+            "directions": "Dolor en ángulo externo del ojo, mareo, dolor costal, forúnculos, linfangitis, tuberculosis o escrófula, dolor e inflamación de los senos, problemas de menstruación, inflamación y dolor de tobillo y pie, paludismo, incontinencia urinaria.",
+            "puncture": "Perpendicular de 0.3 a 0.5 cun, se puede moxar.",
+            "combinations": [
+                "Hegu (IG 4), Taichong (H 3), Baihui (DM 20), Taiyang (extra): Migraña."            
+            ],
+            "remark": "Es punto arroyo del meridiano Shaoyang del pie, punto de apertura del meridiano Dai. Punto elemento madera."
+        },
+        {
+            "id": 20,
+            "name": "Xia Xi.",
+            "alias": "Lugar de paso de corriente.",
+            "location": "En el dorso del pie, entre el 4o. y 5o. ortejo. Distal a la articulación metatarsofalángica.",
+            "function": "Elimina el viento y dolor en general, aclara la cabeza y los ojos, armoniza las costillas y el tórax.",
+            "directions": "Excelente para dolor de cabeza hemicraneal, dolor en sien, acúfenos, amenorrea, absceso en senos.",
+            "puncture": "Perpendicular de 0.3 a 0.5 cun.",
+            "combinations": [
+                "Sanyinjiao (B 6) y Dazhui (DM 14): Calosfrío."
+            ],
+            "remark": "Es el punto manantial y elemento Agua del canal."
+        },
+        {
+            "id": 21,
+            "name": "Qiao Yin.",
+            "alias": "Apertura o agujero del yin.",
+            "location": "En el ángulo ungueal externo del 4o. ortejo, a 0.1 cun por detrás del ángulo ungueal.",
+            "function": "Drena el calor de hígado y vesícula biliar, armoniza las costillas, enfermedades de los agujeros de la cabeza.",
+            "directions": "Dolor de cabeza, irritabilidad cardiaca, acúfenos, sordera, síndrome de obstrucción, rigidez de lengua, dolor costal, problemas menstruales.",
+            "puncture": "Oblicua 0.1 cun, se puede moxar.",
+            "combinations": [
+                "Renzhong (DM 26), Baihui (DM 20): Pérdida de conocimiento."                
+            ],
+            "remark": "Es el punto pozo del canal y elemento metal."
+        }        
     ],
     "canal del higado": [
         {
