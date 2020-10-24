@@ -139,7 +139,7 @@
     ],
     "canal del intestino grueso": [
         {
-            "id": 1,
+            "id": 9,
             "name": "Shang Yang.",
             "alias": "Sonido Metálico Externo.",
             "location": "En el lado radial del dedo índice, 0.1 cun posterior al ángulo ungueal.",
@@ -153,7 +153,7 @@
             "remark": "Punto Jing-Pozo, elemento metal."
         },
         {
-            "id": 2,
+            "id": 10,
             "name": "Er Jian.",
             "alias": "2a. Depresión o intervalo.",
             "location": "En el lado radial del dedo índice, distal de la articulación metacarpofalángica del dedo índice en su parte distal, donde se une la piel roja con la piel blanca.",
@@ -169,7 +169,7 @@
             "remark": "Punto Ying-Manantial. Elemento Agua, Punto Hijo, dispersante."
         },
         {
-            "id": 3,
+            "id": 11,
             "name": "San Jian.",
             "alias": "3a. Depresión o 3er. intervalo.",
             "location": "Sobre el lado radial del dedo índice, en una depresión  proximal de la articulación metacarpofalángica.",
@@ -186,7 +186,7 @@
             "remark": "Punto Shu-Arroyo. Elemento Madera."
         },
         {
-            "id": 4,
+            "id": 12,
             "name": "He Gu.",
             "alias": "La reunión con un hueco o punto.",
             "location": "Entre el primero y el segundo metacarpiano, a nivel de la mitad del segundo metacarpiano en su borde radial. Parte más prominente del músculo al juntar el pulgar e índice.",
@@ -213,7 +213,7 @@
             "remark": "Punto Fuente - Yuan. Punto general para tratamiento de problemas de cabeza."
         },
         {
-            "id": 5,
+            "id": 13,
             "name": "Yang Xi.",
             "alias": "Corriente externa",
             "location": "Sobre el lado radial del dorso de la muñeca, en el fondo de la tabaquera anatómica; entre el extensor corto y largo del pulgar.",
@@ -228,7 +228,7 @@
             "remark": "Punto Jing-Río. Elemento Fuego."
         },
         {
-            "id": 6,
+            "id": 14,
             "name": "Pian Li.",
             "alias": "Lateral por el hueso Radio.",
             "location": "A 3 cun por arriba del pliegue de la muñeca en una línea que une a Yangxi (IG 5) y  Quchi (IG 11). En el lado exterior del radio, y en el filo de su cara externa.",
@@ -243,7 +243,7 @@
             "remark": "Punto Luo."
         },
         {
-            "id": 7,
+            "id": 15,
             "name": "Wen Liu.",
             "alias": "La corriente tibia.",
             "location": "A 5 cun por arriba del pliegue de la muñeca, en una línea que una a Yangxi (IG 5) y  Quchi (IG 11).",
@@ -260,7 +260,7 @@
             "remark": "Punto Xi-Hendidura."
         },
         {
-            "id": 8,
+            "id": 16,
             "name": "Qu Chi.",
             "alias": "El estanque de la curva.",
             "location": "Con el codo flexionado se halla en la terminación del pliegue externo del codo. Entre Chize y cóndilo externo de húmero.",
@@ -282,7 +282,7 @@
             "remark": " Punto He- Mar. Elemento Tierra. Punto tonificante del canal. Punto madre. \nEl punto He-Mar inferior del intestino grueso es Shangjuxu (E 37) indicado para trastornos del intestino grueso."
         },
         {
-            "id": 9,
+            "id": 17,
             "name": "Bi Nao.",
             "alias": "Deltoides del brazo.",
             "location": "A 7 cun arriba del codo, en la línea que une al punto Quchi (IG 11) con el punto Jianyu (IG 15). Donde el extremo inferior del deltoides se cruza con el húmero.",
@@ -296,7 +296,7 @@
             "remark": ""
         },
         {
-            "id": 10,
+            "id": 18,
             "name": "Jian Yu.",
             "alias": "El hueco del hombro.",
             "location": "En el borde anteroinferior de la articulación acromioclavicular,  en abducción total del brazo, el punto se halla en la depresión anteroinferior del acromion.",
@@ -310,7 +310,7 @@
             "remark": ""
         },
         {
-            "id": 11,
+            "id": 19,
             "name": "Ju Gu.",
             "alias": "Hueso grande.",
             "location": "En la parte superior del hombro, en la depresión que forma el extremo acromial de la clavícula y la espina escapular.",
@@ -324,7 +324,7 @@
             "remark": ""
         },
         {
-            "id": 12,
+            "id": 20,
             "name": "Ying Xiang.",
             "alias": "Bienvenida al perfume.",
             "location": "En el surco nasogeniano, a nivel del punto medio del borde externo del ala de la nariz.",
@@ -340,7 +340,7 @@
     ],
     "canal del estomago": [
         {
-            "id": 1,
+            "id": 21,
             "name": "Cheng Qi.",
             "alias": "Sitio de recolección de lágrimas.",
             "location": "A 0.7 cun directamente por debajo de la pupila, mirando el paciente hacia el frente; entre el borde inferior del globo ocular y el borde óseo de la órbita.",
@@ -355,7 +355,7 @@
             "remark": "Este punto nunca se moxa; es punto de reunión de los vasos extraordinarios Yang Qiao y Ren Mai.\n Otros nombres que recibe este punto : Xie Xie (Punto de separación de pequeños músculos) y Mian Liao (Orificio de la cara)."
         },
         {
-            "id": 2,
+            "id": 22,
             "name": "Si Bai.",
             "alias": "Cuatro blancos brillantes.",
             "location": "Debajo de Chengqi (E 1), a 1 cun por abajo y en dirección de la pupila, en la depresión del agujero infraorbirario.",
@@ -371,7 +371,7 @@
             "remark": "Totalmente contraindicada la inserción profunda, en este punto está indicada la moxibustión."
         },
         {
-            "id": 3,
+            "id": 23,
             "name": "Ju Liao.",
             "alias": "Agujero grande.",
             "location": "Debajo de Sibai,  a nivel del borde inferior del ala de la nariz, en dirección de la pupila.",
@@ -384,7 +384,7 @@
             "remark": "Está indicada la moxibustión."
         },
         {
-            "id": 4,
+            "id": 24,
             "name": "Di Cang.",
             "alias": "Granero de la tierra.",
             "location": "A 0.4 cun lateral al ángulo de la boca, exactamente debajo del punto anterior (Juliao). En dirección de la pupila y comisura bucal.",
@@ -398,7 +398,7 @@
             "remark": "Se usa en afecciones de las piernas. Es punto de reunión del canal Yang-ming de la mano y pie y del Yang Qiao."
         },
         {
-            "id": 5,
+            "id": 25,
             "name": "Da Ying.",
             "alias": "Gran reunión de Tai-Yin.",
             "location": "Anterior al ángulo de la mandíbula, en el borde anterior del músculo masetero, en la depresión que aparece cuando se sopla.",
@@ -412,7 +412,7 @@
             "remark": "Otro nombre que recibe el punto es Suikong 'Agujero medular'."
         },
         {
-            "id": 6,
+            "id": 26,
             "name": "Jia Che.",
             "alias": "Sujetar un carro.",
             "location": "En el ángulo inferior de la mandíbula, donde se forma la prominencia del músculo masetero cuando se aprietan los dientes.",
@@ -426,7 +426,7 @@
             "remark": "Otros nombres que recibe el punto: Kaichuan, (Refugio del demonio) o Guya (Dolor de dientes)."
         },
         {
-            "id": 7,
+            "id": 27,
             "name": "Xia Guan.",
             "alias": "Articulación",
             "location": "En la depresión inferior al borde del arco cigomático y anterior al cóndilo de la mandíbula. Se debe localizar el punto cuando el paciente tiene la boca cerrada.",
@@ -440,7 +440,7 @@
             "remark": "Es el punto de reunión del Yang-Ming del pie y Shao-Yang del pie (E-VB)."
         },
         {
-            "id": 8,
+            "id": 28,
             "name": "Tou Wei..",
             "alias": "Protege la cabeza.",
             "location": "Directamente por arriba de la línea anterior de la patilla a 4.5 cun lateral a la línea media y a 0.5 cun posterior a la línea anterior de la implantación del pelo (Shenting).",
@@ -456,7 +456,7 @@
             "remark": "Punto de confluencia de los canales Shaoyang de pie y Yangwei."
         },
         {
-            "id": 9,
+            "id": 29,
             "name": "Liang Men.",
             "alias": "Viga de la puerta.",
             "location": "A 2 cun de la línea media anterior y 4 cun arriba del ombligo, a 1 cun abajo del punto anterior.",
@@ -472,7 +472,7 @@
             "remark": ""
         },
         {
-            "id": 10,
+            "id": 30,
             "name": "Tian Shu.",
             "alias": "El eje del cielo.",
             "location": "A la altura del ombligo, a 2 cun lateral del canal Ren Mai.",
@@ -486,7 +486,7 @@
             "remark": "Este es el punto Mu frontal de IG. Recibe otros nombres como el de Chang-xi (Separación muscular) y Gu-men (Puerta hondonada). Sirve de referencia para la localización de los puntos que se halla en el abdomen inferior (hipogástrio). La distancia de Tian-shu a Qichong es de 5 cun."
         },
         {
-            "id": 11,
+            "id": 31,
             "name": "Shui Dao.",
             "alias": "Camino del agua.",
             "location": "A 3 cun por abajo del ombligo y 2 cun lateral de la línea media o canal Ren Mai.",
@@ -501,7 +501,7 @@
             "remark": ""
         },
         {
-            "id": 12,
+            "id": 32,
             "name": "Gui Lai.",
             "alias": "El que regresa.",
             "location": "A 4 cun por abajo del ombligo y 2 cun lateral de la línea media anterior.",
@@ -516,7 +516,7 @@
             "remark": ""
         },
         {
-            "id": 13,
+            "id": 33,
             "name": "Qi Chong.",
             "alias": "Camino de la energía.",
             "location": "A 2 cun lateral de la línea media anterior, a nivel del borde superior de la sínfisis del pubis.",
@@ -531,7 +531,7 @@
             "remark": "Aquí asciende el canal Chong Mai. Es paso de mucha energía."
         },
         {
-            "id": 14,
+            "id": 34,
             "name": "Liang Qiu.",
             "alias": "Valle pequeño sobre la montaña.",
             "location": "2 cun por arriba del borde superior externo de la rótula, a 1 cun por abajo de Yinshi.",
@@ -544,7 +544,7 @@
             "remark": "Punto Xi-Hendidura."
         },
         {
-            "id": 15,
+            "id": 35,
             "name": "Du Bi.",
             "alias": "Nariz de buey.",
             "location": "Con la rodilla flexionada, en el borde externo del tendón rotuliano, en la depresión que se forma en la cara externa de la articulación de la rodilla.",
@@ -557,7 +557,7 @@
             "remark": "Otro nombre que recibe este punto es Xi Yang externo."
         },        
         {
-            "id": 16,
+            "id": 36,
             "name": "Zu San Li.",
             "alias": "Tres medidas del pie.",
             "location": "A 3 cun  por debajo del Dubi, cuando está flexionado el pie. Estando acostado el paciente se toma como referencia la prominencia tibial anterior, un dedo por abajo y uno lateral.",
@@ -574,7 +574,7 @@
             "remark": "Punto Mar inferior de estómago. Punto Mar y Tierra. Punto general para tratamiento de problemas digestivos."
         },        
         {
-            "id": 17,
+            "id": 37,
             "name": "Shang Ju Xu.",
             "alias": "La gran depresión superior.",
             "location": "A 3 cun debajo de Zu San Li y 6 cun de Du Bi, a un dedo lateral de la cresta tibial.",
@@ -587,7 +587,7 @@
             "remark": "Punto Mar inferior de IG."
         },
         {
-            "id": 18,
+            "id": 38,
             "name": "Xia Ju Xu.",
             "alias": "La gran depresión inferior.",
             "location": "A 3 cun inferior a Shang Xu Ju ó 6 cun de Zu San Li y a un dedo lateral de la cresta anterior de la tibia. 7 cun sobre maléolo externo.",
@@ -600,7 +600,7 @@
             "remark": "Este es el punto He (Mar) inferior del intestino delgado."
         },
         {
-            "id": 19,
+            "id": 39,
             "name": "Feng Long.",
             "alias": "Prominencia llena.",
             "location": "A 8 cun sobre maléolo externo, 8 cun abajo de Dubi y 2 cun lateral de la tibia.",
@@ -614,7 +614,7 @@
             "remark": "Es el punto Luo (conexión) del canal."
         },
         {
-            "id": 20,
+            "id": 40,
             "name": "Jie Xi.",
             "alias": "Gran separación muscular.",
             "location": "Se traza una línea que va de ambos maléolos, en la unión de la pierna con el pie; entre el tendón flexor del dedo gordo y extensor común de los dedos, en el pliegue.",
@@ -630,7 +630,7 @@
             "remark": "Es el punto Río, fuego y punto tonificante del canal."
         },
         {
-            "id": 21,
+            "id": 41,
             "name": "Chong Yang.",
             "alias": "Movimiento de la energía yang.",
             "location": "A 1 cun distal a Jie Xi o 5 cun proximal a los ortejos, donde se encuentra el latido de la arteria pedia, en la parte más alta del dorso del pie o en la depresión entre el 2o. y 3er. hueso metatarsiano y el hueso cuneiforme.",
@@ -646,7 +646,7 @@
             "remark": "Es el punto Yuan, fuente u origen del canal."
         },
         {
-            "id": 22,
+            "id": 42,
             "name": "Xian Gu..",
             "alias": "Valle vacío.",
             "location": "En la depresión distal, que se encuentra en la unión del 2o. y 3er. metatarsiano.",
@@ -659,7 +659,7 @@
             "remark": "Es el punto Shu (arroyo) y madera del canal."
         },
         {
-            "id": 23,
+            "id": 43,
             "name": "Nei Ting.",
             "alias": "Pasillo del interior.",
             "location": "En el pliegue  interdigital del 2o. y 3er. ortejo, distal a la articulación metatarsofalángica.",
@@ -675,7 +675,7 @@
             "remark": "Es el punto manantial y  agua del canal."
         },
         {
-            "id": 24,
+            "id": 44,
             "name": "Li Dui.",
             "alias": "Puerta grande o mayor.",
             "location": "Ángulo ungueal externo del 2o. ortejo.",
@@ -688,7 +688,7 @@
     ],
     "canal del bazo": [
         {
-            "id": 1,
+            "id": 45,
             "name": "Yin Bai.",
             "alias": "El blanco oculto.",
             "location": "En el ángulo ungeal interno del primer ortejo, 0.1 cun posterior al ángulo de la uña.",
@@ -708,7 +708,7 @@
             "remark": "Punto Jing Pozo y Madera."
         },
         {
-            "id": 2,
+            "id": 46,
             "name": "Da Du.",
             "alias": "Gran capital o metrópoli.",
             "location": "En el lado interno del primer ortejo distal de la articulación metatarsofalángica, en la unión de la piel blanca y la roja.",
@@ -725,7 +725,7 @@
             "remark": "Punto Manantial y Fuego. Punto Madre, tonificante."
         },
         {
-            "id": 3,
+            "id": 47,
             "name": "Tai Bai.",
             "alias": "Estrella Venus.",
             "location": "Proximal de la articulación metatarsofalángica del primer ortejo en la unión de la piel roja con la piel blanca.",
@@ -741,7 +741,7 @@
             "remark": "Punto Shu Arroyo, Yuan Fuente u Origen y Tierra."
         },
         {
-            "id": 4,
+            "id": 48,
             "name": "Gong Sun.",
             "alias": "Nieto público.",
             "location": "En la depresión del borde anteroinferior de la articulación tarsometatarsiana del primer ortejo en la unión  de la piel roja y la piel blanca.",
@@ -756,7 +756,7 @@
             "remark": "Punto Luo Enlace. Punto de reunión con el canal Chongmai."
         },
         {
-            "id": 5,
+            "id": 49,
             "name": "Shang Qiu.",
             "alias": "Colina metálica o de oro.",
             "location": "En la depresión anteroinferior del maléolo interno, en la parte media entre la prominencia del hueso navicular y la punta del maléolo interno.",
@@ -772,7 +772,7 @@
             "remark": "Punto Jing Río y Metal."
         },
         {
-            "id": 6,
+            "id": 50,
             "name": "San Yin Jiao.",
             "alias": "Lugar donde se cruzan los 3 Yin del pie.",
             "location": "A 3 cun por arriba del maléolo interno en el borde posterior de la tibia, en la línea que une al maléolo interno con el punto Yinlingquan.",
@@ -796,7 +796,7 @@
             "remark": ""
         },
         {
-            "id": 7,
+            "id": 51,
             "name": "Lou Gu.",
             "alias": "Goteo entre la tibia y el peroné.",
             "location": "A 6 cun por arriba del extremo del maléolo interno, a 3 cun por arriba de Sanyinjiao, en el borde posterior de la tibia.",
@@ -810,7 +810,7 @@
             "remark": ""
         },
         {
-            "id": 8,
+            "id": 52,
             "name": "Di Ji.",
             "alias": "Mecanismo o maquinaria de tierra.",
             "location": "A 3 cun por abajo del cóndilo interno de la tibia, en la línea que une al punto Yinlingquan con el maléolo interno ó 4 cun por arriba de Lougu (B 7).",
@@ -825,7 +825,7 @@
             "remark": "Punto Xi -hendidura."
         },
         {
-            "id": 9,
+            "id": 53,
             "name": "Yin Ling Quan.",
             "alias": "Fuente Yin del valle.",
             "location": "En el borde posteroinferior del cóndilo interno de la tibia.",
@@ -843,7 +843,7 @@
             "remark": "Punto He Mar y Agua."
         },
         {
-            "id": 10,
+            "id": 54,
             "name": "Xue Hai.",
             "alias": "Mar de la sangre.",
             "location": "Con la rodilla flexionada se localiza este punto en la parte interna del músculo cuadriceps, 2 cun por arriba del borde superointerno de la rótula, o se coloca la palma de la mano derecha en la rótula izquierda, con el pulgar en el lado interno y los otros dedos hacia arriba, el punto está donde indica la punta del pulgar.",
@@ -863,7 +863,7 @@
     ],
     "canal del corazón": [
         {
-            "id": 1,
+            "id": 55,
             "name": "Ji Quan.",
             "alias": "Estanque profundo.",
             "location": "En el centro de la axila, donde palpita la arteria.",
@@ -878,7 +878,7 @@
             "remark": ""
         },
         {
-            "id": 2,
+            "id": 56,
             "name": "Shao Hai.",
             "alias": "Mar pequeño.",
             "location": "En la punta del pliegue interno del codo.",
@@ -892,7 +892,7 @@
             "remark": "Punto He-Mar. Agua."
         },
         {
-            "id": 3,
+            "id": 57,
             "name": "Ling Dao.",
             "alias": "Camino del alma.",
             "location": "Estando la palma hacia arriba, se encuentra a 1.5 cun proximal del pliegue de la muñeca, en el lado radial del tendón del músculo flexor cubital del carpo.",
@@ -906,7 +906,7 @@
             "remark": "Punto Río y Metal del canal."
         },
         {
-            "id": 4,
+            "id": 58,
             "name": "Tong Li.",
             "alias": "Drenar, Comunicar lo interno.",
             "location": "En la parte cubital e interna del antebrazo, a 1 cun proximal del pliegue de la muñeca, en el borde radial del tendón del flexor cubital del carpo.",
@@ -922,7 +922,7 @@
             "remark": "Punto Luo o Pasaje."
         },
         {
-            "id": 5,
+            "id": 59,
             "name": "Yin Xi.",
             "alias": "La hendidura Yin.",
             "location": "En el borde radial del tendón flexor cubital del carpo a 0.5 cun proximal del pliegue de la muñeca (Shen Men C 7).",
@@ -937,7 +937,7 @@
             "remark": "Punto Hendidura."
         },
         {
-            "id": 6,
+            "id": 60,
             "name": "Shen Men.",
             "alias": "Puerta del Espíritu.",
             "location": "En el pliegue de la muñeca, en el borde radial del pisiforme.",
@@ -952,7 +952,7 @@
             "remark": "Punto Arroyo, Yuan, Tierra, dispersante."
         },
         {
-            "id": 7,
+            "id": 61,
             "name": "Shao Fu.",
             "alias": "La vasija pequeña.",
             "location": "Entre el cuarto y quinto metacarpiano sobre la palma de la mano, donde indica la punta del meñique al cerrar la mano. Proximal a la articulación metacarpofalángica.",
@@ -967,7 +967,7 @@
             "remark": "Punto Manantial y Fuego."
         },
         {
-            "id": 8,
+            "id": 62,
             "name": "Shao Chong.",
             "alias": "Corriente pequeña.",
             "location": "A 0.1 cun del ángulo ungueal radial del dedo meñique.",
@@ -984,7 +984,7 @@
     ],
     "canal del intestino delgado": [
         {
-            "id": 1,
+            "id": 63,
             "name": "Shao Ze.",
             "alias": "Pequeño estancamiento de agua.",
             "location": "0.1 cun del ángulo ungueal cubital del dedo meñique.",
@@ -999,7 +999,7 @@
             "remark": ""
         },
         {
-            "id": 2,
+            "id": 64,
             "name": "Qian Gu.",
             "alias": "Frente al valle.",
             "location": "Extremo distal de la articulación metacarpofalángica entre las dos pieles, del dedo meñique.",
@@ -1013,7 +1013,7 @@
             "remark": "Punto Manantial y Agua."
         },
         {
-            "id": 3,
+            "id": 65,
             "name": "Hou Xi.",
             "alias": "Después del arroyo.",
             "location": "Porción proximal de la articulación metacarpofalángica del dedo meñique entre las dos pieles.",
@@ -1028,7 +1028,7 @@
             "remark": "Punto Arroyo, Madera, Tonificante."
         },
         {
-            "id": 4,
+            "id": 66,
             "name": "Wan Gu.",
             "alias": "Hueso de la muñeca.",
             "location": "En la depresión que forma el hueso pisiforme y el hueso ganchoso, distal del hueso triangular base del 5o. metacarpiano.",
@@ -1043,7 +1043,7 @@
             "remark": "Punto Yuan."
         },
         {
-            "id": 5,
+            "id": 67,
             "name": "Yang Gu.",
             "alias": "Valle del Yang o de la luz.",
             "location": "En la depresión entre la apófisis estiloides del cúbito y el hueso triangular.",
@@ -1057,7 +1057,7 @@
             "remark": "Es Punto Río y Elemento Fuego."
         },
         {
-            "id": 6,
+            "id": 68,
             "name": "Yang Lao.",
             "alias": "Mantener a lo viejo.",
             "location": "Depresión por abajo de la apófisis estiloides del cúbito.",
@@ -1071,7 +1071,7 @@
             "remark": "Punto Xi-Hendidura."
         },
         {
-            "id": 7,
+            "id": 69,
             "name": "Zhi Zheng.",
             "alias": "Rama recta.",
             "location": "5 cun arriba de apófisis estiloides del cubito (borde interno del cubito).",
@@ -1086,7 +1086,7 @@
             "remark": "Corresponde al Punto Luo."
         },
         {
-            "id": 8,
+            "id": 70,
             "name": "Xiao Hai.",
             "alias": "Pequeño mar.",
             "location": "Entre el epicóndilo interno del húmero y el olécranon.",
@@ -1100,7 +1100,7 @@
             "remark": "Punto Mar y Elemento Tierra."
         },
         {
-            "id": 9,
+            "id": 71,
             "name": "Jian Zhen.",
             "alias": "Unión con el hombro.",
             "location": "Localización: 1 cun arriba del pliegue axilar posterior.",
@@ -1115,7 +1115,7 @@
             "remark": ""
         },
         {
-            "id": 10,
+            "id": 72,
             "name": "Nao Shu.",
             "alias": "Agujero del hombro.",
             "location": "Se encuentra sobre pliegue axilar posterior en el borde inferior de la escápula o espina escapular.",
@@ -1129,7 +1129,7 @@
             "remark": "Conecta con los canales extraordinarios Yangwei y Yangqiao."
         },
         {
-            "id": 11,
+            "id": 73,
             "name": "Quan Liao.",
             "alias": "Región malar o pómulo.",
             "location": "Borde inferior del hueso malar, línea perpendicular al ángulo externo del ojo.",
@@ -1144,7 +1144,7 @@
             "remark": ""
         },
         {
-            "id": 12,
+            "id": 74,
             "name": "Ting Gong.",
             "alias": "Palacios de sonidos.",
             "location": "Al abrir la boca, en la depresión que se forma entre el trago y la articulación temporomaxilar, (anterior y central del trago).",
@@ -1161,7 +1161,7 @@
     ],
     "canal de la vejiga": [
         {
-            "id": 1,
+            "id": 75,
             "name": "Jing Ming.",
             "alias": "Globo ocular claro, luminoso.",
             "location": "Se encuentra en el ángulo interno del ojo a 0.1 cun por arriba.",
@@ -1174,7 +1174,7 @@
             "remark": ""
         },
         {
-            "id": 2,
+            "id": 76,
             "name": "Zan Zhu.",
             "alias": "Reunión de bambú.",
             "location": "En la raíz de la ceja o en la escotadura supraorbitaria.",
@@ -1188,7 +1188,7 @@
             "remark": ""
         },
         {
-            "id": 3,
+            "id": 77,
             "name": "Mei Chong.",
             "alias": "Control de las cejas.",
             "location": "Siguiendo una línea hacia arriba que va del nacimiento de la ceja hasta la implantación del pelo, a 3.5 cun por arriba de la ceja.",
@@ -1202,7 +1202,7 @@
             "remark": ""
         },
         {
-            "id": 4,
+            "id": 78,
             "name": "Qu Chai.",
             "alias": "Angulo oblicuo.",
             "location": "A 1.5 cun lateral de Du mai, 0.5 posterior a la línea anterior del pelo.",
@@ -1216,7 +1216,7 @@
             "remark": ""
         },
         {
-            "id": 5,
+            "id": 79,
             "name": "Tian Zhu.",
             "alias": "Columna del cielo.",
             "location": "A 1.3 cun por fuera del Yamen (DM 15), 0.5 cun sobre la línea  de la implantación posterior del cabello en el lado externo del músculo trapecio.",
@@ -1229,7 +1229,7 @@
             "remark": "Punto de bifurcación del canal de vejiga."
         },
         {
-            "id": 6,
+            "id": 80,
             "name": "Da Shu.",
             "alias": "Columna grande.",
             "location": "Se encuentra en el borde inferior de la apófisis espinosa de la primera vértebra dorsal y 1.5 cun lateral de la línea media posterior.",
@@ -1242,7 +1242,7 @@
             "remark": "Es uno de los ocho puntos de influencia. Domina los huesos."
         },
         {
-            "id": 7,
+            "id": 81,
             "name": "Feng Men.",
             "alias": "Puerta del viento.",
             "location": "A 1.5 cun lateral de Du mai, en el borde inferior de la apófisis espinosa de la segunda vértebra torácica.",
@@ -1258,7 +1258,7 @@
             "remark": ""
         },
         {
-            "id": 8,
+            "id": 82,
             "name": "Fei Shu.",
             "alias": "Asentimiento de pulmón.",
             "location": "A 1.5 cun lateral del borde inferior de la apófisis espinosa de la tercera vértebra torácica.",
@@ -1273,7 +1273,7 @@
             "remark": ""
         },
         {
-            "id": 9,
+            "id": 83,
             "name": "Jue Yin Shu.",
             "alias": "Asentimiento de pericardio.",
             "location": "A 1.5 cun lateral del borde inferior de la apófisis espinosa de la cuarta vértebra torácica.",
@@ -1287,7 +1287,7 @@
             "remark": ""
         },
         {
-            "id": 10,
+            "id": 84,
             "name": "Xin Shu.",
             "alias": "Asentimiento de corazón.",
             "location": "A 1.5 cun lateral del borde inferior de la apófisis espinosa de la quinta vértebra torácica.",
@@ -1302,7 +1302,7 @@
             "remark": ""
         },
         {
-            "id": 11,
+            "id": 85,
             "name": "Du Shu.",
             "alias": "Asentimiento de Du Mai.",
             "location": "A 1.5 cun lateral del borde inferior de la apófisis espinosa de la sexta vértebra torácica.",
@@ -1315,7 +1315,7 @@
             "remark": ""
         },
         {
-            "id": 12,
+            "id": 86,
             "name": "Ge Shu.",
             "alias": "Asentimiento de diafragma.",
             "location": "A 1.5 cun lateral del borde inferior de la apófisis espinosa de la séptima vértebra torácica.",
@@ -1328,7 +1328,7 @@
             "remark": "Es uno de los 8 puntos de influencia. Domina la sangre."
         },
         {
-            "id": 13,
+            "id": 87,
             "name": "Gan Shu.",
             "alias": "Asentimiento de hígado.",
             "location": "A 1.5 cun lateral del borde inferior de la apófisis espinosa de la novena vértebra torácica.",
@@ -1342,7 +1342,7 @@
             "remark": ""
         },
         {
-            "id": 14,
+            "id": 88,
             "name": "Dan Shu.",
             "alias": "Asentimiento de la vesícula biliar.",
             "location": "A 1.5 cun lateral del borde inferior de la apófisis espinosa de la décima vértebra torácica.",
@@ -1355,7 +1355,7 @@
             "remark": ""
         },
         {
-            "id": 15,
+            "id": 89,
             "name": "Pi Shu.",
             "alias": "Asentimiento del bazo.",
             "location": "A 1.5 cun lateral de la apófisis espinosa de la undécima vértebra torácica.",
@@ -1369,7 +1369,7 @@
             "remark": ""
         },
         {
-            "id": 16,
+            "id": 90,
             "name": "Wei Shu.",
             "alias": "Asentimiento del estómago.",
             "location": "A 1.5 cun lateral del borde inferior de la apófisis espinosa de la duodécima vértebra torácica.",
@@ -1383,7 +1383,7 @@
             "remark": ""
         },
         {
-            "id": 17,
+            "id": 91,
             "name": "San Jiao Shu.",
             "alias": "Asentimiento del triple calentador.",
             "location": "A 1.5 cun lateral del borde inferior de la apófisis espinosa de la primera vértebra lumbar.",
@@ -1397,7 +1397,7 @@
             "remark": ""
         },
         {
-            "id": 18,
+            "id": 92,
             "name": "Shen Shu.",
             "alias": "Asentimiento del riñón.",
             "location": "A 1.5 cun lateral del borde inferior de la apófisis espinosa de la segunda vértebra lumbar.",
@@ -1412,7 +1412,7 @@
             "remark": ""
         },
         {
-            "id": 19,
+            "id": 93,
             "name": "Xiao Chang Shu.",
             "alias": "Asentimiento del Intestino Delgado.",
             "location": "A nivel del primer agujero sacro a 1.5 cun lateral del canal Du mai.",
@@ -1427,7 +1427,7 @@
             "remark": ""
         },
         {
-            "id": 20,
+            "id": 94,
             "name": "Pang Guang Shu.",
             "alias": "Asentimiento de vejiga.",
             "location": "A nivel de segundo agujero sacro y 1.5 cun lateral del canal Du.",
@@ -1440,7 +1440,7 @@
             "remark": ""
         },
         {
-            "id": 21,
+            "id": 95,
             "name": "Cheng Fu.",
             "alias": "Soporte del recipiente.",
             "location": "Al centro del pliegue transversal del glúteo.",
@@ -1453,7 +1453,7 @@
             "remark": ""
         },
         {
-            "id": 22,
+            "id": 96,
             "name": "Wei Yang.",
             "alias": "El hueco externo.",
             "location": "A nivel y por fuera del Weizhong (V 40) en el borde interno del bíceps femoral.",
@@ -1467,7 +1467,7 @@
             "remark": ""
         },
         {
-            "id": 23,
+            "id": 97,
             "name": "Wei Zhong.",
             "alias": "Hueco débil.",
             "location": "Al centro del pliegue del hueco poplíteo.",
@@ -1481,7 +1481,7 @@
             "remark": "Punto Mar y Tierra del canal. Punto de influencia de la zona lumbar."
         },
         {
-            "id": 24,
+            "id": 98,
             "name": "Cheng Shan.",
             "alias": "Sostén de las montañas.",
             "location": "En la depresión inferior que forman los músculos gastrocnemios.",
@@ -1496,7 +1496,7 @@
             "remark": ""
         },
         {
-            "id": 25,
+            "id": 99,
             "name": "Fei Yang.",
             "alias": "Elevarse y dar vueltas en el aire.",
             "location": "A 7 cun por arriba de Kunlun (V 60) en el borde del peroné, 1 cun inferolateral del punto Chengshan.",
@@ -1509,7 +1509,7 @@
             "remark": "Es el punto Luo del canal."
         },
         {
-            "id": 26,
+            "id": 100,
             "name": "Kun Lun.",
             "alias": "La montaña más alta.",
             "location": "En la depresión que forma el maléolo externo y tendón del calcáneo.",
@@ -1523,7 +1523,7 @@
             "remark": "Punto Río y elemento Fuego."
         },
         {
-            "id": 27,
+            "id": 101,
             "name": "Pu Shen.",
             "alias": "Servidor del ministro, emperador.",
             "location": "En la parte posteroinferior del maléolo externo, directamente por debajo del Kunlun (V 60), donde se reúne la piel blanca con la roja.",
@@ -1537,7 +1537,7 @@
             "remark": ""
         },
         {
-            "id": 28,
+            "id": 102,
             "name": "Shen Mai.",
             "alias": "Extender el canal de acupuntura.",
             "location": "En la depresión directamente por debajo del maléolo externo.",
@@ -1551,7 +1551,7 @@
             "remark": "Punto de reunión con el canal Yangqiao."
         },
         {
-            "id": 29,
+            "id": 103,
             "name": "Jin Men.",
             "alias": "La puerta de oro.",
             "location": "En la parte anteroinferior de Shenmai (V 62) en la depresión externa del hueso cuboides.",
@@ -1565,7 +1565,7 @@
             "remark": "Punto Xi (hendidura)."
         },
         {
-            "id": 30,
+            "id": 104,
             "name": "Jing Gu.",
             "alias": "Capital del hueso.",
             "location": "En el lado externo del dorso del pie, por debajo de la protuberancia del quinto metatarsiano en la unión de la piel blanca con la piel roja.",
@@ -1578,7 +1578,7 @@
             "remark": "Punto Yuan."
         },
         {
-            "id": 31,
+            "id": 105,
             "name": "Shu Gu.",
             "alias": "Horizontal del hueso.",
             "location": "En el lado externo del dorso del pie, proximal de la articulación metatarsofalángica, donde se une la piel blanca con la roja.",
@@ -1591,7 +1591,7 @@
             "remark": "Punto Hijo dispersante. Punto Madera y Arroyo."
         },
         {
-            "id": 32,
+            "id": 106,
             "name": "Tong Gu.",
             "alias": "Comunicar la cavidad.",
             "location": "En la depresión distal de la articulación metatarsofalángica, entre las dos pieles.",
@@ -1604,7 +1604,7 @@
             "remark": "Es punto Ying Manantial y elemento Agua."
         },
         {
-            "id": 33,
+            "id": 107,
             "name": "Zhi Yin.",
             "alias": "Lo más Yin.",
             "location": "En el lado externo del quinto ortejo a 0.1 cun posterior al ángulo de la uña.",
@@ -1619,7 +1619,7 @@
     ],
     "canal del riñón": [
         {
-            "id": 1,
+            "id": 108,
             "name": "Yong Quan.",
             "alias": "La fuente que brota.",
             "location": "En la depresión, donde se une el tercio anterior y medio de la planta del pie.",
@@ -1633,7 +1633,7 @@
             "remark": "Punto Pozo, elemento Madera. Punto Hijo dispersante."
         },
         {
-            "id": 2,
+            "id": 109,
             "name": "Ran Gu.",
             "alias": "Valle bendito.",
             "location": "En la depresión anterior a la tuberosidad del hueso navicular.",
@@ -1647,7 +1647,7 @@
             "remark": "Punto Manantial, elemento Fuego."
         },
         {
-            "id": 3,
+            "id": 110,
             "name": "Tai Xi.",
             "alias": "La corriente suprema.",
             "location": "En el punto medio entre la prominencia del maléolo interno y el tendón del calcáneo.",
@@ -1661,7 +1661,7 @@
             "remark": "Punto Arroyo, elemento Tierra, Punto Yuan."
         },
         {
-            "id": 4,
+            "id": 111,
             "name": "Da Zhong.",
             "alias": "La gran campana.",
             "location": "A 0.5 cun por debajo del punto Taixi, en el borde anterior del tendón del calcáneo.",
@@ -1674,7 +1674,7 @@
             "remark": "Es un punto de riñón de los más sensibles, se le puede dar masaje y el canal se relaja. Es el punto Luo del canal."
         },
         {
-            "id": 5,
+            "id": 112,
             "name": "Shui Quan.",
             "alias": "Fuente agua o Manantial.",
             "location": "A un cun directamente por abajo de Taixi.",
@@ -1687,7 +1687,7 @@
             "remark": "Punto Xi hendidura."
         },
         {
-            "id": 6,
+            "id": 113,
             "name": "Zhao Hai.",
             "alias": "El mar que brilla.",
             "location": "Directamente por debajo de la prominencia del maléolo interno, a 0.4 cun por debajo del borde inferior del maléolo interno.",
@@ -1700,7 +1700,7 @@
             "remark": "Para aplicar este punto se masajea y se desplaza a los tendones, punto que comunica con el canal Yin qiao."
         },
         {
-            "id": 7,
+            "id": 114,
             "name": "Fu Liu.",
             "alias": "La corriente que retorna.",
             "location": "A dos cun por encima de la prominencia del maléolo interno. En el borde anterior del tendón del calcáneo.",
@@ -1713,7 +1713,7 @@
             "remark": "Punto Yin-Río, elemento Metal, Punto Madre, tonificante."
         },
         {
-            "id": 8,
+            "id": 115,
             "name": "Yin Gu.",
             "alias": "Valle del Yin.",
             "location": "Entre los dos tendones de los músculos semitendinoso y semimembranoso, en el lado interno de la fosa poplítea.",
@@ -1730,7 +1730,7 @@
     ],
     "canal del pericardio": [
         {
-            "id": 1,
+            "id": 116,
             "name": "Qu Ze.",
             "alias": "Estanque curvo.",
             "location": "En el centro del pliegue transversal del codo del lado cubital del tendón del bíceps.",
@@ -1740,14 +1740,12 @@
             "combinations": [
                 "Neiguan (PC 6), Daling (PC 7): Dolor de corazón y palpitaciones.",
                 "Shaoshang (P 11): Sed.",
-                "Jianshi (PC 5): Sangrados en gastroenteritis aguda.",
-                "",
-                ""
+                "Jianshi (PC 5): Sangrados en gastroenteritis aguda."
             ],
             "remark": "Punto He-Mar."
         },
         {
-            "id": 2,
+            "id": 117,
             "name": "Xi Men.",
             "alias": "Puerta hendidura.",
             "location": "5 cun por arriba del pliegue de la muñeca, entre los tendones del músculo largo palmar y flexor radial del carpo.",
@@ -1761,7 +1759,7 @@
             "remark": "Observaciones: Es el Punto Xi hendidura."
         },
         {
-            "id": 3,
+            "id": 118,
             "name": "Jian Shi.",
             "alias": "Sirviente mensajero.",
             "location": "A 3 cun por arriba del pliegue de la muñeca entre los tendones.",
@@ -1775,7 +1773,7 @@
             "remark": "Es el Punto Río-Metal."
         },
         {
-            "id": 4,
+            "id": 119,
             "name": "Nei Guan.",
             "alias": "Tapa lo interno.",
             "location": "A 2 cun del pliegue de la muñeca, entre los tendones. Largo palmar y flexor radial del carpo.",
@@ -1790,7 +1788,7 @@
             "remark": "Es el punto Luo o enlace, es uno de los 8 puntos de cruce."
         },
         {
-            "id": 5,
+            "id": 120,
             "name": "Da Ling.",
             "alias": "Cerro grande entre colinas.",
             "location": "En el centro del pliegue de la muñeca entre los tendones.",
@@ -1803,7 +1801,7 @@
             "remark": "Punto Yuan-Fuente del pericardio, punto Arroyo y elemento Tierra, punto Hijo dispersante."
         },
         {
-            "id": 6,
+            "id": 121,
             "name": "Lao Gong.",
             "alias": "Palacio del trabajo.",
             "location": "En el centro del pliegue transverso de la palma, entre el 2o. y 3er.metacarpiano, proximal de la articulación metacarpofalángica.",
@@ -1811,16 +1809,12 @@
             "directions": "Dolor de corazón, trastornos mentales, maniacos, epilepsia, úlcera labial, halitosis, fuego del estómago, hemorragia cerebral.",
             "puncture": "Vertical 0.3 a 0.5 cun.",
             "combinations": [
-                "Neiguan (PC 6), Wangu (ID 4): Aftas y úlcera bucal.",
-                "",
-                "",
-                "",
-                ""
+                "Neiguan (PC 6), Wangu (ID 4): Aftas y úlcera bucal."                
             ],
             "remark": "Punto manantial, elemento Fuego."
         },
         {
-            "id": 7,
+            "id": 122,
             "name": "Zhong Chong.",
             "alias": "Llegar al dedo central.",
             "location": "En la punta del dedo medio en el centro de la yema de este dedo.",
@@ -1836,7 +1830,7 @@
     ],
     "canal de sanjiao": [
         {
-            "id": 1,
+            "id": 123,
             "name": "Guan Chong.",
             "alias": "Ruta en movimiento.",
             "location": "En el ángulo ungueal externo o cubital del dedo anular.",
@@ -1849,7 +1843,7 @@
             "remark": "Es punto pozo, elemento Metal."
         },
         {
-            "id": 2,
+            "id": 124,
             "name": "Ye Men.",
             "alias": "Puerta del líquido.",
             "location": "Entre el 4o. y 5o. metacarpiano, en la parte distal de la articulación metacarpofalángica.",
@@ -1864,7 +1858,7 @@
             "remark": "Es punto manantial, elemento Agua."
         },
         {
-            "id": 3,
+            "id": 125,
             "name": "Zhong Zhu.",
             "alias": "Canal central.",
             "location": "En el dorso de la mano, entre el 4o. y 5o. metacarpianos, en la depresión proximal de la articulación metacarpofalángica.",
@@ -1879,7 +1873,7 @@
             "remark": "Es punto Arroyo, elemento madera, punto Madre tonificante."
         },
         {
-            "id": 4,
+            "id": 126,
             "name": "Yang Chi.",
             "alias": "Estanque exterior.",
             "location": "En el pliegue transversal del dorso de la muñeca, en la depresión que se forma entre los tendones del músculo extensor común digital y el extensor del meñique.",
@@ -1894,7 +1888,7 @@
             "remark": "Es el punto Yuan."
         },
         {
-            "id": 5,
+            "id": 127,
             "name": "Wai Guan.",
             "alias": "Relación con el exterior.",
             "location": "A 2 cun por arriba del pliegue de la muñeca, entre el radio y el cubito.",
@@ -1910,7 +1904,7 @@
             "remark": "Es el punto Luo. Es punto maestro del Yang, conecta con el canal Yangwei."
         },
         {
-            "id": 6,
+            "id": 128,
             "name": "Zhi Gou.",
             "alias": "Rama del canal.",
             "location": "A 3 cun por arriba del pliegue de la muñeca, entre el radio y el cubito.",
@@ -1926,7 +1920,7 @@
             "remark": "Es punto Río, elemento Fuego."
         },
         {
-            "id": 7,
+            "id": 129,
             "name": "Hui Zong.",
             "alias": "Reunión fundamental.",
             "location": "A 3 cun por arriba del pliegue de la muñeca, en el borde radial del cubito.",
@@ -1939,7 +1933,7 @@
             "remark": "Es punto Xi hendidura."
         },
         {
-            "id": 8,
+            "id": 130,
             "name": "Tian Jing.",
             "alias": "Pozo del cielo.",
             "location": "A 1 cun por arriba del olécranon, en la depresión.",
@@ -1955,7 +1949,7 @@
             "remark": "Es punto Mar, elemento Tierra y punto Hijo, dispersante."
         },
         {
-            "id": 9,
+            "id": 131,
             "name": "Jian Liao.",
             "alias": "Agujero del hombro.",
             "location": "En la depresión posteroinferior del acromion, al levantar el brazo.",
@@ -1968,7 +1962,7 @@
             "remark": ""
         },
         {
-            "id": 10,
+            "id": 132,
             "name": "Yi Feng.",
             "alias": "Obstáculo del viento.",
             "location": "En la parte posterior de la punta del lóbulo en la punta de la oreja, en la depresión que se forma entre el ángulo de la mandíbula y el mastoides.",
@@ -1982,7 +1976,7 @@
             "remark": ""
         },
         {
-            "id": 11,
+            "id": 133,
             "name": "Qi Mai.",
             "alias": "Canal que controla el temblor.",
             "location": "En el borde anteroinferior del mastoides.",
@@ -1997,7 +1991,7 @@
             "remark": ""
         },
         {
-            "id": 12,
+            "id": 134,
             "name": "Lu Xi.",
             "alias": "Reposo del cráneo.",
             "location": "En el borde anterosuperior del mastoides.",
@@ -2012,7 +2006,7 @@
             "remark": ""
         },
         {
-            "id": 13,
+            "id": 135,
             "name": "Jiao Sun.",
             "alias": "Angulo de la oreja.",
             "location": "En la punta de la oreja, al pegarla con la cabeza, en la implantación del pelo.",
@@ -2026,7 +2020,7 @@
             "remark": ""
         },
         {
-            "id": 14,
+            "id": 136,
             "name": "Er Men.",
             "alias": "Puerta del oído.",
             "location": "En la depresión superoanterior del trago.",
@@ -2042,7 +2036,7 @@
             "remark": ""
         },
         {
-            "id": 15,
+            "id": 137,
             "name": "Si Zhu Kong.",
             "alias": "Hueco del bambú delgado.",
             "location": "Depresión del extremo externo de la ceja.",
@@ -2058,7 +2052,7 @@
     ],
     "canal de la vesicula biliar": [
         {
-            "id": 1,
+            "id": 138,
             "name": "Tong Zi Liao.",
             "alias": "Orificio de la pupila.",
             "location": "A 0.5 cun por fuera del ángulo externo del ojo.",
@@ -2073,7 +2067,7 @@
             "remark": "Punto de reunión con triple calentador e intestino grueso."
         },
         {
-            "id": 2,
+            "id": 139,
             "name": "Ting Hui.",
             "alias": "El poder de escuchar y oir.",
             "location": "En la parte infero anterior del trago.",
@@ -2087,7 +2081,7 @@
             "remark": ""
         },
         {
-            "id": 3,
+            "id": 140,
             "name": "Shang Guan.",
             "alias": "Por arriba de la articulación.",
             "location": "Borde superior del arco cigomático anterior a la implantación del cabello de la patilla.",
@@ -2100,7 +2094,7 @@
             "remark": ""
         },
         {
-            "id": 4,
+            "id": 141,
             "name": "Shuai Gu.",
             "alias": "Valle que conduce.",
             "location": "En la línea del ápex de la oreja, 1.5 cun por arriba de la implantación del cabello.",
@@ -2113,7 +2107,7 @@
             "remark": "Punto de reunión con el canal de vejiga."
         },
         {
-            "id": 5,
+            "id": 142,
             "name": "Ben Shen.",
             "alias": "Raíz del espíritu.",
             "location": "A 0.5 cun por dentro de la línea de implantación del cabello y 3 cun lateral de Shenting (DM 24).",
@@ -2126,7 +2120,7 @@
             "remark": ""
         },
         {
-            "id": 6,
+            "id": 143,
             "name": "Yang Bai.",
             "alias": "Yang blanco.",
             "location": "En la parte central de la ceja, 1 cun por arriba. En dirección de la pupila.",
@@ -2139,7 +2133,7 @@
             "remark": ""
         },
         {
-            "id": 7,
+            "id": 144,
             "name": "Feng Chi.",
             "alias": "Depósito del viento.",
             "location": "Borde inferoposterior de la apófisis mastoides entre el trapecio y el esternocleidomastoideo.",
@@ -2156,7 +2150,7 @@
             "remark": "Es el mejor punto para dispersar el viento en general. Punto que une al TC y al Yang Wei Mai."
         },
         {
-            "id": 8,
+            "id": 145,
             "name": "Jian Jing.",
             "alias": "Brote del hombro.",
             "location": "Entre la séptima vértebra cervical y el acromion. Sobre la línea que une a estos puntos, a la mitad, en la parte más alta del hombro.",
@@ -2170,7 +2164,7 @@
             "remark": "Punto de unión de TC y Yang Wei Mai."
         },
         {
-            "id": 9,
+            "id": 146,
             "name": "Ri Yue.",
             "alias": "Día del sol.",
             "location": "A nivel del 7o. espacio intercostal y la línea mamaria o media clavicular.",
@@ -2183,7 +2177,7 @@
             "remark": "Es el punto Mu de vesícula biliar."
         },
         {
-            "id": 10,
+            "id": 147,
             "name": "Jing Men.",
             "alias": "La puerta de la capital.",
             "location": "En la punta de la 12a costilla.",
@@ -2198,7 +2192,7 @@
             "remark": ""
         },
         {
-            "id": 11,
+            "id": 148,
             "name": "Huan Tiao.",
             "alias": "Hundimiento glúteo.",
             "location": "En el tercio externo de la línea que une al trocánter mayor y al hiato del sacro.",
@@ -2211,7 +2205,7 @@
             "remark": ""
         },
         {
-            "id": 12,
+            "id": 149,
             "name": "Feng Shi.",
             "alias": "Lugar de reunión del viento.",
             "location": "A 7 cun arriba del pliegue poplíteo, en la línea externa del muslo, (punta del dedo medio al estar de pie).",
@@ -2224,7 +2218,7 @@
             "remark": ""
         },
         {
-            "id": 13,
+            "id": 150,
             "name": "Yang Ling Quan.",
             "alias": "Fuente alta del Yang.",
             "location": "En la depresión antero-inferior de la cabeza del peroné.",
@@ -2237,7 +2231,7 @@
             "remark": "Es punto mar del meridiano Shaoyang de pie. Es uno de los 8 puntos de influencia, corresponde a los tendones. Punto elemento Tierra."
         },
         {
-            "id": 14,
+            "id": 151,
             "name": "Wai Qiu.",
             "alias": "Inicio de parte alta.",
             "location": "A 7 cun por arriba de la punta del maléolo externo, en el borde anterior del peroné.",
@@ -2250,7 +2244,7 @@
             "remark": "Es el punto hendidura del meridiano Shaoyang de pie."
         },
         {
-            "id": 15,
+            "id": 152,
             "name": "Guang Ming.",
             "alias": "Luz brillante.",
             "location": "A 5 cun por arriba del maléolo externo, en el borde anterior del peroné.",
@@ -2263,7 +2257,7 @@
             "remark": "Es el punto Luo del canal."
         },
         {
-            "id": 16,
+            "id": 153,
             "name": "Yang Fu.",
             "alias": "Hueso del peroné.",
             "location": "A 4 cun por arriba del maléolo externo, en el borde anterior del peroné.",
@@ -2276,7 +2270,7 @@
             "remark": "Es el punto río del meridiano Shaoyang del pie, punto Hijo y elemento Fuego."
         },
         {
-            "id": 17,
+            "id": 154,
             "name": "Xuan Zhong.",
             "alias": "Campana suspendida.",
             "location": "A 3 cun por arriba del maléolo externo, en el borde posterior del peroné.",
@@ -2289,7 +2283,7 @@
             "remark": "Es uno de los 8 puntos de influencia, corresponde a la médula."
         },
         {
-            "id": 18,
+            "id": 155,
             "name": "Qiu Xu.",
             "alias": "Parte alta del maléolo.",
             "location": "En la parte antero-inferior del maléolo externo, en la depresión situada en el lado externo del tendón del músculo extensor largo digital.",
@@ -2302,7 +2296,7 @@
             "remark": "Punto yuan."
         },
         {
-            "id": 19,
+            "id": 156,
             "name": "Lin Qi del pie.",
             "alias": "Mirar la lágrima en pie.",
             "location": "Distal de la articulación tarsometatarsiana en la unión del 4o. y 5o. metatarsiano.",
@@ -2315,7 +2309,7 @@
             "remark": "Es punto arroyo del meridiano Shaoyang del pie, punto de apertura del meridiano Dai. Punto elemento madera."
         },
         {
-            "id": 20,
+            "id": 157,
             "name": "Xia Xi.",
             "alias": "Lugar de paso de corriente.",
             "location": "En el dorso del pie, entre el 4o. y 5o. ortejo. Distal a la articulación metatarsofalángica.",
@@ -2328,7 +2322,7 @@
             "remark": "Es el punto manantial y elemento Agua del canal."
         },
         {
-            "id": 21,
+            "id": 158,
             "name": "Qiao Yin.",
             "alias": "Apertura o agujero del yin.",
             "location": "En el ángulo ungueal externo del 4o. ortejo, a 0.1 cun por detrás del ángulo ungueal.",
@@ -2343,7 +2337,7 @@
     ],
     "canal del higado": [
         {
-            "id": 1,
+            "id": 159,
             "name": "Da Dun.",
             "alias": "Gran abundancia.",
             "location": "Angulo ungueal externo del 1er. ortejo 0.1 cun  detrás del mismo.",
@@ -2356,7 +2350,7 @@
             "remark": "Punto pozo y elemento madera."
         },
         {
-            "id": 2,
+            "id": 160,
             "name": "Xing Jian.",
             "alias": "Intervalo activo.",
             "location": "Entre el 1o. y 2o. ortejos, distal a la articulación metatarsofalángica.",
@@ -2370,7 +2364,7 @@
             "remark": "Punto manantial y elemento Fuego, punto Hijo dispersante."
         },
         {
-            "id": 3,
+            "id": 161,
             "name": "Tai Chong.",
             "alias": "Gran diluvio.",
             "location": "En la depresión distal de la unión del 1o. y 2o. metatarsianos.",
@@ -2385,7 +2379,7 @@
             "remark": "Punto Arroyo, yuan y elemento Tierra."
         },
         {
-            "id": 4,
+            "id": 162,
             "name": " Zhong Feng.",
             "alias": "Sello central del viento.",
             "location": "A 1.0 cun anterior del maléolo interno, a la mitad de distancia entre Shangqiu y Jie Xi, en la depresión interna del músculo tibial anterior.",
@@ -2398,7 +2392,7 @@
             "remark": "Punto Río, elemento metal."
         },
         {
-            "id": 5,
+            "id": 163,
             "name": "Li Gou.",
             "alias": "Ultima gotera o hueco.",
             "location": "A 5.0 cun por arriba del maléolo interno sobre la tibia.",
@@ -2411,7 +2405,7 @@
             "remark": "Es el punto Luo del canal."
         },
         {
-            "id": 6,
+            "id": 164,
             "name": "Zhong Du.",
             "alias": "Capital central.",
             "location": "A 7.0 cun por arriba de la punta del maléolo interno o a 2 cun de Ligou (H 5) sobre la tibia.",
@@ -2424,7 +2418,7 @@
             "remark": "Punto Xi, hendidura."
         },
         {
-            "id": 7,
+            "id": 165,
             "name": "Qu Quan.",
             "alias": "Fuente en la curva.",
             "location": "Depresión que forma el borde superior del cóndilo interno del fémur y el tendón del músculo semimembranoso.",
@@ -2438,7 +2432,7 @@
             "remark": "Punto Mar, elemento Agua, Madre y tonificante."
         },
         {
-            "id": 8,
+            "id": 166,
             "name": "Zhang Men.",
             "alias": "Puerta grande.",
             "location": "Por abajo del extremo libre de la onceava costilla flotante.",
@@ -2451,7 +2445,7 @@
             "remark": "Punto de influencia de todos los órganos."
         },
         {
-            "id": 9,
+            "id": 167,
             "name": "Qi Men.",
             "alias": "Puerta de la época o período.",
             "location": "En la línea media clavicular en el sexto espacio intercostal.",
@@ -2466,7 +2460,7 @@
     ],
     "canal du mai": [
         {
-            "id": 1,
+            "id": 168,
             "name": "Chang Qiang.",
             "alias": "Largo y Poderoso.",
             "location": "Entre el coxis y el ano, a la mitad de distancia.",
@@ -2485,7 +2479,7 @@
             "remark": "Punto Luo del canal."
         },
         {
-            "id": 2,
+            "id": 169,
             "name": "Ming Men.",
             "alias": "Puerta de la vida.",
             "location": "Borde inferior de la apófisis espinosa de la segunda vértebra lumbar, en la línea media posterior.",
@@ -2499,7 +2493,7 @@
             "remark": ""
         },
         {
-            "id": 3,
+            "id": 170,
             "name": "Shen Zhu.",
             "alias": "Pilar del cuerpo humano.",
             "location": "Borde inferior de la apófisis espinosa de la tercera vértebra dorsal, en la línea media posterior.",
@@ -2516,7 +2510,7 @@
             "remark": ""
         },
         {
-            "id": 4,
+            "id": 171,
             "name": "Da Zhui.",
             "alias": "Gran Vértebra.",
             "location": "Borde inferior de la apófisis espinosa de la séptima vértebra cervical, en la línea media posterior.",
@@ -2540,7 +2534,7 @@
             "remark": "Punto de confluencia y reunión de los tres canales Yang de la mano y los tres canales Yang de pie."
         },
         {
-            "id": 5,
+            "id": 172,
             "name": "Ya Men.",
             "alias": "La Puerta del Mutismo.",
             "location": "0.5 cun arriba de la implantación posterior del pelo, sobre la horizontal que pasa por la punta del mastoides, en la línea media posterior.",
@@ -2557,7 +2551,7 @@
             "remark": ""
         },
         {
-            "id": 6,
+            "id": 173,
             "name": "Feng Fu.",
             "alias": "Palacio del Viento.",
             "location": "A 1 cun por arriba de la implantación del pelo, por abajo de la protuberancia occipital, en la línea media posterior.",
@@ -2580,7 +2574,7 @@
             "remark": ""
         },
         {
-            "id": 7,
+            "id": 174,
             "name": "Bai Hui.",
             "alias": "Las Cien Reuniones.",
             "location": "En la línea media del cráneo, en su unión con la línea que va de la punta de una oreja a la otra, 5 cun atrás de la implantación anterior del pelo.",
@@ -2599,7 +2593,7 @@
             "remark": "Punto de reunión con vejiga, vesícula biliar, sanjiao e hígado."
         },
         {
-            "id": 8,
+            "id": 175,
             "name": "Shen Ting.",
             "alias": "Habitación del espíritu.",
             "location": "0.5 cun posterior a la línea anterior de la implantación del pelo, sobre la línea media.",
@@ -2615,7 +2609,7 @@
             "remark": ""
         },
         {
-            "id": 9,
+            "id": 176,
             "name": "Ren Zhong o Shui Gou.",
             "alias": "Centro del Hombre.",
             "location": "Por debajo de la nariz en el tercio superior del surco nasolabial, sobre la línea media.",
@@ -2638,7 +2632,7 @@
     ],
     "canal ren mai": [
         {
-            "id": 1,
+            "id": 177,
             "name": "Hui Yin.",
             "alias": "Reunión del Yin.",
             "location": "En el hombre; entre el ano y el escroto \n En la mujer; en la comisura posterior de labios mayores y el ano.",
@@ -2652,7 +2646,7 @@
             "remark": "Punto de reunión con el DU MAI y el CHONG MAI."
         },
         {
-            "id": 2,
+            "id": 178,
             "name": "Qu Gu.",
             "alias": "Curvatura del Hueso.",
             "location": "En el borde superior de la sínfisis del pubis y la línea media anterior.",
@@ -2670,7 +2664,7 @@
             "remark": "Punto de unión con el canal de hígado."
         },
         {
-            "id": 3,
+            "id": 179,
             "name": "Zhong Ji.",
             "alias": "La parte más central.",
             "location": "1 cun arriba del pubis en la línea media anterior.",
@@ -2687,7 +2681,7 @@
             "remark": "Punto de unión con R, H, B, punto Mu de vejiga."
         },
         {
-            "id": 4,
+            "id": 180,
             "name": "Guan Yuan.",
             "alias": "Relación con el origen.",
             "location": "En la línea media anterior a 3 cun por abajo del ombligo.",
@@ -2704,7 +2698,7 @@
             "remark": "Punto Mu del Intestino Delgado."
         },
         {
-            "id": 5,
+            "id": 181,
             "name": "Shi Men.",
             "alias": "Puerta de Piedra.",
             "location": "Sobre la línea media anterior a 2 cun por abajo del ombligo.",
@@ -2720,7 +2714,7 @@
             "remark": "Punto Mu de Sanjiao."
         },
         {
-            "id": 6,
+            "id": 182,
             "name": "Qi Hai.",
             "alias": "Mar de la energía.",
             "location": "En la línea media anterior a 1.5 cun por abajo del ombligo.",
@@ -2737,7 +2731,7 @@
             "remark": ""
         },
         {
-            "id": 7,
+            "id": 183,
             "name": "Shen Que.",
             "alias": "Casa del espíritu.",
             "location": "En la cicatriz umbilical.",
@@ -2751,7 +2745,7 @@
             "remark": "Este punto no se punciona, sólo se moxa, en urticaria aplicar ventosas."
         },
         {
-            "id": 8,
+            "id": 184,
             "name": "Shui Fen.",
             "alias": "Una parte del agua.",
             "location": "En la línea media anterior a 1 cun por arriba de la cicatriz umbilical.",
@@ -2768,7 +2762,7 @@
             "remark": ""
         },
         {
-            "id": 9,
+            "id": 185,
             "name": "Xia Wan.",
             "alias": "Por abajo de la cavidad.",
             "location": "En la línea media anterior a 2 cun por arriba del ombligo.",
@@ -2782,7 +2776,7 @@
             "remark": ""
         },
         {
-            "id": 10,
+            "id": 186,
             "name": "Zhong Wan.",
             "alias": "Centro de la cavidad.",
             "location": "En la línea media anterior a 4 cun por arriba del ombligo.",
@@ -2799,7 +2793,7 @@
             "remark": "Es el punto Mu del estómago y punto de influencia de las vísceras."
         },
         {
-            "id": 11,
+            "id": 187,
             "name": "Shang Wan.",
             "alias": "Sobre la cavidad.",
             "location": "En la línea media anterior a 5 cun por arriba del ombligo.",
@@ -2815,7 +2809,7 @@
             "remark": ""
         },
         {
-            "id": 12,
+            "id": 188,
             "name": " Ju Que.",
             "alias": "Puerta grande.",
             "location": "En la línea media anterior a 6 cun por arriba del ombligo.",
@@ -2832,7 +2826,7 @@
             "remark": "unto Mu del corazón."
         },
         {
-            "id": 13,
+            "id": 189,
             "name": "Jiu Wei.",
             "alias": "Cola de la horquilla.",
             "location": "En la línea media anterior se encuentra a 1 cun por debajo del xifoides.",
@@ -2848,7 +2842,7 @@
             "remark": "Es el punto Luo del canal."
         },
         {
-            "id": 14,
+            "id": 190,
             "name": "Shan Zhong.",
             "alias": "Centro del Pericardio.",
             "location": "En la línea media anterior a nivel de las tetillas.",
@@ -2865,7 +2859,7 @@
             "remark": "Si se quiere aumentar la producción láctea dirigir aguja hacia el pezón. Punto de influencia de la energía, punto Mu del Pericardio."
         },
         {
-            "id": 15,
+            "id": 191,
             "name": "Tian Tu.",
             "alias": "Saltar al cielo.",
             "location": "Depresión que forma la orquilla esternal.",
@@ -2882,7 +2876,7 @@
             "remark": ""
         },
         {
-            "id": 16,
+            "id": 192,
             "name": "Fuente de agua.",
             "alias": "Depresión del borde superior que forma el hueso hioides, en la línea media anterior.",
             "location": "Aclara el fuego, elimina la flema y mejora las funciones de la garganta, humedece la boca.",
@@ -2897,7 +2891,7 @@
             "remark": ""
         },
         {
-            "id": 15,
+            "id": 193,
             "name": "Cheng Jiang.",
             "alias": "Vasija de líquidos.",
             "location": "En la línea media anterior y el surco transversal del mentón.",
