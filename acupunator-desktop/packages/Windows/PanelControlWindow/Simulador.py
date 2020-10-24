@@ -47,7 +47,7 @@ class SimuladorWindow(QMainWindow):
         self.filtrarAlumnos() # filtra alumnos y despliega en tabla
         self.__current_group = self.grupos_box.currentText()
         self.profe_btn_sim.clicked.connect(lambda:self.initAcupunator(rol="Profesor"))
-
+        self.fillChanels()
     #Regresa a la venta de Panel de control
     def backToHome(self,parent):
         parent.show()
@@ -146,3 +146,9 @@ class SimuladorWindow(QMainWindow):
                     QMessageBox.Ok | QMessageBox.Cancel) 
             if resp == QMessageBox.Ok:
                 self.generateJSONFile(rol,canal,tipo_simulacion)                         
+    # LLena los canal de estudio en el combo
+
+    def fillChanels(self):
+        canales = ["CANAL DEL PULMÓN","CANAL DEL INTESTINO GRUESO","CANAL DEL ESTOMAGO","CANAL DEL BAZO","CANAL DEL CORAZÓN","CANAL DEL INTESTINO DELGADO","CANAL DE LA VEJIGA","CANAL DEL RIÑÓN","CANAL DEL PERICARDIO","CANAL DE SANJIAO","CANAL DE LA VESICULA BILIAR","CANAL DEL HIGADO","CANAL DU MAI","CANAL REN MAI"]
+        canales_temp = [can.lower() for can in canales] 
+        self.canales_box.addItems(canales_temp)

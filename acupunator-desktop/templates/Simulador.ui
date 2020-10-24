@@ -274,23 +274,7 @@ background-color: rgb(234, 241, 247);
         </widget>
        </item>
        <item>
-        <widget class="QComboBox" name="canales_box">
-         <item>
-          <property name="text">
-           <string>Pecho</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Corazón</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Brazo</string>
-          </property>
-         </item>
-        </widget>
+        <widget class="QComboBox" name="canales_box"/>
        </item>
       </layout>
      </widget>
