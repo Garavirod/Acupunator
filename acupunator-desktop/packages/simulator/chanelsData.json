@@ -1,74 +1,73 @@
-{
-    "canal del pulmón": [
-        {
-            "id":1,
-            "name":"Zhong Fu.",
-            "alias":"En medio de las entrañas, en medio de la mansión.",
-            "location":"A 6 cun lateral de la línea media anterior, en el espacio entre la 2a y la 3a costillas, a 1 cun directamente debajo de Yunmen.",
-            "function":"Aclara (dispersa) el calor, despeja el fogón superior, favorece el recorrido de la energía de todos los canales, detiene la tos, da fluidez a la energía de pulmón.",
-            "directions":"Tos, asma, neumonía, tuberculosis pulmonar, sensación de opresión de pecho, dolor de tórax, dolor de la espalda y hombro.",
-            "puncture":"Suave, del exterior al interior (del hombro al esternón) a 45 grados ó 15 grados, se introduce de 0.5 a 0.8 cun; también se puede insertar perpendicularmente de 0.3 a 0.5 cun, con la punta dirigida hacia la parte externa del tórax.",
-            "combinations":[
+[{
+    "canal del pulmón": [{
+            "id": 1,
+            "name": "Zhong Fu.",
+            "alias": "En medio de las entrañas, en medio de la mansión.",
+            "location": "A 6 cun lateral de la línea media anterior, en el espacio entre la 2a y la 3a costillas, a 1 cun directamente debajo de Yunmen.",
+            "function": "Aclara (dispersa) el calor, despeja el fogón superior, favorece el recorrido de la energía de todos los canales, detiene la tos, da fluidez a la energía de pulmón.",
+            "directions": "Tos, asma, neumonía, tuberculosis pulmonar, sensación de opresión de pecho, dolor de tórax, dolor de la espalda y hombro.",
+            "puncture": "Suave, del exterior al interior (del hombro al esternón) a 45 grados ó 15 grados, se introduce de 0.5 a 0.8 cun; también se puede insertar perpendicularmente de 0.3 a 0.5 cun, con la punta dirigida hacia la parte externa del tórax.",
+            "combinations": [
                 "Lieque: para tos.",
                 "Shanzhong,Chize: para asma.",
                 "Neiguan: para dolor de tórax.",
                 "Taiyuan, Taixi, Zusanli: para tuberculosis pulmonar.",
                 "Dazhui, Kongzui: para neumonía."
             ],
-            "remark":"unto Mu-Frontal del pulmón. Aquí converge la energía del canal."
-            
+            "remark": "unto Mu-Frontal del pulmón. Aquí converge la energía del canal."
 
-        },   
+
+        },
         {
-            "id":2,
-            "name":"Chi Ze.",
-            "alias":"Estanque o charco.",
-            "location":"En el pliegue del codo, en el lado radial del tendón del músculo bíceps braquial.",
-            "function":"Aclara el calor, dispersa la energía, 'abre el paso al agua' (hace descender al agua en el caso de anuria), equilibra la energía del estómago, intestino grueso y del intestino delgado. Regula los líquidos corporales.",
-            "directions":"Laringotraqueitis causada por calor o por frío, por asma. Neumonía, tuberculosis pulmonar, hemoptisis, epistaxis, pleuritis. Dolor e inflamación de faringe y laringe. Opresión del tórax. Calor en oleadas en cara, palmas, plantas (que es causado por deficiencia de Yin). Convulsiones en niños por hipertermia. Anasarca. Nicturia infantil. Enterocolitis aguda. Dolor de la articulación del codo, contractura y dolor del codo. Abducción y aducción dificultosa. Inflamación mamaria por el no drenaje de leche.",
-            "puncture":"Perpendicular de 0.5 a 1.2 cun.",
-            "combinations":[
+            "id": 2,
+            "name": "Chi Ze.",
+            "alias": "Estanque o charco.",
+            "location": "En el pliegue del codo, en el lado radial del tendón del músculo bíceps braquial.",
+            "function": "Aclara el calor, dispersa la energía, 'abre el paso al agua' (hace descender al agua en el caso de anuria), equilibra la energía del estómago, intestino grueso y del intestino delgado. Regula los líquidos corporales.",
+            "directions": "Laringotraqueitis causada por calor o por frío, por asma. Neumonía, tuberculosis pulmonar, hemoptisis, epistaxis, pleuritis. Dolor e inflamación de faringe y laringe. Opresión del tórax. Calor en oleadas en cara, palmas, plantas (que es causado por deficiencia de Yin). Convulsiones en niños por hipertermia. Anasarca. Nicturia infantil. Enterocolitis aguda. Dolor de la articulación del codo, contractura y dolor del codo. Abducción y aducción dificultosa. Inflamación mamaria por el no drenaje de leche.",
+            "puncture": "Perpendicular de 0.5 a 1.2 cun.",
+            "combinations": [
                 "Xiaohai, Jianjing: para codo del tenista.",
                 "Shaoshang: para hematemesis, dolor de faringe y de laringe.",
                 "Lieque,Feishu: para laringotraqueítis.",
                 "Tanzhong: para asma.",
                 "Weizhong: éste último punto se sangra para tratar gastroenteritis aguda, vómito y diarrea aguda."
             ],
-            "remark":"Punto He-Mar, Elemento Agua, y dispersante del canal."
+            "remark": "Punto He-Mar, Elemento Agua, y dispersante del canal."
 
         },
         {
-            "id":3,
-            "name":"Kong Zui.",
-            "alias":"Hueco profundo.",
-            "location":" En el borde radial del antebrazo, a 5 cun debajo de Chize (P 5) o a 7 cun por arriba de Taiyuan, sobre la línea que une a ambos puntos.",
-            "function":"Lubrica al pulmón, beneficia a la faringe, despeja el calor de la superficie. Drena la energía de pulmón.",
-            "directions":"Tos con sangre, asma, inflamación de faringe y laringe, contractura del músculo del codo y del antebrazo. Afonía y disfonía. Paciente que no puede sudar.",
-            "puncture":"Perpendicular de 0.5 a 1.2 cun.",
-            "combinations":[
+            "id": 3,
+            "name": "Kong Zui.",
+            "alias": "Hueco profundo.",
+            "location": " En el borde radial del antebrazo, a 5 cun debajo de Chize (P 5) o a 7 cun por arriba de Taiyuan, sobre la línea que une a ambos puntos.",
+            "function": "Lubrica al pulmón, beneficia a la faringe, despeja el calor de la superficie. Drena la energía de pulmón.",
+            "directions": "Tos con sangre, asma, inflamación de faringe y laringe, contractura del músculo del codo y del antebrazo. Afonía y disfonía. Paciente que no puede sudar.",
+            "puncture": "Perpendicular de 0.5 a 1.2 cun.",
+            "combinations": [
                 "Dazhui,Hegu,Quchi : para fiebre que no cede, o fiebre de origen desconocido.",
                 "Fengmen,Feishu: para el asma.",
-                "Lieque : para hemoptisis y laringotraqueitis."                               
+                "Lieque : para hemoptisis y laringotraqueitis."
             ],
-            "remark":"Punto Xi-Hendidura o fisura."
+            "remark": "Punto Xi-Hendidura o fisura."
 
         },
         {
-            "id":4,
-            "name":"Lie Que.",
-            "alias":"Línea discontinua.",
-            "location":"En la raíz de la apófisis estiloides del radio (hendidura), a 1.5 cun del pliegue de la muñeca.",
-            "function":"Esparce la energía del pulmón. Libera a la superficie del viento dispersándolo, abre paso a canales y colaterales, activa el paso de energía de los colaterales, beneficia a la faringe y relaja al diafragma.",
-            "directions":"Tos con cefalea, dolor de nuca. Dolor de faringe y de laringe.",
-            "puncture":"A 15 grados, de 0.5 a 0.8 cun.",
-            "combinations":[
+            "id": 4,
+            "name": "Lie Que.",
+            "alias": "Línea discontinua.",
+            "location": "En la raíz de la apófisis estiloides del radio (hendidura), a 1.5 cun del pliegue de la muñeca.",
+            "function": "Esparce la energía del pulmón. Libera a la superficie del viento dispersándolo, abre paso a canales y colaterales, activa el paso de energía de los colaterales, beneficia a la faringe y relaja al diafragma.",
+            "directions": "Tos con cefalea, dolor de nuca. Dolor de faringe y de laringe.",
+            "puncture": "A 15 grados, de 0.5 a 0.8 cun.",
+            "combinations": [
                 "Hegu (IG 4): para resfriado común.",
                 "Zhaohai (R 6): para faringitis crónica.",
                 "Houxi (ID 3): para dolor de nuca.",
                 "Yingxiang (IG 20): para sinusitis.",
-                "Yifeng: para cefalea y neuralgia del trigémino."                               
+                "Yifeng: para cefalea y neuralgia del trigémino."
             ],
-            "remark":"Es el punto Luo, une al canal del pulmón con el del intestino grueso, punto de apertura del canal Ren Mai. Punto de acción general para problemas de cuello."
+            "remark": "Es el punto Luo, une al canal del pulmón con el del intestino grueso, punto de apertura del canal Ren Mai. Punto de acción general para problemas de cuello."
 
         },
         {
@@ -82,7 +81,7 @@
             "combinations": [
                 "Fengchi (VB 20), Dazhui (DM 14): para la sudoración.",
                 "Feishu (V 13): para el asma.",
-                "Xingjian (H 2): para la tos."                                
+                "Xingjian (H 2): para la tos."
             ],
             "remark": "Punto Jing-Río. Elemento Metal."
         },
@@ -116,7 +115,7 @@
                 "Shenmen (C 7), Ququan (H 8): para hemoptisis.",
                 "Feishu (V 13): para la tos de los niños.",
                 "Zusanli (E 36), Shangguan (VB 3): para forunculosis mamaria.",
-                "Lianquan (RM 23), Fengchi (VB 20): para disfonía o afonía."                
+                "Lianquan (RM 23), Fengchi (VB 20): para disfonía o afonía."
             ],
             "remark": "Punto Ying-Manantial. Elemento Fuego."
         },
@@ -132,13 +131,14 @@
                 "Shangyang (IG 1): para dolor e inflamación de faringe y laringe.",
                 "Tiantu (RM 22): para la tos por inversión de energía y por frío.",
                 "Quze (PC 3): para boca seca por deficiencia de sangre.",
-                "Renzhong (DM 26): para desmayo por ataque cerebro vascular, hemiplejía, estado de shock."                
+                "Renzhong (DM 26): para desmayo por ataque cerebro vascular, hemiplejía, estado de shock."
             ],
             "remark": "Es el punto Jing-Pozo, elemento madera del canal."
-        }        
-    ],
-    "canal del intestino grueso": [
-        {
+        }
+    ]
+},
+{
+    "canal del intestino grueso": [{
             "id": 9,
             "name": "Shang Yang.",
             "alias": "Sonido Metálico Externo.",
@@ -148,7 +148,7 @@
             "puncture": "0.1 cun de profundidad, se puede sangrar.",
             "combinations": [
                 "Hegu (IG 4): para amigdalitis.",
-                "Chize (P 5), Weizhong (V 40): para gastroenteritis aguda. (V 40 debe sangrarse)."                                            
+                "Chize (P 5), Weizhong (V 40): para gastroenteritis aguda. (V 40 debe sangrarse)."
             ],
             "remark": "Punto Jing-Pozo, elemento metal."
         },
@@ -164,7 +164,7 @@
                 "Yingxiang (IG 20), Fengchi (VB 20): para epistaxis.",
                 "Hegu (IG 4): para odontalgias.",
                 "Dicang (E 4), Jiache (E 6): para desviación de la boca y en la parálisis facial.",
-                "Yinxi (C 6): para miedo al frío y fiebre."                
+                "Yinxi (C 6): para miedo al frío y fiebre."
             ],
             "remark": "Punto Ying-Manantial. Elemento Agua, Punto Hijo, dispersante."
         },
@@ -223,7 +223,7 @@
             "combinations": [
                 "Yanggu: para dolor, inflamación y enrojecimiento de ojos.",
                 "Yintang , Taiyang: dolor frontal o anterior de la cabeza.",
-                "Yifeng, Tinggong: para acúfenos y sordera."                                
+                "Yifeng, Tinggong: para acúfenos y sordera."
             ],
             "remark": "Punto Jing-Río. Elemento Fuego."
         },
@@ -238,7 +238,7 @@
             "combinations": [
                 "Taiyuan (P 9 ): para tos por deficiencia de pulmón.",
                 "Yifeng (TC 17), Tinghui (VB 2): para sordera y acúfenos.",
-                "Tianshu (E 25), Yinlingquan (B 9): para edema."                
+                "Tianshu (E 25), Yinlingquan (B 9): para edema."
             ],
             "remark": "Punto Luo."
         },
@@ -291,7 +291,7 @@
             "puncture": "Se inserta la aguja perpendicularmente u oblicua de 0.5 a 1 cun con la punta dirigida hacia la zona afectada. Se puede usar moxibustión.",
             "combinations": [
                 "Jianyu (IG 15): para tratar el dolor en hombro y brazo.",
-                "Taiyang (extra), Erdu (extra) sangrar este último: para conjuntivitis aguda."                                                
+                "Taiyang (extra), Erdu (extra) sangrar este último: para conjuntivitis aguda."
             ],
             "remark": ""
         },
@@ -305,7 +305,7 @@
             "puncture": "Se inserta la aguja oblicuamente, con la punta dirigida hacia abajo, de 0.5 a 2 cun. Se puede usar moxibustión.",
             "combinations": [
                 "Binao (IG 14), Jianliao (TC 14): para parálisis del miembro superior.",
-                "Quchi (IG 11), Waiguan (TC 5), Hegu (IG 4): para hemiplejia y parestesias."                            
+                "Quchi (IG 11), Waiguan (TC 5), Hegu (IG 4): para hemiplejia y parestesias."
             ],
             "remark": ""
         },
@@ -319,7 +319,7 @@
             "puncture": "Se inserta la aguja perpendicularmente de 0.5 a 0.7 cun. Se puede usar moxibustión.",
             "combinations": [
                 "Jianyu (IG 15), Jianliao (TC 14): para la inflamación del hombro.",
-                "Jianyu (IG 15), Tianzong (ID 11): para dolor de espalda y hombro."            
+                "Jianyu (IG 15), Tianzong (ID 11): para dolor de espalda y hombro."
             ],
             "remark": ""
         },
@@ -333,13 +333,12 @@
             "puncture": "Se inserta la aguja oblicuamente con la punta en dirección hacia abajo 0.3 cun.",
             "combinations": [
                 "Baihui (DM 20), Hegu (IG 4): para epistaxis.",
-                "Shangxing (DM 23), Yintang (extra), Hegu (IG 4): sinusitis."            
+                "Shangxing (DM 23), Yintang (extra), Hegu (IG 4): sinusitis."
             ],
             "remark": ""
         }
     ],
-    "canal del estomago": [
-        {
+    "canal del estomago": [{
             "id": 21,
             "name": "Cheng Qi.",
             "alias": "Sitio de recolección de lágrimas.",
@@ -350,7 +349,7 @@
             "combinations": [
                 "Fengchi (VB 20), Taiyang (extra):  A un cun posterior del cruce de la prolongación de las lineas: cola de la ceja y angulo externo del ojo: cefalea, trqastornos oculares, hipertensión Degeneración del nervio óptico.",
                 "Ganshu (V 18), Shenshu (V 23): Ceguera nocturna.",
-                "Taiyang (extra), Erjian (IG 2), Zanzhu (V 2): Inflamación y enrojecimiento de ojos."                            
+                "Taiyang (extra), Erjian (IG 2), Zanzhu (V 2): Inflamación y enrojecimiento de ojos."
             ],
             "remark": "Este punto nunca se moxa; es punto de reunión de los vasos extraordinarios Yang Qiao y Ren Mai.\n Otros nombres que recibe este punto : Xie Xie (Punto de separación de pequeños músculos) y Mian Liao (Orificio de la cara)."
         },
@@ -366,7 +365,7 @@
                 "Renzhong (DM 26), Hegu (IG 4): Tic facial.",
                 "Fengchi (VB 20), Taiyang (extra), Hegu (IG 4): Miopía.",
                 "Fengchi (VB 20), Xiaguan (E 7), Hegu (IG 4): Neuralgia del trigémino.",
-                "Fengchi (VB 20), Dashu (V 11): Cefalea, mareo y visión borrosa."                
+                "Fengchi (VB 20), Dashu (V 11): Cefalea, mareo y visión borrosa."
             ],
             "remark": "Totalmente contraindicada la inserción profunda, en este punto está indicada la moxibustión."
         },
@@ -435,7 +434,7 @@
             "puncture": "Perpendicular de 0.3 a 1 cun. La moxibustión está indicada.",
             "combinations": [
                 "Yifeng (SJ 17), Tinggong (ID 19): Otitis.",
-                "Yangxi (IG 5), Yemen (SJ 2): Tinnitus, sordera."            
+                "Yangxi (IG 5), Yemen (SJ 2): Tinnitus, sordera."
             ],
             "remark": "Es el punto de reunión del Yang-Ming del pie y Shao-Yang del pie (E-VB)."
         },
@@ -451,7 +450,7 @@
                 "Chengqi (E 1), Fengchi (VB 20): Lagrimeo por viento.",
                 "Daling (PC 7): Dolor de cabeza. -Sensación de que se quiebra",
                 "Fengchi (VB 20), Lieque (P 7): Cefalea por viento frío.",
-                "Jingming (V 1), Fengchi (VB 20): Visión borrosa."                
+                "Jingming (V 1), Fengchi (VB 20): Visión borrosa."
             ],
             "remark": "Punto de confluencia de los canales Shaoyang de pie y Yangwei."
         },
@@ -467,7 +466,7 @@
                 "Yunmen (P 2), Houxi (ID 3): Vómito de sangre.",
                 "Zhongwan (RM 12), Qihai (RM 6), Shangjuxu (E 37): Ptosis de estómago.",
                 "Qihai (RM 6), Shangjuxu (E 37): Evacuaciones semipastosas con moco.",
-                "Zhongwan (RM 12), Gongsun (B 4), Zusanli (E 36), Neiguan (PC 6): Mala digestión."                
+                "Zhongwan (RM 12), Gongsun (B 4), Zusanli (E 36), Neiguan (PC 6): Mala digestión."
             ],
             "remark": ""
         },
@@ -481,7 +480,7 @@
             "puncture": "Perpendicular 0.7 a 1.2 cun. La moxibustión está indicada.",
             "combinations": [
                 "Guanyuan (RM 4), Shangjuxu (E 37): Disentería.",
-                "Zhigou (SJ 6), Quchi (IG 11): Estreñimiento."                                                
+                "Zhigou (SJ 6), Quchi (IG 11): Estreñimiento."
             ],
             "remark": "Este es el punto Mu frontal de IG. Recibe otros nombres como el de Chang-xi (Separación muscular) y Gu-men (Puerta hondonada). Sirve de referencia para la localización de los puntos que se halla en el abdomen inferior (hipogástrio). La distancia de Tian-shu a Qichong es de 5 cun."
         },
@@ -496,7 +495,7 @@
             "combinations": [
                 "Zusanli (E 36), Shuifen (RM 9), Sanyinjiao (B 6): Ascitis.",
                 "Baihui (DM 20), Sanyinjiao (B 6): Enuresis, anuria.",
-                "Shenshu (V 23), Sanyinjiao (B 6): Nefritis."                                
+                "Shenshu (V 23), Sanyinjiao (B 6): Nefritis."
             ],
             "remark": ""
         },
@@ -555,7 +554,7 @@
                 "Liangqiu (E 34), Yanglingquan (VB 34), Xuehai (B 10): Dolor de rodilla."
             ],
             "remark": "Otro nombre que recibe este punto es Xi Yang externo."
-        },        
+        },
         {
             "id": 36,
             "name": "Zu San Li.",
@@ -572,7 +571,7 @@
                 "Quchi (IG 11): Enfermedades crónicas."
             ],
             "remark": "Punto Mar inferior de estómago. Punto Mar y Tierra. Punto general para tratamiento de problemas digestivos."
-        },        
+        },
         {
             "id": 37,
             "name": "Shang Ju Xu.",
@@ -609,7 +608,7 @@
             "puncture": "Perpendicular de 0.5 a 1 cun. Se puede moxar.",
             "combinations": [
                 "Taichong (H 3), Feishu (V 13): Flema abundante.",
-                "Fuliu (R 7): Edema articular."                
+                "Fuliu (R 7): Edema articular."
             ],
             "remark": "Es el punto Luo (conexión) del canal."
         },
@@ -625,7 +624,7 @@
                 "Yaoshu (DM 2): Recupera la energía.",
                 "Shangqiu (B 5): Pie baro.",
                 "Qiuxu (VB 40): Pie valgo.",
-                "Baihui (DM 20), Taichong (H 3), Yintang (extra): Cefalea y mareo."                
+                "Baihui (DM 20), Taichong (H 3), Yintang (extra): Cefalea y mareo."
             ],
             "remark": "Es el punto Río, fuego y punto tonificante del canal."
         },
@@ -641,7 +640,7 @@
                 "Shenmen (C 7), Fenglong (E 40), Houxi (ID 3): Esquizofrenia, delirio.",
                 "Neiguan (PC 6), Zusanli (E 36): Distensión abdominal, hiporexia.",
                 "Weizhong (V 40), Fengchi (VB 20), Neiguan (PC 6), Yinlingquan (B 9): Edema de cara y cabeza.",
-                "Tiaokou (E 38): Atrofia de miembros inferiores, dolor de pie."                
+                "Tiaokou (E 38): Atrofia de miembros inferiores, dolor de pie."
             ],
             "remark": "Es el punto Yuan, fuente u origen del canal."
         },
@@ -654,7 +653,7 @@
             "directions": "Edema facial o generalizado, borborigmos, dolor abdominal, dolor y edema del dorso del pie. Congestión ocular, fiebre intermitente y sudores nocturnos, distensión abdominal, vómito de agua.",
             "puncture": "Perpendicular 0.5 a 0.7 cun, se puede moxar.",
             "combinations": [
-                "Zusanli (E 36), Yinlingquan (B 9), Neiguan (PC 6): Edema palpebral."                
+                "Zusanli (E 36), Yinlingquan (B 9), Neiguan (PC 6): Edema palpebral."
             ],
             "remark": "Es el punto Shu (arroyo) y madera del canal."
         },
@@ -670,7 +669,7 @@
                 "Xiaguan (E 7): Dolor de diente superior. ",
                 "Hegu (IG 4): Dolor e inflamación de garganta.",
                 "Fengchi (VB 20), Yingxiang (IG 20): Epistaxis.",
-                "Zusanli (E 36): Colitis, distensión abdominal."                
+                "Zusanli (E 36): Colitis, distensión abdominal."
             ],
             "remark": "Es el punto manantial y  agua del canal."
         },
@@ -684,10 +683,11 @@
             "puncture": "Oblicua de 0.1 cun. Se puede moxar.",
             "combinations": [],
             "remark": "Es el punto Pozo, Metal y dispersante del canal."
-        }       
-    ],
-    "canal del bazo": [
-        {
+        }
+    ]
+},
+{
+    "canal del bazo": [{
             "id": 45,
             "name": "Yin Bai.",
             "alias": "El blanco oculto.",
@@ -736,7 +736,7 @@
                 "Neiguan (PC 6), Zusanli (E 36): Disentería, inflamación de estómago e intestinos.",
                 "Tianshu (E 25), Dachangshu (V 25): Estreñimiento.",
                 "Gongsun (B 4): Inflamación abdominal.",
-                "Fenglong (E 40): Pesadez del cuerpo y dolor costal."                
+                "Fenglong (E 40): Pesadez del cuerpo y dolor costal."
             ],
             "remark": "Punto Shu Arroyo, Yuan Fuente u Origen y Tierra."
         },
@@ -751,7 +751,7 @@
             "combinations": [
                 "Zusanli (E 36), Xiangu (E 43): Alteraciones de la energía en pie, hernia.",
                 "Neiguan (PC 6): Dolor en corazón.",
-                "Baihui (DM 20), Renzhong (DM 26), Hegu (IG 4), Taichong (H 3), Zusanli (E 36): Epilepsia."                
+                "Baihui (DM 20), Renzhong (DM 26), Hegu (IG 4), Taichong (H 3), Zusanli (E 36): Epilepsia."
             ],
             "remark": "Punto Luo Enlace. Punto de reunión con el canal Chongmai."
         },
@@ -767,7 +767,7 @@
                 "Zhongwang (RM 12), Weishu (V 21), Pishu (V 20): Convulsiones infantiles.",
                 "Chengshan (V 57): Hemorroides y constipación.",
                 "Sanyinjiao (B 6), Guilai (E 29): Esterilidad.",
-                "Lianquan (RM 23): Dificultad al hablar."                
+                "Lianquan (RM 23): Dificultad al hablar."
             ],
             "remark": "Punto Jing Río y Metal."
         },
@@ -805,7 +805,7 @@
             "puncture": "Perpendicular 0.5 a 1 cun.",
             "combinations": [
                 "Ququan (H 8): Masas por hematoma.",
-                "Daling (PC 7): Histeria."                                                
+                "Daling (PC 7): Histeria."
             ],
             "remark": ""
         },
@@ -820,7 +820,7 @@
             "combinations": [
                 "Xuehai (B 10): Menstruación irregular.",
                 "Sanyinjiao (B 6), Zhongji (RM 3): Dismenorrea.",
-                "Shenshu (V 23), Guanyuan (RM 4): Emisión seminal, dolor lumbar, leucorrea."                
+                "Shenshu (V 23), Guanyuan (RM 4): Emisión seminal, dolor lumbar, leucorrea."
             ],
             "remark": "Punto Xi -hendidura."
         },
@@ -860,9 +860,10 @@
             ],
             "remark": ""
         }
-    ],
-    "canal del corazón": [
-        {
+    ]
+},
+{
+    "canal del corazón": [{
             "id": 55,
             "name": "Ji Quan.",
             "alias": "Estanque profundo.",
@@ -873,7 +874,7 @@
             "combinations": [
                 "Xiabai (P 4): Náuseas.",
                 "Neiguan (PC 6): Parálisis de brazo.",
-                "Lingtai (DM 10), Lingdao (C 4), Qingling (C 2): Tristeza y depresión."                                                
+                "Lingtai (DM 10), Lingdao (C 4), Qingling (C 2): Tristeza y depresión."
             ],
             "remark": ""
         },
@@ -887,7 +888,7 @@
             "puncture": "De 0.5 a 1 cun.",
             "combinations": [
                 "Neiting (E 44), Hegu (IG 4): Calosfríos.",
-                "Shousanli (IG 10): Adormecimiento de miembros superiores."                                                
+                "Shousanli (IG 10): Adormecimiento de miembros superiores."
             ],
             "remark": "Punto He-Mar. Agua."
         },
@@ -917,7 +918,7 @@
                 "Xinshu (V 15): Dolor de corazón e inflamación.",
                 "Neiguan (PC 6), Yingchuan (E 16), Rugen (E 18): Dolor precordial.",
                 "Shenmen (C 7): Locura.",
-                "Xinshu (V 15), Neiguan (PC 6): Cardialgia."                
+                "Xinshu (V 15), Neiguan (PC 6): Cardialgia."
             ],
             "remark": "Punto Luo o Pasaje."
         },
@@ -932,7 +933,7 @@
             "combinations": [
                 "Neiguan (PC 6), Xinshu (V 15): Plétora en tórax.",
                 "Dazhui (DM 14): Agotamiento.",
-                "Houxi (ID 3): Sudor nocturno."                                
+                "Houxi (ID 3): Sudor nocturno."
             ],
             "remark": "Punto Hendidura."
         },
@@ -947,7 +948,7 @@
             "combinations": [
                 "Shaoshang (P 11), Yongquan (R 1), Xinshu (V 15): Locura.",
                 "Yintang (extraord), Fengchi (VB 20), Baihui (DM 20): Alteraciones de la memoria.",
-                "Neiguan (PC 6), Sanyinjiao (B 6), Yintang (extraord): Histeria, palpitación e insomnio."                                
+                "Neiguan (PC 6), Sanyinjiao (B 6), Yintang (extraord): Histeria, palpitación e insomnio."
             ],
             "remark": "Punto Arroyo, Yuan, Tierra, dispersante."
         },
@@ -962,7 +963,7 @@
             "combinations": [
                 "Ligou (H 5): Prurito vulvar.",
                 "Neiguan (PC 6): Dolor de tórax.",
-                "Weizhong (V 40): Polaquiuria por calor humedad."                                
+                "Weizhong (V 40): Polaquiuria por calor humedad."
             ],
             "remark": "Punto Manantial y Fuego."
         },
@@ -977,13 +978,14 @@
             "combinations": [
                 "Renzhong (DM 26), Hegu (IG 4), Zusanli (E 36): Coma.",
                 "Daling (PC 7): Dolor de corazón.",
-                "Hegu (IG 4), Taichong (H 3): Convulsiones."                                
+                "Hegu (IG 4), Taichong (H 3): Convulsiones."
             ],
             "remark": "Punto Pozo y Madera. Punto Madre."
         }
-    ],
-    "canal del intestino delgado": [
-        {
+    ]
+},
+{
+    "canal del intestino delgado": [{
             "id": 63,
             "name": "Shao Ze.",
             "alias": "Pequeño estancamiento de agua.",
@@ -994,7 +996,7 @@
             "combinations": [
                 "Hegu (IG 4), Tianzong (ID 11): para hipogalactia.",
                 "Yifeng (SJ 17) y Tinggong (ID 19): para tinnitus, sordera.",
-                "Punto Pozo y Metal del ID."                                
+                "Punto Pozo y Metal del ID."
             ],
             "remark": ""
         },
@@ -1023,7 +1025,7 @@
             "combinations": [
                 "Tianzong (ID 11), Jianyu (IG 11): para dolor de hombro y espalda por viento húmedo.",
                 "Huantiao (VB 30): para dolor e inflamación en la pierna por calor.",
-                "Jianshi (PC 5), Dazhui (DM 5): Malaria recidivante."                                
+                "Jianshi (PC 5), Dazhui (DM 5): Malaria recidivante."
             ],
             "remark": "Punto Arroyo, Madera, Tonificante."
         },
@@ -1038,7 +1040,7 @@
             "combinations": [
                 "Tinggong (ID 19), Yifeng (SJ 17): Tinnitus y sordera.",
                 "Waiguan (SJ 5), Yongquan (R 1), Shenmai (V 62): Ictericia.",
-                "Zusanli (E 36) y Pishu (V 20): para diabetes."                                
+                "Zusanli (E 36) y Pishu (V 20): para diabetes."
             ],
             "remark": "Punto Yuan."
         },
@@ -1066,7 +1068,7 @@
             "puncture": "Perpendicular 3 a 5 cun, se moxa de 10 a 15 minutos.",
             "combinations": [
                 "Fengchi (VB 20): para tortícolis.",
-                "Neiguan (PC 6): Hipo."                
+                "Neiguan (PC 6): Hipo."
             ],
             "remark": "Punto Xi-Hendidura."
         },
@@ -1081,7 +1083,7 @@
             "combinations": [
                 "Sanjiaoshu (V 22): Cefalea y visión borrosa.",
                 "Neiguan (PC 6), Renzhong (DM 26): Calor interno.",
-                "Quchi (IG 11): Contractura del codo."                                
+                "Quchi (IG 11): Contractura del codo."
             ],
             "remark": "Corresponde al Punto Luo."
         },
@@ -1110,7 +1112,7 @@
             "combinations": [
                 "Naohui (SJ 13), Quyuan (ID 13): Dolor de hombro y escápula.",
                 "Tianzong (ID 11), Jianwaishu (ID 14): Incapacidad para levantar el brazo.",
-                "Jianyu (IG 15), Jianliao (SJ 14), Tianzong (ID 11): Inflamación del hombro."                                
+                "Jianyu (IG 15), Jianliao (SJ 14), Tianzong (ID 11): Inflamación del hombro."
             ],
             "remark": ""
         },
@@ -1124,7 +1126,7 @@
             "puncture": "Perpendicular 5 cun a 1 cun.",
             "combinations": [
                 "Jianyu (IG 15), Binao (IG 14), Yanglao (ID 6): Dolor de hombro.",
-                "Jianyu (IG 15), Quchi (IG 11), Tianzong (ID 11): Dolor escapular."                                                
+                "Jianyu (IG 15), Quchi (IG 11), Tianzong (ID 11): Dolor escapular."
             ],
             "remark": "Conecta con los canales extraordinarios Yangwei y Yangqiao."
         },
@@ -1139,7 +1141,7 @@
             "combinations": [
                 "Hegu (IG 4), Renzhong (DM 26): Tics general.",
                 "Daying (E 5): Tics del ojo.",
-                "Neiting (E 44), Xiaguan (E 7): Odontalgia."                                
+                "Neiting (E 44), Xiaguan (E 7): Odontalgia."
             ],
             "remark": ""
         },
@@ -1154,13 +1156,14 @@
             "combinations": [
                 "Tinghui (VB 2), Yifeng (SJ 17): Tinnitus, sordera.",
                 "Yifeng (SJ 17): Otitis media.",
-                "Xiaguan (E 7): Artritis mandibular."                                
+                "Xiaguan (E 7): Artritis mandibular."
             ],
             "remark": "Reune al TC y a VB."
         }
-    ],
-    "canal de la vejiga": [
-        {
+    ]
+},
+{
+    "canal de la vejiga": [{
             "id": 75,
             "name": "Jing Ming.",
             "alias": "Globo ocular claro, luminoso.",
@@ -1253,7 +1256,7 @@
                 "Daodao (DM 13): Gripe contagiosa.",
                 "Tanzhong (RM 17): Tos asmática.",
                 "Quchi (IG 11), Xuehai (B 10): Urticaria.",
-                "Fengchi (VB 20), Lieque (P 7): Gripe por viento."                
+                "Fengchi (VB 20), Lieque (P 7): Gripe por viento."
             ],
             "remark": ""
         },
@@ -1268,7 +1271,7 @@
             "combinations": [
                 "Taiyuan (P 9), Kongzui (P 6): Tos.",
                 "Yingxiang (IG 20): Rinorrea.",
-                "Tanzhong (RM 17): Asma y tos."                                
+                "Tanzhong (RM 17): Asma y tos."
             ],
             "remark": ""
         },
@@ -1282,7 +1285,7 @@
             "puncture": "Oblicua 0.5 cun. Se puede moxar.",
             "combinations": [
                 "Shenmen (C 7), Linqi de pie (VB 41): Dolor de corazón.",
-                "Jinggu (V 64): Pericarditis."                
+                "Jinggu (V 64): Pericarditis."
             ],
             "remark": ""
         },
@@ -1297,7 +1300,7 @@
             "combinations": [
                 "Tanzhong(RM 17): Tos, respiración entrecortada.",
                 "Jueyinshu (V 14): Dolor de corazón.",
-                "Shenmen (C 7): Sonambulismo."                                
+                "Shenmen (C 7): Sonambulismo."
             ],
             "remark": ""
         },
@@ -1350,7 +1353,7 @@
             "directions": "Ictericia, boca amarga, vómito, distensión y dolor a nivel de costillas, dolor de garganta, problemas de ojos, fastidio, insomnio, desciende los alimentos, colecistitis, espasmo en colédoco, u obstrucción por litiasis o parásitos, gastritis.",
             "puncture": "Oblicua a 0.5 cun. Se puede moxar.",
             "combinations": [
-                "Kunlun (V 60), Zusanli (E 36): Sensación de calor y sequedad interna."                    
+                "Kunlun (V 60), Zusanli (E 36): Sensación de calor y sequedad interna."
             ],
             "remark": ""
         },
@@ -1407,7 +1410,7 @@
             "combinations": [
                 "Zhongji (RM 3), Guanyuan (RM 4): Espermatorrea, impotencia.",
                 "Shuifen (RM 9): Edema general.",
-                "Bailao (extra): Lumbago."                                
+                "Bailao (extra): Lumbago."
             ],
             "remark": ""
         },
@@ -1546,7 +1549,7 @@
             "puncture": "Perpendicular a 0.3 cun. Se puede moxar.",
             "combinations": [
                 "Yingxiang (IG 20): Epistaxis.",
-                "Kunlun (V 60): Dolor de cintura, debilidad de piernas y pie varo."                                                
+                "Kunlun (V 60): Dolor de cintura, debilidad de piernas y pie varo."
             ],
             "remark": "Punto de reunión con el canal Yangqiao."
         },
@@ -1612,13 +1615,14 @@
             "directions": "Cefalea, obstrucción nasal, epistaxis, dolor de los ojos, sensación de calor en las plantas, parto difícil, cuando el feto está en posición transversa.",
             "puncture": "Oblicua a 0.1 cun. Se puede moxar.",
             "combinations": [
-                "Lieque (P 7): Cefalea coronal."                
+                "Lieque (P 7): Cefalea coronal."
             ],
             "remark": "Punto Jing pozo y metal. Punto Madre, tonificante. Moxado desde la 38a. semana de gestación corrige la distocia de posición."
         }
-    ],
-    "canal del riñón": [
-        {
+    ]
+},
+{
+    "canal del riñón": [{
             "id": 108,
             "name": "Yong Quan.",
             "alias": "La fuente que brota.",
@@ -1628,7 +1632,7 @@
             "puncture": "Perpendicular de 0.3 a 0.5 cun, se puede moxar, hay que masajearlo antes de picarlo porque es muy doloroso, se hace con aguja delgada y se usa poco.",
             "combinations": [
                 "Taichong (H 3), Dazhong (R 4): Dolor de garganta.",
-                "Rangu (R 2): Mudez."            
+                "Rangu (R 2): Mudez."
             ],
             "remark": "Punto Pozo, elemento Madera. Punto Hijo dispersante."
         },
@@ -1682,7 +1686,7 @@
             "directions": "Dismenorrea, desequilibrio menstrual, prolapso uterino,  obstrucción urinaria, desmayo con sensación de ver negro, los ojos no brillan.",
             "puncture": "Perpendicular a 0.5 cun, se puede moxar.",
             "combinations": [
-                "Sanyinjiao (B 6): Dismenorrea."                
+                "Sanyinjiao (B 6): Dismenorrea."
             ],
             "remark": "Punto Xi hendidura."
         },
@@ -1723,13 +1727,14 @@
             "combinations": [
                 "Sanyinjiao (B 6): Impotencia.",
                 "Yinlingquan (B 9): Disuria.",
-                "Zusanli (E 36): Gastroenteritis."                                
+                "Zusanli (E 36): Gastroenteritis."
             ],
             "remark": "Es un punto excelente para problemas menstruales. Punto He-Mar, elemento agua del canal."
         }
-    ],
-    "canal del pericardio": [
-        {
+    ]
+},
+{
+    "canal del pericardio": [{
             "id": 116,
             "name": "Qu Ze.",
             "alias": "Estanque curvo.",
@@ -1768,7 +1773,7 @@
             "puncture": "Punción: 0.5 a 1 cun. Se puede aplicar moxibustión.",
             "combinations": [
                 "Dazhui (DM 14): Paludismo.",
-                "Houxi (ID 3), Hegu (IG 4): Alteraciones mentales."            
+                "Houxi (ID 3), Hegu (IG 4): Alteraciones mentales."
             ],
             "remark": "Es el Punto Río-Metal."
         },
@@ -1783,7 +1788,7 @@
             "combinations": [
                 "Gongsun (B 4): Para irritabilidad.",
                 "Tanzhong (RM 17): Suspiros y opresión de pecho.",
-                "Zusanli (E 36), Sanyinjiao (B 6): Tonificar el bazo."                                
+                "Zusanli (E 36), Sanyinjiao (B 6): Tonificar el bazo."
             ],
             "remark": "Es el punto Luo o enlace, es uno de los 8 puntos de cruce."
         },
@@ -1809,7 +1814,7 @@
             "directions": "Dolor de corazón, trastornos mentales, maniacos, epilepsia, úlcera labial, halitosis, fuego del estómago, hemorragia cerebral.",
             "puncture": "Vertical 0.3 a 0.5 cun.",
             "combinations": [
-                "Neiguan (PC 6), Wangu (ID 4): Aftas y úlcera bucal."                
+                "Neiguan (PC 6), Wangu (ID 4): Aftas y úlcera bucal."
             ],
             "remark": "Punto manantial, elemento Fuego."
         },
@@ -1827,9 +1832,10 @@
             ],
             "remark": "Punto Pozo-Madera, punto Madre tonificante."
         }
-    ],
-    "canal de sanjiao": [
-        {
+    ]
+},
+{
+    "canal de sanjiao": [{
             "id": 123,
             "name": "Guan Chong.",
             "alias": "Ruta en movimiento.",
@@ -1853,7 +1859,7 @@
             "combinations": [
                 "Tinggong (ID 19), Ermen (SJ 21): para acúfenos y baja de la agudeza auditiva.",
                 "Taiyang (extra), Fengchi (VB 20): para cefalea temporal.",
-                "Baihui (DM 20), Renzhong (DM 26) y Daling (PC 7): para alteraciones mentales."               
+                "Baihui (DM 20), Renzhong (DM 26) y Daling (PC 7): para alteraciones mentales."
             ],
             "remark": "Es punto manantial, elemento Agua."
         },
@@ -1883,7 +1889,7 @@
             "combinations": [
                 "Yanggu (ID 5), Yanglao (ID 6): Dolor de la muñeca.",
                 "Dazhui (DM 14), Hegu (IG 4),Fengchi (VB 20): Gripe",
-                "Dazhui (DM 14), Fengmen (V 12): Enfermedades febriles sin sudor."                                
+                "Dazhui (DM 14), Fengmen (V 12): Enfermedades febriles sin sudor."
             ],
             "remark": "Es el punto Yuan."
         },
@@ -1899,7 +1905,7 @@
                 "Jianyu (IG 15), Quchi (IG 11), Shanglian (IG 9), Hegu (IG 4): Trastornos motores del brazo.",
                 "Dazhui (DM 14), Fengchi (VB 20), Hegu (IG 4): Fiebre y gripe.",
                 "Tinggong (ID 19): Sordera y tinnitus.",
-                "Chize (P 5): Temblor de mano."             
+                "Chize (P 5): Temblor de mano."
             ],
             "remark": "Es el punto Luo. Es punto maestro del Yang, conecta con el canal Yangwei."
         },
@@ -1915,7 +1921,7 @@
                 "Renzhong (DM 26), Zhongchong (PC 9), Shanzhong (RM 17), Hegu (IG 4): Desmayo y coma.",
                 "Zusanli (E 36), Tianshu (E 25): Constipación crónica.",
                 "Yanglingquan (VB 34): Dolor en hipocondrio.",
-                "Tianshu (E 25), Dachangshu (V 25), Zhaohai (R 6): Estreñimiento."            
+                "Tianshu (E 25), Dachangshu (V 25), Zhaohai (R 6): Estreñimiento."
             ],
             "remark": "Es punto Río, elemento Fuego."
         },
@@ -1944,7 +1950,7 @@
                 "Shaohai (C 3), Quchi (IG 11), Chize (P 5): Dolor de codo.",
                 "Shaohai (C 3): Abscesos.",
                 "Fenglong (E 40), Yuji (P 10): Tos y expectoración.",
-                "Xuehai (B 10), Quchi (IG 11): Exantemas."                
+                "Xuehai (B 10), Quchi (IG 11): Exantemas."
             ],
             "remark": "Es punto Mar, elemento Tierra y punto Hijo, dispersante."
         },
@@ -1986,7 +1992,7 @@
             "combinations": [
                 "Sanyangluo (SJ 8), Ermen (SJ 21), Taixi (R 3): Tinnitus y sordera.",
                 "Yanglingquan (VB 34): Cefalea temporal.",
-                "Shenmen (C 7), Taixi (R 3): Miedos."                                
+                "Shenmen (C 7), Taixi (R 3): Miedos."
             ],
             "remark": ""
         },
@@ -2031,7 +2037,7 @@
                 "Waiguan (SJ 5): Sordera.",
                 "Heliao (SJ 22): Odontalgia superior.",
                 "Heliao (SJ 22), Tinghui (VB 2): Artritis temporomandibular.",
-                "Tinghui (VB 2), Tinggong (ID 19), Zhongzhu (SJ 3): Sordera."            
+                "Tinghui (VB 2), Tinggong (ID 19), Zhongzhu (SJ 3): Sordera."
             ],
             "remark": ""
         },
@@ -2049,9 +2055,10 @@
             ],
             "remark": ""
         }
-    ],
-    "canal de la vesicula biliar": [
-        {
+    ]
+},
+{
+    "canal de la vesicula biliar": [{
             "id": 138,
             "name": "Tong Zi Liao.",
             "alias": "Orificio de la pupila.",
@@ -2062,7 +2069,7 @@
             "combinations": [
                 "Xiaguan (E 7), Zanzhu (V 2), Jiache (E 6): Desviación de boca y ojo.",
                 "Ganshu (V 18), Jingming (V 1), Taiyang (extra), Fengchi (VB 20): Derrame conjuntival, atrofia del nervio óptico.",
-                "Zanzhu  (V 2), Fengchi (VB 20): Cefalea."                                
+                "Zanzhu  (V 2), Fengchi (VB 20): Cefalea."
             ],
             "remark": "Punto de reunión con triple calentador e intestino grueso."
         },
@@ -2102,7 +2109,7 @@
             "directions": "Cefalea hemicraneal cuando hay dolor gástrico, llenura postprandial con vómito, crisis convulsivas, parálisis facial.",
             "puncture": "Subcutánea de 0.5 cun.",
             "combinations": [
-                "Waiguan (SJ 5), Yifeng (SJ 17), Tinghui (VB 2): Mareo y vértigo."            
+                "Waiguan (SJ 5), Yifeng (SJ 17), Tinghui (VB 2): Mareo y vértigo."
             ],
             "remark": "Punto de reunión con el canal de vejiga."
         },
@@ -2200,7 +2207,7 @@
             "directions": "Lumbalgia, ciática, hemiplejia, síndromes dolorosos causados por viento, frío, combinados, o por síndrome de viento húmedo, edemas, dolor de articulaciones en miembros inferiores.",
             "puncture": "Perpendicular, de 1 a 3 cun, se debe sentir la sensación hasta la punta del dedo. Se puede moxar de 15 a 20 minutos.",
             "combinations": [
-                "Weizhong (V 40) y Sanyinjiao (B 6): Ciática."                
+                "Weizhong (V 40) y Sanyinjiao (B 6): Ciática."
             ],
             "remark": ""
         },
@@ -2252,7 +2259,7 @@
             "directions": "Dolor de rodilla, síndrome obstructivo y distrofia de la pierna, dolor ocular, nictalopía, toda enfermedad de los ojos, enfermedades mentales, ceguera.",
             "puncture": "Perpendicular, de 1 a 1.5 cun, se puede moxar.",
             "combinations": [
-                "Ganshu (V 18), Fengchi (VB 20), Taichong (H 3) y Jingming (V 1): Alteraciones de los ojos."                
+                "Ganshu (V 18), Fengchi (VB 20), Taichong (H 3) y Jingming (V 1): Alteraciones de los ojos."
             ],
             "remark": "Es el punto Luo del canal."
         },
@@ -2304,7 +2311,7 @@
             "directions": "Dolor en ángulo externo del ojo, mareo, dolor costal, forúnculos, linfangitis, tuberculosis o escrófula, dolor e inflamación de los senos, problemas de menstruación, inflamación y dolor de tobillo y pie, paludismo, incontinencia urinaria.",
             "puncture": "Perpendicular de 0.3 a 0.5 cun, se puede moxar.",
             "combinations": [
-                "Hegu (IG 4), Taichong (H 3), Baihui (DM 20), Taiyang (extra): Migraña."            
+                "Hegu (IG 4), Taichong (H 3), Baihui (DM 20), Taiyang (extra): Migraña."
             ],
             "remark": "Es punto arroyo del meridiano Shaoyang del pie, punto de apertura del meridiano Dai. Punto elemento madera."
         },
@@ -2330,13 +2337,14 @@
             "directions": "Dolor de cabeza, irritabilidad cardiaca, acúfenos, sordera, síndrome de obstrucción, rigidez de lengua, dolor costal, problemas menstruales.",
             "puncture": "Oblicua 0.1 cun, se puede moxar.",
             "combinations": [
-                "Renzhong (DM 26), Baihui (DM 20): Pérdida de conocimiento."                
+                "Renzhong (DM 26), Baihui (DM 20): Pérdida de conocimiento."
             ],
             "remark": "Es el punto pozo del canal y elemento metal."
-        }        
-    ],
-    "canal del higado": [
-        {
+        }
+    ]
+},
+{
+    "canal del higado": [{
             "id": 159,
             "name": "Da Dun.",
             "alias": "Gran abundancia.",
@@ -2387,7 +2395,7 @@
             "directions": "Hernia, zona genital dolorosa, espermatorrea, obstrucción urinaria, ictericia, distensión, plenitud torácica y abdominal, dolor de espalda, pies fríos, maléolo interno doloroso.",
             "puncture": "2 a 3 Fen.",
             "combinations": [
-                "Geshu (V 17), Ganshu (V 18), Quchi (IG 11), Zusanli (E 36): Hepatitis."            
+                "Geshu (V 17), Ganshu (V 18), Quchi (IG 11), Zusanli (E 36): Hepatitis."
             ],
             "remark": "Punto Río, elemento metal."
         },
@@ -2400,7 +2408,7 @@
             "directions": "Problemas del ritmo menstrual, oligomenorrea, hipermenorrea, flujo rojo o blanco, prurito genital, hernia, dolor e inflamación de los testículos, plenitud pélvica, rigidez de espalda dorsal y lumbar, parte media de la pierna adolorida, leucorrea profusa.",
             "puncture": "Oblicua 1 a 2 Fen.",
             "combinations": [
-                "Sanyinjiao (B 6), Guanyuan (RM 4): Eyaculación precoz."                
+                "Sanyinjiao (B 6), Guanyuan (RM 4): Eyaculación precoz."
             ],
             "remark": "Es el punto Luo del canal."
         },
@@ -2453,13 +2461,14 @@
             "directions": "Dolor precordial, dolor en hipocondrio, distensión abdominal, opresión en el tórax, hipo, absceso mamario, estados febriles, neumonía, pleuresía, vómitos.",
             "puncture": "0.5 a 1 cun.",
             "combinations": [
-                "Rugen (E 18): Hipogalactia."                
+                "Rugen (E 18): Hipogalactia."
             ],
             "remark": "Punto de alarma o Mu del Hígado."
         }
-    ],
-    "canal du mai": [
-        {
+    ]
+},
+{
+    "canal du mai": [{
             "id": 168,
             "name": "Chang Qiang.",
             "alias": "Largo y Poderoso.",
@@ -2588,7 +2597,7 @@
                 "Fengchi (VB 20), Taichong (H 3): Cefalea, mareo, visión borrosa.",
                 "Tinggong (ID 19), Xinjian (H 2): Tinnitus.",
                 "Renzhong (DM 26), Neiguan (PC 6), Fengchi (VB 20): Disfunción nerviosa.",
-                "Zhiyin (V 67): Cefalea posterior."                
+                "Zhiyin (V 67): Cefalea posterior."
             ],
             "remark": "Punto de reunión con vejiga, vesícula biliar, sanjiao e hígado."
         },
@@ -2604,7 +2613,7 @@
                 "Shenmen (C 7), Sanyinjiao (B 6): Insomnio.",
                 "Lieque (P 7): Cefalea.",
                 "Neiguan (PC 6), Tongli (C 5): Palpitaciones.",
-                "Shangxing (DM 23), Jingming (V 1), Qianding (DM 21), Taiyang (extra): Conjuntivitis."                
+                "Shangxing (DM 23), Jingming (V 1), Qianding (DM 21), Taiyang (extra): Conjuntivitis."
             ],
             "remark": ""
         },
@@ -2629,9 +2638,10 @@
             ],
             "remark": ""
         }
-    ],
-    "canal ren mai": [
-        {
+    ]
+},
+{
+    "canal ren mai": [{
             "id": 177,
             "name": "Hui Yin.",
             "alias": "Reunión del Yin.",
@@ -2641,7 +2651,7 @@
             "puncture": "Perpendicular de 0.5 a 0.8 cun.",
             "combinations": [
                 "Sanyinjiao (B 6), Ligou (H 5): Prurito vaginal.",
-                "Chengshan (V 57), Weizhong (V 40): Hemorroides."                
+                "Chengshan (V 57), Weizhong (V 40): Hemorroides."
             ],
             "remark": "Punto de reunión con el DU MAI y el CHONG MAI."
         },
@@ -2709,7 +2719,7 @@
                 "Guanyuan (RM 4), Sanjiaoshu (V 22), Sanyinjiao (B 6): Alteración del aparato genitourinario.",
                 "Fenglong (E 40): Eliminar líquido.",
                 "Guanyuan (RM 4): Dolor abdominal postparto.",
-                "Dachangshu (V 25): Alteraciones en la evacuación."                
+                "Dachangshu (V 25): Alteraciones en la evacuación."
             ],
             "remark": "Punto Mu de Sanjiao."
         },
@@ -2740,7 +2750,7 @@
             "puncture": "Está prohibido usar aguja, sólo se moxa.",
             "combinations": [
                 "Guanyuan (RM 4): Apoplejia por deficiencia.",
-                "Shuifen (RM 9), Sanjian (IG 3): Diarrea y borborigmos."                
+                "Shuifen (RM 9), Sanjian (IG 3): Diarrea y borborigmos."
             ],
             "remark": "Este punto no se punciona, sólo se moxa, en urticaria aplicar ventosas."
         },
@@ -2804,7 +2814,7 @@
                 "Lianqiu (E 34), Neiguan (PC 6): Vómito.",
                 "Gongsun (B 4), Neiguan (PC 6): Gastralgia.",
                 "Jizhong (DM 6), Xuanshu (DM 5): Gastralgia.",
-                "Neiguan (PC 6),Xinshu (V 15): Dolor de corazón."                
+                "Neiguan (PC 6),Xinshu (V 15): Dolor de corazón."
             ],
             "remark": ""
         },
@@ -2837,7 +2847,7 @@
                 "Houxi (ID 3), Shenmen (C 7): Epilepsia.",
                 "Geshu (V 17): Hipo.",
                 "Houxi (ID 3), Yongquan (R 1), Xinshu (V 15), Zusanli (E 36), Taichong (H 3): Epilepsia.",
-                "Shenmen (C 7), Neiguan (PC 6), Fenglong (E 40). Epilepsia y locura."                
+                "Shenmen (C 7), Neiguan (PC 6), Fenglong (E 40). Epilepsia y locura."
             ],
             "remark": "Es el punto Luo del canal."
         },
@@ -2886,7 +2896,7 @@
             "combinations": [
                 "Fengchi (VB 20): Obstrucción de garganta.",
                 "Renzhong (DM 26), Waiguan (SJ 5):  Afonía en histeria.",
-                "Fengchi (VB 20), Jinjin, yuye  (extra): Sangrado, parálisis de la lengua."                                
+                "Fengchi (VB 20), Jinjin, yuye  (extra): Sangrado, parálisis de la lengua."
             ],
             "remark": ""
         },
@@ -2902,9 +2912,10 @@
                 "Jiache (E 6), Dicang (E 4), Yingxiang (IG 20), Quanliao (ID 18): Parálisis facial.",
                 "Punción de Chengjiang (RM 24) hasta Dicang (E 4): Parálisis facial en boca.",
                 "Hegu (IG 4), Jiache (E 6): Odontalgia.",
-                "Lianguan (RM 23): Sialorrea."                
+                "Lianguan (RM 23): Sialorrea."
             ],
             "remark": "Punto de unión con canal de estómago."
         }
     ]
 }
+]
