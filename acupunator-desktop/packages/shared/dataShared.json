@@ -1,10 +1,8 @@
-{
-    "simulation": [
-        {
-            "tipo": "Evaluación",
-            "canal": "Pecho",
-            "numBoleta": "2345678999",
-            "rol": "Alumno"
-        }
-    ]
-}
+[
+    {
+        "tipo": "Evaluación",
+        "canal": "canal de la vejiga",
+        "numBoleta": "9876543210",
+        "rol": "Alumno"
+    }
+]

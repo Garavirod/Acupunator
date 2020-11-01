@@ -97,9 +97,8 @@ class SimuladorWindow(QMainWindow):
         # ruta a guaradar el arichivo JSON
         path = os.path.dirname(os.path.abspath(__package__))+'/packages/shared/dataShared.json'
         # Estructura del JSON
-        data = {}
-        data['simulation']=[]
-        data['simulation'].append(
+        data = []
+        data.append(
             {
                 'tipo' : tipo,
                 'canal' : canal,
