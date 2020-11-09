@@ -100,10 +100,10 @@ class SimuladorWindow(QMainWindow):
         data = []
         data.append(
             {
-                'tipo' : tipo,
-                'canal' : canal,
-                'numBoleta' : boleta,
-                'rol':rol
+                'Tipo' : tipo,
+                'Canal' : canal,
+                'NumBoleta' : boleta,
+                'Rol':rol
             }
         )
         with open(str(path), 'w+') as file:

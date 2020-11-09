@@ -1,8 +1,8 @@
 [
     {
-        "tipo": "Evaluación",
-        "canal": "canal de la vejiga",
-        "numBoleta": "9876543210",
-        "rol": "Alumno"
+        "Tipo": "Evaluación",
+        "Canal": "canal de la vejiga",
+        "NumBoleta": "9876543210",
+        "Rol": "Alumno"
     }
 ]
