@@ -17,6 +17,10 @@ namespace Acupunator
             //Impimirmos algunos elementos del Obj canal 
             Console.WriteLine(string.Format("Canal:> {0} Punto 1:>  {1} Alias del punto 1:> {2}", 
                 ObjjDeserialized.Name, ObjjDeserialized.Points[0].Name, ObjjDeserialized.Points[0].Alias));
+
+            Console.WriteLine(string.Format("Tipo:> {0} Canal:> {1} Rol:> {2} NumBoleta:>{3}",
+            objShared.Tipo, objShared.Canal,objShared.Rol, 
+            objShared.NumBoleta));                
         }
 
         /*
