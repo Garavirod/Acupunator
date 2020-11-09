@@ -9,9 +9,11 @@ namespace Acupunator
     {
         static void Main(string[] args)
         {
-            string data = getDataJson();
+            string data1 = getDataJson("c:/Users/Rodrigo García/Desktop/chanelsData.json");
+            string data2 = getDataJson("...../shared/dataShared.json");
             //Deserializamos el JSON y obtenemos un obj deserializado (SÓLO EL CANL DEL PULMÓN)
-            Chanel ObjjDeserialized = DeserializeData(data); 
+            Chanel ObjjDeserialized = DeserializeData(data1); //Canales
+            SharedData objShared = DeserializeDataShared(data2); //Obj comparitod por desktop app
             //Impimirmos algunos elementos del Obj canal 
             Console.WriteLine(string.Format("Canal:> {0} Punto 1:>  {1} Alias del punto 1:> {2}", 
                 ObjjDeserialized.Name, ObjjDeserialized.Points[0].Name, ObjjDeserialized.Points[0].Alias));
@@ -20,10 +22,10 @@ namespace Acupunator
         /*
          * Éste método se encarga de parsear un arichivo JSON a una cadena de texto
         */
-        public static string getDataJson()
+        public static string getDataJson(string path)
         {
             string data;
-            using(var reader = new StreamReader("c:/Users/Rodrigo García/Desktop/chanelsData.json"))
+            using(var reader = new StreamReader(path))
             {
                 data = reader.ReadToEnd();
             }
@@ -38,6 +40,10 @@ namespace Acupunator
             var dataDeserialized = JsonConvert.DeserializeObject<List<Chanel>>(data);
             return dataDeserialized[0]; //Canal del pulmón
         }
+
+        private static SharedData DeserializeDataShared(string data){
+            var dataDeserialized = JsonConvert.DeserializeObject<List<SharedData>>(data);
+            return dataDeserialized[0]; //Obj compartido por desktop app        }
     }
 }
 
