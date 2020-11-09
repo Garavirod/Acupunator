@@ -37,13 +37,13 @@ namespace Acupunator
         /*
          * Este método deserializa una cadena de texto con formato JSON y lo mapea a clases previaente definidas
         */
-        private static Chanel DeserializeData(string data)
+        public static Chanel DeserializeData(string data)
         {            
             var dataDeserialized = JsonConvert.DeserializeObject<List<Chanel>>(data);
             return dataDeserialized[0]; //Canal del pulmón
         }
 
-        private static SharedData DeserializeDataShared(string data){
+        public static SharedData DeserializeDataShared(string data){
             var dataDeserialized = JsonConvert.DeserializeObject<List<SharedData>>(data);
             return dataDeserialized[0]; //Obj compartido por desktop app        }
     }
