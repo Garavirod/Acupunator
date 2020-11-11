@@ -103,7 +103,8 @@ class SimuladorWindow(QMainWindow):
                 'Tipo' : tipo,
                 'Canal' : canal,
                 'NumBoleta' : boleta,
-                'Rol':rol
+                'Rol':rol,
+                'Cal':0
             }
         )
         with open(str(path), 'w+') as file:

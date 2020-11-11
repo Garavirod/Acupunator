@@ -10,5 +10,6 @@ namespace Acupunator.Models
         public string Canal { get; set; }
         public string NumBoleta { get; set; }
         public string Rol { get; set; }
+        public float Cal { get; set; }
     }
 }

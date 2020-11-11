@@ -14,6 +14,7 @@ namespace Acupunator
             //Deserializamos el JSON y obtenemos un obj deserializado (SÓLO EL CANL DEL PULMÓN)
             Chanel ObjjDeserialized = DeserializeData(data1); //Canales
             SharedData objShared = DeserializeDataShared(data2); //Obj comparitod por desktop app
+            
             //Impimirmos algunos elementos del Obj canal 
             Console.WriteLine(string.Format("Canal:> {0} Punto 1:>  {1} Alias del punto 1:> {2}", 
                 ObjjDeserialized.Name, ObjjDeserialized.Points[0].Name, ObjjDeserialized.Points[0].Alias));
