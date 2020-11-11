@@ -3,6 +3,7 @@
         "Tipo": "Evaluación",
         "Canal": "canal de la vejiga",
         "NumBoleta": "9876543210",
-        "Rol": "Alumno"
+        "Rol": "Alumno",
+        "Cal":0
     }
 ]
