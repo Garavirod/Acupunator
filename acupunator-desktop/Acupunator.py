@@ -7,4 +7,4 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication([]) #Permite controlar el bucle del programa
     window = LoginWindow()
     window.show()
-    app.exec_() #El programa se cerrará inmediatemente al no estar esta linea
+    app.exec_() #El programa se cerrará inmediatamente al no estar esta linea
