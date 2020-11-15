@@ -95,7 +95,7 @@ class SimuladorWindow(QMainWindow):
     # Generá un arichivo JSON para compartir al simulador
     def generateJSONFile(self,rol,canal,tipo="",boleta=""):
         # ruta a guaradar el arichivo JSON
-        path = os.path.dirname(os.path.abspath(__package__))+'/packages/shared/dataShared.json'
+        path = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/dataShared.json'
         # Estructura del JSON
         data = []
         data.append(
@@ -149,6 +149,7 @@ class SimuladorWindow(QMainWindow):
     # LLena los canal de estudio en el combo
 
     def fillChanels(self):
-        canales = ["CANAL DEL PULMÓN","CANAL DEL INTESTINO GRUESO","CANAL DEL ESTOMAGO","CANAL DEL BAZO","CANAL DEL CORAZÓN","CANAL DEL INTESTINO DELGADO","CANAL DE LA VEJIGA","CANAL DEL RIÑÓN","CANAL DEL PERICARDIO","CANAL DE SANJIAO","CANAL DE LA VESICULA BILIAR","CANAL DEL HIGADO","CANAL DU MAI","CANAL REN MAI"]
+        # canales = ["CANAL DEL PULMÓN","CANAL DEL INTESTINO GRUESO","CANAL DEL ESTOMAGO","CANAL DEL BAZO","CANAL DEL CORAZÓN","CANAL DEL INTESTINO DELGADO","CANAL DE LA VEJIGA","CANAL DEL RIÑÓN","CANAL DEL PERICARDIO","CANAL DE SANJIAO","CANAL DE LA VESICULA BILIAR","CANAL DEL HIGADO","CANAL DU MAI","CANAL REN MAI"]
+        canales =["CANAL DEL PULMÓN"]
         canales_temp = [can.lower() for can in canales] 
         self.canales_box.addItems(canales_temp)

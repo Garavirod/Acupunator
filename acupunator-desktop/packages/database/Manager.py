@@ -2,7 +2,7 @@ import os.path
 import sqlite3
 from sqlite3 import Error
 # Path de la BDD
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.abspath(__package__))+"/packages/simulator/"
 # Respuestas a peticiones de la BDD
 from packages.utils.MessagesResponse import RespBDD;
 
