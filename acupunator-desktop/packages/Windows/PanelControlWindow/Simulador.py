@@ -21,8 +21,7 @@ from packages.database.Models import ModelGrupos
 
 class SimuladorWindow(QMainWindow):
     def __init__(self,parent=None):
-        super(SimuladorWindow,self).__init__(parent)
-        self.__parentWind = parent
+        super(SimuladorWindow,self).__init__(parent)        
         self.__detalle_alumno = """
             ¿Desea autorizar la siguiente simulación? \n
             Simulación de tipo : {} \n
@@ -99,6 +98,9 @@ class SimuladorWindow(QMainWindow):
         path = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/dataShared.json'
         # Estructura del JSON
         data = []
+        if tipo == "Evaluación":
+            tipo == "Eva"    
+
         data.append(
             {
                 'Tipo' : tipo,
@@ -139,7 +141,7 @@ class SimuladorWindow(QMainWindow):
                 # Ejecutamos el simulador via CMD                
                 pathAcupExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/Acupunator.exe'        
                 os.system('{}'.format(pathAcupExe))
-                self.__parentWind.close()
+                
         else:
             resp = QMessageBox.question(
                 self,
@@ -153,7 +155,7 @@ class SimuladorWindow(QMainWindow):
                 # Ejecutamos el simulador via CMD     
                 pathAcupExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/Acupunator.exe'        
                 os.system('{}'.format(pathAcupExe))
-                self.__parentWind.close()                           
+                                           
 
     # LLena los canal de estudio en el combo
 
