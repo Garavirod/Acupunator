@@ -145,7 +145,12 @@ class SimuladorWindow(QMainWindow):
                     canal),
                     QMessageBox.Ok | QMessageBox.Cancel) 
             if resp == QMessageBox.Ok:
-                self.generateJSONFile(rol,canal,tipo_simulacion)                         
+                self.generateJSONFile(rol,canal,tipo_simulacion)
+        # Ejecutamos el simulador y cerramos al app de escritorio
+        pathAcupExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/Acupunator.exe'        
+        os.startfile(pathAcupExe)
+        self.close()    
+
     # LLena los canal de estudio en el combo
 
     def fillChanels(self):
