@@ -22,6 +22,7 @@ from packages.database.Models import ModelGrupos
 class SimuladorWindow(QMainWindow):
     def __init__(self,parent=None):
         super(SimuladorWindow,self).__init__(parent)
+        self.__parentWind = parent
         self.__detalle_alumno = """
             ¿Desea autorizar la siguiente simulación? \n
             Simulación de tipo : {} \n
@@ -135,7 +136,10 @@ class SimuladorWindow(QMainWindow):
             if(resp == QMessageBox.Ok):
                 # LLamamos al método que creará el arichivo JSON compartdio            
                 self.generateJSONFile(rol,canal,tipo_simulacion,boleta)                         
-                # Ejecutamos el simulador via CMD
+                # Ejecutamos el simulador via CMD                
+                pathAcupExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/Acupunator.exe'        
+                os.system('{}'.format(pathAcupExe))
+                self.__parentWind.close()
         else:
             resp = QMessageBox.question(
                 self,
@@ -146,10 +150,10 @@ class SimuladorWindow(QMainWindow):
                     QMessageBox.Ok | QMessageBox.Cancel) 
             if resp == QMessageBox.Ok:
                 self.generateJSONFile(rol,canal,tipo_simulacion)
-        # Ejecutamos el simulador y cerramos al app de escritorio
-        pathAcupExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/Acupunator.exe'        
-        os.system('{}'.format(pathAcupExe))
-        self.close()    
+                # Ejecutamos el simulador via CMD     
+                pathAcupExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/Acupunator.exe'        
+                os.system('{}'.format(pathAcupExe))
+                self.__parentWind.close()                           
 
     # LLena los canal de estudio en el combo
 
