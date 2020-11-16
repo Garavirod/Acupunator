@@ -148,7 +148,7 @@ class SimuladorWindow(QMainWindow):
                 self.generateJSONFile(rol,canal,tipo_simulacion)
         # Ejecutamos el simulador y cerramos al app de escritorio
         pathAcupExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/Acupunator.exe'        
-        os.startfile(pathAcupExe)
+        os.system(pathAcupExe)
         self.close()    
 
     # LLena los canal de estudio en el combo
