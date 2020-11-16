@@ -98,12 +98,15 @@ class SimuladorWindow(QMainWindow):
         path = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/dataShared.json'
         # Estructura del JSON
         data = []
+        _tipo = ""
         if tipo == "Evaluación":
-            tipo == "Eva"    
+            _tipo = "Eva"
+        else:
+            _tipo = "Est"  
 
         data.append(
             {
-                'Tipo' : tipo,
+                'Tipo' : _tipo,
                 'Canal' : canal,
                 'NumBoleta' : boleta,
                 'Rol':rol,
