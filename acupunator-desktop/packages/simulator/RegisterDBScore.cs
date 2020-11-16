@@ -5,7 +5,7 @@ using System.Data.SQLite; //Instalar dep
 
 namespace Acupunator.Models //esta en la misma carpta de modelos (Point, Channel, sharedData)
 {
-    class RegisterDBScore
+    public class RegisterDBScore
     {
         public void asignScore(SharedData app)
         {
