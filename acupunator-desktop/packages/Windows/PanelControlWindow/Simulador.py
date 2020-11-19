@@ -164,6 +164,6 @@ class SimuladorWindow(QMainWindow):
 
     def fillChanels(self):
         # canales = ["CANAL DEL PULMÓN","CANAL DEL INTESTINO GRUESO","CANAL DEL ESTOMAGO","CANAL DEL BAZO","CANAL DEL CORAZÓN","CANAL DEL INTESTINO DELGADO","CANAL DE LA VEJIGA","CANAL DEL RIÑÓN","CANAL DEL PERICARDIO","CANAL DE SANJIAO","CANAL DE LA VESICULA BILIAR","CANAL DEL HIGADO","CANAL DU MAI","CANAL REN MAI"]
-        canales =["CANAL DEL PULMÓN"]
+        canales =["CANAL DEL PULMON","CANAL DEL CORAZON"]
         canales_temp = [can.lower() for can in canales] 
         self.canales_box.addItems(canales_temp)

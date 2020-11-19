@@ -864,7 +864,8 @@
         ]
     },
     {
-        "canal del corazón": [
+        "Name":"canal del corazón",
+        "Points": [
             {
                 "Id": 55,
                 "Name": "Ji Quan.",
