@@ -50,7 +50,7 @@ class PanelControlWindow(QMainWindow):
 
     # Cierra la sesión de la aplicación
     def cerrarSesion(self):
-        resp = QMessageBox.question(self,'cerrar sesión',"¿Seguro que desa salir?", QMessageBox.Ok | QMessageBox.Cancel)
+        resp = QMessageBox.question(self,'cerrar sesión',"¿Seguro que desea salir?", QMessageBox.Ok | QMessageBox.Cancel)
         if resp == QMessageBox.Ok:
             self.close()
     
