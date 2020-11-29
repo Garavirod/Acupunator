@@ -338,6 +338,9 @@ border-radius:10px;</string>
               <property name="text">
                <string/>
               </property>
+              <property name="maxLength">
+               <number>30</number>
+              </property>
               <property name="echoMode">
                <enum>QLineEdit::Password</enum>
               </property>
@@ -470,6 +473,9 @@ border-radius:10px;</string>
              <widget class="QLineEdit" name="nuevo_nombre">
               <property name="text">
                <string/>
+              </property>
+              <property name="maxLength">
+               <number>30</number>
               </property>
               <property name="echoMode">
                <enum>QLineEdit::Normal</enum>
@@ -630,6 +636,9 @@ border-radius:10px;</string>
            <property name="text">
             <string/>
            </property>
+           <property name="maxLength">
+            <number>30</number>
+           </property>
            <property name="echoMode">
             <enum>QLineEdit::Password</enum>
            </property>
@@ -733,6 +742,9 @@ border-radius:10px;</string>
                 <property name="text">
                  <string/>
                 </property>
+                <property name="maxLength">
+                 <number>30</number>
+                </property>
                 <property name="echoMode">
                  <enum>QLineEdit::Normal</enum>
                 </property>
@@ -758,6 +770,9 @@ border-radius:10px;</string>
                <widget class="QLineEdit" name="appa_admin_input">
                 <property name="text">
                  <string/>
+                </property>
+                <property name="maxLength">
+                 <number>30</number>
                 </property>
                 <property name="echoMode">
                  <enum>QLineEdit::Normal</enum>
@@ -785,6 +800,9 @@ border-radius:10px;</string>
                 <property name="text">
                  <string/>
                 </property>
+                <property name="maxLength">
+                 <number>30</number>
+                </property>
                 <property name="echoMode">
                  <enum>QLineEdit::Normal</enum>
                 </property>
@@ -811,6 +829,9 @@ border-radius:10px;</string>
                 <property name="text">
                  <string/>
                 </property>
+                <property name="maxLength">
+                 <number>30</number>
+                </property>
                 <property name="echoMode">
                  <enum>QLineEdit::Normal</enum>
                 </property>
@@ -836,6 +857,9 @@ border-radius:10px;</string>
                <widget class="QLineEdit" name="correo_input">
                 <property name="text">
                  <string/>
+                </property>
+                <property name="maxLength">
+                 <number>30</number>
                 </property>
                 <property name="echoMode">
                  <enum>QLineEdit::Normal</enum>
@@ -939,6 +963,9 @@ border-radius:10px;</string>
            <property name="text">
             <string/>
            </property>
+           <property name="maxLength">
+            <number>30</number>
+           </property>
            <property name="echoMode">
             <enum>QLineEdit::Password</enum>
            </property>
@@ -1008,6 +1035,9 @@ border-radius:10px;</string>
              <widget class="QLineEdit" name="new_psd_admin">
               <property name="text">
                <string/>
+              </property>
+              <property name="maxLength">
+               <number>30</number>
               </property>
               <property name="echoMode">
                <enum>QLineEdit::Password</enum>

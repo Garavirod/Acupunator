@@ -167,6 +167,9 @@ border-radius:10px;</string>
      <property name="text">
       <string/>
      </property>
+     <property name="maxLength">
+      <number>30</number>
+     </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
      </property>
@@ -189,6 +192,9 @@ border-radius:10px;</string>
      </property>
      <property name="text">
       <string/>
+     </property>
+     <property name="maxLength">
+      <number>30</number>
      </property>
      <property name="echoMode">
       <enum>QLineEdit::Password</enum>
