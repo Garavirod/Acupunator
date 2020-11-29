@@ -29,6 +29,7 @@ class SimuladorWindow(QMainWindow):
             Alumno : {} \n
             Boleta : {} \n
             Grupo : {} \n
+            Tipo de VR: {} \n
         """
 
         self.__detalle_profesor = """
@@ -36,6 +37,7 @@ class SimuladorWindow(QMainWindow):
             Simulación como rol 'Profesor'\n
             Simulación de tipo : {} \n
             Canal de estudio : {} \n
+            Tipo de VR: {} \n
         """
         # Cargamos template del panel de Simulador
         loadUi('templates/Simulador.ui',self)
@@ -119,8 +121,17 @@ class SimuladorWindow(QMainWindow):
 
     # Inicia el proceo de simulación
     def initAcupunator(self, rol):
+        pathExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/'                        
         tipo_simulacion = self.tipo_simulacion_box.currentText()
         canal = self.canales_box.currentText()
+
+        """ Validación del tipo de simulación """
+        if(self.type_simu_box.currentText()=="Inmersiva"):
+            pathExe += 'Riftcat/RiftCat.exe' 
+        else:
+            pathExe += 'Acupunator.exe'                        
+
+
         if rol == "Alumno":
             row = self.table_alumnos.currentRow()
             boleta = self.table_alumnos.item(row, 0).text()  
@@ -135,15 +146,16 @@ class SimuladorWindow(QMainWindow):
                     canal,
                     nombre,
                     boleta,
-                    grupo), 
+                    grupo,
+                    self.type_simu_box.currentText()), 
                     QMessageBox.Ok | QMessageBox.Cancel)  
             # Validamos la respesta del suaurio
             if(resp == QMessageBox.Ok):
                 # LLamamos al método que creará el arichivo JSON compartdio            
-                self.generateJSONFile(rol,canal,tipo_simulacion,boleta)                         
-                # Ejecutamos el simulador via CMD                
-                pathAcupExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/Acupunator.exe'        
-                os.system('{}'.format(pathAcupExe))
+                self.generateJSONFile(rol,canal,tipo_simulacion,boleta)                                                        
+                # Ejecutamos el simulador via CMD     
+                os.system('{}'.format(pathExe))
+                
                 
         else:
             resp = QMessageBox.question(
@@ -151,13 +163,16 @@ class SimuladorWindow(QMainWindow):
                 'Detalle de simulación',
                 self.__detalle_profesor.format(
                     tipo_simulacion,
-                    canal),
+                    canal,
+                    self.type_simu_box.currentText()),
                     QMessageBox.Ok | QMessageBox.Cancel) 
             if resp == QMessageBox.Ok:
-                self.generateJSONFile(rol,canal,tipo_simulacion)
+                self.generateJSONFile(rol,canal,tipo_simulacion)                                
                 # Ejecutamos el simulador via CMD     
-                pathAcupExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/Acupunator.exe'        
-                os.system('{}'.format(pathAcupExe))
+                os.system('{}'.format(pathExe))
+                
+
+
                                            
 
     # LLena los canal de estudio en el combo

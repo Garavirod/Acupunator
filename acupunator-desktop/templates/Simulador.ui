@@ -224,7 +224,7 @@ border-radius:10px;
         <x>40</x>
         <y>190</y>
         <width>231</width>
-        <height>171</height>
+        <height>201</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -242,7 +242,7 @@ background-color: rgb(234, 241, 247);
        <item>
         <widget class="QLabel" name="label_7">
          <property name="text">
-          <string>Tipo de simulación</string>
+          <string>Evalución/Estudio</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -276,6 +276,30 @@ background-color: rgb(234, 241, 247);
        <item>
         <widget class="QComboBox" name="canales_box"/>
        </item>
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>Tipo de simulación</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="type_simu_box">
+         <item>
+          <property name="text">
+           <string>Inmersiva</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No inmersiva</string>
+          </property>
+         </item>
+        </widget>
+       </item>
       </layout>
      </widget>
      <widget class="QLabel" name="label_4">
@@ -295,7 +319,7 @@ background-color: rgb(234, 241, 247);
       <property name="geometry">
        <rect>
         <x>40</x>
-        <y>380</y>
+        <y>410</y>
         <width>231</width>
         <height>25</height>
        </rect>
