@@ -128,7 +128,8 @@ class SimuladorWindow(QMainWindow):
         """ Validación del tipo de simulación """
         if(self.type_simu_box.currentText()=="Inmersiva"):
             # pathExe += 'Riftcat/RiftCat.exe'
-            pathExe += 'C:\Program Files (x86)\Riftcat 2\RiftCat.exe' 
+            # pathExe += 'C:\Program Files (x86)\Riftcat 2\RiftCat.exe' 
+            pathExe + ='Riftcat.lnk'
         else:
             pathExe += 'Acupunator.exe'                        
 
