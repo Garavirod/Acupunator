@@ -1,6 +1,5 @@
 import os
 import json
-import subprocess
 # Third party apps
 from PyQt5.QtWidgets import QMainWindow, QTableWidgetItem, QMessageBox
 from PyQt5.uic import loadUi
@@ -130,8 +129,8 @@ class SimuladorWindow(QMainWindow):
         if(self.type_simu_box.currentText()=="Inmersiva"):
             # pathExe += 'Riftcat/RiftCat.exe'
             # pathExe += 'C:\Program Files (x86)\Riftcat 2\RiftCat.exe' 
-            # pathExe +='Riftcat.lnk'
-            subprocess.call(pathExe, shell=False)
+            pathExe +='Riftcat.lnk'
+            # subprocess.call(pathExe, shell=False)
         else:
             pathExe += 'Acupunator.exe'                        
 
