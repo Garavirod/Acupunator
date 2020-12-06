@@ -231,7 +231,7 @@ class ConfiguracionesWindow(QMainWindow):
                 QMessageBox.critical(self, 'Estado de la petición', 'Hubo un error al tratar de validar las credenciales', QMessageBox.Ok)            
         else:
             self.alert_auth.setStyleSheet('color: rgb(164,0,0);')
-            self.alert_auth.setText("¡Es necesario autorizar la modifiación!")            
+            self.alert_auth.setText("¡Es necesario autorizar la modificación!")            
 
     # Llama al proceso del manager para cambiar nombre de un grupo
     def cambiaNombreGrupo(self):
@@ -244,7 +244,7 @@ class ConfiguracionesWindow(QMainWindow):
             self.alert_auth.setText("¡No ha colocado el nuevo nombre!") 
         elif psd_auth == "":
             self.alert_auth.setStyleSheet('color: rgb(164,0,0);')
-            self.alert_auth.setText("¡Es necesario autorizar la modifiación!")
+            self.alert_auth.setText("¡Es necesario autorizar la modificación!")
         else:
             # traemos datos del adminstrador
             psd_bdd = getCredencialesAdmin()
@@ -330,7 +330,7 @@ class ConfiguracionesWindow(QMainWindow):
                     QMessageBox.critical(self, 'Estado de la petición', 'Hubo un error al tratar de validar las credenciales', QMessageBox.Ok)
             else:
                 self.alert_auth_perfil.setStyleSheet('color: rgb(164,0,0);')
-                self.alert_auth_perfil.setText("¡Es necesario autorizar la modifiación!")
+                self.alert_auth_perfil.setText("¡Es necesario autorizar la modificación!")
 
         else:
             self.alert_auth_perfil.setStyleSheet('color: rgb(164,0,0);')
@@ -375,7 +375,7 @@ class ConfiguracionesWindow(QMainWindow):
 
                 else:
                     self.alert_auth_perfil.setStyleSheet('color: rgb(164,0,0);')
-                    self.alert_auth_perfil.setText("¡Es necesario autorizar la modifiación!")
+                    self.alert_auth_perfil.setText("¡Es necesario autorizar la modificación!")
             else:
                 self.alert_auth_perfil.setStyleSheet('color: rgb(164,0,0);')
                 self.alert_auth_perfil.setText("¡Hay campos vacios!")
