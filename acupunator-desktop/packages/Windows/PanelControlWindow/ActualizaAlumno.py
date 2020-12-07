@@ -44,7 +44,7 @@ class ActualizaAlumnoWindow(QMainWindow):
 
     # LLama al proceso para actualizar los datos de un alumno
     def actualizaDatos(self):
-        if not (self.nombre_input.text()=="" and self.boleta_input.text()=="" and self.appa_input.text() =="" and self.apma_input.text()==""):
+        if not (self.nombre_input.text()=="" or self.boleta_input.text()=="" or self.appa_input.text() =="" or self.apma_input.text()==""):
             # Creamos instancia de alumno
             alumno = ModelAlumno(
                 self.nombre_input.text(),

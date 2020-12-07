@@ -224,7 +224,7 @@ border-radius:10px;</string>
        </rect>
       </property>
       <property name="text">
-       <string>Dé click en algún número de boleta para ver el historial del alumno </string>
+       <string>Presione en el número de boleta para ver el historial del alumno </string>
       </property>
      </widget>
     </widget>
