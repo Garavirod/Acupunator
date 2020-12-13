@@ -12,7 +12,7 @@ def connectionDBManager():
     db_path = os.path.join(BASE_DIR, "AcupunatorDB.db")
     try:
         conn = sqlite3.connect(db_path)
-        # Habilitamos llaves foraneas, slite no las habilita por defecto
+        # Habilitamos llaves foraneas, Sqlite no las habilita por defecto
         conn.execute("PRAGMA foreign_keys = 1")        
     except Error:
         print ("Hubo un error al conectar con las base de datos")

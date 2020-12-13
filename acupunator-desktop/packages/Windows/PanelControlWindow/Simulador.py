@@ -119,7 +119,7 @@ class SimuladorWindow(QMainWindow):
             json.dump(data, file, indent=4, ensure_ascii=False)
 
 
-    # Inicia el proceo de simulación
+    # Inicia el proceso de simulación
     def initAcupunator(self, rol):
         pathExe = os.path.dirname(os.path.abspath(__package__))+'/packages/simulator/'                        
         tipo_simulacion = self.tipo_simulacion_box.currentText()
